@@ -1,7 +1,10 @@
+#-- Programa contador
+#-- El registro x5 se incremeta indefinidamente
+
 	.text
 	
 	#-- Inicializar el registro x5 a 0
-	li x5, 0
+	addi x5, x0, 0
 	
 bucle:
 	#-- Incrementar el registro x5 en una unidad
