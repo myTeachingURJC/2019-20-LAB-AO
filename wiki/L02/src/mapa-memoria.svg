@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="413.50595mm"
+   width="501.17038mm"
    height="306.16074mm"
-   viewBox="0 0 413.50595 306.16074"
+   viewBox="0 0 501.17038 306.16074"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.4 (unknown)"
@@ -78,6 +78,36 @@
          transform="scale(-0.6)"
          inkscape:connector-curvature="0" />
     </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker1638-2"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path1636-9"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker1638-6"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path1636-2"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)"
+         inkscape:connector-curvature="0" />
+    </marker>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -86,9 +116,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="805.35786"
-     inkscape:cy="587.91682"
+     inkscape:zoom="0.24748737"
+     inkscape:cx="752.47733"
+     inkscape:cy="576.13529"
      inkscape:document-units="mm"
      inkscape:current-layer="layer2"
      showgrid="false"
@@ -103,7 +133,7 @@
      fit-margin-bottom="0"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:snap-global="false" />
+     inkscape:snap-global="true" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -120,13 +150,13 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="back"
-     transform="translate(79.375,5.3809509)">
+     transform="translate(122.13813,5.3809509)">
     <rect
        style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.81750298;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect2168"
-       width="413.50595"
+       width="501.17038"
        height="306.16074"
-       x="-79.375"
+       x="-122.13813"
        y="-5.3809509"
        inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L02/mapa-memoria.png"
        inkscape:export-xdpi="90"
@@ -136,7 +166,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(79.375,5.3809509)">
+     transform="translate(122.13813,5.3809509)">
     <rect
        style="opacity:1;fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.52916664;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect819"
@@ -193,9 +223,9 @@
        style="opacity:1;fill:#ececec;fill-opacity:1;stroke:#000000;stroke-width:0.52916664;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect819-3"
        width="123.59821"
-       height="61.232143"
+       height="79.374985"
        x="65.389885"
-       y="160.55058"
+       y="142.40773"
        inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L02/mapa-memoria.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
@@ -203,7 +233,7 @@
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.66596889px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#008000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        x="125.72556"
-       y="179.29008"
+       y="159.63533"
        id="text817-5"
        inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L02/mapa-memoria.png"
        inkscape:export-xdpi="90"
@@ -211,11 +241,11 @@
          sodipodi:role="line"
          id="tspan815-62"
          x="125.72556"
-         y="179.29008"
+         y="159.63533"
          style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';fill:#008000;stroke-width:0.26458332">Segmento de código</tspan><tspan
          sodipodi:role="line"
          x="125.72556"
-         y="191.37254"
+         y="171.71779"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#008000;stroke-width:0.26458332"
          id="tspan909">(.text)</tspan></text>
     <text
@@ -236,7 +266,7 @@
        style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.52916664;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect819-3-0"
        width="123.59821"
-       height="149.96562"
+       height="131.82277"
        x="65.389885"
        y="10.58496"
        inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L02/mapa-memoria.png"
@@ -245,20 +275,20 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:9.66596889px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="121.98991"
-       y="57.764812"
+       x="124.66261"
+       y="32.641476"
        id="text817-5-93"
        inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L02/mapa-memoria.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
          id="tspan815-62-6"
-         x="121.98991"
-         y="57.764812"
+         x="124.66261"
+         y="32.641476"
          style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';fill:#000000;stroke-width:0.26458332">Resto de la</tspan><tspan
          sodipodi:role="line"
-         x="121.98991"
-         y="69.847275"
+         x="124.66261"
+         y="44.723938"
          style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';fill:#000000;stroke-width:0.26458332"
          id="tspan909-0">memoria</tspan></text>
     <text
@@ -368,48 +398,162 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.66596889px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="-0.86094749"
-       y="158.91142"
+       x="-27.319277"
+       y="248.1138"
        id="text817-5-93-9"
        inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L02/mapa-memoria.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
-         x="-0.86094952"
-         y="158.91142"
+         x="-27.319279"
+         y="248.1138"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#000000;stroke-width:0.26458332"
          id="tspan909-0-6">Dirección de comienzo</tspan><tspan
          sodipodi:role="line"
-         x="-0.86094898"
-         y="170.99388"
+         x="-27.319279"
+         y="260.19626"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#000000;stroke-width:0.26458332"
          id="tspan1632">de nuestros programas</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.79374999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1638)"
-       d="M -3.4731549,176.23218 13.097556,205.09729"
+       d="M -21.616012,231.41671 -2.0214912,213.41277"
        id="path1634"
        inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L02/mapa-memoria.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.66596889px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="127.42759"
+       y="65.590385"
+       id="text817-5-93-9-0"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L02/mapa-memoria.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         x="127.42759"
+         y="65.590385"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#000000;stroke-width:0.26458332"
+         id="tspan1632-2">(Hay más cosas,</tspan><tspan
+         sodipodi:role="line"
+         x="127.42759"
+         y="77.672844"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#000000;stroke-width:0.26458332"
+         id="tspan1699">que iremos viendo)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.66596889px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="3.7052631"
+       y="85.541306"
+       id="text817-5-93-9-0-3"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L02/mapa-memoria.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         x="3.7052631"
+         y="85.541306"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#000000;stroke-width:0.26458332"
+         id="tspan1632-2-6">En cada dirección</tspan><tspan
+         sodipodi:role="line"
+         x="3.7052627"
+         y="97.623764"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#000000;stroke-width:0.26458332"
+         id="tspan932">se almacena <tspan
+   style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium'"
+   id="tspan3377">1 Byte</tspan></tspan><tspan
+         sodipodi:role="line"
+         x="3.7052631"
+         y="109.70623"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#000000;stroke-width:0.26458332"
+         id="tspan1699-7" /></text>
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5291667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect934"
+       width="123.61216"
+       height="14.432554"
+       x="65.35144"
+       y="110.48387"
        inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L02/mapa-memoria.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.66596889px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="125.28944"
-       y="100.33543"
-       id="text817-5-93-9-0"
+       x="125.41916"
+       y="120.11337"
+       id="text817-5-93-9-0-3-5"
        inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L02/mapa-memoria.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
-         x="125.28944"
-         y="100.33543"
+         x="125.41916"
+         y="120.11337"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#000000;stroke-width:0.26458332"
-         id="tspan1632-2">Hay más cosas,</tspan><tspan
+         id="tspan932-5">1 Byte</tspan><tspan
          sodipodi:role="line"
-         x="125.28944"
-         y="112.41788"
+         x="125.41916"
+         y="132.19583"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#000000;stroke-width:0.26458332"
-         id="tspan1699">que iremos viendo</tspan></text>
+         id="tspan1699-7-6" /></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.79374999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1638-2)"
+       d="M 6.2512111,103.63987 61.208765,117.43288"
+       id="path1634-1"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L02/mapa-memoria.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.66596889px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="200.39308"
+       y="355.7887"
+       id="text817-5-93-9-0-3-2"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L02/mapa-memoria.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         x="200.39308"
+         y="364.80212"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#000000;stroke-width:0.26458332"
+         id="tspan932-0" /><tspan
+         sodipodi:role="line"
+         x="200.39308"
+         y="376.88461"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#000000;stroke-width:0.26458332"
+         id="tspan1699-7-9" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.66596889px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="7.4982071"
+       y="152.43748"
+       id="text817-5-93-9-3"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L02/mapa-memoria.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         x="7.498208"
+         y="152.43748"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#000000;stroke-width:0.26458332"
+         id="tspan1632-0">Cada instrucción</tspan><tspan
+         sodipodi:role="line"
+         x="7.4982076"
+         y="164.51994"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#000000;stroke-width:0.26458332"
+         id="tspan2352">ocupa <tspan
+   style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium'"
+   id="tspan3379">4 bytes</tspan></tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.79374999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1638-6)"
+       d="m 13.42301,170.61816 83.850474,19.79368"
+       id="path1634-6"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L02/mapa-memoria.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
   </g>
 </svg>
