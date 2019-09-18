@@ -1,4 +1,4 @@
-#-- Calculo de la serie de fibonacci
+#-- Calculo de la serie de fibonacci: 0, 1, 1, 2, 3, 5, 8, 21...
 #-- La serie se puede ver en el registro x7
 #-- x5 y x6 se utilizan para los calculos intermedios
 	.text

@@ -1,6 +1,6 @@
 ## Ejercicio 2
 
-1. fichero sol-01.s
+1. fichero sol-02.s
 
 
 1. Tiene 5 instrucciones en código máquina

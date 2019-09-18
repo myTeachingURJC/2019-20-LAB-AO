@@ -13,7 +13,7 @@ bucle:
 	#-- Incrementar contador principal en dos unidades
 	addi x5, x5, 2   #-- x5 = x5 + 2
 	
-	#-- Obtener termino i-simo
+	#-- Obtener termino i-esimo
 	add x6, x6, x5  #-- x6 = x6 + x5
 	
 	#-- Repetir el bucle
