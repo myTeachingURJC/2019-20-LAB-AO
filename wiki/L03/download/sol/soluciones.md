@@ -24,7 +24,7 @@
 
 1. Hay 7 palabras almacenadas
 2. 7 palabras * 4 bytes cada palabra = 28 bytes
-3. Tiene 2 instrucciones. Ocupa 4 bytes
+3. Tiene 2 instrucciones. Ocupa 8 bytes
 4.
 
 | Etiqueta | Dirección  |
