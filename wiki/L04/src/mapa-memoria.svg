@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="524.69012mm"
+   width="464.96988mm"
    height="324.8696mm"
-   viewBox="0 0 524.69012 324.8696"
+   viewBox="0 0 464.96988 324.8696"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.4 (unknown)"
@@ -147,10 +147,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="907.72555"
+     inkscape:cx="682.01127"
      inkscape:cy="542.56547"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer2"
      showgrid="false"
      inkscape:window-width="1853"
      inkscape:window-height="1025"
@@ -180,13 +180,13 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="back"
-     transform="translate(145.65785,24.089819)">
+     transform="translate(85.937614,24.089819)">
     <rect
        style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.81750304;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect2168"
-       width="524.69012"
+       width="464.96988"
        height="324.8696"
-       x="-145.65785"
+       x="-85.937614"
        y="-24.089819"
        inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-01.png"
        inkscape:export-xdpi="90"
@@ -196,7 +196,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(145.65785,24.089819)">
+     transform="translate(85.937614,24.089819)">
     <rect
        style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.52916664;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect819-3-0-3"
