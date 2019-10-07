@@ -167,10 +167,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="848.1477"
-     inkscape:cy="550.82713"
+     inkscape:cx="619.51556"
+     inkscape:cy="752.70663"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
      inkscape:window-height="1052"
@@ -192,7 +192,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -208,7 +208,7 @@
        height="277.3678"
        x="-25.957317"
        y="83.302628"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2018-19-LAB-AO/wiki/L04/image-04.png"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L05/ecall-01.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
   </g>
@@ -222,23 +222,29 @@
        style="opacity:1;fill:#f9f9f9;fill-opacity:1;stroke:#000000;stroke-width:0.79374999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="path4630"
        cx="83.277847"
-       cy="214.39365"
+       cy="218.55139"
        rx="79.752975"
-       ry="54.806545" />
+       ry="58.964283"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L05/ecall-01.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <ellipse
        style="display:inline;opacity:1;fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.79374999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="path4630-7"
        cx="311.57547"
        cy="214.39363"
        rx="79.752975"
-       ry="54.806545" />
+       ry="54.806545"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L05/ecall-01.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <circle
        style="display:inline;opacity:1;fill:#ff6600;fill-opacity:1;stroke:#ff6600;stroke-width:0.79399997;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="path962-5-1-5-6"
        cx="85.92366"
        cy="213.6187"
        r="7.4789376"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2018-19-LAB-AO/wiki/L04/image-04.png"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L05/ecall-01.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <path
@@ -246,7 +252,7 @@
        d="m 360.86249,257.10673 10.58333,17.17401"
        id="path1007"
        inkscape:connector-curvature="0"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2018-19-LAB-AO/wiki/L04/image-04.png"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L05/ecall-01.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
        sodipodi:nodetypes="cc" />
@@ -255,14 +261,17 @@
        d="m 86.200406,159.34947 c 0,0 0.51381,4.76574 -0.76776,6.52798 -1.28158,1.76223 -4.54753,1.84388 -4.54753,3.81499 0,3.94223 7.19334,2.30144 7.19335,6.57775 0,4.27631 -6.8154,2.93998 -6.4145,8.28536 0.4009,5.34539 8.01811,1.8709 8.28538,7.61718 0.26727,5.74629 -3.73994,3.81608 -4.14267,6.68174 -0.40273,2.86566 -0.26728,5.87994 -0.26728,5.87994"
        id="path160"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="czszzzzc" />
+       sodipodi:nodetypes="czszzzzc"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L05/ecall-01.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.66596889px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#008000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        x="35.214375"
        y="213.17392"
        id="text817-5-93-3"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2018-19-LAB-AO/wiki/L04/image-04.png"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L05/ecall-01.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
@@ -276,7 +285,7 @@
        cx="86.126602"
        cy="158.81947"
        r="7.4789376"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2018-19-LAB-AO/wiki/L04/image-04.png"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L05/ecall-01.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <path
@@ -284,14 +293,17 @@
        d="m 281.99209,192.61137 c 0,0 0.51381,4.76574 -0.76776,6.52798 -1.28158,1.76223 -4.54753,1.84388 -4.54753,3.81499 0,3.94223 7.19334,2.30144 7.19335,6.57775 0,4.27631 -6.8154,2.93998 -6.4145,8.28536 0.4009,5.34539 8.01811,1.8709 8.28538,7.61718 0.26727,5.74629 -3.73994,3.81608 -4.14267,6.68174 -0.40273,2.86566 -0.26728,5.87994 -0.26728,5.87994"
        id="path160-9"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="czszzzzc" />
+       sodipodi:nodetypes="czszzzzc"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L05/ecall-01.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.66596889px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        x="331.84128"
        y="206.52502"
        id="text817-5-93-3-1"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2018-19-LAB-AO/wiki/L04/image-04.png"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L05/ecall-01.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
@@ -324,7 +336,7 @@
        cx="280.95938"
        cy="186.80139"
        r="7.4789376"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2018-19-LAB-AO/wiki/L04/image-04.png"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L05/ecall-01.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <text
@@ -347,7 +359,7 @@
        cx="281.43619"
        cy="247.30096"
        r="7.4789376"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2018-19-LAB-AO/wiki/L04/image-04.png"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L05/ecall-01.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <path
@@ -355,26 +367,35 @@
        d="m 94.347496,211.48682 c 0,0 39.555894,-34.2105 86.060784,-42.76312 46.50488,-8.55262 93.07465,13.8063 93.07465,13.8063"
        id="path5489"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="csc" />
+       sodipodi:nodetypes="csc"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L05/ecall-01.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        style="display:inline;fill:none;stroke:#000000;stroke-width:0.79374999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker5499-7)"
        d="m 279.66337,255.05519 c 0,0 -33.50828,15.31169 -86.06078,11.76907 C 141.0501,263.28164 92.968416,216.73224 92.968416,216.73224"
        id="path5489-2"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="czc" />
+       sodipodi:nodetypes="czc"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L05/ecall-01.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        style="display:inline;fill:none;stroke:#000000;stroke-width:0.79374999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1035-0)"
        d="m 86.200416,221.33757 c 0,0 0.51381,4.76574 -0.76776,6.52798 -1.28158,1.76223 -4.54753,1.84388 -4.54753,3.81499 0,3.94223 7.19334,2.30144 7.19335,6.57775 0,4.27631 -6.8154,2.93998 -6.4145,8.28536 0.4009,5.34539 8.01811,1.8709 8.28538,7.61718 0.26727,5.74629 -3.73994,3.81608 -4.14267,6.68174 -0.40273,2.86566 -0.26728,5.87994 -0.26728,5.87994"
        id="path160-7"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="czszzzzc" />
+       sodipodi:nodetypes="czszzzzc"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L05/ecall-01.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <circle
        style="display:inline;opacity:1;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.79399997;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="path962-3-5-5"
        cx="85.167679"
        cy="275.24783"
        r="7.4789376"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2018-19-LAB-AO/wiki/L04/image-04.png"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L05/ecall-01.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <text
@@ -383,7 +404,7 @@
        x="161.51723"
        y="149.47777"
        id="text817-5-93-3-1-9"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2018-19-LAB-AO/wiki/L04/image-04.png"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L05/ecall-01.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
@@ -402,7 +423,7 @@
        x="168.46846"
        y="278.18582"
        id="text817-5-93-3-1-9-8"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2018-19-LAB-AO/wiki/L04/image-04.png"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L05/ecall-01.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
@@ -414,14 +435,17 @@
        style="fill:none;stroke:#000000;stroke-width:0.5291667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:2.11666667, 2.11666667;stroke-dashoffset:0;stroke-opacity:1"
        d="M 205.36409,124.05733 V 328.16448"
        id="path7220"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L05/ecall-01.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.66596889px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        x="205.22231"
        y="115.18571"
        id="text817-5-93-3-1-9-8-3"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2018-19-LAB-AO/wiki/L04/image-04.png"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L05/ecall-01.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
@@ -440,9 +464,12 @@
            height="45.714287"
            x="2554.2856"
            y="539.74786" /></flowRegion><flowPara
-         id="flowPara7246"></flowPara></flowRoot>    <g
+         id="flowPara7246" /></flowRoot>    <g
        id="g7276"
-       transform="translate(-489.35612,-39.05934)">
+       transform="translate(-489.35612,-39.05934)"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L05/ecall-01.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
       <ellipse
          ry="15.119047"
          rx="39.309525"
@@ -470,9 +497,47 @@
        d="M 357.24968,281.34888 346.66635,264.17487"
        id="path1007-8"
        inkscape:connector-curvature="0"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2018-19-LAB-AO/wiki/L04/image-04.png"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L05/ecall-01.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
        sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.66596889px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="88.806534"
+       y="133.71136"
+       id="text817-5-93-3-1-9-8-36"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L05/ecall-01.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         x="88.806534"
+         y="133.71136"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#000000;stroke-width:0.26458332"
+         id="tspan7193-7-7">Arranque</tspan><tspan
+         sodipodi:role="line"
+         x="88.806534"
+         y="145.79382"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#000000;stroke-width:0.26458332"
+         id="tspan1000">programa</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.66596889px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="87.026077"
+       y="290.92401"
+       id="text817-5-93-3-1-9-8-36-5"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L05/ecall-01.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         x="87.026077"
+         y="290.92401"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#000000;stroke-width:0.26458332"
+         id="tspan7193-7-7-3">Fin del</tspan><tspan
+         sodipodi:role="line"
+         x="87.026077"
+         y="303.00647"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#000000;stroke-width:0.26458332"
+         id="tspan1000-5">programa</tspan></text>
   </g>
 </svg>
