@@ -4,6 +4,8 @@
 #-- a=10, b=20, c=30
 #-- Resultado: t5 = 29
 
+	.eqv EXIT 10
+
 	.text
 	
 	#- Asignacion de registros:
@@ -29,5 +31,5 @@
 	add t5, t3, t4
 	
 	#-- Terminar
-	li a7, 10
+	li a7, EXIT
 	ecall
