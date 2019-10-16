@@ -102,9 +102,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.49497475"
-     inkscape:cx="322.09844"
-     inkscape:cy="269.71235"
+     inkscape:zoom="0.7"
+     inkscape:cx="404.92388"
+     inkscape:cy="265.97821"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -1437,7 +1437,7 @@
     <text
        transform="scale(0.99894541,1.0010557)"
        id="text986-8-0-9-7-6"
-       y="131.35089"
+       y="138.29257"
        x="36.68116"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.0622654px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;opacity:1;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.23508635"
        xml:space="preserve"
@@ -1445,7 +1445,7 @@
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#0000ff;stroke-width:0.23508635"
-         y="131.35089"
+         y="138.29257"
          x="36.68116"
          id="tspan984-5-9-3-5-7"
          sodipodi:role="line">0xFFFF0011</tspan></text>
@@ -1480,7 +1480,7 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#000000;stroke-width:0.26458329">(Selección de la fila)</tspan></text>
     <path
        style="fill:#0000ff;stroke:#0000ff;stroke-width:0.79374999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
-       d="m 28.187676,135.69446 69.380555,0.19995"
+       d="m 28.187676,140.77258 69.380555,0.19995"
        id="path997"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
@@ -1489,7 +1489,7 @@
        inkscape:export-ydpi="90" />
     <path
        style="display:inline;fill:none;stroke:#0000ff;stroke-width:0.79374999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-3)"
-       d="m 28.212193,152.70339 94.305057,0.19995 v -5.20394"
+       d="m 28.212193,122.23466 86.286967,0.19995 4.00904,3.61595"
        id="path997-7"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccc"
@@ -1499,7 +1499,7 @@
     <text
        transform="scale(0.99894541,1.0010557)"
        id="text986-8-0-9-7-6-5"
-       y="150.22977"
+       y="119.2592"
        x="36.302784"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.0622654px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;opacity:1;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.23508635"
        xml:space="preserve"
@@ -1507,7 +1507,7 @@
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#0000ff;stroke-width:0.23508635"
-         y="150.22977"
+         y="119.2592"
          x="36.302784"
          id="tspan984-5-9-3-5-7-3"
          sodipodi:role="line">0xFFFF0010</tspan></text>
