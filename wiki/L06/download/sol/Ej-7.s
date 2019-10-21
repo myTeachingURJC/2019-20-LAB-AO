@@ -3,8 +3,7 @@
 #-- Simplemente se suma 1 a cada caracter
 
 	#-- Códigos de los servicios del S.O
-	.eqv PRINT_STRING 4
-	.eqv EXIT         10
+	.include "servicios.asm"
 
 
 	.data

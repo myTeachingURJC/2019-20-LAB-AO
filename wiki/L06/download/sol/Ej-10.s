@@ -3,9 +3,6 @@
 #-- y escribir su código en el puerto de salida del display
 #-- izquierdo
 
-	#-- Servicios del S.O
-	.eqv EXIT 10
-
 	#-- Direccion base de acceso a perifericos
 	.eqv BASE 0xFFFF0010
 	

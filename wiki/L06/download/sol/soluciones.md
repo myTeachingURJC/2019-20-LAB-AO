@@ -47,7 +47,7 @@ Ej-3.s
 ## Ejercicio 4
 
 1. Ej-4.s
-2. El carácter se encuentra en la dirección: 0x10010041
+2. El carácter se encuentra en la dirección: 0x10010045
 
 ## Ejercicio 5
 

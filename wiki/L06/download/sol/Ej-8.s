@@ -1,7 +1,7 @@
 #-- Solucion al ejercicio 8
 
 	#-- Código de servicios del S.O
-	.eqv EXIT 10
+	.include "servicios.asm"
 
 	.data
 	
