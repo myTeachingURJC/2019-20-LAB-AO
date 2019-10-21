@@ -1,9 +1,4 @@
-#-- Solucion al ejercicio 3
-
-	.eqv PRINT_INT    1
-	.eqv PRINT_STRING 4
-	.eqv READ_INT     5
-	.eqv EXIT         10
+	.include "servicios.asm"
 
 	.data
 	
