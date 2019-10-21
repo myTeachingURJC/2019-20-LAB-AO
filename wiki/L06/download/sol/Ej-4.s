@@ -4,9 +4,7 @@
 #-- que luego se imprime en la consola
 
 	#-- Codigo de servicios
-	.eqv PRINT_STRING 4
-	.eqv READ_STRING  8
-	.eqv EXIT         10
+	.include "servicios.asm"
 	
 	#-- Tamaño máximo del texto
 	.eqv MAX 1024
@@ -18,7 +16,7 @@ msg1:	.string "Introduce un texto: "
 msg2:   .string "Esto es lo que has escrito: \n"
 
 	#-- Texto introducido por el usuario
-texto:	.space 1024
+texto:	.space MAX
 
 	.text
 	
