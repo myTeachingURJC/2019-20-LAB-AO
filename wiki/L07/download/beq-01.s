@@ -6,7 +6,7 @@
 	
 	#-- Valores constantes a comparar
 	.eqv VALOR1 10
-	.eqv VALOR2 10
+	.eqv VALOR2 11
 	
 	.data
 	
