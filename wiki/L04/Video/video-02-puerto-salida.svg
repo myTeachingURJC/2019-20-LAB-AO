@@ -1,0 +1,2405 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="496.08752mm"
+   height="326.84705mm"
+   viewBox="0 0 496.08752 326.84705"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (unknown)"
+   sodipodi:docname="video-02-puerto-salida.svg">
+  <defs
+     id="defs2">
+    <marker
+       inkscape:stockid="Arrow2Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mstart-7"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path885-5"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(0.6)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker1124-3"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path888-5"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)"
+         inkscape:connector-curvature="0" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="865.54771"
+     inkscape:cy="677.25311"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer2"
+     showgrid="false"
+     inkscape:snap-global="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="996"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="back"
+     transform="translate(131.94211,59.101242)"
+     sodipodi:insensitive="true"
+     style="display:inline">
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.52916664;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1578"
+       width="496.08752"
+       height="326.84705"
+       x="-131.94211"
+       y="-59.101242"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+  </g>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(131.94211,59.101242)"
+     style="display:inline">
+    <rect
+       style="opacity:1;fill:#ffb380;fill-opacity:1;stroke:#000000;stroke-width:0.52916664;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect819-3-0-35"
+       width="123.59821"
+       height="28.166708"
+       x="16.70388"
+       y="39.96162"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       transform="matrix(0,5.0121889,-5.0121889,0,396.25116,-69.272486)"
+       id="g420"
+       style="display:inline;stroke-width:0"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <g
+         transform="matrix(0.5,0,0,0.5,12.5504,12.5504)"
+         id="g418"
+         style="stroke-width:0">
+        <g
+           transform="rotate(180,47.78065,8.09035)"
+           id="g8"
+           style="stroke-width:0">
+          <rect
+             width="4.2519698"
+             x="45.6548"
+             y="7.5942702"
+             height="0.99212402"
+             id="rect6"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,47.78065,9.50765)"
+           id="g12"
+           style="stroke-width:0">
+          <rect
+             width="4.2519698"
+             x="45.6548"
+             y="9.01159"
+             height="0.99212402"
+             id="rect10"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,47.78065,10.925)"
+           id="g16"
+           style="stroke-width:0">
+          <rect
+             width="4.2519698"
+             x="45.6548"
+             y="10.4289"
+             height="0.99212402"
+             id="rect14"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,47.78065,12.34235)"
+           id="g20"
+           style="stroke-width:0">
+          <rect
+             width="4.2519698"
+             x="45.6548"
+             y="11.8462"
+             height="0.99212402"
+             id="rect18"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,47.78065,13.75965)"
+           id="g24"
+           style="stroke-width:0">
+          <rect
+             width="4.2519698"
+             x="45.6548"
+             y="13.2636"
+             height="0.99212402"
+             id="rect22"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,47.78065,15.177)"
+           id="g28"
+           style="stroke-width:0">
+          <rect
+             width="4.2519698"
+             x="45.6548"
+             y="14.6809"
+             height="0.99212402"
+             id="rect26"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,47.78065,16.5943)"
+           id="g32"
+           style="stroke-width:0">
+          <rect
+             width="4.2519698"
+             x="45.6548"
+             y="16.098301"
+             height="0.99212402"
+             id="rect30"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,47.78065,18.01165)"
+           id="g36"
+           style="stroke-width:0">
+          <rect
+             width="4.2519698"
+             x="45.6548"
+             y="17.5156"
+             height="0.99212402"
+             id="rect34"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,47.78065,19.42895)"
+           id="g40"
+           style="stroke-width:0">
+          <rect
+             width="4.2519698"
+             x="45.6548"
+             y="18.932899"
+             height="0.99212402"
+             id="rect38"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,47.78065,20.84625)"
+           id="g44"
+           style="stroke-width:0">
+          <rect
+             width="4.2519698"
+             x="45.6548"
+             y="20.350201"
+             height="0.99212402"
+             id="rect42"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,47.78065,22.2636)"
+           id="g48"
+           style="stroke-width:0">
+          <rect
+             width="4.2519698"
+             x="45.6548"
+             y="21.7675"
+             height="0.99212402"
+             id="rect46"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,47.78065,23.6809)"
+           id="g52"
+           style="stroke-width:0">
+          <rect
+             width="4.2519698"
+             x="45.6548"
+             y="23.1849"
+             height="0.99212402"
+             id="rect50"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,47.78065,25.09825)"
+           id="g56"
+           style="stroke-width:0">
+          <rect
+             width="4.2519698"
+             x="45.6548"
+             y="24.6022"
+             height="0.99212402"
+             id="rect54"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,47.78065,26.51555)"
+           id="g60"
+           style="stroke-width:0">
+          <rect
+             width="4.2519698"
+             x="45.6548"
+             y="26.019501"
+             height="0.99212402"
+             id="rect58"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,47.78065,27.93285)"
+           id="g64"
+           style="stroke-width:0">
+          <rect
+             width="4.2519698"
+             x="45.6548"
+             y="27.4368"
+             height="0.99212402"
+             id="rect62"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,47.78065,29.3502)"
+           id="g68"
+           style="stroke-width:0">
+          <rect
+             width="4.2519698"
+             x="45.6548"
+             y="28.854099"
+             height="0.99212402"
+             id="rect66"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,47.78065,30.76755)"
+           id="g72"
+           style="stroke-width:0">
+          <rect
+             width="4.2519698"
+             x="45.6548"
+             y="30.2715"
+             height="0.99212402"
+             id="rect70"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,47.78065,32.18485)"
+           id="g76"
+           style="stroke-width:0">
+          <rect
+             width="4.2519698"
+             x="45.6548"
+             y="31.688801"
+             height="0.99212402"
+             id="rect74"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,47.78065,33.6022)"
+           id="g80"
+           style="stroke-width:0">
+          <rect
+             width="4.2519698"
+             x="45.6548"
+             y="33.106098"
+             height="0.99212402"
+             id="rect78"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,47.78065,35.0195)"
+           id="g84"
+           style="stroke-width:0">
+          <rect
+             width="4.2519698"
+             x="45.6548"
+             y="34.523399"
+             height="0.99212402"
+             id="rect82"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,47.78065,36.4367)"
+           id="g88"
+           style="stroke-width:0">
+          <rect
+             width="4.2519698"
+             x="45.6548"
+             y="35.940701"
+             height="0.99212402"
+             id="rect86"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,47.78065,37.854)"
+           id="g92"
+           style="stroke-width:0">
+          <rect
+             width="4.2519698"
+             x="45.6548"
+             y="37.358101"
+             height="0.99212402"
+             id="rect90"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,47.78065,39.2713)"
+           id="g96"
+           style="stroke-width:0">
+          <rect
+             width="4.2519698"
+             x="45.6548"
+             y="38.775398"
+             height="0.99212402"
+             id="rect94"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,47.78065,40.68865)"
+           id="g100"
+           style="stroke-width:0">
+          <rect
+             width="4.2519698"
+             x="45.6548"
+             y="40.192699"
+             height="0.99212402"
+             id="rect98"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,47.78065,42.10595)"
+           id="g104"
+           style="stroke-width:0">
+          <rect
+             width="4.2519698"
+             x="45.6548"
+             y="41.610001"
+             height="0.99212402"
+             id="rect102"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,42.11135,47.77525)"
+           id="g108"
+           style="stroke-width:0">
+          <rect
+             width="0.99212402"
+             x="41.615398"
+             y="45.649399"
+             height="4.2519698"
+             id="rect106"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,40.69405,47.77525)"
+           id="g112"
+           style="stroke-width:0">
+          <rect
+             width="0.99212402"
+             x="40.198101"
+             y="45.649399"
+             height="4.2519698"
+             id="rect110"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,39.2767,47.77525)"
+           id="g116"
+           style="stroke-width:0">
+          <rect
+             width="0.99212402"
+             x="38.7808"
+             y="45.649399"
+             height="4.2519698"
+             id="rect114"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,37.8594,47.77525)"
+           id="g120"
+           style="stroke-width:0">
+          <rect
+             width="0.99212402"
+             x="37.363499"
+             y="45.649399"
+             height="4.2519698"
+             id="rect118"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,36.4421,47.77525)"
+           id="g124"
+           style="stroke-width:0">
+          <rect
+             width="0.99212402"
+             x="35.946098"
+             y="45.649399"
+             height="4.2519698"
+             id="rect122"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,35.02485,47.77525)"
+           id="g128"
+           style="stroke-width:0">
+          <rect
+             width="0.99212402"
+             x="34.528801"
+             y="45.649399"
+             height="4.2519698"
+             id="rect126"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,33.60755,47.77525)"
+           id="g132"
+           style="stroke-width:0">
+          <rect
+             width="0.99212402"
+             x="33.1115"
+             y="45.649399"
+             height="4.2519698"
+             id="rect130"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,32.19025,47.77525)"
+           id="g136"
+           style="stroke-width:0">
+          <rect
+             width="0.99212402"
+             x="31.694201"
+             y="45.649399"
+             height="4.2519698"
+             id="rect134"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,30.7729,47.77525)"
+           id="g140"
+           style="stroke-width:0">
+          <rect
+             width="0.99212402"
+             x="30.276899"
+             y="45.649399"
+             height="4.2519698"
+             id="rect138"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,29.3556,47.77525)"
+           id="g144"
+           style="stroke-width:0">
+          <rect
+             width="0.99212402"
+             x="28.859501"
+             y="45.649399"
+             height="4.2519698"
+             id="rect142"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,27.93825,47.77525)"
+           id="g148"
+           style="stroke-width:0">
+          <rect
+             width="0.99212402"
+             x="27.4422"
+             y="45.649399"
+             height="4.2519698"
+             id="rect146"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,26.52095,47.77525)"
+           id="g152"
+           style="stroke-width:0">
+          <rect
+             width="0.99212402"
+             x="26.0249"
+             y="45.649399"
+             height="4.2519698"
+             id="rect150"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,25.10365,47.77525)"
+           id="g156"
+           style="stroke-width:0">
+          <rect
+             width="0.99212402"
+             x="24.607599"
+             y="45.649399"
+             height="4.2519698"
+             id="rect154"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,23.6863,47.77525)"
+           id="g160"
+           style="stroke-width:0">
+          <rect
+             width="0.99212402"
+             x="23.1903"
+             y="45.649399"
+             height="4.2519698"
+             id="rect158"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,22.269,47.77525)"
+           id="g164"
+           style="stroke-width:0">
+          <rect
+             width="0.99212402"
+             x="21.7729"
+             y="45.649399"
+             height="4.2519698"
+             id="rect162"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,20.85165,47.77525)"
+           id="g168"
+           style="stroke-width:0">
+          <rect
+             width="0.99212402"
+             x="20.3556"
+             y="45.649399"
+             height="4.2519698"
+             id="rect166"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,19.43435,47.77525)"
+           id="g172"
+           style="stroke-width:0">
+          <rect
+             width="0.99212402"
+             x="18.9382"
+             y="45.649399"
+             height="4.2519698"
+             id="rect170"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,18.017,47.77525)"
+           id="g176"
+           style="stroke-width:0">
+          <rect
+             width="0.99212402"
+             x="17.520901"
+             y="45.649399"
+             height="4.2519698"
+             id="rect174"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,16.59965,47.77525)"
+           id="g180"
+           style="stroke-width:0">
+          <rect
+             width="0.99212402"
+             x="16.1036"
+             y="45.649399"
+             height="4.2519698"
+             id="rect178"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,15.18235,47.77525)"
+           id="g184"
+           style="stroke-width:0">
+          <rect
+             width="0.99212402"
+             x="14.6863"
+             y="45.649399"
+             height="4.2519698"
+             id="rect182"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,13.76505,47.77525)"
+           id="g188"
+           style="stroke-width:0">
+          <rect
+             width="0.99212402"
+             x="13.269"
+             y="45.649399"
+             height="4.2519698"
+             id="rect186"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,12.3477,47.77525)"
+           id="g192"
+           style="stroke-width:0">
+          <rect
+             width="0.99212402"
+             x="11.8516"
+             y="45.649399"
+             height="4.2519698"
+             id="rect190"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,10.9304,47.77525)"
+           id="g196"
+           style="stroke-width:0">
+          <rect
+             width="0.99212402"
+             x="10.4343"
+             y="45.649399"
+             height="4.2519698"
+             id="rect194"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,9.51305,47.77525)"
+           id="g200"
+           style="stroke-width:0">
+          <rect
+             width="0.99212402"
+             x="9.0169897"
+             y="45.649399"
+             height="4.2519698"
+             id="rect198"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,8.09575,47.77525)"
+           id="g204"
+           style="stroke-width:0">
+          <rect
+             width="0.99212402"
+             x="7.5996699"
+             y="45.649399"
+             height="4.2519698"
+             id="rect202"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,2.42646,42.10595)"
+           id="g208"
+           style="stroke-width:0">
+          <rect
+             width="4.2519698"
+             x="0.300473"
+             y="41.610001"
+             height="0.99212402"
+             id="rect206"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,2.42646,40.68865)"
+           id="g212"
+           style="stroke-width:0">
+          <rect
+             width="4.2519698"
+             x="0.300473"
+             y="40.192699"
+             height="0.99212402"
+             id="rect210"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,2.42646,39.2713)"
+           id="g216"
+           style="stroke-width:0">
+          <rect
+             width="4.2519698"
+             x="0.300473"
+             y="38.775398"
+             height="0.99212402"
+             id="rect214"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,2.42646,37.854)"
+           id="g220"
+           style="stroke-width:0">
+          <rect
+             width="4.2519698"
+             x="0.300473"
+             y="37.358101"
+             height="0.99212402"
+             id="rect218"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,2.42646,36.4367)"
+           id="g224"
+           style="stroke-width:0">
+          <rect
+             width="4.2519698"
+             x="0.300473"
+             y="35.940701"
+             height="0.99212402"
+             id="rect222"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,2.42646,35.0195)"
+           id="g228"
+           style="stroke-width:0">
+          <rect
+             width="4.2519698"
+             x="0.300473"
+             y="34.523399"
+             height="0.99212402"
+             id="rect226"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,2.42646,33.6022)"
+           id="g232"
+           style="stroke-width:0">
+          <rect
+             width="4.2519698"
+             x="0.300473"
+             y="33.106098"
+             height="0.99212402"
+             id="rect230"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,2.42646,32.18485)"
+           id="g236"
+           style="stroke-width:0">
+          <rect
+             width="4.2519698"
+             x="0.300473"
+             y="31.688801"
+             height="0.99212402"
+             id="rect234"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,2.42646,30.76755)"
+           id="g240"
+           style="stroke-width:0">
+          <rect
+             width="4.2519698"
+             x="0.300473"
+             y="30.2715"
+             height="0.99212402"
+             id="rect238"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,2.42646,29.3502)"
+           id="g244"
+           style="stroke-width:0">
+          <rect
+             width="4.2519698"
+             x="0.300473"
+             y="28.854099"
+             height="0.99212402"
+             id="rect242"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,2.42646,27.93285)"
+           id="g248"
+           style="stroke-width:0">
+          <rect
+             width="4.2519698"
+             x="0.300473"
+             y="27.4368"
+             height="0.99212402"
+             id="rect246"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,2.42646,26.51555)"
+           id="g252"
+           style="stroke-width:0">
+          <rect
+             width="4.2519698"
+             x="0.300473"
+             y="26.019501"
+             height="0.99212402"
+             id="rect250"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,2.42646,25.09825)"
+           id="g256"
+           style="stroke-width:0">
+          <rect
+             width="4.2519698"
+             x="0.300473"
+             y="24.6022"
+             height="0.99212402"
+             id="rect254"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,2.42646,23.6809)"
+           id="g260"
+           style="stroke-width:0">
+          <rect
+             width="4.2519698"
+             x="0.300473"
+             y="23.1849"
+             height="0.99212402"
+             id="rect258"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,2.42646,22.2636)"
+           id="g264"
+           style="stroke-width:0">
+          <rect
+             width="4.2519698"
+             x="0.300473"
+             y="21.7675"
+             height="0.99212402"
+             id="rect262"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,2.42646,20.84625)"
+           id="g268"
+           style="stroke-width:0">
+          <rect
+             width="4.2519698"
+             x="0.300473"
+             y="20.350201"
+             height="0.99212402"
+             id="rect266"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,2.42646,19.42895)"
+           id="g272"
+           style="stroke-width:0">
+          <rect
+             width="4.2519698"
+             x="0.300473"
+             y="18.932899"
+             height="0.99212402"
+             id="rect270"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,2.42646,18.01165)"
+           id="g276"
+           style="stroke-width:0">
+          <rect
+             width="4.2519698"
+             x="0.300473"
+             y="17.5156"
+             height="0.99212402"
+             id="rect274"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,2.42646,16.5943)"
+           id="g280"
+           style="stroke-width:0">
+          <rect
+             width="4.2519698"
+             x="0.300473"
+             y="16.098301"
+             height="0.99212402"
+             id="rect278"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,2.42646,15.177)"
+           id="g284"
+           style="stroke-width:0">
+          <rect
+             width="4.2519698"
+             x="0.300473"
+             y="14.6809"
+             height="0.99212402"
+             id="rect282"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,2.42646,13.75965)"
+           id="g288"
+           style="stroke-width:0">
+          <rect
+             width="4.2519698"
+             x="0.300473"
+             y="13.2636"
+             height="0.99212402"
+             id="rect286"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,2.42646,12.34235)"
+           id="g292"
+           style="stroke-width:0">
+          <rect
+             width="4.2519698"
+             x="0.300473"
+             y="11.8462"
+             height="0.99212402"
+             id="rect290"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,2.42646,10.925)"
+           id="g296"
+           style="stroke-width:0">
+          <rect
+             width="4.2519698"
+             x="0.300473"
+             y="10.4289"
+             height="0.99212402"
+             id="rect294"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,2.42646,9.50765)"
+           id="g300"
+           style="stroke-width:0">
+          <rect
+             width="4.2519698"
+             x="0.300473"
+             y="9.01159"
+             height="0.99212402"
+             id="rect298"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,2.42646,8.09035)"
+           id="g304"
+           style="stroke-width:0">
+          <rect
+             width="4.2519698"
+             x="0.300473"
+             y="7.5942702"
+             height="0.99212402"
+             id="rect302"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,8.09575,2.42107)"
+           id="g308"
+           style="stroke-width:0">
+          <rect
+             width="0.99212402"
+             x="7.5996699"
+             y="0.29508701"
+             height="4.2519698"
+             id="rect306"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,9.51305,2.42107)"
+           id="g312"
+           style="stroke-width:0">
+          <rect
+             width="0.99212402"
+             x="9.0169897"
+             y="0.29508701"
+             height="4.2519698"
+             id="rect310"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,10.9304,2.42107)"
+           id="g316"
+           style="stroke-width:0">
+          <rect
+             width="0.99212402"
+             x="10.4343"
+             y="0.29508701"
+             height="4.2519698"
+             id="rect314"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,12.3477,2.42107)"
+           id="g320"
+           style="stroke-width:0">
+          <rect
+             width="0.99212402"
+             x="11.8516"
+             y="0.29508701"
+             height="4.2519698"
+             id="rect318"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,13.76505,2.42107)"
+           id="g324"
+           style="stroke-width:0">
+          <rect
+             width="0.99212402"
+             x="13.269"
+             y="0.29508701"
+             height="4.2519698"
+             id="rect322"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,15.18235,2.42107)"
+           id="g328"
+           style="stroke-width:0">
+          <rect
+             width="0.99212402"
+             x="14.6863"
+             y="0.29508701"
+             height="4.2519698"
+             id="rect326"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,16.59965,2.42107)"
+           id="g332"
+           style="stroke-width:0">
+          <rect
+             width="0.99212402"
+             x="16.1036"
+             y="0.29508701"
+             height="4.2519698"
+             id="rect330"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,18.017,2.42107)"
+           id="g336"
+           style="stroke-width:0">
+          <rect
+             width="0.99212402"
+             x="17.520901"
+             y="0.29508701"
+             height="4.2519698"
+             id="rect334"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,19.43435,2.42107)"
+           id="g340"
+           style="stroke-width:0">
+          <rect
+             width="0.99212402"
+             x="18.9382"
+             y="0.29508701"
+             height="4.2519698"
+             id="rect338"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,20.85165,2.42107)"
+           id="g344"
+           style="stroke-width:0">
+          <rect
+             width="0.99212402"
+             x="20.3556"
+             y="0.29508701"
+             height="4.2519698"
+             id="rect342"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,22.269,2.42107)"
+           id="g348"
+           style="stroke-width:0">
+          <rect
+             width="0.99212402"
+             x="21.7729"
+             y="0.29508701"
+             height="4.2519698"
+             id="rect346"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,23.6863,2.42107)"
+           id="g352"
+           style="stroke-width:0">
+          <rect
+             width="0.99212402"
+             x="23.1903"
+             y="0.29508701"
+             height="4.2519698"
+             id="rect350"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,25.10365,2.42107)"
+           id="g356"
+           style="stroke-width:0">
+          <rect
+             width="0.99212402"
+             x="24.607599"
+             y="0.29508701"
+             height="4.2519698"
+             id="rect354"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,26.52095,2.42107)"
+           id="g360"
+           style="stroke-width:0">
+          <rect
+             width="0.99212402"
+             x="26.0249"
+             y="0.29508701"
+             height="4.2519698"
+             id="rect358"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,27.93825,2.42107)"
+           id="g364"
+           style="stroke-width:0">
+          <rect
+             width="0.99212402"
+             x="27.4422"
+             y="0.29508701"
+             height="4.2519698"
+             id="rect362"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,29.3556,2.42107)"
+           id="g368"
+           style="stroke-width:0">
+          <rect
+             width="0.99212402"
+             x="28.859501"
+             y="0.29508701"
+             height="4.2519698"
+             id="rect366"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,30.7729,2.42107)"
+           id="g372"
+           style="stroke-width:0">
+          <rect
+             width="0.99212402"
+             x="30.276899"
+             y="0.29508701"
+             height="4.2519698"
+             id="rect370"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,32.19025,2.42107)"
+           id="g376"
+           style="stroke-width:0">
+          <rect
+             width="0.99212402"
+             x="31.694201"
+             y="0.29508701"
+             height="4.2519698"
+             id="rect374"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,33.60755,2.42107)"
+           id="g380"
+           style="stroke-width:0">
+          <rect
+             width="0.99212402"
+             x="33.1115"
+             y="0.29508701"
+             height="4.2519698"
+             id="rect378"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,35.02485,2.42107)"
+           id="g384"
+           style="stroke-width:0">
+          <rect
+             width="0.99212402"
+             x="34.528801"
+             y="0.29508701"
+             height="4.2519698"
+             id="rect382"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,36.4421,2.42107)"
+           id="g388"
+           style="stroke-width:0">
+          <rect
+             width="0.99212402"
+             x="35.946098"
+             y="0.29508701"
+             height="4.2519698"
+             id="rect386"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,37.8594,2.42107)"
+           id="g392"
+           style="stroke-width:0">
+          <rect
+             width="0.99212402"
+             x="37.363499"
+             y="0.29508701"
+             height="4.2519698"
+             id="rect390"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,39.2767,2.42107)"
+           id="g396"
+           style="stroke-width:0">
+          <rect
+             width="0.99212402"
+             x="38.7808"
+             y="0.29508701"
+             height="4.2519698"
+             id="rect394"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,40.69405,2.42107)"
+           id="g400"
+           style="stroke-width:0">
+          <rect
+             width="0.99212402"
+             x="40.198101"
+             y="0.29508701"
+             height="4.2519698"
+             id="rect398"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <g
+           transform="rotate(180,42.11135,2.42107)"
+           id="g404"
+           style="stroke-width:0">
+          <rect
+             width="0.99212402"
+             x="41.615398"
+             y="0.29508701"
+             height="4.2519698"
+             id="rect402"
+             style="fill:#8c8c8c;stroke:none;stroke-width:0" />
+        </g>
+        <rect
+           width="39.685001"
+           x="5.2582698"
+           y="5.2582698"
+           height="39.685001"
+           id="rect406"
+           style="fill:#303030;stroke:none;stroke-width:0" />
+        <polygon
+           points="44.9433,5.25827 44.2233,5.97827 5.97827,5.97827 5.25827,5.25827 "
+           id="polygon408"
+           style="fill:#1f1f1f;stroke-width:0" />
+        <polygon
+           points="44.9433,44.9433 44.2233,44.2233 5.97827,44.2233 5.25827,44.9433 "
+           id="polygon410"
+           style="fill:#1f1f1f;stroke-width:0" />
+        <polygon
+           points="5.25827,44.9433 5.97827,44.2233 5.97827,5.97827 5.25827,5.25827 "
+           id="polygon412"
+           style="fill:#000000;stroke-width:0" />
+        <polygon
+           points="44.9433,44.9433 44.2233,44.2233 44.2233,5.97827 44.9433,5.25827 "
+           id="polygon414"
+           style="fill:#3d3d3d;stroke-width:0" />
+        <circle
+           cx="7.4182301"
+           cy="42.783298"
+           r="0.72000003"
+           id="circle416"
+           style="fill:#1f1f1f;stroke:none;stroke-width:0" />
+      </g>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.78192234px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;display:inline;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:0.86137015"
+       x="249.11168"
+       y="59.27103"
+       id="text5461"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan5459"
+         x="249.11168"
+         y="59.27103"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';fill:#ffff00;stroke-width:0.86137015">RISC-V</tspan></text>
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.52916664;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect819-3-0-3"
+       width="123.59821"
+       height="65.169281"
+       x="16.70388"
+       y="68.128326"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="opacity:1;fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.52916664;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect819"
+       width="123.59821"
+       height="46.265049"
+       x="16.70388"
+       y="213.20712"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.66596889px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="44.36861"
+       y="257.80096"
+       id="text817-3"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan815-6"
+         x="44.36861"
+         y="257.80096"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';fill:#0000ff;stroke-width:0.26458332">0x0000000</tspan></text>
+    <rect
+       style="opacity:1;fill:#ececec;fill-opacity:1;stroke:#000000;stroke-width:0.52916664;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect819-3"
+       width="123.59821"
+       height="44.095406"
+       x="16.70388"
+       y="169.11169"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="opacity:1;fill:#ffe6d5;fill-opacity:1;stroke:#000000;stroke-width:0.52916664;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect819-3-0"
+       width="123.59821"
+       height="55.428192"
+       x="16.70388"
+       y="-15.466569"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:9.66596889px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="77.045685"
+       y="-29.403776"
+       id="text817-5-93"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         x="77.045685"
+         y="-29.403776"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';fill:#000000;stroke-width:0.26458332"
+         id="tspan1373">Mapa de memoria</tspan><tspan
+         sodipodi:role="line"
+         x="77.045685"
+         y="-17.321316"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';fill:#000000;stroke-width:0.26458332"
+         id="tspan909-0" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.66596889px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="45.972229"
+       y="-3.9481637"
+       id="text817-3-7-6"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan815-6-5-2"
+         x="45.972229"
+         y="-3.9481637"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';fill:#0000ff;stroke-width:0.26458332">0xFFFFFFFF</tspan></text>
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.44610208;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1582"
+       width="59.37756"
+       height="12.475983"
+       x="20.405827"
+       y="49.460491"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="opacity:1;fill:#fff6d5;fill-opacity:1;stroke:#000000;stroke-width:0.5291667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2789"
+       width="123.59821"
+       height="35.814117"
+       x="16.70388"
+       y="133.29761"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.66596889px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="50.783077"
+       y="58.592888"
+       id="text817-3-7-6-6"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan815-6-5-2-7"
+         x="50.783077"
+         y="58.592888"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';fill:#0000ff;stroke-width:0.26458332">0xFFFF0000</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.66596889px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#008000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="76.008476"
+       y="23.785694"
+       id="text817-5-5"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         x="76.008476"
+         y="23.785694"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';fill:#008000;stroke-width:0.26458332"
+         id="tspan909-5">MMIO</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.66596889px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="45.972095"
+       y="210.017"
+       id="text817-3-7"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan815-6-5"
+         x="45.972095"
+         y="210.017"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';fill:#0000ff;stroke-width:0.26458332">0x00400000</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.66596889px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="44.368481"
+       y="164.58118"
+       id="text817-3-7-7"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan815-6-5-0"
+         x="44.368481"
+         y="164.58118"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';fill:#0000ff;stroke-width:0.26458332">0x1001000</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:9.66596889px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="112.22036"
+       y="50.891693"
+       id="text817-5-93-3"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan815-62-6-6"
+         x="112.22036"
+         y="50.891693"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';fill:#000000;stroke-width:0.26458332">Puerto de</tspan><tspan
+         sodipodi:role="line"
+         x="112.22036"
+         y="62.974155"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';fill:#000000;stroke-width:0.26458332"
+         id="tspan1373-7">salida</tspan><tspan
+         sodipodi:role="line"
+         x="112.22036"
+         y="75.056618"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';fill:#000000;stroke-width:0.26458332"
+         id="tspan909-0-5" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.66596889px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#008000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="76.391968"
+       y="148.01045"
+       id="text817-5-5-0"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         x="76.391968"
+         y="148.01045"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';fill:#008000;stroke-width:0.26458332"
+         id="tspan909-5-9">Datos</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.66596889px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#008000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="75.677544"
+       y="189.66585"
+       id="text817-5-5-0-3"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         x="75.677544"
+         y="189.66585"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';fill:#008000;stroke-width:0.26458332"
+         id="tspan909-5-9-6">Código</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="puerto-salida"
+     style="display:inline"
+     transform="translate(-59.720242,6.8035701)">
+    <g
+       style="display:inline"
+       id="g371"
+       transform="translate(376.87067,52.297678)">
+      <g
+         inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         transform="matrix(-0.37932836,0,0,0.38051777,-187.81518,41.093298)"
+         id="g1567"
+         style="fill:none;stroke:none;stroke-width:0.69641376;stroke-linecap:square;stroke-miterlimit:10">
+        <path
+           sodipodi:nodetypes="ccccccccc"
+           style="fill:#dae8fc;stroke:#6c8ebf;stroke-width:0.69641376;stroke-miterlimit:10"
+           inkscape:connector-curvature="0"
+           d="M -27.274119,21 H 60 V 0 L 100,35 60,70 V 49 H -27.274119 V 35 Z"
+           stroke-miterlimit="10"
+           pointer-events="none"
+           id="path1565" />
+      </g>
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+         id="text817-5-93-9-93"
+         y="56.525166"
+         x="-208.02449"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.63863993px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           id="tspan1632-0"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#000000;stroke-width:0.26458332"
+           y="56.525166"
+           x="-208.02449"
+           sodipodi:role="line">Salida</tspan></text>
+    </g>
+    <rect
+       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.52916664;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1580-7"
+       width="8.0180855"
+       height="8.0180855"
+       x="119.99209"
+       y="60.574833"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.52916664;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1580-7-2"
+       width="8.0180855"
+       height="8.0180855"
+       x="119.99209"
+       y="93.836731"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.52916664;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1580-7-3"
+       width="8.0180855"
+       height="8.0180855"
+       x="119.99209"
+       y="129.5304"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.52916664;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1580-7-2-5"
+       width="8.0180855"
+       height="8.0180855"
+       x="119.99209"
+       y="162.79228"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:9.66596889px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="125.79743"
+       y="23.056526"
+       id="text817-5-93-0-5"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         x="125.79743"
+         y="23.056526"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';fill:#000000;stroke-width:0.26458332"
+         id="tspan1373-6-4">LEDs</tspan><tspan
+         sodipodi:role="line"
+         x="125.79743"
+         y="35.138988"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';fill:#000000;stroke-width:0.26458332"
+         id="tspan909-0-1-7" /></text>
+    <rect
+       style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.26458332;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1879"
+       width="33.675961"
+       height="154.48178"
+       x="107.43041"
+       y="30.177864"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.52916664;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1580-3"
+       width="8.0180855"
+       height="8.0180855"
+       x="119.99209"
+       y="43.274071"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.52916664;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1580-5-67"
+       width="8.0180855"
+       height="8.0180855"
+       x="119.99209"
+       y="77.2173"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.52916664;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1580-9-5"
+       width="8.0180855"
+       height="8.0180855"
+       x="119.99209"
+       y="112.22961"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.52916664;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1580-5-6-3"
+       width="8.0180855"
+       height="8.0180855"
+       x="119.99209"
+       y="146.17284"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       style="display:inline"
+       id="g365"
+       transform="translate(-131.12932,52.297671)">
+      <path
+         id="path1565-9"
+         pointer-events="none"
+         stroke-miterlimit="10"
+         d="m 521.82921,50.595637 h -33.10555 v -7.990873 l -15.17314,13.318122 15.17314,13.318122 v -7.990873 h 33.10555 v -5.327249 z"
+         inkscape:connector-curvature="0"
+         style="fill:#dae8fc;stroke:#6c8ebf;stroke-width:0.26458332;stroke-linecap:square;stroke-miterlimit:10"
+         sodipodi:nodetypes="ccccccccc" />
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+         id="text817-5-93-9-93-1"
+         y="58.036629"
+         x="491.27432"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.63863993px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           id="tspan1632-0-27"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#000000;stroke-width:0.26458332"
+           y="58.036629"
+           x="491.27432"
+           sodipodi:role="line">store</tspan></text>
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="envio-aa"
+     style="display:inline"
+     transform="translate(-59.720242,6.8035701)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:9.66596889px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="368.26498"
+       y="81.82354"
+       id="text817-5-93-0"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         x="368.26498"
+         y="81.82354"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';fill:#000000;stroke-width:0.26458332"
+         id="tspan1373-6">0xAA</tspan><tspan
+         sodipodi:role="line"
+         x="368.26498"
+         y="93.905998"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';fill:#000000;stroke-width:0.26458332"
+         id="tspan909-0-1" /></text>
+    <rect
+       style="display:inline;opacity:1;fill:#aaffaa;fill-opacity:1;stroke:#000000;stroke-width:0.52916664;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1580"
+       width="8.0180855"
+       height="8.0180855"
+       x="119.99209"
+       y="43.274059"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 128.27744,42.806335 2.87314,-2.873147"
+       id="path1608"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 130.22145,47.04924 4.06324,-5e-6"
+       id="path1608-8"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 123.76726,40.929149 v -4.06324"
+       id="path1608-8-7"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 123.76726,57.499862 v -4.06324"
+       id="path1608-8-7-9"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 113.45029,47.049252 4.06324,-5e-6"
+       id="path1608-8-2"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 119.25709,42.806333 -2.87314,-2.873147"
+       id="path1608-0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 119.25709,51.559411 -2.87314,2.873147"
+       id="path1608-0-2"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 128.74517,51.559402 2.87314,2.873147"
+       id="path1608-0-2-3"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="display:inline;opacity:1;fill:#aaffaa;fill-opacity:1;stroke:#000000;stroke-width:0.52916664;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1580-5"
+       width="8.0180855"
+       height="8.0180855"
+       x="119.99209"
+       y="77.217293"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 128.27744,76.749572 2.87314,-2.873147"
+       id="path1608-9"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 130.22145,80.992476 4.06324,-5e-6"
+       id="path1608-8-22"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 123.76726,74.872386 v -4.06324"
+       id="path1608-8-7-8"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 123.76726,91.443098 v -4.06324"
+       id="path1608-8-7-9-9"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 113.45029,80.992488 4.06324,-5e-6"
+       id="path1608-8-2-7"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 119.25709,76.74957 -2.87314,-2.873147"
+       id="path1608-0-3"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 119.25709,85.502647 -2.87314,2.873147"
+       id="path1608-0-2-6"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 128.74517,85.502638 2.87314,2.873147"
+       id="path1608-0-2-3-1"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="display:inline;opacity:1;fill:#aaffaa;fill-opacity:1;stroke:#000000;stroke-width:0.52916664;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1580-9"
+       width="8.0180855"
+       height="8.0180855"
+       x="119.99209"
+       y="112.22961"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 128.27744,111.76188 2.87314,-2.87315"
+       id="path1608-3"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 130.22145,116.00478 h 4.06324"
+       id="path1608-8-1"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 123.76726,109.88469 v -4.06324"
+       id="path1608-8-7-94"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 123.76726,126.45541 v -4.06324"
+       id="path1608-8-7-9-7"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 113.45029,116.0048 4.06324,-1e-5"
+       id="path1608-8-2-8"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 119.25709,111.76188 -2.87314,-2.87315"
+       id="path1608-0-4"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 119.25709,120.51496 -2.87314,2.87314"
+       id="path1608-0-2-5"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 128.74517,120.51495 2.87314,2.87314"
+       id="path1608-0-2-3-0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="display:inline;opacity:1;fill:#aaffaa;fill-opacity:1;stroke:#000000;stroke-width:0.52916664;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1580-5-6"
+       width="8.0180855"
+       height="8.0180855"
+       x="119.99209"
+       y="146.17284"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 128.27744,145.70512 2.87314,-2.87315"
+       id="path1608-9-1"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 130.22145,149.94802 h 4.06324"
+       id="path1608-8-22-0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 123.76726,143.82793 v -4.06324"
+       id="path1608-8-7-8-6"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 123.76726,160.39863 v -4.06324"
+       id="path1608-8-7-9-9-3"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 113.45029,149.94803 h 4.06324"
+       id="path1608-8-2-7-2"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 119.25709,145.70512 -2.87314,-2.87315"
+       id="path1608-0-3-0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 119.25709,154.45818 -2.87314,2.87315"
+       id="path1608-0-2-6-6"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 128.74517,154.45817 2.87314,2.87315"
+       id="path1608-0-2-3-1-1"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:9.66596889px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="83.57547"
+       y="50.614964"
+       id="text817-5-93-0-5-6"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         x="84.698761"
+         y="50.614964"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';fill:#000000;stroke-width:0.26458332"
+         id="tspan1373-6-4-5"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;stroke-width:0.26458332"
+   id="tspan1986">On</tspan> </tspan><tspan
+         sodipodi:role="line"
+         x="83.57547"
+         y="62.697426"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';fill:#000000;stroke-width:0.26458332"
+         id="tspan909-0-1-7-6" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:9.66596889px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="98.27774"
+       y="50.270821"
+       id="text817-5-93-0-5-6-9"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         x="98.27774"
+         y="50.270821"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#000000;stroke-width:0.26458332"
+         id="tspan1373-6-4-5-3">1</tspan><tspan
+         sodipodi:role="line"
+         x="98.27774"
+         y="62.353283"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';fill:#000000;stroke-width:0.26458332"
+         id="tspan909-0-1-7-6-7" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:9.66596889px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="98.27774"
+       y="66.901772"
+       id="text817-5-93-0-5-6-9-4"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         x="98.27774"
+         y="66.901772"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#000000;stroke-width:0.26458332"
+         id="tspan1373-6-4-5-3-5">0</tspan><tspan
+         sodipodi:role="line"
+         x="98.27774"
+         y="78.98423"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';fill:#000000;stroke-width:0.26458332"
+         id="tspan909-0-1-7-6-7-2" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:9.66596889px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="83.57547"
+       y="67.245918"
+       id="text817-5-93-0-5-6-4"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         x="84.689323"
+         y="67.245918"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#000000;stroke-width:0.26458332"
+         id="tspan1373-6-4-5-4">Off </tspan><tspan
+         sodipodi:role="line"
+         x="83.57547"
+         y="79.328377"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';fill:#000000;stroke-width:0.26458332"
+         id="tspan909-0-1-7-6-3" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:9.66596889px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="83.57547"
+       y="85.360001"
+       id="text817-5-93-0-5-6-0"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         x="84.698761"
+         y="85.360001"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';fill:#000000;stroke-width:0.26458332"
+         id="tspan1373-6-4-5-7"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;stroke-width:0.26458332"
+   id="tspan1986-8">On</tspan> </tspan><tspan
+         sodipodi:role="line"
+         x="83.57547"
+         y="97.442459"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';fill:#000000;stroke-width:0.26458332"
+         id="tspan909-0-1-7-6-6" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:9.66596889px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="98.27774"
+       y="85.015854"
+       id="text817-5-93-0-5-6-9-8"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         x="98.27774"
+         y="85.015854"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#000000;stroke-width:0.26458332"
+         id="tspan1373-6-4-5-3-8">1</tspan><tspan
+         sodipodi:role="line"
+         x="98.27774"
+         y="97.098312"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';fill:#000000;stroke-width:0.26458332"
+         id="tspan909-0-1-7-6-7-4" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:9.66596889px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="98.27774"
+       y="101.6468"
+       id="text817-5-93-0-5-6-9-4-3"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         x="98.27774"
+         y="101.6468"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#000000;stroke-width:0.26458332"
+         id="tspan1373-6-4-5-3-5-1">0</tspan><tspan
+         sodipodi:role="line"
+         x="98.27774"
+         y="113.72926"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';fill:#000000;stroke-width:0.26458332"
+         id="tspan909-0-1-7-6-7-2-4" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:9.66596889px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="83.57547"
+       y="101.99096"
+       id="text817-5-93-0-5-6-4-9"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         x="84.689323"
+         y="101.99096"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#000000;stroke-width:0.26458332"
+         id="tspan1373-6-4-5-4-2">Off </tspan><tspan
+         sodipodi:role="line"
+         x="83.57547"
+         y="114.07342"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';fill:#000000;stroke-width:0.26458332"
+         id="tspan909-0-1-7-6-3-0" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:9.66596889px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="83.57547"
+       y="118.76869"
+       id="text817-5-93-0-5-6-6"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         x="84.698761"
+         y="118.76869"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';fill:#000000;stroke-width:0.26458332"
+         id="tspan1373-6-4-5-8"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;stroke-width:0.26458332"
+   id="tspan1986-9">On</tspan> </tspan><tspan
+         sodipodi:role="line"
+         x="83.57547"
+         y="130.85115"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';fill:#000000;stroke-width:0.26458332"
+         id="tspan909-0-1-7-6-2" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:9.66596889px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="98.27774"
+       y="118.42455"
+       id="text817-5-93-0-5-6-9-6"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         x="98.27774"
+         y="118.42455"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#000000;stroke-width:0.26458332"
+         id="tspan1373-6-4-5-3-6">1</tspan><tspan
+         sodipodi:role="line"
+         x="98.27774"
+         y="130.50702"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';fill:#000000;stroke-width:0.26458332"
+         id="tspan909-0-1-7-6-7-49" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:9.66596889px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="98.27774"
+       y="135.0555"
+       id="text817-5-93-0-5-6-9-4-5"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         x="98.27774"
+         y="135.0555"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#000000;stroke-width:0.26458332"
+         id="tspan1373-6-4-5-3-5-0">0</tspan><tspan
+         sodipodi:role="line"
+         x="98.27774"
+         y="147.13795"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';fill:#000000;stroke-width:0.26458332"
+         id="tspan909-0-1-7-6-7-2-48" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:9.66596889px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="83.57547"
+       y="135.39964"
+       id="text817-5-93-0-5-6-4-7"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         x="84.689323"
+         y="135.39964"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#000000;stroke-width:0.26458332"
+         id="tspan1373-6-4-5-4-1">Off </tspan><tspan
+         sodipodi:role="line"
+         x="83.57547"
+         y="147.4821"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';fill:#000000;stroke-width:0.26458332"
+         id="tspan909-0-1-7-6-3-7" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:9.66596889px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="83.57547"
+       y="153.51373"
+       id="text817-5-93-0-5-6-0-2"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         x="84.698761"
+         y="153.51373"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';fill:#000000;stroke-width:0.26458332"
+         id="tspan1373-6-4-5-7-7"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;stroke-width:0.26458332"
+   id="tspan1986-8-2">On</tspan> </tspan><tspan
+         sodipodi:role="line"
+         x="83.57547"
+         y="165.59619"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';fill:#000000;stroke-width:0.26458332"
+         id="tspan909-0-1-7-6-6-2" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:9.66596889px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="98.27774"
+       y="153.16959"
+       id="text817-5-93-0-5-6-9-8-6"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         x="98.27774"
+         y="153.16959"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#000000;stroke-width:0.26458332"
+         id="tspan1373-6-4-5-3-8-1">1</tspan><tspan
+         sodipodi:role="line"
+         x="98.27774"
+         y="165.25204"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';fill:#000000;stroke-width:0.26458332"
+         id="tspan909-0-1-7-6-7-4-0" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:9.66596889px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="98.27774"
+       y="169.80054"
+       id="text817-5-93-0-5-6-9-4-3-6"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         x="98.27774"
+         y="169.80054"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#000000;stroke-width:0.26458332"
+         id="tspan1373-6-4-5-3-5-1-1">0</tspan><tspan
+         sodipodi:role="line"
+         x="98.27774"
+         y="181.883"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';fill:#000000;stroke-width:0.26458332"
+         id="tspan909-0-1-7-6-7-2-4-5" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:9.66596889px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="83.57547"
+       y="170.14468"
+       id="text817-5-93-0-5-6-4-9-9"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L04/es-03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         x="84.689323"
+         y="170.14468"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#000000;stroke-width:0.26458332"
+         id="tspan1373-6-4-5-4-2-4">Off </tspan><tspan
+         sodipodi:role="line"
+         x="83.57547"
+         y="182.22714"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';fill:#000000;stroke-width:0.26458332"
+         id="tspan909-0-1-7-6-3-0-9" /></text>
+  </g>
+</svg>
