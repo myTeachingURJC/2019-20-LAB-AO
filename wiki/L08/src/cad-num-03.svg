@@ -178,7 +178,7 @@
      inkscape:cx="336.92385"
      inkscape:cy="275.06472"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
      inkscape:window-height="1052"
@@ -400,7 +400,7 @@
          x="30.994879"
          y="117.97274"
          style="fill:#0000ff;stroke-width:0.26458341"
-         id="tspan1400-5">d1</tspan><tspan
+         id="tspan1400-5">n1</tspan><tspan
          sodipodi:role="line"
          x="30.994879"
          y="127.50375"
@@ -419,7 +419,7 @@
          x="60.855"
          y="117.97274"
          style="fill:#0000ff;stroke-width:0.26458341"
-         id="tspan1400-5-6">d0</tspan><tspan
+         id="tspan1400-5-6">n0</tspan><tspan
          sodipodi:role="line"
          x="60.855"
          y="127.50375"
@@ -438,6 +438,6 @@
          x="70.356827"
          y="134.1255"
          style="fill:#008000;stroke-width:0.26458341"
-         id="tspan1614-2">Número = 10 * d1 + d0</tspan></text>
+         id="tspan1614-2">Número = 10 * n1 + n0</tspan></text>
   </g>
 </svg>
