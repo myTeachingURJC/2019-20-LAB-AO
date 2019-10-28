@@ -23,7 +23,7 @@ cadnum:	.string "23"
 	ecall
 	
 	#--- Calcular la expresion de conversion
-	#--- t3 = d1 * 10 + d0
+	#--- t3 = (d1-'0') * 10 + (d0-'0')
 	
 	##-- Leer digito de mayor peso
 	##-- t1 = d1
