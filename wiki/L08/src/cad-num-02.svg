@@ -15,7 +15,7 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.4 (unknown)"
-   sodipodi:docname="cad-num-01.svg">
+   sodipodi:docname="cad-num-02.svg">
   <defs
      id="defs2">
     <marker
@@ -47,22 +47,6 @@
          d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
          transform="scale(-0.6)"
          inkscape:connector-curvature="0" />
-    </marker>
-    <marker
-       inkscape:stockid="Arrow2Mend"
-       orient="auto"
-       refY="0"
-       refX="0"
-       id="Arrow2Mend-6"
-       style="overflow:visible"
-       inkscape:isstock="true"
-       inkscape:collect="always">
-      <path
-         inkscape:connector-curvature="0"
-         id="path1081-2"
-         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
-         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
-         transform="scale(-0.6)" />
     </marker>
     <marker
        inkscape:stockid="Arrow2Mend"
@@ -192,7 +176,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
      inkscape:cx="490.49528"
-     inkscape:cy="305.06473"
+     inkscape:cy="367.92187"
      inkscape:document-units="mm"
      inkscape:current-layer="layer2"
      showgrid="false"
@@ -214,7 +198,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -223,7 +207,7 @@
      id="layer2"
      inkscape:label="back"
      style="display:inline"
-     transform="translate(58.208336,-12.761902)">
+     transform="translate(58.208336,0.84524101)">
     <rect
        style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.57592577;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter5998)"
        id="rect5956"
@@ -238,8 +222,8 @@
        width="316.74405"
        height="165.55357"
        x="-58.208336"
-       y="12.761902"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L08/conversion-01.png"
+       y="-0.84524101"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L08/conversion-02.png"
        inkscape:export-xdpi="88.720551"
        inkscape:export-ydpi="88.720551" />
   </g>
@@ -248,7 +232,7 @@
      inkscape:groupmode="layer"
      id="layer1"
      style="display:inline"
-     transform="translate(58.208336,-12.761902)">
+     transform="translate(58.208336,0.84524101)">
     <rect
        style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.52916664;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect910"
@@ -256,29 +240,29 @@
        height="34.395832"
        x="19.276787"
        y="71.348221"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L08/conversion-01.png"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L08/conversion-02.png"
        inkscape:export-xdpi="88"
        inkscape:export-ydpi="88" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.71206856px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458335"
-       x="30.906647"
-       y="94.419907"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.67816544px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458335"
+       x="30.172955"
+       y="91.085632"
        id="text817"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L08/conversion-01.png"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L08/conversion-02.png"
        inkscape:export-xdpi="88"
        inkscape:export-ydpi="88"><tspan
          sodipodi:role="line"
          id="tspan815"
-         x="30.906647"
-         y="94.419907"
-         style="stroke-width:0.26458335">'2'</tspan></text>
+         x="30.172955"
+         y="91.085632"
+         style="stroke-width:0.26458335">0x32</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M 41.388392,71.348212 V 105.74404"
        id="path912"
        inkscape:connector-curvature="0"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L08/conversion-01.png"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L08/conversion-02.png"
        inkscape:export-xdpi="88"
        inkscape:export-ydpi="88" />
     <path
@@ -286,7 +270,7 @@
        d="M 64.822916,71.348212 V 105.74404"
        id="path912-9"
        inkscape:connector-curvature="0"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L08/conversion-01.png"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L08/conversion-02.png"
        inkscape:export-xdpi="88"
        inkscape:export-ydpi="88" />
     <path
@@ -294,7 +278,7 @@
        d="M 85.044644,71.348212 V 105.74404"
        id="path912-9-1"
        inkscape:connector-curvature="0"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L08/conversion-01.png"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L08/conversion-02.png"
        inkscape:export-xdpi="88"
        inkscape:export-ydpi="88" />
     <path
@@ -302,7 +286,7 @@
        d="M 109.61309,71.348212 V 105.74404"
        id="path912-9-1-2"
        inkscape:connector-curvature="0"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L08/conversion-01.png"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L08/conversion-02.png"
        inkscape:export-xdpi="88"
        inkscape:export-ydpi="88" />
     <path
@@ -310,157 +294,33 @@
        d="M 130.40178,71.348212 V 105.74404"
        id="path912-9-1-2-9"
        inkscape:connector-curvature="0"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L08/conversion-01.png"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L08/conversion-02.png"
        inkscape:export-xdpi="88"
        inkscape:export-ydpi="88" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.48514557px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458341"
-       x="97.766922"
-       y="95.288109"
-       id="text817-3-7-3-6-7-3"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L08/conversion-01.png"
-       inkscape:export-xdpi="88"
-       inkscape:export-ydpi="88"><tspan
-         sodipodi:role="line"
-         id="tspan815-6-5-5-2-0-6"
-         x="97.766922"
-         y="95.288109"
-         style="stroke-width:0.26458341">\0</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M 157.396,71.348212 V 105.74404"
        id="path912-9-1-2-9-0"
        inkscape:connector-curvature="0"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L08/conversion-01.png"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L08/conversion-02.png"
        inkscape:export-xdpi="88"
        inkscape:export-ydpi="88" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.71206856px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458338"
-       x="53.090019"
-       y="94.419907"
-       id="text817-3"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L08/conversion-01.png"
-       inkscape:export-xdpi="88"
-       inkscape:export-ydpi="88"><tspan
-         sodipodi:role="line"
-         id="tspan815-6"
-         x="53.090019"
-         y="94.419907"
-         style="stroke-width:0.26458338">'2'</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.71206856px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458341"
-       x="74.738853"
-       y="94.419907"
-       id="text817-3-7"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L08/conversion-01.png"
-       inkscape:export-xdpi="88"
-       inkscape:export-ydpi="88"><tspan
-         sodipodi:role="line"
-         id="tspan815-6-5"
-         x="74.738853"
-         y="94.419907"
-         style="stroke-width:0.26458341">'5'</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.62480974px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.26458335"
-       x="99.439682"
-       y="151.57559"
-       id="text1050"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L08/conversion-01.png"
-       inkscape:export-xdpi="88.720551"
-       inkscape:export-ydpi="88.720551"><tspan
-         sodipodi:role="line"
-         id="tspan1048"
-         x="99.439682"
-         y="151.57559"
-         style="fill:#0000ff;stroke-width:0.26458335">Posiciones de memoria</tspan><tspan
-         sodipodi:role="line"
-         x="99.439682"
-         y="161.1066"
-         style="fill:#0000ff;stroke-width:0.26458335"
-         id="tspan5834">(bytes)</tspan></text>
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.5291667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
-       d="M 86.17857,143.35267 34.017858,101.39732"
-       id="path1052"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L08/conversion-01.png"
-       inkscape:export-xdpi="88.720551"
-       inkscape:export-ydpi="88.720551" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.52916676;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-6)"
-       d="M 91.092259,142.40774 55.751488,101.39732"
-       id="path1052-6"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L08/conversion-01.png"
-       inkscape:export-xdpi="88.720551"
-       inkscape:export-ydpi="88.720551" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.52916682;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-6-1)"
-       d="M 95.249997,141.84077 77.485118,101.01934"
-       id="path1052-6-7"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L08/conversion-01.png"
-       inkscape:export-xdpi="88.720551"
-       inkscape:export-ydpi="88.720551" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.52916682;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-6-1-9)"
-       d="M 99.9747,142.9747 98.084822,101.5863"
-       id="path1052-6-7-0"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L08/conversion-01.png"
-       inkscape:export-xdpi="88.720551"
-       inkscape:export-ydpi="88.720551" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.52916682;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-6-1-9-2)"
-       d="m 105.07738,141.27381 13.60715,-40.06548"
-       id="path1052-6-7-0-7"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L08/conversion-01.png"
-       inkscape:export-xdpi="88.720551"
-       inkscape:export-ydpi="88.720551" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.52916682;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-6-1-9-2-2)"
-       d="m 112.6369,142.78571 54.61756,-40.06548"
-       id="path1052-6-7-0-7-9"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L08/conversion-01.png"
-       inkscape:export-xdpi="88.720551"
-       inkscape:export-ydpi="88.720551" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.52916682;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-6-1-9-2-7)"
-       d="m 108.47916,142.21874 31.939,-40.82142"
-       id="path1052-6-7-0-7-6"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L08/conversion-01.png"
-       inkscape:export-xdpi="88.720551"
-       inkscape:export-ydpi="88.720551" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.62480974px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.26458338"
        x="0.94906878"
        y="37.850613"
        id="text1050-1"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L08/conversion-01.png"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L08/conversion-02.png"
        inkscape:export-xdpi="88.720551"
        inkscape:export-ydpi="88.720551"><tspan
          sodipodi:role="line"
-         x="0.94906878"
+         x="0.94906873"
          y="37.850613"
          style="fill:#0000ff;stroke-width:0.26458338"
          id="tspan5834-9">primer</tspan><tspan
          sodipodi:role="line"
-         x="0.94906878"
+         x="0.94906861"
          y="47.381626"
          style="fill:#0000ff;stroke-width:0.26458338"
          id="tspan5863">carácter</tspan></text>
@@ -469,7 +329,7 @@
        d="M 17.008928,40.354165 H 29.104166 V 70.970237"
        id="path5865"
        inkscape:connector-curvature="0"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L08/conversion-01.png"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L08/conversion-02.png"
        inkscape:export-xdpi="88.720551"
        inkscape:export-ydpi="88.720551" />
     <text
@@ -478,7 +338,7 @@
        x="125.49667"
        y="37.850613"
        id="text1050-1-3"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L08/conversion-01.png"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L08/conversion-02.png"
        inkscape:export-xdpi="88.720551"
        inkscape:export-ydpi="88.720551"><tspan
          sodipodi:role="line"
@@ -496,27 +356,69 @@
        d="M 109.86313,40.354164 H 97.767896 v 30.616073"
        id="path5865-1"
        inkscape:connector-curvature="0"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L08/conversion-01.png"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L08/conversion-02.png"
        inkscape:export-xdpi="88.720551"
        inkscape:export-ydpi="88.720551" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.62480974px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458338"
-       x="-1.5596226"
-       y="131.19048"
+       x="93.690376"
+       y="122.49702"
        id="text1050-2"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L08/conversion-01.png"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L08/conversion-02.png"
        inkscape:export-xdpi="88.720551"
        inkscape:export-ydpi="88.720551"><tspan
          sodipodi:role="line"
-         x="-1.5596226"
-         y="131.19048"
+         x="93.690376"
+         y="122.49702"
          style="fill:#000000;stroke-width:0.26458338"
          id="tspan5834-0">Cadena &quot;255&quot;</tspan><tspan
          sodipodi:role="line"
-         x="-1.5596226"
-         y="140.72148"
+         x="93.690376"
+         y="132.02803"
          style="fill:#000000;stroke-width:0.26458338"
          id="tspan1614">en memoria</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.67816544px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458338"
+       x="52.473549"
+       y="91.085632"
+       id="text817-9"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L08/conversion-02.png"
+       inkscape:export-xdpi="88"
+       inkscape:export-ydpi="88"><tspan
+         sodipodi:role="line"
+         id="tspan815-3"
+         x="52.473549"
+         y="91.085632"
+         style="stroke-width:0.26458338">0x35</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.67816544px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458341"
+       x="74.396172"
+       y="91.085632"
+       id="text817-9-6"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L08/conversion-02.png"
+       inkscape:export-xdpi="88"
+       inkscape:export-ydpi="88"><tspan
+         sodipodi:role="line"
+         id="tspan815-3-0"
+         x="74.396172"
+         y="91.085632"
+         style="stroke-width:0.26458341">0x35</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.67816544px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458341"
+       x="97.452713"
+       y="91.085632"
+       id="text817-9-62"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L08/conversion-02.png"
+       inkscape:export-xdpi="88"
+       inkscape:export-ydpi="88"><tspan
+         sodipodi:role="line"
+         id="tspan815-3-6"
+         x="97.452713"
+         y="91.085632"
+         style="stroke-width:0.26458341">0x00</tspan></text>
   </g>
 </svg>
