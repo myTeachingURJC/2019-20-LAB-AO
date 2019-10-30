@@ -53,7 +53,7 @@ fin_recorrer:
 	#-- a0 es el puntero izquierod. t1 es el upntero derecho
 
 bucle:
-	#-- Condicion de salida: ¿puntero izquierdo <= puntero derecho?
+	#-- Condicion de salida: ¿puntero derecho <= puntero izquierdo?
 	ble t1,a0 fin
 	
 	#-- Intercambiar los caracteres izquierdo y derecho
