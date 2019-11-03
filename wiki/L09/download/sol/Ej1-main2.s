@@ -1,6 +1,6 @@
-#-- Solución al ejercicio 1-1
-#-- La subrutina tiene su propio segmento de 
-#-- datos y código
+#-- Solución al ejercicio 1-3
+#-- Se invoca dos veces a la subrutina
+#-- de saludo
 
 	.include "servicios.asm"
 	
