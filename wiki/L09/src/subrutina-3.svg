@@ -15,7 +15,10 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.4 (unknown)"
-   sodipodi:docname="subrutina-3.svg">
+   sodipodi:docname="subrutina-3.svg"
+   inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L09/subrutina-06.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <defs
      id="defs2">
     <marker
@@ -267,8 +270,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.20663653"
-     inkscape:cx="1848.9242"
-     inkscape:cy="1445.3473"
+     inkscape:cx="1400.1"
+     inkscape:cy="1421.9309"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -345,20 +348,20 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.48791313px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="49.637978"
-       y="77.880981"
+       x="61.802048"
+       y="202.72279"
        id="text817-5-93-3"
        inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L09/subrutina-05.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
-         x="49.637978"
-         y="77.880981"
+         x="61.802048"
+         y="202.72279"
          style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';fill:#000000;stroke-width:0.26458332"
          id="tspan909-0-7">Programa</tspan><tspan
          sodipodi:role="line"
-         x="49.637974"
-         y="105.99088"
+         x="61.802048"
+         y="230.83269"
          style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';fill:#000000;stroke-width:0.26458332"
          id="tspan1265">principal</tspan></text>
     <circle
@@ -395,15 +398,15 @@
          id="flowPara9630" /></flowRoot>    <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.48791313px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.98999999;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="55.931099"
-       y="138.13348"
+       x="62.973454"
+       y="254.6525"
        id="text817-5-93-3-36"
        inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L09/subrutina-05.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
-         x="55.931095"
-         y="138.13348"
+         x="62.973454"
+         y="254.6525"
          style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';fill:#000000;stroke-width:0.26458332"
          id="tspan1265-53">(Main)</tspan></text>
     <circle
@@ -471,7 +474,7 @@
        inkscape:export-ydpi="90" />
     <path
        style="opacity:0.98999999;fill:none;stroke:#000000;stroke-width:1.32291663;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker978-6-9)"
-       d="m -135.5558,353.91364 v 28.54917"
+       d="m -135.56059,342.38975 v 39.31857"
        id="path2445-0"
        inkscape:connector-curvature="0"
        inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L09/subrutina-05.png"
@@ -529,12 +532,7 @@
          x="52.990112"
          y="617.35205"
          style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';fill:#000000;stroke-width:0.26458332"
-         id="tspan1265-3">Subrutina</tspan><tspan
-         sodipodi:role="line"
-         x="52.990112"
-         y="645.46191"
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';fill:#000000;stroke-width:0.26458332"
-         id="tspan4800">(Tarea1)</tspan></text>
+         id="tspan4800">Subrutina</tspan></text>
     <circle
        style="opacity:1;fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:0.79399997;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="path962-3-1-5-5-6"
@@ -548,21 +546,26 @@
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.68814659px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.98999999;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        x="-163.08446"
-       y="539.4248"
+       y="522.77924"
        id="text817-5-93-6-7-6-12"
        inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L09/subrutina-05.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
          x="-163.08446"
-         y="539.4248"
+         y="522.77924"
          style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';text-align:start;text-anchor:start;fill:#000000;stroke-width:0.26458332"
          id="tspan1311-9-9">Punto de </tspan><tspan
          sodipodi:role="line"
          x="-163.08446"
-         y="559.03497"
+         y="542.3894"
          style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';text-align:start;text-anchor:start;fill:#000000;stroke-width:0.26458332"
-         id="tspan6169">ENTRADA</tspan></text>
+         id="tspan6169">ENTRADA</tspan><tspan
+         sodipodi:role="line"
+         x="-163.08446"
+         y="561.99957"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';text-align:start;text-anchor:start;fill:#000000;stroke-width:0.26458332"
+         id="tspan13106">(tarea1)</tspan></text>
     <path
        style="opacity:0.98999999;fill:none;stroke:#000000;stroke-width:1.32291663;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker978-6-4)"
        d="m -136.1183,607.62555 v 28.54916"
@@ -603,32 +606,23 @@
            x="-167.89136"
            sodipodi:role="line">TAREA 1</tspan></text>
     </g>
-    <circle
-       style="opacity:1;fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:0.79399997;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="path962-3-1-5-5-0"
-       cx="-134.93887"
-       cy="714.66406"
-       r="18.942104"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L09/subrutina-05.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.68814659px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.98999999;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="-167.5611"
-       y="751.24872"
+       x="-184.20667"
+       y="746.12701"
        id="text817-5-93-6-7-6-1-6"
        inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L09/subrutina-05.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
-         x="-167.5611"
-         y="751.24872"
+         x="-184.20667"
+         y="746.12701"
          style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';text-align:start;text-anchor:start;fill:#000000;stroke-width:0.26458332"
          id="tspan1311-9-2-3">Punto de </tspan><tspan
          sodipodi:role="line"
-         x="-167.5611"
-         y="770.85889"
+         x="-184.20667"
+         y="765.73718"
          style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';text-align:start;text-anchor:start;fill:#000000;stroke-width:0.26458332"
          id="tspan6171">SALIDA</tspan></text>
     <path
@@ -639,27 +633,9 @@
        inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L09/subrutina-05.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
-    <circle
-       style="opacity:1;fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:0.79399997;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="path962-3-1-5-0"
-       cx="-135.28049"
-       cy="113.49747"
-       r="18.942104"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L09/subrutina-05.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <circle
-       style="opacity:1;fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:0.79399997;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="path962-3-1-5-0-6"
-       cx="-135.28049"
-       cy="335.01163"
-       r="18.942104"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L09/subrutina-05.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
     <path
        style="opacity:0.98999999;fill:none;stroke:#008000;stroke-width:2.64583325;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker978-6-1)"
-       d="m -151.29994,105.04793 c -207.99468,86.00913 -184.89609,359.33638 -3.84129,474.26793"
+       d="m -173.06723,110.80986 c -207.99468,86.00913 -163.1288,353.57445 17.926,468.506"
        id="path2445-5"
        inkscape:connector-curvature="0"
        inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L09/subrutina-05.png"
@@ -668,7 +644,7 @@
        sodipodi:nodetypes="cc" />
     <path
        style="opacity:0.98999999;fill:none;stroke:#008000;stroke-width:2.64583325;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker978-6-1-4)"
-       d="m -154.48393,715.76144 c -258.46055,-106.63011 -229.75754,-445.4885 -4.7733,-587.97529"
+       d="m -154.48393,715.76144 c -258.46055,-106.63011 -214.3924,-445.4885 10.59184,-587.97529"
        id="path2445-5-6"
        inkscape:connector-curvature="0"
        inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L09/subrutina-05.png"
@@ -677,7 +653,7 @@
        sodipodi:nodetypes="cc" />
     <path
        style="opacity:0.98999999;fill:none;stroke:#000080;stroke-width:2.64583325;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker978-6-1-5)"
-       d="m -119.2239,330.1644 c 105.928861,44.30379 96.040207,192.6234 3.83146,251.82528"
+       d="m -96.816398,326.96333 c 68.156215,28.93864 96.04020664,192.6234 3.83146,251.82528"
        id="path2445-5-9"
        inkscape:connector-curvature="0"
        inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L09/subrutina-05.png"
@@ -686,12 +662,145 @@
        sodipodi:nodetypes="cc" />
     <path
        style="opacity:0.98999999;fill:none;stroke:#000080;stroke-width:2.64583325;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker978-6-1-5-3)"
-       d="M -115.5787,711.10556 C 34.162162,625.34526 21.090428,441.78632 -121.51613,351.14129"
+       d="M -115.5787,711.10556 C 34.162162,625.34526 -5.1583596,395.69089 -129.1987,347.3"
        id="path2445-5-9-4"
        inkscape:connector-curvature="0"
        inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L09/subrutina-05.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
        sodipodi:nodetypes="cc" />
+    <rect
+       style="opacity:0.98999999;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.32291663;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1355-1-5-4"
+       width="79.978767"
+       height="26.414747"
+       x="-171.39027"
+       y="97.356888"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L09/subrutina-05.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.68814659px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.98009997;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-164.16707"
+       y="115.94135"
+       id="text817-5-93-6-7-7-8-9-5"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L09/subrutina-05.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         x="-164.16707"
+         y="115.94135"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:start;text-anchor:start;fill:#000000;stroke-width:0.26458332"
+         id="tspan6005-5">jal tarea1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.68814659px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.98009997;fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:0.26458332;"
+       x="-22.022047"
+       y="101.73991"
+       id="text817-5-93-6-7-7-8-9-5-7"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L09/subrutina-05.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         x="-20.214231"
+         y="101.73991"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;text-anchor:middle;fill:#ff6600;stroke-width:0.26458332;"
+         id="tspan6005-5-4">Llamada a la </tspan><tspan
+         sodipodi:role="line"
+         x="-22.022047"
+         y="121.35008"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;text-anchor:middle;fill:#ff6600;stroke-width:0.26458332;"
+         id="tspan12228">subrutina tarea1</tspan></text>
+    <rect
+       style="opacity:0.98999999;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.32291663;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1355-1-5-4-4"
+       width="79.978767"
+       height="26.414747"
+       x="-175.72765"
+       y="316.03366"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L09/subrutina-05.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.68814659px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.98009997;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-168.50444"
+       y="334.61813"
+       id="text817-5-93-6-7-7-8-9-5-3"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L09/subrutina-05.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         x="-168.50444"
+         y="334.61813"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:start;text-anchor:start;fill:#000000;stroke-width:0.26458332"
+         id="tspan6005-5-0">jal tarea1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.68814659px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.98009997;fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:0.26458332;"
+       x="-0.75084013"
+       y="321.69708"
+       id="text817-5-93-6-7-7-8-9-5-7-7"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L09/subrutina-05.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         x="1.0569602"
+         y="321.69708"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;text-anchor:middle;fill:#ff6600;stroke-width:0.26458332;"
+         id="tspan6005-5-4-8">Llamada a la </tspan><tspan
+         sodipodi:role="line"
+         x="-0.75084013"
+         y="341.30728"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;text-anchor:middle;fill:#ff6600;stroke-width:0.26458332;"
+         id="tspan12228-6">subrutina tarea1</tspan></text>
+    <g
+       id="g13134"
+       transform="translate(-413.7677,101.40478)">
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L09/subrutina-05.png"
+         y="596.09357"
+         x="257.59152"
+         height="26.414747"
+         width="38.330376"
+         id="rect1355-1-5-4-4-8"
+         style="opacity:0.98999999;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.32291663;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L09/subrutina-05.png"
+         id="text817-5-93-6-7-7-8-9-5-3-8"
+         y="614.67804"
+         x="264.81473"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.68814659px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.98009997;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           id="tspan6005-5-0-4"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:start;text-anchor:start;fill:#000000;stroke-width:0.26458332"
+           y="614.67804"
+           x="264.81473"
+           sodipodi:role="line">ret</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.68814659px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.98999999;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-97.016617"
+       y="744.76727"
+       id="text817-5-93-6-7-6-12-3"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L09/subrutina-05.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         x="-97.016617"
+         y="744.76727"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';text-align:start;text-anchor:start;fill:#000000;stroke-width:0.26458332"
+         id="tspan13106-9">(Retorno de</tspan><tspan
+         sodipodi:role="line"
+         x="-97.016617"
+         y="764.37744"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';text-align:start;text-anchor:start;fill:#000000;stroke-width:0.26458332"
+         id="tspan13164">la subrutina)</tspan></text>
   </g>
 </svg>
