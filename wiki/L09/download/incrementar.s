@@ -4,6 +4,8 @@
 	#-- incrementar desde otro ficheros	
 	.globl incrementar	
 	
+	#-- La funcion se encuentra en el segmento de texto
+	.text
 #--------------------------------------------
 #-- Funcion de incremento:
 #--   Entradas: a0: numero a incrementar
