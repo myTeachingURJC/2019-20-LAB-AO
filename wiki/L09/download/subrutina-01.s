@@ -26,7 +26,6 @@ msg_tarea1:	.string "\nTAREA 1\n"
 	
 	#-- Final
 	#-- Ejecutar la Tarea 1
-	#-- Ejecutar la Tarea 1
 	la a0, msg_tarea1
 	li a7, PRINT_STRING
 	ecall
