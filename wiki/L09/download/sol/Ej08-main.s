@@ -30,6 +30,9 @@ msg2:	.string "Cadena cifrada: "
 	ecall
 	
 	#-- Almacenar el puntero a la cadena en s0
+	#-- Solo lo podemos almacenar en registros estáticos
+	#-- que son los únicos que está garantizado que mantiene
+	#-- su valor al realizar una llamda a subrutina
 	mv s0, a0
 	
 	#-- Llamar a la funcion cifrar(a0, K)

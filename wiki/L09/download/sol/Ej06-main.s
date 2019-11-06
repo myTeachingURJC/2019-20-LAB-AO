@@ -32,6 +32,10 @@ cad:	.space MAX
 	ecall
 	
 	#-- Almacenar el puntero a la cadena en s0
+	#-- ¡OJO! Solo podemos almacenarlo en un registro estático...
+	#-- porque tras la llamada a subrutina está garantizado 
+	#-- que su valor se mantiene... Pero NO ESTÁ GARANTIZADO
+	#-- para los temporales
 	mv s0, a0
 	
 	#-- Llamar a la función n = len(a0)

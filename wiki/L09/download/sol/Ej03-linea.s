@@ -2,7 +2,7 @@
 #-- SUBRUTINA LINEA
 #---  * Entradas:
 #---     * a0: Carácter a usar 
-#---     * a1: numero de caracteres a imprimir a imprimir
+#---     * a1: numero de caracteres a imprimir 
 #---  * Salida: Ninguna
 #-----------------------------------------------------
 

@@ -30,6 +30,8 @@ msg2:   .string "\nNumero: "
 	#-- Llamar a num = atoi(a0)
 	jal atoi
 	
+	#-- El numero retornado lo podemos guardar en cualquier registro
+	#-- estático o temporal, porque no hay más llamadas a subrutina
 	mv s0, a0
 
 	#-- Imprimir el mensaje 2
