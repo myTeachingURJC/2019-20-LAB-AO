@@ -479,9 +479,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.19510014"
-     inkscape:cx="1644.7147"
-     inkscape:cy="556.58896"
+     inkscape:zoom="0.27591326"
+     inkscape:cx="1199.4949"
+     inkscape:cy="1231.0053"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -505,7 +505,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -534,7 +534,7 @@
        inkscape:export-ydpi="90" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.75258148;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.50516298, 4.51548894;stroke-dashoffset:0;stroke-opacity:1"
-       d="M -364.11376,266.8955 H 40.726762"
+       d="M -364.11376,281.13498 H 40.726762"
        id="path20732-4"
        inkscape:connector-curvature="0"
        inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L10/niveles-01.png"
@@ -1178,5 +1178,33 @@
          y="487.49536"
          style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';fill:#000000;stroke-width:0.15051629"
          id="tspan2606-2-0-6-0">3</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.92468071px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.98999999;fill:#008000;fill-opacity:1;stroke:none;stroke-width:0.15051629"
+       x="-134.48933"
+       y="201.5186"
+       id="text817-5-93-6-7-6-1-2-5"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L10/niveles-01.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         x="-134.48933"
+         y="201.5186"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';text-align:start;text-anchor:start;fill:#008000;stroke-width:0.15051629"
+         id="tspan5492-5-6">Hoja</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.92468071px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.98999999;fill:#00ff00;fill-opacity:1;stroke:none;stroke-width:0.15051629;"
+       x="-335.01538"
+       y="443.73441"
+       id="text817-5-93-6-7-6-1-2-5-2"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L10/niveles-01.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         x="-335.01538"
+         y="443.73441"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';text-align:start;text-anchor:start;fill:#00ff00;stroke-width:0.15051629;"
+         id="tspan5492-5-6-9">Hoja</tspan></text>
   </g>
 </svg>
