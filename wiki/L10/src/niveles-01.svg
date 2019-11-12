@@ -471,6 +471,21 @@
          style="fill:#0000ff;fill-opacity:1;fill-rule:evenodd;stroke:#0000ff;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
          id="path976-26-5-65-4" />
     </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker1035-0-36"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         inkscape:connector-curvature="0"
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path1033-6-7" />
+    </marker>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -480,8 +495,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.27591326"
-     inkscape:cx="1199.4949"
-     inkscape:cy="1231.0053"
+     inkscape:cx="1069.6978"
+     inkscape:cy="1079.9973"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -1025,33 +1040,6 @@
        inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L10/niveles-01.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
-    <path
-       style="display:inline;opacity:0.98999999;fill:none;stroke:#000000;stroke-width:0.75258142;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1035-8-61-4)"
-       d="m -289.11469,431.50534 c 0,0 0.23587,2.24264 -0.35242,3.07191 -0.58832,0.82926 -2.08753,0.86768 -2.08753,1.79524 0,1.85512 3.30208,1.083 3.30208,3.09533 0,2.01233 -3.12858,1.38349 -2.94455,3.89889 0.18403,2.51541 3.68068,0.8804 3.80336,3.58446 0.1227,2.70407 -1.71679,1.79576 -1.90167,3.14427 -0.18487,1.34851 -0.12269,2.76695 -0.12269,2.76695"
-       id="path160-7-6-4"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="czszzzzc"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L10/niveles-01.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <circle
-       style="opacity:1;fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:0.45169112;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="path962-3-1-5-5-6-7-3-1-4"
-       cx="-289.83545"
-       cy="459.1217"
-       r="5.3127122"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L10/niveles-01.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       style="display:inline;opacity:0.98999999;fill:none;stroke:#000000;stroke-width:0.75258142;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1035-8-6-0-3)"
-       d="m -289.11469,464.28382 c 0,0 0.23587,2.24264 -0.35242,3.07191 -0.58832,0.82926 -2.08753,0.86769 -2.08753,1.79525 0,1.85511 3.30208,1.083 3.30208,3.09533 0,2.01233 -3.12858,1.38348 -2.94455,3.89888 0.18403,2.51541 3.68068,0.88041 3.80336,3.58446 0.1227,2.70407 -1.71679,1.79576 -1.90167,3.14427 -0.18487,1.34851 -0.12269,2.76696 -0.12269,2.76696"
-       id="path160-7-2-5-3"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="czszzzzc"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L10/niveles-01.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
     <circle
        style="opacity:1;fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:0.45169109;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="path962-3-1-5-5-6-2-9-5-0"
@@ -1206,5 +1194,14 @@
          y="443.73441"
          style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';text-align:start;text-anchor:start;fill:#00ff00;stroke-width:0.15051629;"
          id="tspan5492-5-6-9">Hoja</tspan></text>
+    <path
+       style="display:inline;opacity:0.98999999;fill:none;stroke:#000000;stroke-width:0.7525816;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1035-0-36)"
+       d="m -288.96466,430.51184 c 0,0 0.68163,5.85841 -1.01851,8.02468 -1.7002,2.16627 -6.03286,2.26664 -6.03286,4.68967 0,4.84609 9.54284,2.8291 9.54286,8.08587 0,5.25676 -9.04146,3.61405 -8.50962,10.18499 0.53184,6.57095 10.63701,2.29985 10.99156,9.36361 0.35457,7.06377 -4.96147,4.69102 -5.49575,8.21371 -0.53426,3.52267 -0.35458,7.22805 -0.35458,7.22805"
+       id="path160-2-5"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="czszzzzc"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L10/niveles-01.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
   </g>
 </svg>
