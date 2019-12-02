@@ -1,48 +1,58 @@
-##-- Ejemplo de subrutina
-##-- Funcion para devolver el incremento de su parámetro
+##-------------------------------------
+## PROGRAMA PRINCIPAL
+## --------------------------------------
 
 	.include "servicios.asm"
 
-	#-- Valor a incrementar
 	.eqv VALOR 2
 
 	.text
 	
-	#-- Imprimir el valor original
+	#--Impriimir el valor sin incrementar
 	li a0, VALOR
 	li a7, PRINT_INT
 	ecall
 	
-	#-- Llamar a la subrutina de incrementar
-	li a0, VALOR
-	jal inc
-	
-	#-- Guardar a0 en t0
-	mv t0, a0
-	
-	#-- Imprimir '\n'
+	#--- Print '\n'
 	li a0, '\n'
 	li a7, PRINT_CHAR
 	ecall
 	
-	#-- Imprimir el valor incrementado
-	mv a0, t0
+	#--- Llamar a la funcion inc(x)
+	li a0, VALOR
+	jal inc
+	
+	#-- a0 contiene el valor incrementado
+	
+	#-- Imprmir el valor incrementado
 	li a7, PRINT_INT
 	ecall
+	
 	
 	#-- Terminar
 	li a7, EXIT
 	ecall
 
+
 #--------------------------------------------
-#-- SUBRUTINA
+#-- SUBRUTINA (f = inc(x) )
+#--
+#-- ENTRADA:
+#--  a0: Valor a incrementar
+#--
+#-- SALIDA:
+#--- a0 : Valor incrementado
 #--------------------------------------------
-inc:
-	
+
+	.text
+
+inc:	
+			
+	#-- a0 = a0 + 1
 	addi a0, a0, 1
 	
-	ret
-	
+	#-- Retornar
+	ret				
 
 
 
