@@ -532,9 +532,9 @@
      showgrid="false"
      inkscape:current-layer="layer1"
      inkscape:document-units="mm"
-     inkscape:cy="584.85622"
-     inkscape:cx="1273.5572"
-     inkscape:zoom="0.55182653"
+     inkscape:cy="720.1176"
+     inkscape:cx="1178.156"
+     inkscape:zoom="0.27591326"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -1136,7 +1136,7 @@
          style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';text-align:start;text-anchor:start;fill:#000000;stroke-width:0.150516"
          y="87.636703"
          x="-209.52473"
-         sodipodi:role="line">jal fact(3)</tspan></text>
+         sodipodi:role="line">fact(3)</tspan></text>
     <text
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
