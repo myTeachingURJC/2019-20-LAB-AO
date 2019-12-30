@@ -1,13 +1,10 @@
 #-- Ejemplo de creación de una lista enlazada
-#-- de tres nodos, inicializada con los valores
-#-- 1,2 y 3
 
 	.include "servicios.asm"
 
 	.text
 	
 
-	#-- NUM=1, NEXT=0
 	#-- Crear un nodo nuevo, inicializa a 1
 	mv a0, zero
 	li a1, 1
