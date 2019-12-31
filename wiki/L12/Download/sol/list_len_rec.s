@@ -1,5 +1,5 @@
 #------- Calcular la longitud de una lista 
-#---- Algoritmo iterativo
+#---- Algoritmo recursivo
 #--- SUBRUTINA len
 #--   ENTRADAS: 
 #--     a0: Puntero de acceso a la lista
