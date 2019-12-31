@@ -1,11 +1,11 @@
-#------- Calcular la longitud de una lista 
+#------- Calcular la suma de los elmeentos de la lista 
 #---- Algoritmo recursivo
-#--- SUBRUTINA len
+#--- SUBRUTINA sum
 #--   ENTRADAS: 
 #--     a0: Puntero de acceso a la lista
 #--
 #--   DEVUELVE:
-#--     a0: Número de nodos en la lista
+#--     a0: suma de los elementos de la lista
 #----------------------------------------------
 	
 	.globl sum

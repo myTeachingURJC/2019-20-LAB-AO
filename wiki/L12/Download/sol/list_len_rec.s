@@ -15,21 +15,28 @@
 	.eqv NEXT 0
 	
 len:
-	#-- Usamos t0 como contador
+	#-- Usamos t0 como acumulador
 	li t0, 0
 	
-next:
 	#-- Si a0 es NULL, terminar
 	beq a0, zero, fin
 	
-	#-- Es un nodo. INcrementar el contador
-	addi t0, t0, 1
+	#-- Crear la pila
+	addi sp, sp, -16
+	sw ra, 12(sp)
 	
 	#-- Apuntar al siguiente nodo
 	lw a0, NEXT(a0)
 	
-	#-- Repetir
-	b next
+	#-- Calcula la longitud de la sublista
+	jal len
+	
+	#-- Sumar un elemento mas
+	addi t0, a0, 1
+	
+	#-- Recuperar direccion de retorno
+	lw ra, 12(sp)
+	addi sp, sp, 16
 	
 fin:
 

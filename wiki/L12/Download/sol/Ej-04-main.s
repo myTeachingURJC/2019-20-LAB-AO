@@ -1,4 +1,4 @@
-#-- Solución al ejericico 3
+#-- Solución al ejericico 4
 #-- Programa principal
 
 	.include "servicios.asm"
