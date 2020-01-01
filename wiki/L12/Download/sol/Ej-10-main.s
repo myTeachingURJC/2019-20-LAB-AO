@@ -1,4 +1,4 @@
-#-- Solución al ejercicio 9
+#-- Solución al ejercicio 10
 #-- Programa principal
 
 	.include "servicios.asm"
