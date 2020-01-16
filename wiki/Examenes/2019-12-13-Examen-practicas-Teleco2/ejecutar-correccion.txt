@@ -1,0 +1,126 @@
+
+Entrar en la carpeta de cada estudiante
+
+#------------------------------------------
+TEST 1: atoi
+
+java -jar ../../../../rars1_4.jar 1000 ../../../../TEST-atoi1.s atoi1.s ../../../../servicios.asm
+
+#-------------------------------------------
+TEST 2: evaluar()
+
+java -jar ../../../../rars1_4.jar 1000 ../../../../TEST-evaluar.s evaluar.s ../../../../servicios.asm ../../../../atoi1.s
+
+
+#-------------------------------------------
+TEST 3: procesar()
+
+java -jar ../../../../rars1_4.jar 1000 ../../../../TEST-procesar.s procesar.s ../../../../servicios.asm ../../../../atoi1.s ../../../../evaluar.s < ../../../../input-test3.txt 
+
+#-----------------------------------------
+TEST 4: main()
+
+java -jar ../../../../rars1_4.jar 1000 main.s ../../../../procesar.s ../../../../servicios.asm ../../../../atoi1.s ../../../../evaluar.s < ../../../../input-test4.txt
+
+#------------------------------------------
+TEST 4: Su proyecto completo
+
+
+
+#********************************************************
+#--------- SOLUCIONES OFICIALES -------------------
+#********************************************************
+
+#----------------------------
+* TEST-01: atoi1()
+
+java -jar rars1_4.jar ic 500 TEST-atoi1.s atoi1.s
+
+* atoi1(0) = 0 --> OK
+* atoi1(5) = 5 --> OK
+* atoi1(9) = 9 --> OK
+* atoi1(A) = -1 --> OK
+* atoi1(/) = -1 --> OK
+* atoi1(:) = -1 --> OK
+
+Program terminated by calling exit
+
+#--------------------------
+#  TEST-02: evaluar()
+#--------------------------
+java -jar rars1_4.jar ic 1000 TEST-evaluar.s evaluar.s atoi1.s
+
+1+1
+--> Resultado: 2 --> OK
+
+1+2+3+4+5+6+7+8+9+0+0+0+0+0+0+0
+--> Resultado: 45 --> OK
+
+3
+--> Resultado: 3 --> OK
+
+hola
+--> Resultado: -1 --> OK
+
+1+
+--> Resultado: -1 --> OK
+
+1 2+4
+--> Resultado: -1 --> OK
+
+
+Program terminated by calling exit
+
+#------------------------------------
+#  TEST-03: procesar()
+#------------------------------------
+
+java -jar rars1_4.jar ic 1000 TEST-procesar.s evaluar.s atoi1.s procesar.s < input-test3.tx
+
+Introduce expresion a calcular: Resultado: 3 --> OK
+
+
+
+Introduce expresion a calcular: Resultado: 0 --> OK
+
+
+
+Introduce expresion a calcular: Error!
+ --> OK
+
+
+
+Introduce expresion a calcular: Error!
+ --> OK
+
+
+
+Introduce expresion a calcular:  --> OK
+
+
+#------------------------------------------
+#-- TEST-04: main()
+#------------------------------------------
+java -jar rars1_4.jar ic 1000 main.s evaluar.s atoi1.s procesar.s < input-test4.txt
+
+EVALUACION DE EXPRESIONES
+
+
+Introduce expresion a calcular: Resultado: 10
+
+Introduce expresion a calcular: Resultado: 10
+
+Introduce expresion a calcular: Error!
+
+
+Introduce expresion a calcular: Error!
+
+
+Introduce expresion a calcular: Resultado: 4
+
+Introduce expresion a calcular: 
+Evaluaciones ok: 3
+Program terminated by calling exit
+
+
+
