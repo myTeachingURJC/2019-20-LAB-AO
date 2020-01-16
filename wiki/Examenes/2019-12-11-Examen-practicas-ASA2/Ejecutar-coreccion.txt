@@ -1,0 +1,41 @@
+Entrar en la carpeta de cada estudiante
+
+TEST 1
+
+java -jar ../../../../../rars1_4.jar 1000 ../../../../../TEST-len.s len.s ../../../../../servicios.asm
+
+TEST 2
+java -jar ../../../../../rars1_4.jar 1000 ../../../../../TEST-reverse.s reverse.s ../../../../../servicios.asm
+
+TEST 3
+java -jar ../../../../../rars1_4.jar 1000 ../../../../../TEST-procesar.s ../../../../../reverse.s  ../../../../../len.s  ../../../../../servicios.asm procesar.s
+
+
+TEST 4
+java -jar ../../../../../rars1_4.jar 1000  main.s ../../../../../reverse.s  ../../../../../len.s  ../../../../../servicios.asm ../../../../../procesar.s < ../../../../../input.txt
+
+
+java -jar ../../../../../rars1_4.jar 1000  main.s reverse.s  len.s  procesar.s 
+
+#-------------------------------------------
+La correccion de las soluciones oficiales se prueba así:
+
+TEST-1
+
+java -jar rars1_4.jar ic 500 TEST-len.s len.s
+
+El parametro ic devuelve el numero de ciclos
+
+TEST-2
+
+java -jar rars1_4.jar 1000 ic TEST-reverse.s reverse.s
+
+TEST-3:
+
+java -jar rars1_4.jar 1000 TEST-procesar.s len.s procesar.s reverse.s
+
+MAIN:
+java -jar rars1_4.jar 1000 ic main.s len.s reverse.s procesar.s  < input.txt
+
+#------------------------------------------------------------
+
