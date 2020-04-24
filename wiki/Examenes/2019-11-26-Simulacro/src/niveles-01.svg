@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -9,569 +7,570 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="386.88138mm"
-   height="443.37006mm"
-   viewBox="0 0 386.88137 443.37007"
-   version="1.1"
-   id="svg8"
-   inkscape:version="0.92.4 (unknown)"
-   sodipodi:docname="niveles-01.svg"
-   inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/Examenes/2019-11-26-Simulacro/niveles-01.png"
+   inkscape:export-ydpi="90"
    inkscape:export-xdpi="90"
-   inkscape:export-ydpi="90">
+   inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/Examenes/2019-11-26-Simulacro/niveles-01.png"
+   sodipodi:docname="niveles-01.svg"
+   inkscape:version="1.0rc1 (09960d6, 2020-04-09)"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 386.88137 443.37007"
+   height="443.37006mm"
+   width="386.88138mm">
   <defs
      id="defs2">
     <marker
-       inkscape:isstock="true"
-       style="overflow:visible"
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
        id="marker1144"
-       refX="0"
-       refY="0"
-       orient="auto"
-       inkscape:stockid="Arrow2Mend">
+       style="overflow:visible"
+       inkscape:isstock="true">
       <path
-         inkscape:connector-curvature="0"
-         transform="scale(-0.6)"
-         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         id="path1142"
          style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
-         id="path1142" />
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)"
+         inkscape:connector-curvature="0" />
     </marker>
     <marker
-       inkscape:isstock="true"
-       style="overflow:visible"
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
        id="marker978"
-       refX="0"
-       refY="0"
-       orient="auto"
-       inkscape:stockid="Arrow2Mend">
+       style="overflow:visible"
+       inkscape:isstock="true">
       <path
-         inkscape:connector-curvature="0"
-         transform="scale(-0.6)"
-         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         id="path976"
          style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
-         id="path976" />
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)"
+         inkscape:connector-curvature="0" />
     </marker>
     <marker
-       inkscape:isstock="true"
-       style="overflow:visible"
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
        id="marker978-1"
-       refX="0"
-       refY="0"
-       orient="auto"
-       inkscape:stockid="Arrow2Mend">
+       style="overflow:visible"
+       inkscape:isstock="true">
       <path
-         inkscape:connector-curvature="0"
-         transform="scale(-0.6)"
-         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         id="path976-2"
          style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
-         id="path976-2" />
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)"
+         inkscape:connector-curvature="0" />
     </marker>
     <marker
-       inkscape:isstock="true"
-       style="overflow:visible"
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
        id="marker978-1-5"
-       refX="0"
-       refY="0"
-       orient="auto"
-       inkscape:stockid="Arrow2Mend">
+       style="overflow:visible"
+       inkscape:isstock="true">
       <path
-         inkscape:connector-curvature="0"
-         transform="scale(-0.6)"
-         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         id="path976-2-9"
          style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
-         id="path976-2-9" />
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)"
+         inkscape:connector-curvature="0" />
     </marker>
     <marker
-       inkscape:isstock="true"
-       style="overflow:visible"
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
        id="marker978-6"
-       refX="0"
-       refY="0"
-       orient="auto"
-       inkscape:stockid="Arrow2Mend">
+       style="overflow:visible"
+       inkscape:isstock="true">
       <path
-         inkscape:connector-curvature="0"
-         transform="scale(-0.6)"
-         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         id="path976-26"
          style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
-         id="path976-26" />
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)"
+         inkscape:connector-curvature="0" />
     </marker>
     <marker
-       inkscape:isstock="true"
-       style="overflow:visible"
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
        id="marker1035"
-       refX="0"
-       refY="0"
-       orient="auto"
-       inkscape:stockid="Arrow2Mend">
+       style="overflow:visible"
+       inkscape:isstock="true">
       <path
-         inkscape:connector-curvature="0"
-         transform="scale(-0.6)"
-         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         id="path1033"
          style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
-         id="path1033" />
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)"
+         inkscape:connector-curvature="0" />
     </marker>
     <marker
-       inkscape:isstock="true"
-       style="overflow:visible"
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
        id="marker1035-0"
-       refX="0"
-       refY="0"
-       orient="auto"
-       inkscape:stockid="Arrow2Mend">
+       style="overflow:visible"
+       inkscape:isstock="true">
       <path
-         inkscape:connector-curvature="0"
-         transform="scale(-0.6)"
-         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         id="path1033-6"
          style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
-         id="path1033-6" />
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)"
+         inkscape:connector-curvature="0" />
     </marker>
     <marker
-       inkscape:isstock="true"
-       style="overflow:visible"
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
        id="marker978-6-9"
-       refX="0"
-       refY="0"
-       orient="auto"
-       inkscape:stockid="Arrow2Mend">
+       style="overflow:visible"
+       inkscape:isstock="true">
       <path
-         inkscape:connector-curvature="0"
-         transform="scale(-0.6)"
-         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         id="path976-26-2"
          style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
-         id="path976-26-2" />
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)"
+         inkscape:connector-curvature="0" />
     </marker>
     <marker
-       inkscape:isstock="true"
-       style="overflow:visible"
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
        id="marker978-6-9-2"
-       refX="0"
-       refY="0"
-       orient="auto"
-       inkscape:stockid="Arrow2Mend">
+       style="overflow:visible"
+       inkscape:isstock="true">
       <path
-         inkscape:connector-curvature="0"
-         transform="scale(-0.6)"
-         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         id="path976-26-2-3"
          style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
-         id="path976-26-2-3" />
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)"
+         inkscape:connector-curvature="0" />
     </marker>
     <marker
-       inkscape:isstock="true"
-       style="overflow:visible"
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
        id="marker1035-0-3"
-       refX="0"
-       refY="0"
-       orient="auto"
-       inkscape:stockid="Arrow2Mend">
+       style="overflow:visible"
+       inkscape:isstock="true">
       <path
-         inkscape:connector-curvature="0"
-         transform="scale(-0.6)"
-         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         id="path1033-6-1"
          style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
-         id="path1033-6-1" />
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)"
+         inkscape:connector-curvature="0" />
     </marker>
     <marker
-       inkscape:isstock="true"
-       style="overflow:visible"
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
        id="marker978-6-4"
-       refX="0"
-       refY="0"
-       orient="auto"
-       inkscape:stockid="Arrow2Mend">
+       style="overflow:visible"
+       inkscape:isstock="true">
       <path
-         inkscape:connector-curvature="0"
-         transform="scale(-0.6)"
-         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         id="path976-26-7"
          style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
-         id="path976-26-7" />
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)"
+         inkscape:connector-curvature="0" />
     </marker>
     <marker
-       inkscape:isstock="true"
-       style="overflow:visible"
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
        id="marker978-6-9-6"
-       refX="0"
-       refY="0"
-       orient="auto"
-       inkscape:stockid="Arrow2Mend">
+       style="overflow:visible"
+       inkscape:isstock="true">
       <path
-         inkscape:connector-curvature="0"
-         transform="scale(-0.6)"
-         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         id="path976-26-2-1"
          style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
-         id="path976-26-2-1" />
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)"
+         inkscape:connector-curvature="0" />
     </marker>
     <marker
-       inkscape:isstock="true"
-       style="overflow:visible"
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
        id="marker978-6-1"
-       refX="0"
-       refY="0"
-       orient="auto"
-       inkscape:stockid="Arrow2Mend">
+       style="overflow:visible"
+       inkscape:isstock="true">
       <path
-         inkscape:connector-curvature="0"
-         transform="scale(-0.6)"
-         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         id="path976-26-5"
          style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#008000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
-         id="path976-26-5" />
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)"
+         inkscape:connector-curvature="0" />
     </marker>
     <marker
-       inkscape:isstock="true"
-       style="overflow:visible"
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
        id="marker978-6-1-4"
-       refX="0"
-       refY="0"
-       orient="auto"
-       inkscape:stockid="Arrow2Mend">
+       style="overflow:visible"
+       inkscape:isstock="true">
       <path
-         inkscape:connector-curvature="0"
-         transform="scale(-0.6)"
-         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         id="path976-26-5-7"
          style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#008000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
-         id="path976-26-5-7" />
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)"
+         inkscape:connector-curvature="0" />
     </marker>
     <marker
-       inkscape:isstock="true"
-       style="overflow:visible"
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
        id="marker978-6-1-5"
-       refX="0"
-       refY="0"
-       orient="auto"
-       inkscape:stockid="Arrow2Mend">
+       style="overflow:visible"
+       inkscape:isstock="true">
       <path
-         inkscape:connector-curvature="0"
-         transform="scale(-0.6)"
-         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         id="path976-26-5-6"
          style="fill:#000080;fill-opacity:1;fill-rule:evenodd;stroke:#000080;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
-         id="path976-26-5-6" />
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)"
+         inkscape:connector-curvature="0" />
     </marker>
     <marker
-       inkscape:isstock="true"
-       style="overflow:visible"
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
        id="marker978-6-1-5-3"
-       refX="0"
-       refY="0"
-       orient="auto"
-       inkscape:stockid="Arrow2Mend">
+       style="overflow:visible"
+       inkscape:isstock="true">
       <path
-         inkscape:connector-curvature="0"
-         transform="scale(-0.6)"
-         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         id="path976-26-5-6-7"
          style="fill:#000080;fill-opacity:1;fill-rule:evenodd;stroke:#000080;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
-         id="path976-26-5-6-7" />
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)"
+         inkscape:connector-curvature="0" />
     </marker>
     <marker
-       inkscape:isstock="true"
-       style="overflow:visible"
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
        id="marker1035-9"
-       refX="0"
-       refY="0"
-       orient="auto"
-       inkscape:stockid="Arrow2Mend">
+       style="overflow:visible"
+       inkscape:isstock="true">
       <path
-         inkscape:connector-curvature="0"
-         transform="scale(-0.6)"
-         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         id="path1033-3"
          style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
-         id="path1033-3" />
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)"
+         inkscape:connector-curvature="0" />
     </marker>
     <marker
-       inkscape:isstock="true"
-       style="overflow:visible"
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
        id="marker1035-9-0"
-       refX="0"
-       refY="0"
-       orient="auto"
-       inkscape:stockid="Arrow2Mend">
+       style="overflow:visible"
+       inkscape:isstock="true">
       <path
-         inkscape:connector-curvature="0"
-         transform="scale(-0.6)"
-         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         id="path1033-3-6"
          style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
-         id="path1033-3-6" />
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)"
+         inkscape:connector-curvature="0" />
     </marker>
     <marker
-       inkscape:isstock="true"
-       style="overflow:visible"
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
        id="marker978-6-1-5-8"
-       refX="0"
-       refY="0"
-       orient="auto"
-       inkscape:stockid="Arrow2Mend">
+       style="overflow:visible"
+       inkscape:isstock="true">
       <path
-         inkscape:connector-curvature="0"
-         transform="scale(-0.6)"
-         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         id="path976-26-5-6-79"
          style="fill:#000080;fill-opacity:1;fill-rule:evenodd;stroke:#000080;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
-         id="path976-26-5-6-79" />
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)"
+         inkscape:connector-curvature="0" />
     </marker>
     <marker
-       inkscape:isstock="true"
-       style="overflow:visible"
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
        id="marker1035-8"
-       refX="0"
-       refY="0"
-       orient="auto"
-       inkscape:stockid="Arrow2Mend">
+       style="overflow:visible"
+       inkscape:isstock="true">
       <path
-         inkscape:connector-curvature="0"
-         transform="scale(-0.6)"
-         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         id="path1033-9"
          style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
-         id="path1033-9" />
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)"
+         inkscape:connector-curvature="0" />
     </marker>
     <marker
-       inkscape:isstock="true"
-       style="overflow:visible"
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
        id="marker1035-8-6"
-       refX="0"
-       refY="0"
-       orient="auto"
-       inkscape:stockid="Arrow2Mend">
+       style="overflow:visible"
+       inkscape:isstock="true">
       <path
-         inkscape:connector-curvature="0"
-         transform="scale(-0.6)"
-         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         id="path1033-9-1"
          style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
-         id="path1033-9-1" />
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)"
+         inkscape:connector-curvature="0" />
     </marker>
     <marker
-       inkscape:isstock="true"
-       style="overflow:visible"
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
        id="marker978-6-1-5-31"
-       refX="0"
-       refY="0"
-       orient="auto"
-       inkscape:stockid="Arrow2Mend">
+       style="overflow:visible"
+       inkscape:isstock="true">
       <path
-         inkscape:connector-curvature="0"
-         transform="scale(-0.6)"
-         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         id="path976-26-5-6-9"
          style="fill:#000080;fill-opacity:1;fill-rule:evenodd;stroke:#000080;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
-         id="path976-26-5-6-9" />
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)"
+         inkscape:connector-curvature="0" />
     </marker>
     <marker
-       inkscape:isstock="true"
-       style="overflow:visible"
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
        id="marker978-6-1-5-8-8"
-       refX="0"
-       refY="0"
-       orient="auto"
-       inkscape:stockid="Arrow2Mend">
+       style="overflow:visible"
+       inkscape:isstock="true">
       <path
-         inkscape:connector-curvature="0"
-         transform="scale(-0.6)"
-         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         id="path976-26-5-6-79-4"
          style="fill:#000080;fill-opacity:1;fill-rule:evenodd;stroke:#000080;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
-         id="path976-26-5-6-79-4" />
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)"
+         inkscape:connector-curvature="0" />
     </marker>
     <marker
-       inkscape:isstock="true"
-       style="overflow:visible"
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
        id="marker1035-8-6-0"
-       refX="0"
-       refY="0"
-       orient="auto"
-       inkscape:stockid="Arrow2Mend">
+       style="overflow:visible"
+       inkscape:isstock="true">
       <path
-         inkscape:connector-curvature="0"
-         transform="scale(-0.6)"
-         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         id="path1033-9-1-3"
          style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
-         id="path1033-9-1-3" />
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)"
+         inkscape:connector-curvature="0" />
     </marker>
     <marker
-       inkscape:isstock="true"
-       style="overflow:visible"
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
        id="marker1035-8-61"
-       refX="0"
-       refY="0"
-       orient="auto"
-       inkscape:stockid="Arrow2Mend">
+       style="overflow:visible"
+       inkscape:isstock="true">
       <path
-         inkscape:connector-curvature="0"
-         transform="scale(-0.6)"
-         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         id="path1033-9-0"
          style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
-         id="path1033-9-0" />
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)"
+         inkscape:connector-curvature="0" />
     </marker>
     <marker
-       inkscape:isstock="true"
-       style="overflow:visible"
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
        id="marker978-6-1-47"
-       refX="0"
-       refY="0"
-       orient="auto"
-       inkscape:stockid="Arrow2Mend">
+       style="overflow:visible"
+       inkscape:isstock="true">
       <path
-         inkscape:connector-curvature="0"
-         transform="scale(-0.6)"
-         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         id="path976-26-5-65"
          style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#008000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
-         id="path976-26-5-65" />
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)"
+         inkscape:connector-curvature="0" />
     </marker>
     <marker
-       inkscape:isstock="true"
-       style="overflow:visible"
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
        id="marker1035-8-6-0-3"
-       refX="0"
-       refY="0"
-       orient="auto"
-       inkscape:stockid="Arrow2Mend">
+       style="overflow:visible"
+       inkscape:isstock="true">
       <path
-         inkscape:connector-curvature="0"
-         transform="scale(-0.6)"
-         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         id="path1033-9-1-3-7"
          style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
-         id="path1033-9-1-3-7" />
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)"
+         inkscape:connector-curvature="0" />
     </marker>
     <marker
-       inkscape:isstock="true"
-       style="overflow:visible"
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
        id="marker1035-8-61-4"
-       refX="0"
-       refY="0"
-       orient="auto"
-       inkscape:stockid="Arrow2Mend">
+       style="overflow:visible"
+       inkscape:isstock="true">
       <path
-         inkscape:connector-curvature="0"
-         transform="scale(-0.6)"
-         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         id="path1033-9-0-5"
          style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
-         id="path1033-9-0-5" />
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)"
+         inkscape:connector-curvature="0" />
     </marker>
     <marker
-       inkscape:isstock="true"
-       style="overflow:visible"
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
        id="marker978-6-1-7"
-       refX="0"
-       refY="0"
-       orient="auto"
-       inkscape:stockid="Arrow2Mend">
+       style="overflow:visible"
+       inkscape:isstock="true">
       <path
-         inkscape:connector-curvature="0"
-         transform="scale(-0.6)"
-         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         id="path976-26-5-8"
          style="fill:#0000ff;fill-opacity:1;fill-rule:evenodd;stroke:#0000ff;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
-         id="path976-26-5-8" />
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)"
+         inkscape:connector-curvature="0" />
     </marker>
     <marker
-       inkscape:isstock="true"
-       style="overflow:visible"
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
        id="marker978-6-1-47-8"
-       refX="0"
-       refY="0"
-       orient="auto"
-       inkscape:stockid="Arrow2Mend">
+       style="overflow:visible"
+       inkscape:isstock="true">
       <path
-         inkscape:connector-curvature="0"
-         transform="scale(-0.6)"
-         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         id="path976-26-5-65-4"
          style="fill:#0000ff;fill-opacity:1;fill-rule:evenodd;stroke:#0000ff;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
-         id="path976-26-5-65-4" />
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)"
+         inkscape:connector-curvature="0" />
     </marker>
     <marker
-       inkscape:isstock="true"
-       style="overflow:visible"
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
        id="marker1035-0-36"
-       refX="0"
-       refY="0"
-       orient="auto"
-       inkscape:stockid="Arrow2Mend">
+       style="overflow:visible"
+       inkscape:isstock="true">
       <path
-         inkscape:connector-curvature="0"
-         transform="scale(-0.6)"
-         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         id="path1033-6-7"
          style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
-         id="path1033-6-7" />
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)"
+         inkscape:connector-curvature="0" />
     </marker>
     <marker
-       inkscape:isstock="true"
-       style="overflow:visible"
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
        id="marker1035-8-6-3"
-       refX="0"
-       refY="0"
-       orient="auto"
-       inkscape:stockid="Arrow2Mend">
+       style="overflow:visible"
+       inkscape:isstock="true">
       <path
-         inkscape:connector-curvature="0"
-         transform="scale(-0.6)"
-         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         id="path1033-9-1-5"
          style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
-         id="path1033-9-1-5" />
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)"
+         inkscape:connector-curvature="0" />
     </marker>
     <marker
-       inkscape:isstock="true"
-       style="overflow:visible"
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
        id="marker1035-0-36-2"
-       refX="0"
-       refY="0"
-       orient="auto"
-       inkscape:stockid="Arrow2Mend">
+       style="overflow:visible"
+       inkscape:isstock="true">
       <path
-         inkscape:connector-curvature="0"
-         transform="scale(-0.6)"
-         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         id="path1033-6-7-9"
          style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
-         id="path1033-6-7-9" />
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)"
+         inkscape:connector-curvature="0" />
     </marker>
     <marker
-       inkscape:isstock="true"
-       style="overflow:visible"
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
        id="marker978-6-1-8"
-       refX="0"
-       refY="0"
-       orient="auto"
-       inkscape:stockid="Arrow2Mend">
+       style="overflow:visible"
+       inkscape:isstock="true">
       <path
-         inkscape:connector-curvature="0"
-         transform="scale(-0.6)"
-         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         id="path976-26-5-79"
          style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#008000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
-         id="path976-26-5-79" />
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)"
+         inkscape:connector-curvature="0" />
     </marker>
     <marker
-       inkscape:isstock="true"
-       style="overflow:visible"
-       id="marker978-6-1-8-0"
-       refX="0"
-       refY="0"
+       inkscape:stockid="Arrow2Mend"
        orient="auto"
-       inkscape:stockid="Arrow2Mend">
+       refY="0"
+       refX="0"
+       id="marker978-6-1-8-0"
+       style="overflow:visible"
+       inkscape:isstock="true">
       <path
-         inkscape:connector-curvature="0"
-         transform="scale(-0.6)"
-         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         id="path976-26-5-79-2"
          style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#008000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
-         id="path976-26-5-79-2" />
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)"
+         inkscape:connector-curvature="0" />
     </marker>
   </defs>
   <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="0.39020027"
-     inkscape:cx="821.8519"
-     inkscape:cy="897.80101"
-     inkscape:document-units="mm"
-     inkscape:current-layer="layer2"
-     showgrid="false"
-     inkscape:window-width="1853"
-     inkscape:window-height="1025"
-     inkscape:window-x="67"
-     inkscape:window-y="27"
-     inkscape:window-maximized="1"
-     fit-margin-top="0"
-     fit-margin-left="0"
-     fit-margin-right="0"
-     fit-margin-bottom="0"
-     inkscape:snap-global="false"
+     inkscape:document-rotation="0"
+     inkscape:guide-bbox="true"
      showguides="true"
-     inkscape:guide-bbox="true" />
+     inkscape:snap-global="false"
+     fit-margin-bottom="0"
+     fit-margin-right="0"
+     fit-margin-left="0"
+     fit-margin-top="0"
+     inkscape:window-maximized="1"
+     inkscape:window-y="0"
+     inkscape:window-x="0"
+     inkscape:window-height="1052"
+     inkscape:window-width="1920"
+     showgrid="false"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="mm"
+     inkscape:cy="897.80101"
+     inkscape:cx="821.8519"
+     inkscape:zoom="0.39020027"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -580,587 +579,583 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
-     inkscape:groupmode="layer"
-     id="layer2"
+     transform="translate(387.8067,-9.0485449)"
      inkscape:label="back"
-     transform="translate(387.8067,-9.0485449)">
+     id="layer2"
+     inkscape:groupmode="layer">
     <rect
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.381392;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect2168"
-       width="386.88138"
-       height="443.37006"
-       x="-387.8067"
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/Examenes/2019-11-26-Simulacro/niveles-01.png"
        y="9.0485449"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L10/niveles-02.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       x="-387.8067"
+       height="443.37006"
+       width="386.88138"
+       id="rect2168"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.381392;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.75258148;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.50516296, 4.5154889;stroke-dashoffset:0;stroke-opacity:1"
-       d="M -364.11376,153.2634 H -16.809446"
-       id="path20732"
-       inkscape:connector-curvature="0"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L10/niveles-02.png"
+       inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/Examenes/2019-11-26-Simulacro/niveles-01.png"
+       inkscape:connector-curvature="0"
+       id="path20732"
+       d="M -364.11376,153.2634 H -16.809446"
+       style="fill:none;stroke:#000000;stroke-width:0.75258148;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.50516296, 4.5154889;stroke-dashoffset:0;stroke-opacity:1" />
   </g>
   <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
-     id="layer1"
+     style="opacity:0.98999999"
      transform="translate(387.8067,-9.0485449)"
-     style="opacity:0.98999999">
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
     <rect
-       style="opacity:1;fill:#87aade;fill-opacity:1;stroke:#000000;stroke-width:0.30103257;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect819-3-7-8-6-2"
-       width="134.39787"
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/Examenes/2019-11-26-Simulacro/niveles-01.png"
+       y="360.13239"
+       x="-363.57758"
        height="71.877335"
-       x="-363.57758"
-       y="360.13239"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L10/niveles-02.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.92468071px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.98999999;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.15051629"
-       x="-356.45602"
-       y="369.95438"
-       id="text817-5-93-6-7-6-1-2-9-3-5"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L10/niveles-02.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
-         sodipodi:role="line"
-         x="-356.45602"
-         y="369.95438"
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';text-align:start;text-anchor:start;fill:#000000;stroke-width:0.15051629"
-         id="tspan5492-5-2-2-4">copiar.s</tspan></text>
-    <circle
-       style="opacity:1;fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:0.45169109;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="path962-3-1-5-5-6-2-0-7"
-       cx="-289.50507"
-       cy="360.46802"
-       r="7.4979448"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L10/niveles-02.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <circle
-       style="opacity:1;fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:0.45169109;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="path962-3-1-5-5-6-2-9-5-0"
-       cx="-289.50507"
-       cy="430.75964"
-       r="7.4979448"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L10/niveles-02.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.92468071px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.98999999;fill:#008000;fill-opacity:1;stroke:none;stroke-width:0.15051629"
-       x="-350.83783"
-       y="382.39313"
-       id="text817-5-93-6-7-6-1-2-5-2"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L10/niveles-02.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
-         sodipodi:role="line"
-         x="-350.83783"
-         y="382.39313"
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';text-align:start;text-anchor:start;fill:#008000;stroke-width:0.15051629"
-         id="tspan5492-5-6-9">Hoja</tspan></text>
-    <path
-       style="display:inline;opacity:0.98999999;fill:none;stroke:#000000;stroke-width:0.7525816;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1035-0-36)"
-       d="m -289.13403,367.05064 c 0,0 0.68163,5.85841 -1.01851,8.02468 -1.7002,2.16627 -6.03286,2.26664 -6.03286,4.68967 0,4.84609 9.54284,2.8291 9.54286,8.08587 0,5.25676 -9.04146,3.61405 -8.50962,10.18499 0.53184,6.57095 10.63701,2.29986 10.99156,9.36361 0.35457,7.06377 -4.96147,4.69102 -5.49575,8.21371 -0.53426,3.52268 -0.35458,7.22805 -0.35458,7.22805"
-       id="path160-2-5"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="czszzzzc"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L10/niveles-02.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <rect
-       style="opacity:1;fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:0.24923198;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect819-3-7"
-       width="292.63464"
-       height="69.714127"
-       x="-363.57758"
-       y="51.652031"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L10/niveles-02.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.79293537px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.15051629"
-       x="-109.33103"
-       y="71.291893"
-       id="text817-5-93-3"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L10/niveles-02.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
-         sodipodi:role="line"
-         x="-109.33103"
-         y="71.291893"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#000000;stroke-width:0.15051629"
-         id="tspan909-0-7">Programa</tspan><tspan
-         sodipodi:role="line"
-         x="-109.33103"
-         y="87.283066"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#000000;stroke-width:0.15051629"
-         id="tspan1265">principal</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="-11.491241"
-       y="78.921143"
-       id="text8217"><tspan
-         sodipodi:role="line"
-         id="tspan8215"
-         x="-11.491241"
-         y="82.86869"
-         style="stroke-width:0.26458332" /></text>
-    <flowRoot
-       xml:space="preserve"
-       id="flowRoot9624"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(0.26458333,0,0,0.26458333,-26.458334,38.451252)"><flowRegion
-         id="flowRegion9626"><rect
-           id="rect9628"
-           width="368.57144"
-           height="88.571426"
-           x="-122.85714"
-           y="408.31927" /></flowRegion><flowPara
-         id="flowPara9630" /></flowRoot>    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.79293537px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.98999999;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.15051629"
-       x="-109.39304"
-       y="106.23676"
-       id="text817-5-93-3-36"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L10/niveles-02.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
-         sodipodi:role="line"
-         x="-109.39304"
-         y="106.23676"
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';fill:#000000;stroke-width:0.15051629"
-         id="tspan1265-53">main.s</tspan></text>
-    <circle
-       style="opacity:1;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.45169112;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="path962-3-1-5-5"
-       cx="-220.28775"
-       cy="121.00865"
-       r="7.427876"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L10/niveles-02.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.92468071px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.98999999;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.15051629"
-       x="-241.80374"
-       y="137.47951"
-       id="text817-5-93-6-7-6-1"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L10/niveles-02.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
-         sodipodi:role="line"
-         x="-241.80374"
-         y="137.47951"
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';text-align:start;text-anchor:start;fill:#000000;stroke-width:0.15051629"
-         id="tspan1311-9-2">Punto de </tspan><tspan
-         sodipodi:role="line"
-         x="-241.80374"
-         y="148.63536"
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';text-align:start;text-anchor:start;fill:#000000;stroke-width:0.15051629"
-         id="tspan5492">SALIDA</tspan></text>
-    <rect
-       style="opacity:1;fill:#d5e5ff;fill-opacity:1;stroke:#000000;stroke-width:0.30103257;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect819-3-7-8"
-       width="141.9472"
-       height="111.6732"
-       x="-363.57758"
-       y="175.55717"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L10/niveles-02.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.79293537px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.98999999;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.15051629"
-       x="-44.992088"
-       y="71.22657"
-       id="text817-5-93-3-36-3"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L10/niveles-02.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
-         sodipodi:role="line"
-         x="-44.992088"
-         y="71.22657"
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';fill:#000000;stroke-width:0.15051629"
-         id="tspan2606">Nivel</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.86604309px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.98999999;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.15051629"
-       x="-45.679329"
-       y="95.511307"
-       id="text817-5-93-3-36-3-5"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L10/niveles-02.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
-         sodipodi:role="line"
-         x="-45.679329"
-         y="95.511307"
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';fill:#000000;stroke-width:0.15051629"
-         id="tspan2606-2">0</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.92468071px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.98999999;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.15051629"
-       x="-258.52554"
-       y="40.825596"
-       id="text817-5-93-6-7-6-1-1"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L10/niveles-02.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
-         sodipodi:role="line"
-         x="-258.52554"
-         y="40.825596"
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';text-align:start;text-anchor:start;fill:#000000;stroke-width:0.15051629"
-         id="tspan1311-9-2-2">Punto de ENTRADA</tspan></text>
-    <circle
-       style="opacity:1;fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:0.45169112;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="path962-3-1-5-5-6-7-0"
-       cx="-220.30606"
-       cy="85.985802"
-       r="5.3127122"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L10/niveles-02.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       style="display:inline;opacity:0.98999999;fill:none;stroke:#000000;stroke-width:0.75258142;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1035-9)"
-       d="m -219.36758,59.353137 c 0,0 0.23587,2.242641 -0.35243,3.071909 -0.58831,0.829263 -2.08752,0.867685 -2.08752,1.795245 0,1.855113 3.30207,1.083 3.30207,3.09533 0,2.012329 -3.12858,1.383483 -2.94454,3.898885 0.18402,2.515413 3.68068,0.880405 3.80336,3.584459 0.12269,2.704071 -1.7168,1.795762 -1.90167,3.144271 -0.18487,1.348502 -0.1227,2.766955 -0.1227,2.766955"
-       id="path160-6"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="czszzzzc"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L10/niveles-02.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       style="display:inline;opacity:0.98999999;fill:none;stroke:#000000;stroke-width:0.75258142;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1035-9-0)"
-       d="m -219.36758,90.772054 c 0,0 0.23587,2.24264 -0.35243,3.071909 -0.58831,0.829263 -2.08752,0.867685 -2.08752,1.795244 0,1.855114 3.30207,1.083001 3.30207,3.09533 0,2.012333 -3.12858,1.383483 -2.94454,3.898883 0.18402,2.51542 3.68068,0.88041 3.80336,3.58446 0.12269,2.70407 -1.7168,1.79576 -1.90167,3.14427 -0.18487,1.34851 -0.1227,2.76696 -0.1227,2.76696"
-       id="path160-6-2"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="czszzzzc"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L10/niveles-02.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <circle
-       style="opacity:1;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.45169112;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="path962-3-1-5-5-61"
-       cx="-220.28775"
-       cy="52.659897"
-       r="7.4278765"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L10/niveles-02.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.92468071px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.98999999;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.15051629"
-       x="-358.00705"
-       y="185.92979"
-       id="text817-5-93-6-7-6-1-2-9"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L10/niveles-02.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
-         sodipodi:role="line"
-         x="-358.00705"
-         y="185.92979"
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';text-align:start;text-anchor:start;fill:#000000;stroke-width:0.15051629"
-         id="tspan5492-5-2">procesar.s</tspan></text>
-    <circle
-       style="opacity:1;fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:0.45169109;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="path962-3-1-5-5-6-2"
-       cx="-289.5051"
-       cy="175.89278"
-       r="7.4979448"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L10/niveles-02.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       style="display:inline;opacity:0.98999999;fill:none;stroke:#000000;stroke-width:0.75258142;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1035-8)"
-       d="m -289.11469,183.19151 c 0,0 0.23587,2.24264 -0.35242,3.07191 -0.58832,0.82927 -2.08753,0.86769 -2.08753,1.79525 0,1.85511 3.30208,1.083 3.30208,3.09533 0,2.01233 -3.12858,1.38348 -2.94455,3.89888 0.18403,2.51542 3.68068,0.88041 3.80336,3.58446 0.1227,2.70407 -1.71679,1.79576 -1.90167,3.14427 -0.18487,1.34851 -0.12269,2.76696 -0.12269,2.76696"
-       id="path160-7"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="czszzzzc"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L10/niveles-02.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <circle
-       style="opacity:1;fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:0.45169112;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="path962-3-1-5-5-6-7-3"
-       cx="-289.83545"
-       cy="210.80786"
-       r="5.3127122"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L10/niveles-02.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       style="display:inline;opacity:0.98999999;fill:none;stroke:#000000;stroke-width:0.75258142;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1035-8-6)"
-       d="m -289.11469,215.85496 c 0,0 0.23587,2.84127 -0.35242,3.8919 -0.58832,1.05061 -2.08753,1.09929 -2.08753,2.27444 0,2.35029 3.30208,1.37208 3.30208,3.92157 0,2.54948 -3.12858,1.75277 -2.94455,4.93962 0.18403,3.18684 3.68068,1.1154 3.80336,4.54125 0.1227,3.42587 -1.71679,2.27511 -1.90167,3.98357 -0.18487,1.70846 -0.12269,3.50553 -0.12269,3.50553"
-       id="path160-7-2"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="czszzzzc"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L10/niveles-02.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <circle
-       style="opacity:1;fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:0.45169109;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="path962-3-1-5-5-6-2-9"
-       cx="-289.5051"
-       cy="286.45978"
-       r="7.4979448"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L10/niveles-02.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       style="opacity:0.98999999;fill:none;stroke:#000080;stroke-width:1.50516295;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker978-6-1-5-31)"
-       d="m -223.09989,82.769447 c -41.25969,10.370225 -65.43659,35.464813 -67.87676,85.278453"
-       id="path2445-5-9-47"
-       inkscape:connector-curvature="0"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L10/niveles-02.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"
-       sodipodi:nodetypes="cc" />
-    <path
-       style="opacity:0.98999999;fill:none;stroke:#000080;stroke-width:1.50516295;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker978-6-1-5-8-8)"
-       d="m -288.12911,293.55549 c 83.00913,-26.96022 7.15413,-159.97543 63.67051,-202.710733"
-       id="path2445-5-9-2-5"
-       inkscape:connector-curvature="0"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L10/niveles-02.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"
-       sodipodi:nodetypes="cc" />
-    <path
-       style="opacity:0.98999999;fill:none;stroke:#008000;stroke-width:1.50516295;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker978-6-1)"
-       d="m -289.68317,206.57712 c -56.17932,26.1237 -55.39149,116.8593 -8.05979,147.62336"
-       id="path2445-5"
-       inkscape:connector-curvature="0"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L10/niveles-02.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"
-       sodipodi:nodetypes="cc" />
-    <path
-       style="opacity:0.98999999;fill:none;stroke:#008000;stroke-width:1.50516295;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker978-6-1-47)"
-       d="m -283.09252,432.21826 c 43.87225,-45.3882 3.09156,-102.74593 -8.24213,-115.90133 -11.33369,-13.1554 -21.09467,-24.30682 -22.15445,-50.89096 -1.05978,-26.58414 20.61712,-47.46737 20.61712,-47.46737"
-       id="path2445-5-69"
-       inkscape:connector-curvature="0"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L10/niveles-02.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"
-       sodipodi:nodetypes="czzc" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.79293537px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.98999999;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.15051629"
-       x="-43.635948"
-       y="184.7625"
-       id="text817-5-93-3-36-3-1"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L10/niveles-02.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
-         sodipodi:role="line"
-         x="-43.635948"
-         y="184.7625"
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';fill:#000000;stroke-width:0.15051629"
-         id="tspan2606-9">Nivel</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.86604309px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.98999999;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.15051629"
-       x="-44.323185"
-       y="210.40337"
-       id="text817-5-93-3-36-3-5-2"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L10/niveles-02.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
-         sodipodi:role="line"
-         x="-44.323185"
-         y="210.40337"
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';fill:#000000;stroke-width:0.15051629"
-         id="tspan2606-2-0">1</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.79293537px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.98999999;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.15051629"
-       x="-40.923664"
-       y="373.55084"
-       id="text817-5-93-3-36-3-1-6"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L10/niveles-02.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
-         sodipodi:role="line"
-         x="-40.923664"
-         y="373.55084"
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';fill:#000000;stroke-width:0.15051629"
-         id="tspan2606-9-9">Nivel</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.86604309px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.98999999;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.15051629"
-       x="-40.254761"
-       y="399.19171"
-       id="text817-5-93-3-36-3-5-2-2"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L10/niveles-02.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
-         sodipodi:role="line"
-         x="-40.254761"
-         y="399.19171"
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';fill:#000000;stroke-width:0.15051629"
-         id="tspan2606-2-0-6">2</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.35603809px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.98999999;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.15051629"
-       x="-194.91101"
-       y="87.609627"
-       id="text817-5-93-3-3"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L10/niveles-02.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
-         sodipodi:role="line"
-         x="-194.91101"
-         y="87.609627"
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Italic';fill:#000000;stroke-width:0.15051629"
-         id="tspan1265-7">procesar()</tspan></text>
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.75258154;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.505163, 4.51548899;stroke-dashoffset:0;stroke-opacity:1"
-       d="M -364.11376,328.12287 H -16.809439"
-       id="path20732-4"
-       inkscape:connector-curvature="0"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L10/niveles-02.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <circle
-       style="opacity:1;fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:0.45169112;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="path962-3-1-5-5-6-7-3-5"
-       cx="-289.83545"
-       cy="249.11885"
-       r="5.3127122"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L10/niveles-02.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       style="display:inline;opacity:0.98999999;fill:none;stroke:#000000;stroke-width:0.75258142;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1035-8-6-3)"
-       d="m -289.11469,255.63713 c 0,0 0.23587,2.24264 -0.35242,3.07191 -0.58832,0.82926 -2.08753,0.86768 -2.08753,1.79524 0,1.85511 3.30208,1.083 3.30208,3.09533 0,2.01233 -3.12858,1.38348 -2.94455,3.89889 0.18403,2.51541 3.68068,0.8804 3.80336,3.58446 0.1227,2.70407 -1.71679,1.79576 -1.90167,3.14427 -0.18487,1.3485 -0.12269,2.76695 -0.12269,2.76695"
-       id="path160-7-2-6"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="czszzzzc"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L10/niveles-02.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <rect
-       style="opacity:1;fill:#87aade;fill-opacity:1;stroke:#000000;stroke-width:0.30103257;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect819-3-7-8-6-2-1"
        width="134.39787"
-       height="71.877342"
-       x="-205.34081"
-       y="360.13239"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L10/niveles-02.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       id="rect819-3-7-8-6-2"
+       style="opacity:1;fill:#87aade;fill-opacity:1;stroke:#000000;stroke-width:0.30103257;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.92468071px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.98999999;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.15051629"
-       x="-107.59974"
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/Examenes/2019-11-26-Simulacro/niveles-01.png"
+       id="text817-5-93-6-7-6-1-2-9-3-5"
        y="369.95438"
-       id="text817-5-93-6-7-6-1-2-9-3-5-2"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L10/niveles-02.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
-         sodipodi:role="line"
-         x="-107.59974"
+       x="-356.45602"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.92468px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.99;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.150516"
+       xml:space="preserve"><tspan
+         id="tspan5492-5-2-2-4"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';text-align:start;text-anchor:start;fill:#000000;stroke-width:0.150516"
          y="369.95438"
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';text-align:start;text-anchor:start;fill:#000000;stroke-width:0.15051629"
-         id="tspan5492-5-2-2-4-7">upper.s</tspan></text>
+         x="-356.45602"
+         sodipodi:role="line">copiar.s</tspan></text>
     <circle
-       style="opacity:1;fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:0.45169109;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="path962-3-1-5-5-6-2-0-7-0"
-       cx="-131.2683"
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/Examenes/2019-11-26-Simulacro/niveles-01.png"
+       r="7.4979448"
        cy="360.46802"
-       r="7.4979448"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L10/niveles-02.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       cx="-289.50507"
+       id="path962-3-1-5-5-6-2-0-7"
+       style="opacity:1;fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:0.45169109;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     <circle
-       style="opacity:1;fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:0.45169109;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="path962-3-1-5-5-6-2-9-5-0-9"
-       cx="-131.2683"
-       cy="430.75964"
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/Examenes/2019-11-26-Simulacro/niveles-01.png"
        r="7.4979448"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L10/niveles-02.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       cy="430.75964"
+       cx="-289.50507"
+       id="path962-3-1-5-5-6-2-9-5-0"
+       style="opacity:1;fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:0.45169109;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.92468071px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.98999999;fill:#008000;fill-opacity:1;stroke:none;stroke-width:0.15051629"
-       x="-101.98154"
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/Examenes/2019-11-26-Simulacro/niveles-01.png"
+       id="text817-5-93-6-7-6-1-2-5-2"
        y="382.39313"
-       id="text817-5-93-6-7-6-1-2-5-2-3"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L10/niveles-02.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
-         sodipodi:role="line"
-         x="-101.98154"
+       x="-350.83783"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.92468px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.99;fill:#008000;fill-opacity:1;stroke:none;stroke-width:0.150516"
+       xml:space="preserve"><tspan
+         id="tspan5492-5-6-9"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';text-align:start;text-anchor:start;fill:#008000;stroke-width:0.150516"
          y="382.39313"
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';text-align:start;text-anchor:start;fill:#008000;stroke-width:0.15051629"
-         id="tspan5492-5-6-9-6">Hoja</tspan></text>
+         x="-350.83783"
+         sodipodi:role="line">Hoja</tspan></text>
     <path
-       style="display:inline;opacity:0.98999999;fill:none;stroke:#000000;stroke-width:0.75258166;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1035-0-36-2)"
-       d="m -130.89726,367.05064 c 0,0 0.68163,5.85841 -1.01851,8.02468 -1.7002,2.16627 -6.03286,2.26664 -6.03286,4.68967 0,4.84609 9.54284,2.8291 9.54286,8.08587 0,5.25676 -9.04146,3.61405 -8.50962,10.18499 0.53184,6.57095 10.63701,2.29986 10.99156,9.36361 0.35457,7.06377 -4.96147,4.69102 -5.49575,8.21371 -0.53426,3.52268 -0.35458,7.22805 -0.35458,7.22805"
-       id="path160-2-5-0"
-       inkscape:connector-curvature="0"
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/Examenes/2019-11-26-Simulacro/niveles-01.png"
        sodipodi:nodetypes="czszzzzc"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L10/niveles-02.png"
+       inkscape:connector-curvature="0"
+       id="path160-2-5"
+       d="m -289.13403,367.05064 c 0,0 0.68163,5.85841 -1.01851,8.02468 -1.7002,2.16627 -6.03286,2.26664 -6.03286,4.68967 0,4.84609 9.54284,2.8291 9.54286,8.08587 0,5.25676 -9.04146,3.61405 -8.50962,10.18499 0.53184,6.57095 10.63701,2.29986 10.99156,9.36361 0.35457,7.06377 -4.96147,4.69102 -5.49575,8.21371 -0.53426,3.52268 -0.35458,7.22805 -0.35458,7.22805"
+       style="display:inline;opacity:0.98999999;fill:none;stroke:#000000;stroke-width:0.7525816;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1035-0-36)" />
+    <rect
+       inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/Examenes/2019-11-26-Simulacro/niveles-01.png"
+       y="51.652031"
+       x="-363.57758"
+       height="69.714127"
+       width="292.63464"
+       id="rect819-3-7"
+       style="opacity:1;fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:0.24923198;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.35603809px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.98999999;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.15051629"
-       x="-318.41162"
-       y="209.42928"
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/Examenes/2019-11-26-Simulacro/niveles-01.png"
+       id="text817-5-93-3"
+       y="71.291893"
+       x="-109.33103"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7929px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.150516"
+       xml:space="preserve"><tspan
+         id="tspan909-0-7"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#000000;stroke-width:0.150516"
+         y="71.291893"
+         x="-109.33103"
+         sodipodi:role="line">Programa</tspan><tspan
+         id="tspan1265"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#000000;stroke-width:0.150516"
+         y="87.283066"
+         x="-109.33103"
+         sodipodi:role="line">principal</tspan></text>
+    <text
+       id="text8217"
+       y="78.921143"
+       x="-11.491241"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve" />
+    <flowRoot
+       transform="matrix(0.26458333,0,0,0.26458333,-26.458334,38.451252)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       id="flowRoot9624"
+       xml:space="preserve"><flowRegion
+         id="flowRegion9626"><rect
+           y="408.31927"
+           x="-122.85714"
+           height="88.571426"
+           width="368.57144"
+           id="rect9628" /></flowRegion><flowPara
+         id="flowPara9630" /></flowRoot>
+    <text
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/Examenes/2019-11-26-Simulacro/niveles-01.png"
+       id="text817-5-93-3-36"
+       y="106.23676"
+       x="-109.39304"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7929px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.99;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.150516"
+       xml:space="preserve"><tspan
+         id="tspan1265-53"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';fill:#000000;stroke-width:0.150516"
+         y="106.23676"
+         x="-109.39304"
+         sodipodi:role="line">main.s</tspan></text>
+    <circle
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/Examenes/2019-11-26-Simulacro/niveles-01.png"
+       r="7.427876"
+       cy="121.00865"
+       cx="-220.28775"
+       id="path962-3-1-5-5"
+       style="opacity:1;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.45169112;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <text
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/Examenes/2019-11-26-Simulacro/niveles-01.png"
+       id="text817-5-93-6-7-6-1"
+       y="137.47951"
+       x="-241.80374"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.92468px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.99;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.150516"
+       xml:space="preserve"><tspan
+         id="tspan1311-9-2"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';text-align:start;text-anchor:start;fill:#000000;stroke-width:0.150516"
+         y="137.47951"
+         x="-241.80374"
+         sodipodi:role="line">Punto de </tspan><tspan
+         id="tspan5492"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';text-align:start;text-anchor:start;fill:#000000;stroke-width:0.150516"
+         y="148.63536"
+         x="-241.80374"
+         sodipodi:role="line">SALIDA</tspan></text>
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/Examenes/2019-11-26-Simulacro/niveles-01.png"
+       y="175.55717"
+       x="-363.57758"
+       height="111.6732"
+       width="141.9472"
+       id="rect819-3-7-8"
+       style="opacity:1;fill:#d5e5ff;fill-opacity:1;stroke:#000000;stroke-width:0.30103257;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <text
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/Examenes/2019-11-26-Simulacro/niveles-01.png"
+       id="text817-5-93-3-36-3"
+       y="71.22657"
+       x="-44.992088"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7929px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.99;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.150516"
+       xml:space="preserve"><tspan
+         id="tspan2606"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';fill:#000000;stroke-width:0.150516"
+         y="71.22657"
+         x="-44.992088"
+         sodipodi:role="line">Nivel</tspan></text>
+    <text
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/Examenes/2019-11-26-Simulacro/niveles-01.png"
+       id="text817-5-93-3-36-3-5"
+       y="95.511307"
+       x="-45.679329"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.866px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.99;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.150516"
+       xml:space="preserve"><tspan
+         id="tspan2606-2"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';fill:#000000;stroke-width:0.150516"
+         y="95.511307"
+         x="-45.679329"
+         sodipodi:role="line">0</tspan></text>
+    <text
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/Examenes/2019-11-26-Simulacro/niveles-01.png"
+       id="text817-5-93-6-7-6-1-1"
+       y="40.825596"
+       x="-258.52554"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.92468px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.99;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.150516"
+       xml:space="preserve"><tspan
+         id="tspan1311-9-2-2"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';text-align:start;text-anchor:start;fill:#000000;stroke-width:0.150516"
+         y="40.825596"
+         x="-258.52554"
+         sodipodi:role="line">Punto de ENTRADA</tspan></text>
+    <circle
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/Examenes/2019-11-26-Simulacro/niveles-01.png"
+       r="5.3127122"
+       cy="85.985802"
+       cx="-220.30606"
+       id="path962-3-1-5-5-6-7-0"
+       style="opacity:1;fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:0.45169112;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/Examenes/2019-11-26-Simulacro/niveles-01.png"
+       sodipodi:nodetypes="czszzzzc"
+       inkscape:connector-curvature="0"
+       id="path160-6"
+       d="m -219.36758,59.353137 c 0,0 0.23587,2.242641 -0.35243,3.071909 -0.58831,0.829263 -2.08752,0.867685 -2.08752,1.795245 0,1.855113 3.30207,1.083 3.30207,3.09533 0,2.012329 -3.12858,1.383483 -2.94454,3.898885 0.18402,2.515413 3.68068,0.880405 3.80336,3.584459 0.12269,2.704071 -1.7168,1.795762 -1.90167,3.144271 -0.18487,1.348502 -0.1227,2.766955 -0.1227,2.766955"
+       style="display:inline;opacity:0.98999999;fill:none;stroke:#000000;stroke-width:0.75258142;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1035-9)" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/Examenes/2019-11-26-Simulacro/niveles-01.png"
+       sodipodi:nodetypes="czszzzzc"
+       inkscape:connector-curvature="0"
+       id="path160-6-2"
+       d="m -219.36758,90.772054 c 0,0 0.23587,2.24264 -0.35243,3.071909 -0.58831,0.829263 -2.08752,0.867685 -2.08752,1.795244 0,1.855114 3.30207,1.083001 3.30207,3.09533 0,2.012333 -3.12858,1.383483 -2.94454,3.898883 0.18402,2.51542 3.68068,0.88041 3.80336,3.58446 0.12269,2.70407 -1.7168,1.79576 -1.90167,3.14427 -0.18487,1.34851 -0.1227,2.76696 -0.1227,2.76696"
+       style="display:inline;opacity:0.98999999;fill:none;stroke:#000000;stroke-width:0.75258142;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1035-9-0)" />
+    <circle
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/Examenes/2019-11-26-Simulacro/niveles-01.png"
+       r="7.4278765"
+       cy="52.659897"
+       cx="-220.28775"
+       id="path962-3-1-5-5-61"
+       style="opacity:1;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.45169112;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <text
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/Examenes/2019-11-26-Simulacro/niveles-01.png"
+       id="text817-5-93-6-7-6-1-2-9"
+       y="185.92979"
+       x="-358.00705"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.92468px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.99;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.150516"
+       xml:space="preserve"><tspan
+         id="tspan5492-5-2"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';text-align:start;text-anchor:start;fill:#000000;stroke-width:0.150516"
+         y="185.92979"
+         x="-358.00705"
+         sodipodi:role="line">procesar.s</tspan></text>
+    <circle
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/Examenes/2019-11-26-Simulacro/niveles-01.png"
+       r="7.4979448"
+       cy="175.89278"
+       cx="-289.5051"
+       id="path962-3-1-5-5-6-2"
+       style="opacity:1;fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:0.45169109;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/Examenes/2019-11-26-Simulacro/niveles-01.png"
+       sodipodi:nodetypes="czszzzzc"
+       inkscape:connector-curvature="0"
+       id="path160-7"
+       d="m -289.11469,183.19151 c 0,0 0.23587,2.24264 -0.35242,3.07191 -0.58832,0.82927 -2.08753,0.86769 -2.08753,1.79525 0,1.85511 3.30208,1.083 3.30208,3.09533 0,2.01233 -3.12858,1.38348 -2.94455,3.89888 0.18403,2.51542 3.68068,0.88041 3.80336,3.58446 0.1227,2.70407 -1.71679,1.79576 -1.90167,3.14427 -0.18487,1.34851 -0.12269,2.76696 -0.12269,2.76696"
+       style="display:inline;opacity:0.98999999;fill:none;stroke:#000000;stroke-width:0.75258142;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1035-8)" />
+    <circle
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/Examenes/2019-11-26-Simulacro/niveles-01.png"
+       r="5.3127122"
+       cy="210.80786"
+       cx="-289.83545"
+       id="path962-3-1-5-5-6-7-3"
+       style="opacity:1;fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:0.45169112;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/Examenes/2019-11-26-Simulacro/niveles-01.png"
+       sodipodi:nodetypes="czszzzzc"
+       inkscape:connector-curvature="0"
+       id="path160-7-2"
+       d="m -289.11469,215.85496 c 0,0 0.23587,2.84127 -0.35242,3.8919 -0.58832,1.05061 -2.08753,1.09929 -2.08753,2.27444 0,2.35029 3.30208,1.37208 3.30208,3.92157 0,2.54948 -3.12858,1.75277 -2.94455,4.93962 0.18403,3.18684 3.68068,1.1154 3.80336,4.54125 0.1227,3.42587 -1.71679,2.27511 -1.90167,3.98357 -0.18487,1.70846 -0.12269,3.50553 -0.12269,3.50553"
+       style="display:inline;opacity:0.98999999;fill:none;stroke:#000000;stroke-width:0.75258142;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1035-8-6)" />
+    <circle
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/Examenes/2019-11-26-Simulacro/niveles-01.png"
+       r="7.4979448"
+       cy="286.45978"
+       cx="-289.5051"
+       id="path962-3-1-5-5-6-2-9"
+       style="opacity:1;fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:0.45169109;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/Examenes/2019-11-26-Simulacro/niveles-01.png"
+       inkscape:connector-curvature="0"
+       id="path2445-5-9-47"
+       d="m -223.09989,82.769447 c -41.25969,10.370225 -65.43659,35.464813 -67.87676,85.278453"
+       style="opacity:0.98999999;fill:none;stroke:#000080;stroke-width:1.50516295;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker978-6-1-5-31)" />
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/Examenes/2019-11-26-Simulacro/niveles-01.png"
+       inkscape:connector-curvature="0"
+       id="path2445-5-9-2-5"
+       d="m -288.12911,293.55549 c 83.00913,-26.96022 7.15413,-159.97543 63.67051,-202.710733"
+       style="opacity:0.98999999;fill:none;stroke:#000080;stroke-width:1.50516295;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker978-6-1-5-8-8)" />
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/Examenes/2019-11-26-Simulacro/niveles-01.png"
+       inkscape:connector-curvature="0"
+       id="path2445-5"
+       d="m -289.68317,206.57712 c -56.17932,26.1237 -55.39149,116.8593 -8.05979,147.62336"
+       style="opacity:0.98999999;fill:none;stroke:#008000;stroke-width:1.50516295;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker978-6-1)" />
+    <path
+       sodipodi:nodetypes="czzc"
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/Examenes/2019-11-26-Simulacro/niveles-01.png"
+       inkscape:connector-curvature="0"
+       id="path2445-5-69"
+       d="m -283.09252,432.21826 c 43.87225,-45.3882 3.09156,-102.74593 -8.24213,-115.90133 -11.33369,-13.1554 -21.09467,-24.30682 -22.15445,-50.89096 -1.05978,-26.58414 20.61712,-47.46737 20.61712,-47.46737"
+       style="opacity:0.98999999;fill:none;stroke:#008000;stroke-width:1.50516295;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker978-6-1-47)" />
+    <text
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/Examenes/2019-11-26-Simulacro/niveles-01.png"
+       id="text817-5-93-3-36-3-1"
+       y="184.7625"
+       x="-43.635948"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7929px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.99;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.150516"
+       xml:space="preserve"><tspan
+         id="tspan2606-9"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';fill:#000000;stroke-width:0.150516"
+         y="184.7625"
+         x="-43.635948"
+         sodipodi:role="line">Nivel</tspan></text>
+    <text
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/Examenes/2019-11-26-Simulacro/niveles-01.png"
+       id="text817-5-93-3-36-3-5-2"
+       y="210.40337"
+       x="-44.323185"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.866px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.99;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.150516"
+       xml:space="preserve"><tspan
+         id="tspan2606-2-0"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';fill:#000000;stroke-width:0.150516"
+         y="210.40337"
+         x="-44.323185"
+         sodipodi:role="line">1</tspan></text>
+    <text
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/Examenes/2019-11-26-Simulacro/niveles-01.png"
+       id="text817-5-93-3-36-3-1-6"
+       y="373.55084"
+       x="-40.923664"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7929px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.99;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.150516"
+       xml:space="preserve"><tspan
+         id="tspan2606-9-9"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';fill:#000000;stroke-width:0.150516"
+         y="373.55084"
+         x="-40.923664"
+         sodipodi:role="line">Nivel</tspan></text>
+    <text
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/Examenes/2019-11-26-Simulacro/niveles-01.png"
+       id="text817-5-93-3-36-3-5-2-2"
+       y="399.19171"
+       x="-40.254761"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.866px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.99;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.150516"
+       xml:space="preserve"><tspan
+         id="tspan2606-2-0-6"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';fill:#000000;stroke-width:0.150516"
+         y="399.19171"
+         x="-40.254761"
+         sodipodi:role="line">2</tspan></text>
+    <text
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/Examenes/2019-11-26-Simulacro/niveles-01.png"
+       id="text817-5-93-3-3"
+       y="87.609627"
+       x="-194.91101"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.35604px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.99;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.150516"
+       xml:space="preserve"><tspan
+         id="tspan1265-7"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Italic';fill:#000000;stroke-width:0.150516"
+         y="87.609627"
+         x="-194.91101"
+         sodipodi:role="line">procesar()</tspan></text>
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/Examenes/2019-11-26-Simulacro/niveles-01.png"
+       inkscape:connector-curvature="0"
+       id="path20732-4"
+       d="M -364.11376,328.12287 H -16.809439"
+       style="fill:none;stroke:#000000;stroke-width:0.75258154;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.505163, 4.51548899;stroke-dashoffset:0;stroke-opacity:1" />
+    <circle
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/Examenes/2019-11-26-Simulacro/niveles-01.png"
+       r="5.3127122"
+       cy="249.11885"
+       cx="-289.83545"
+       id="path962-3-1-5-5-6-7-3-5"
+       style="opacity:1;fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:0.45169112;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/Examenes/2019-11-26-Simulacro/niveles-01.png"
+       sodipodi:nodetypes="czszzzzc"
+       inkscape:connector-curvature="0"
+       id="path160-7-2-6"
+       d="m -289.11469,255.63713 c 0,0 0.23587,2.24264 -0.35242,3.07191 -0.58832,0.82926 -2.08753,0.86768 -2.08753,1.79524 0,1.85511 3.30208,1.083 3.30208,3.09533 0,2.01233 -3.12858,1.38348 -2.94455,3.89889 0.18403,2.51541 3.68068,0.8804 3.80336,3.58446 0.1227,2.70407 -1.71679,1.79576 -1.90167,3.14427 -0.18487,1.3485 -0.12269,2.76695 -0.12269,2.76695"
+       style="display:inline;opacity:0.98999999;fill:none;stroke:#000000;stroke-width:0.75258142;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1035-8-6-3)" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/Examenes/2019-11-26-Simulacro/niveles-01.png"
+       y="360.13239"
+       x="-205.34081"
+       height="71.877342"
+       width="134.39787"
+       id="rect819-3-7-8-6-2-1"
+       style="opacity:1;fill:#87aade;fill-opacity:1;stroke:#000000;stroke-width:0.30103257;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <text
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/Examenes/2019-11-26-Simulacro/niveles-01.png"
+       id="text817-5-93-6-7-6-1-2-9-3-5-2"
+       y="369.95438"
+       x="-107.59974"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.92468px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.99;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.150516"
+       xml:space="preserve"><tspan
+         id="tspan5492-5-2-2-4-7"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';text-align:start;text-anchor:start;fill:#000000;stroke-width:0.150516"
+         y="369.95438"
+         x="-107.59974"
+         sodipodi:role="line">upper.s</tspan></text>
+    <circle
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/Examenes/2019-11-26-Simulacro/niveles-01.png"
+       r="7.4979448"
+       cy="360.46802"
+       cx="-131.2683"
+       id="path962-3-1-5-5-6-2-0-7-0"
+       style="opacity:1;fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:0.45169109;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <circle
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/Examenes/2019-11-26-Simulacro/niveles-01.png"
+       r="7.4979448"
+       cy="430.75964"
+       cx="-131.2683"
+       id="path962-3-1-5-5-6-2-9-5-0-9"
+       style="opacity:1;fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:0.45169109;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <text
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/Examenes/2019-11-26-Simulacro/niveles-01.png"
+       id="text817-5-93-6-7-6-1-2-5-2-3"
+       y="382.39313"
+       x="-101.98154"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.92468px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.99;fill:#008000;fill-opacity:1;stroke:none;stroke-width:0.150516"
+       xml:space="preserve"><tspan
+         id="tspan5492-5-6-9-6"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';text-align:start;text-anchor:start;fill:#008000;stroke-width:0.150516"
+         y="382.39313"
+         x="-101.98154"
+         sodipodi:role="line">Hoja</tspan></text>
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/Examenes/2019-11-26-Simulacro/niveles-01.png"
+       sodipodi:nodetypes="czszzzzc"
+       inkscape:connector-curvature="0"
+       id="path160-2-5-0"
+       d="m -130.89726,367.05064 c 0,0 0.68163,5.85841 -1.01851,8.02468 -1.7002,2.16627 -6.03286,2.26664 -6.03286,4.68967 0,4.84609 9.54284,2.8291 9.54286,8.08587 0,5.25676 -9.04146,3.61405 -8.50962,10.18499 0.53184,6.57095 10.63701,2.29986 10.99156,9.36361 0.35457,7.06377 -4.96147,4.69102 -5.49575,8.21371 -0.53426,3.52268 -0.35458,7.22805 -0.35458,7.22805"
+       style="display:inline;opacity:0.98999999;fill:none;stroke:#000000;stroke-width:0.75258166;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1035-0-36-2)" />
+    <text
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/Examenes/2019-11-26-Simulacro/niveles-01.png"
        id="text817-5-93-3-3-6"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L10/niveles-02.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
-         sodipodi:role="line"
-         x="-318.41162"
+       y="209.42928"
+       x="-318.41162"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.35604px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.99;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.150516"
+       xml:space="preserve"><tspan
+         id="tspan1265-7-2"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Italic';fill:#000000;stroke-width:0.150516"
          y="209.42928"
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Italic';fill:#000000;stroke-width:0.15051629"
-         id="tspan1265-7-2">copiar()</tspan></text>
+         x="-318.41162"
+         sodipodi:role="line">copiar()</tspan></text>
     <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.35603809px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.98999999;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.15051629"
-       x="-268.35153"
-       y="242.99207"
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/Examenes/2019-11-26-Simulacro/niveles-01.png"
        id="text817-5-93-3-3-6-6"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L10/niveles-02.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
-         sodipodi:role="line"
-         x="-268.35153"
+       y="242.99207"
+       x="-268.35153"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.35604px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.99;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.150516"
+       xml:space="preserve"><tspan
+         id="tspan1265-7-2-1"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Italic';fill:#000000;stroke-width:0.150516"
          y="242.99207"
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Italic';fill:#000000;stroke-width:0.15051629"
-         id="tspan1265-7-2-1">copiar()</tspan></text>
+         x="-268.35153"
+         sodipodi:role="line">upper()</tspan></text>
     <path
-       style="opacity:0.98999999;fill:none;stroke:#008000;stroke-width:1.50516307;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker978-6-1-8)"
-       d="m -289.89758,244.35124 c 73.91965,18.45221 132.58589,25.28086 159.09231,106.86856"
+       sodipodi:nodetypes="cc"
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/Examenes/2019-11-26-Simulacro/niveles-01.png"
+       inkscape:connector-curvature="0"
        id="path2445-5-2"
-       inkscape:connector-curvature="0"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L10/niveles-02.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"
-       sodipodi:nodetypes="cc" />
+       d="m -289.89758,244.35124 c 73.91965,18.45221 132.58589,25.28086 159.09231,106.86856"
+       style="opacity:0.98999999;fill:none;stroke:#008000;stroke-width:1.50516307;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker978-6-1-8)" />
     <path
-       style="opacity:0.98999999;fill:none;stroke:#008000;stroke-width:1.50516319;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker978-6-1-8-0)"
-       d="M -133.19574,438.01061 C -212.38955,389.35189 -160.2986,302.9315 -284.61656,254.90658"
-       id="path2445-5-2-3"
-       inkscape:connector-curvature="0"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L10/niveles-02.png"
-       inkscape:export-xdpi="90"
+       sodipodi:nodetypes="cc"
        inkscape:export-ydpi="90"
-       sodipodi:nodetypes="cc" />
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/Examenes/2019-11-26-Simulacro/niveles-01.png"
+       inkscape:connector-curvature="0"
+       id="path2445-5-2-3"
+       d="M -133.19574,438.01061 C -212.38955,389.35189 -160.2986,302.9315 -284.61656,254.90658"
+       style="opacity:0.98999999;fill:none;stroke:#008000;stroke-width:1.50516319;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker978-6-1-8-0)" />
   </g>
 </svg>
