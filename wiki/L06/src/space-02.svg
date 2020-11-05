@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -14,7 +12,7 @@
    viewBox="0 0 556.79059 549.95275"
    version="1.1"
    id="svg7345"
-   inkscape:version="0.92.4 (unknown)"
+   inkscape:version="1.0.1 (0767f8302a, 2020-10-17)"
    sodipodi:docname="space-02.svg">
   <defs
      id="defs7339">
@@ -251,15 +249,15 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.24748737"
-     inkscape:cx="459.06827"
-     inkscape:cy="1193.9729"
+     inkscape:zoom="0.49497474"
+     inkscape:cx="1093.9876"
+     inkscape:cy="1492.6323"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer17"
+     inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1052"
-     inkscape:window-x="48"
+     inkscape:window-height="1043"
+     inkscape:window-x="1920"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
      fit-margin-top="0"
@@ -268,7 +266,8 @@
      fit-margin-bottom="0"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:snap-global="false" />
+     inkscape:snap-global="false"
+     inkscape:document-rotation="0" />
   <metadata
      id="metadata7342">
     <rdf:RDF>
@@ -277,7 +276,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -308,12 +307,12 @@
        id="text986-8-0-9-7"
        y="88.126114"
        x="131.04669"
-       style="font-style:normal;font-weight:normal;font-size:15.79896069px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.23508634"
+       style="font-style:normal;font-weight:normal;font-size:15.799px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.235086"
        xml:space="preserve"
        inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L06/space-02.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';fill:#000000;stroke-width:0.23508634"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';fill:#000000;stroke-width:0.235086"
          y="88.126114"
          x="131.04669"
          id="tspan984-5-9-3-5"
@@ -360,7 +359,7 @@
        inkscape:export-ydpi="90" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.99323845px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:1.1870774"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.9932px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:1.18708"
        x="185.66505"
        y="125.61656"
        id="text2556-35"
@@ -371,7 +370,7 @@
          id="tspan2554-62"
          x="185.66505"
          y="125.61656"
-         style="fill:#ff0000;stroke-width:1.1870774">0x1001000<tspan
+         style="fill:#ff0000;stroke-width:1.18708">0x1001000<tspan
    style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium'"
    id="tspan3308">0</tspan></tspan></text>
     <text
@@ -379,19 +378,19 @@
        id="text986-8-0-9-7-6-5-0"
        y="95.102478"
        x="210.62871"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.23437214px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;opacity:1;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.23508634"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.2344px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;opacity:1;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.235086"
        xml:space="preserve"
        inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L06/space-02.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#ff0000;stroke-width:0.23508634"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#ff0000;stroke-width:0.235086"
          y="95.102478"
          x="210.62871"
          id="tspan984-5-9-3-5-7-3-9"
          sodipodi:role="line">Dirección</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.99323845px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:1.1870774"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.9932px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:1.18708"
        x="186.15929"
        y="153.17567"
        id="text2556-35-3"
@@ -402,10 +401,10 @@
          id="tspan2554-62-67"
          x="186.15929"
          y="153.17567"
-         style="fill:#ff0000;stroke-width:1.1870774">0x10010001</tspan></text>
+         style="fill:#ff0000;stroke-width:1.18708">0x10010001</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.99323845px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:1.1870774"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.9932px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:1.18708"
        x="186.91524"
        y="180.38995"
        id="text2556-35-3-5"
@@ -416,10 +415,10 @@
          id="tspan2554-62-67-3"
          x="186.91524"
          y="180.38995"
-         style="fill:#ff0000;stroke-width:1.1870774">0x10010002</tspan></text>
+         style="fill:#ff0000;stroke-width:1.18708">0x10010002</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.99323845px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1.1870774"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.9932px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1.18708"
        x="186.91524"
        y="330.73425"
        id="text2556-35-3-5-5"
@@ -430,18 +429,18 @@
          id="tspan2554-62-67-3-6"
          x="186.91524"
          y="330.73425"
-         style="fill:#008000;stroke-width:1.1870774">0x10010013</tspan></text>
+         style="fill:#008000;stroke-width:1.18708">0x10010013</tspan></text>
     <text
        transform="scale(0.99894541,1.0010557)"
        id="text986-8-0-9-7-6-56-2"
        y="124.627"
        x="142.45862"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.79896069px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;opacity:1;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.23508634"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.799px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;opacity:1;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.235086"
        xml:space="preserve"
        inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L06/space-02.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#0000ff;stroke-width:0.23508634"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#0000ff;stroke-width:0.235086"
          y="124.627"
          x="142.45862"
          id="tspan984-5-9-3-5-7-2-9"
@@ -451,12 +450,12 @@
        id="text986-8-0-9-7-6-56-2-1"
        y="151.05743"
        x="142.45862"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.79896069px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;opacity:1;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.23508634"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.799px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;opacity:1;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.235086"
        xml:space="preserve"
        inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L06/space-02.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#0000ff;stroke-width:0.23508634"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#0000ff;stroke-width:0.235086"
          y="151.05743"
          x="142.45862"
          id="tspan984-5-9-3-5-7-2-9-2"
@@ -466,12 +465,12 @@
        id="text986-8-0-9-7-6-56-2-1-7"
        y="179.75333"
        x="142.45862"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.79896069px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;opacity:1;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.23508634"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.799px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;opacity:1;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.235086"
        xml:space="preserve"
        inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L06/space-02.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#0000ff;stroke-width:0.23508634"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#0000ff;stroke-width:0.235086"
          y="179.75333"
          x="142.45862"
          id="tspan984-5-9-3-5-7-2-9-2-0"
@@ -481,12 +480,12 @@
        id="text986-8-0-9-7-6-56-2-1-7-9"
        y="330.03073"
        x="142.45862"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.79896069px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;opacity:1;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.23508634"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.799px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;opacity:1;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.235086"
        xml:space="preserve"
        inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L06/space-02.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#0000ff;stroke-width:0.23508634"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#0000ff;stroke-width:0.235086"
          y="330.03073"
          x="142.45862"
          id="tspan984-5-9-3-5-7-2-9-2-0-3"
@@ -545,12 +544,12 @@
        id="text986-8-0-9-7-6-56-2-5"
        y="356.577"
        x="142.45862"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.79896069px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;opacity:1;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.23508634"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.799px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;opacity:1;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.235086"
        xml:space="preserve"
        inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L06/space-02.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#0000ff;stroke-width:0.23508634"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#0000ff;stroke-width:0.235086"
          y="356.577"
          x="142.45862"
          id="tspan984-5-9-3-5-7-2-9-9"
@@ -560,12 +559,12 @@
        id="text986-8-0-9-7-6-56-2-1-2"
        y="383.00745"
        x="142.45862"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.79896069px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;opacity:1;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.23508634"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.799px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;opacity:1;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.235086"
        xml:space="preserve"
        inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L06/space-02.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#0000ff;stroke-width:0.23508634"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#0000ff;stroke-width:0.235086"
          y="383.00745"
          x="142.45862"
          id="tspan984-5-9-3-5-7-2-9-2-2"
@@ -575,12 +574,12 @@
        id="text986-8-0-9-7-6-56-2-1-7-8"
        y="411.70334"
        x="143.97212"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.79896069px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;opacity:1;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.23508634"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.799px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;opacity:1;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.235086"
        xml:space="preserve"
        inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L06/space-02.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#0000ff;stroke-width:0.23508634"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#0000ff;stroke-width:0.235086"
          y="411.70334"
          x="143.97212"
          id="tspan984-5-9-3-5-7-2-9-2-0-9"
@@ -590,12 +589,12 @@
        id="text986-8-0-9-7-6-56-2-1-7-9-7"
        y="439.64407"
        x="142.45862"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.79896069px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;opacity:1;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.23508634"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.799px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;opacity:1;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.235086"
        xml:space="preserve"
        inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L06/space-02.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#0000ff;stroke-width:0.23508634"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#0000ff;stroke-width:0.235086"
          y="439.64407"
          x="142.45862"
          id="tspan984-5-9-3-5-7-2-9-2-0-3-3"
@@ -652,12 +651,12 @@
        id="text986-8-0-9-7-6-56-2-1-5"
        y="249.3089"
        x="142.45862"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.79896069px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;opacity:1;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.23508634"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.799px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;opacity:1;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.235086"
        xml:space="preserve"
        inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L06/space-02.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#0000ff;stroke-width:0.23508634"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#0000ff;stroke-width:0.235086"
          y="249.3089"
          x="142.45862"
          id="tspan984-5-9-3-5-7-2-9-2-3"
@@ -667,19 +666,19 @@
        id="text986-8-0-9-7-6-56-2-1-7-5"
        y="302.08994"
        x="142.45862"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.79896069px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;opacity:1;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.23508634"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.799px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;opacity:1;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.235086"
        xml:space="preserve"
        inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L06/space-02.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#0000ff;stroke-width:0.23508634"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#0000ff;stroke-width:0.235086"
          y="302.08994"
          x="142.45862"
          id="tspan984-5-9-3-5-7-2-9-2-0-6"
          sodipodi:role="line">'N'</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.99323845px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:1.1870774"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.9932px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:1.18708"
        x="186.91524"
        y="250.94911"
        id="text2556-35-3-5-2"
@@ -690,10 +689,10 @@
          id="tspan2554-62-67-3-9"
          x="186.91524"
          y="250.94911"
-         style="fill:#ff0000;stroke-width:1.1870774">0x10010010</tspan></text>
+         style="fill:#ff0000;stroke-width:1.18708">0x10010010</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.99323845px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1.1870774"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.9932px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1.18708"
        x="186.91524"
        y="302.85571"
        id="text2556-35-3-5-2-1"
@@ -704,7 +703,7 @@
          id="tspan2554-62-67-3-9-2"
          x="186.91524"
          y="302.85571"
-         style="fill:#008000;stroke-width:1.1870774">0x10010012</tspan></text>
+         style="fill:#008000;stroke-width:1.18708">0x10010012</tspan></text>
     <rect
        style="display:inline;opacity:1;fill:#ececec;fill-opacity:1;stroke:#000000;stroke-width:0.52916664;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect1084-3-0-6-7-7"
@@ -720,12 +719,12 @@
        id="text986-8-0-9-7-6-56-2-1-7-9-7-0"
        y="467.04745"
        x="142.45862"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.79896069px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;opacity:1;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.23508634"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.799px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;opacity:1;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.235086"
        xml:space="preserve"
        inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L06/space-02.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#0000ff;stroke-width:0.23508634"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#0000ff;stroke-width:0.235086"
          y="467.04745"
          x="142.45862"
          id="tspan984-5-9-3-5-7-2-9-2-0-3-3-9"
@@ -755,12 +754,12 @@
        id="text986-8-0-9-7-6-56-2-1-7-8-0"
        y="493.91342"
        x="143.97212"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.79896069px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;opacity:1;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.23508634"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.799px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;opacity:1;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.235086"
        xml:space="preserve"
        inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L06/space-02.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#0000ff;stroke-width:0.23508634"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#0000ff;stroke-width:0.235086"
          y="493.91342"
          x="143.97212"
          id="tspan984-5-9-3-5-7-2-9-2-0-9-6"
@@ -770,12 +769,12 @@
        id="text986-8-0-9-7-6-56-2-1-7-9-7-2"
        y="521.85413"
        x="142.45862"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.79896069px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;opacity:1;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.23508634"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.799px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;opacity:1;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.235086"
        xml:space="preserve"
        inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L06/space-02.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#0000ff;stroke-width:0.23508634"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#0000ff;stroke-width:0.235086"
          y="521.85413"
          x="142.45862"
          id="tspan984-5-9-3-5-7-2-9-2-0-3-3-6"
@@ -795,19 +794,19 @@
        id="text986-8-0-9-7-6-56-2-1-7-9-7-0-8"
        y="547.12152"
        x="140.8533"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.79896069px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;opacity:1;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.23508634"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.799px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;opacity:1;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.235086"
        xml:space="preserve"
        inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L06/space-02.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#0000ff;stroke-width:0.23508634"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#0000ff;stroke-width:0.235086"
          y="547.12152"
          x="140.8533"
          id="tspan984-5-9-3-5-7-2-9-2-0-3-3-9-7"
          sodipodi:role="line">'\0'</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.99323845px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1.1870774"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.9932px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1.18708"
        x="186.91524"
        y="385.91879"
        id="text2556-35-3-5-5-0"
@@ -818,10 +817,10 @@
          id="tspan2554-62-67-3-6-2"
          x="186.91524"
          y="385.91879"
-         style="fill:#008000;stroke-width:1.1870774">0x10010015</tspan></text>
+         style="fill:#008000;stroke-width:1.18708">0x10010015</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.99323845px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1.1870774"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.9932px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1.18708"
        x="186.91524"
        y="358.04025"
        id="text2556-35-3-5-2-1-3"
@@ -832,10 +831,10 @@
          id="tspan2554-62-67-3-9-2-7"
          x="186.91524"
          y="358.04025"
-         style="fill:#008000;stroke-width:1.1870774">0x10010014</tspan></text>
+         style="fill:#008000;stroke-width:1.18708">0x10010014</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.99323845px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1.1870774"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.9932px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1.18708"
        x="186.91524"
        y="438.0795"
        id="text2556-35-3-5-5-5"
@@ -846,10 +845,10 @@
          id="tspan2554-62-67-3-6-9"
          x="186.91524"
          y="438.0795"
-         style="fill:#008000;stroke-width:1.1870774">0x10010017</tspan></text>
+         style="fill:#008000;stroke-width:1.18708">0x10010017</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.99323845px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1.1870774"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.9932px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1.18708"
        x="186.91524"
        y="410.20096"
        id="text2556-35-3-5-2-1-2"
@@ -860,10 +859,10 @@
          id="tspan2554-62-67-3-9-2-2"
          x="186.91524"
          y="410.20096"
-         style="fill:#008000;stroke-width:1.1870774">0x10010016</tspan></text>
+         style="fill:#008000;stroke-width:1.18708">0x10010016</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.99323845px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1.1870774"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.9932px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1.18708"
        x="186.91524"
        y="493.26404"
        id="text2556-35-3-5-5-0-8"
@@ -874,10 +873,10 @@
          id="tspan2554-62-67-3-6-2-9"
          x="186.91524"
          y="493.26404"
-         style="fill:#008000;stroke-width:1.1870774">0x10010019</tspan></text>
+         style="fill:#008000;stroke-width:1.18708">0x10010019</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.99323845px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1.1870774"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.9932px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1.18708"
        x="186.91524"
        y="465.3855"
        id="text2556-35-3-5-2-1-3-7"
@@ -888,10 +887,10 @@
          id="tspan2554-62-67-3-9-2-7-3"
          x="186.91524"
          y="465.3855"
-         style="fill:#008000;stroke-width:1.1870774">0x10010018</tspan></text>
+         style="fill:#008000;stroke-width:1.18708">0x10010018</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.99323845px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1.1870774"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.9932px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1.18708"
        x="186.91524"
        y="550.71637"
        id="text2556-35-3-5-5-5-6"
@@ -902,10 +901,10 @@
          id="tspan2554-62-67-3-6-9-1"
          x="186.91524"
          y="550.71637"
-         style="fill:#008000;stroke-width:1.1870774">0x10010021</tspan></text>
+         style="fill:#008000;stroke-width:1.18708">0x1001001B</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.99323845px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1.1870774"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.9932px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1.18708"
        x="186.91524"
        y="522.83783"
        id="text2556-35-3-5-2-1-2-2"
@@ -916,7 +915,7 @@
          id="tspan2554-62-67-3-9-2-2-9"
          x="186.91524"
          y="522.83783"
-         style="fill:#008000;stroke-width:1.1870774">0x10010020</tspan></text>
+         style="fill:#008000;stroke-width:1.18708">0x1001001A</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.5291667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.05833333, 2.11666667;stroke-dashoffset:0;stroke-opacity:1"
        d="M 5.8799331,286.13905 H 127.75485"
@@ -927,7 +926,7 @@
        inkscape:export-ydpi="90" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.40325546px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.96451914"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.4033px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.964519"
        x="24.221258"
        y="191.21632"
        id="text29"
@@ -938,7 +937,7 @@
          id="tspan27"
          x="24.221258"
          y="191.21632"
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';fill:#ff0000;stroke-width:0.96451914">cad1</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';fill:#ff0000;stroke-width:0.964519">cad1</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.52916676;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.05833334, 2.11666669;stroke-dashoffset:0;stroke-opacity:1"
        d="M 5.8799324,105.40699 H 127.75485"
@@ -957,7 +956,7 @@
        inkscape:export-ydpi="90" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.40325546px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#008000;fill-opacity:1;stroke:none;stroke-width:0.96451914"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.4033px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#008000;fill-opacity:1;stroke:none;stroke-width:0.964519"
        x="24.22126"
        y="420.94595"
        id="text29-4"
@@ -968,7 +967,7 @@
          id="tspan27-5"
          x="24.22126"
          y="420.94595"
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';fill:#008000;stroke-width:0.96451914">cad2</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';fill:#008000;stroke-width:0.964519">cad2</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:1.26890731;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow2Mstart-0);marker-end:url(#Arrow2Mend-61)"
        d="M 106.17157,553.5405 V 289.06142"
@@ -993,19 +992,19 @@
        id="text986-8-0-9-7-6-56-2-1-5-0"
        y="276.71225"
        x="142.4586"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.79896069px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;opacity:1;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.23508634"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.799px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;opacity:1;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.235086"
        xml:space="preserve"
        inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L06/space-02.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#0000ff;stroke-width:0.23508634"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#0000ff;stroke-width:0.235086"
          y="276.71225"
          x="142.4586"
          id="tspan984-5-9-3-5-7-2-9-2-3-6"
          sodipodi:role="line">00</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.99323845px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:1.1870774"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.9932px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:1.18708"
        x="186.91524"
        y="278.38138"
        id="text2556-35-3-5-2-15"
@@ -1016,6 +1015,6 @@
          id="tspan2554-62-67-3-9-5"
          x="186.91524"
          y="278.38138"
-         style="fill:#ff0000;stroke-width:1.1870774">0x10010011</tspan></text>
+         style="fill:#ff0000;stroke-width:1.18708">0x10010011</tspan></text>
   </g>
 </svg>
