@@ -1,5 +1,0 @@
-Introduzca cadena 1: ab
-Introduzca cadena 2: hola
-Peso maximo: 420
-Introduzca cadena 1:
-

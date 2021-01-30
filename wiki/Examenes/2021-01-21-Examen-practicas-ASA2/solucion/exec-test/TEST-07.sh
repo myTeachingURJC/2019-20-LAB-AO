@@ -1,6 +1,11 @@
 #!/bin/bash
 echo "-----Ejecutando TEST-07-----"
 
+
+##-- Numero de pasos maximos
+##-- Es para detectar bucles infinitos
+MAX_STEPS=10000
+
 ##-- Nombre del elemento a probar
 ITEM="pesomax.s"
 
@@ -9,16 +14,14 @@ echo "PROBANDO: "$ITEM
 echo ""
 
 ##-- Comando a ejecutar
-cmd="java -jar rars1_5.jar SOL_test_pesomax.s ../$ITEM SOL_peso.s SOL_max.s"
+##-- Parametro ic: Muestra al final el numero de instrucciones
+##--   ejecutadas
+##-- Se para tambien como parametro el numero maximo de 
+##-- pasos
+cmd="java -jar rars1_5.jar ic $MAX_STEPS SOL_test_pesomax.s ../$ITEM SOL_peso.s SOL_max.s"
 
 ##-- Mostrar comando en consola y ejecutarlo
 echo $cmd
 $cmd
-
-##-- Mostrar cual deberia ser la salida correcta
-echo ""
-echo "*** SALIDA CORRECTA: ***"
-echo ""
-cat TEST-07-output.txt
 
 read -p "------FIN-------"
