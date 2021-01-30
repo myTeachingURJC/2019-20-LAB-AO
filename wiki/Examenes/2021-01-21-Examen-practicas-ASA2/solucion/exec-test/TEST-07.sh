@@ -1,8 +1,15 @@
 #!/bin/bash
 echo "-----Ejecutando TEST-07-----"
 
+##-- Nombre del elemento a probar
+ITEM="pesomax.s"
+
+echo ""
+echo "PROBANDO: "$ITEM
+echo ""
+
 ##-- Comando a ejecutar
-cmd="java -jar rars1_5.jar SOL_test_pesomax.s pesomax.s SOL_peso.s SOL_max.s"
+cmd="java -jar rars1_5.jar SOL_test_pesomax.s ../$ITEM SOL_peso.s SOL_max.s"
 
 ##-- Mostrar comando en consola y ejecutarlo
 echo $cmd
