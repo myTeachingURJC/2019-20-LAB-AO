@@ -10,12 +10,15 @@
 	
 	.globl peso
 	
+	.include "system.h"
+	.include "test.h"
+	
 	.text
 	
 	
-	#-- Se trata de una funcion hoja, por lo 
-	#-- que no es necesario crear la pila para 
-	#-- guardar la direccion de retorno
+	#-- Cambiar los valores de todos los registros temporales
+	#-- menos a0
+	init_temp_regs_noa0 
 	
 peso:
 
