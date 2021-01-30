@@ -9,7 +9,7 @@ echo "PROBANDO: "$ITEM
 echo ""
 
 ##-- Comando a ejecutar
-cmd="java -jar rars1_5.jar TEST_peso.s ../$ITEM"
+cmd="java -jar rars1_5.jar 10000 ic TEST_peso.s ../$ITEM"
 
 ##-- Mostrar comando en consola y ejecutarlo
 echo $cmd

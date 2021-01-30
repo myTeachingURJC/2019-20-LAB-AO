@@ -109,9 +109,13 @@
 abort:   
   #-- Abortar: Violacion del convenio
   print_str("**** VIOLACION DEL CONVENIO!\n")
-  exit(-1)
+  #exit(-1)
+  b cont2
   
 cont:
+  print_str("OK!!\n")
+  
+cont2:
 .end_macro
 
 
@@ -121,7 +125,10 @@ cont:
   b cont_ok
 error:
   print_str("*** ERROR: VALOR INVALIDO\n")
-  exit(-1)
+  #exit(-1)
+  b cont_fail
 
 cont_ok:
+  print_str("OK!!\n")
+cont_fail:
 .end_macro

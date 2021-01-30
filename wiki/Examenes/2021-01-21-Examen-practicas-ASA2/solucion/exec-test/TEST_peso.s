@@ -13,7 +13,7 @@
 	.data
 test1:  .string "ab\n"  #-- Cadena para test1
 test2:	.string "ab\n"  #-- Cadena para test2	
-test3:  .string "hola"  #-- Cadena para test3
+
 
 	.text
 main:
@@ -39,17 +39,15 @@ main:
         
         #-- Comprobar que los registros estaticos no se han
         #-- modificado
-        check_static_regs
-
-	#-- También de paso se comprueba que la funcion no haya
+        #-- También de paso se comprueba que la funcion no haya
 	#-- petado
-	print_str("OK!!\n\n")
+        check_static_regs
 
         # ---------------------------------------------------------
         #- Prueba 2: comprobar que el valor devuelto es correcto
         #----------------------------------------------------------
         
-        print_str("----> Prueba 2\n")
+        print_str("\n----> PRUEBA 2\n")
 
 
 	#-- Calcular el peso de cad
@@ -73,13 +71,13 @@ main:
 	
 	#-- Comprobar si el resultado es correcto
 	assert(s0, CORRECT2)
-	print_str("OK!!\n")
+	
 	
 	# ---------------------------------------------------------
         #- Prueba 3: comprobar que el valor devuelto es correcto
         #----------------------------------------------------------
         
-        print_str("----> Prueba 3\n")
+        print_str("\n----> PRUEBA 3\n")
 
 
 	#-- Calcular el peso de cad
@@ -102,8 +100,13 @@ main:
 	
 	#-- Comprobar si el resultado es correcto
 	assert(s0, CORRECT3)
-	print_str("OK!!\n")
-
 
 	#-- Terminar
 	exit(0)
+
+	#-- Estas cadenas se situan al final
+	#-- del segmento de datos para que no haya más datos
+	#-- y en caso de que un bucle no detecte el final del 0 de la 
+	#-- cadena entre en bucle infinito
+	.data
+test3:  .string "hola"  #-- Cadena para test3

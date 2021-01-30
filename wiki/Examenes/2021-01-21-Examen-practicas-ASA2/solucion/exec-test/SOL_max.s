@@ -29,6 +29,6 @@ max:
 	mv a0, a1
 	
 max_a0:
-
+	
 	ret
 	

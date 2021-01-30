@@ -17,11 +17,11 @@
 main:
 
 	#-- Nombre del test: 
-        print_str("=========== TEST_max ======== \n\n")
+        print_str("=========== TEST_max ======== \n")
         
         #-- Prueba 1: Comprobar que se llama a la funcion
         #-- y que se respeta el convenio
-        print_str("------> PRUEBA 1\n")
+        print_str("\n------> PRUEBA 1\n")
         
         #-- Dar valores TODOs los registros temporales y de argumento
         #-- para asegurar que la funcion llamada no asume que tienen
@@ -40,13 +40,11 @@ main:
         #-- modificado
         check_static_regs
 
-	print_str("OK!!\n\n")
-
        # ---------------------------------------------------------
        #- Prueba 2: comprobar que el valor devuelto es correcto
        #----------------------------------------------------------
         
-        print_str("----> Prueba 2\n")
+        print_str("\n------> PRUEBA 2\n")
         
         
 	print_str("Calcular valor max entre: ")
@@ -74,7 +72,6 @@ main:
 	
 	#-- Comprobar si el resultado es correcto
 	assert(s0, CORRECT)
-	print_str("OK!!\n")
 
 	#-- Terminar
 	exit(0)
