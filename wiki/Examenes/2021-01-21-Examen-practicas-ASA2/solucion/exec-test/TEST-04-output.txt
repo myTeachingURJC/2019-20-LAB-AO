@@ -1,3 +1,0 @@
-Peso de la cadena ab:  195
-Program terminated by calling exit
-
