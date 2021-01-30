@@ -18,7 +18,7 @@ echo ""
 ##--   ejecutadas
 ##-- Se para tambien como parametro el numero maximo de 
 ##-- pasos
-cmd="java -jar rars1_5.jar ic $MAX_STEPS SOL_test_pesomax.s ../$ITEM SOL_peso.s SOL_max.s"
+cmd="java -jar rars1_5.jar ic $MAX_STEPS TEST_pesomax.s ../$ITEM SOL_peso.s SOL_max.s"
 
 ##-- Mostrar comando en consola y ejecutarlo
 echo $cmd
