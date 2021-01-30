@@ -28,7 +28,8 @@
 	.eqv T_s10, 0xAAAAA
 	.eqv T_s11, 0xBBBBB
 
-.macro init_temp_regs
+# -- Inicializar todos los registros menos a0 y a1
+.macro init_temp_regs_noa0a1
   li t0, T_t0
   li t1, T_t1
   li t2, T_t2
@@ -36,8 +37,6 @@
   li t4, T_t4
   li t5, T_t5
   li t6, T_t6
-  li a0, T_a0
-  li a1, T_a1
   li a2, T_a2
   li a3, T_a3
   li a4, T_a4
@@ -45,8 +44,20 @@
   li a6, T_a6
   li a7, T_a7
   
-  print_str("* Registros Temporales inicializados...\n")
+   print_str("* Registros Temporales inicializados...\n")
 .end_macro
+
+.macro init_temp_regs
+
+  #-- Inicializar todos menos a0 y a1
+  init_temp_regs_noa0a1  
+  
+  #-- Inicializar a0 y a1
+  li a0, T_a0
+  li a1, T_a1
+.end_macro
+
+
 
 .macro init_static_regs
   li s0, T_s0

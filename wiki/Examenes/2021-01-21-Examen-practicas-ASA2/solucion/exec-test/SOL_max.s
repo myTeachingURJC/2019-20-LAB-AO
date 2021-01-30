@@ -12,11 +12,14 @@
 
 	.globl max
 
+	.include "system.h"
+	.include "test.h"
+	
 	.text
 
-	#-- Se trata de una funcion Hoja, por lo que
-	#-- no hay que crear pila para guardar lal direccion
-	#-- de retorno
+	#-- Cambiar los valores de todos los registros temporales
+	#-- menos a0 y a1
+	init_temp_regs_noa0a1 
 max:
 	#-- Si a0 > a1, devolver a0
 	bgt a0, a1, max_a0
@@ -26,5 +29,6 @@ max:
 	mv a0, a1
 	
 max_a0:
+
 	ret
 	
