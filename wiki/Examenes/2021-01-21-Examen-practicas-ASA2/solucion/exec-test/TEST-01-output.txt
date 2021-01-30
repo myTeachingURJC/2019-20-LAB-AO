@@ -1,4 +1,0 @@
-Calcular valor max entre: 20 y 30
-Resultado: 30
-Program terminated by calling exit
-
