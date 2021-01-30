@@ -30,9 +30,24 @@
   ecall
 .end_macro
 
-#-- Imprimir un entero
+#-- Imprimir la cadena indicada por el registro
+#-- dado
+.macro print_pstr(%reg)
+  mv a0, %reg
+  li a7, PRINT_STRING
+  ecall
+.end_macro
+
+#-- Imprimir un entero constante
 .macro print_int(%x)
   li a7, PRINT_INT
   li a0, %x
+  ecall
+.end_macro
+
+#-- Imprimir un entero situado en el registro dado
+.macro print_int_reg(%x)
+  mv a0, %x
+  li a7, PRINT_INT
   ecall
 .end_macro
