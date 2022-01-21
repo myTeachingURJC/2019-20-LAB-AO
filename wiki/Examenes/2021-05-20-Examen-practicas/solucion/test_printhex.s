@@ -20,7 +20,7 @@ msg:	.string ": "
 	
 	# -- Valor usado para repetir el bucle
 	# -- y obtener los numeros del 10 al 15
-	li t1, 16
+	li s1, 16
 
 bucle:
 	# -- ESPECIFICACION ENUNCIADO: Imprimir el numero en decimal
@@ -41,7 +41,7 @@ bucle:
 	addi s0, s0, 1
 	
 	# -- Mientras s0 sea menor que 16 repetir el bucle
-	blt s0, t1, bucle
+	blt s0, s1, bucle
 
 	#-- Terminar
 	li a7, EXIT

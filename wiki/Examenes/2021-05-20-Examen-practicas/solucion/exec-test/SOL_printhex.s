@@ -8,6 +8,9 @@
 #   nada
 #-------------------------------------------
 
+	.include "system.h"
+	.include "test.h"
+	
 	.eqv PRINT_CHAR   11
 	.eqv PRINT_HEX    34
 
@@ -24,6 +27,8 @@ printhex:
 	li a0, '\n'
 	li a7, PRINT_CHAR
 	ecall
+	
+	init_temp_regs
 	
 	#-- Retornar
 	ret
