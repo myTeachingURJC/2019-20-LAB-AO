@@ -2,23 +2,23 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="561.48187mm"
    height="822.99017mm"
    viewBox="0 0 561.48186 822.99019"
    version="1.1"
    id="svg8"
-   inkscape:version="0.92.4 (unknown)"
+   inkscape:version="1.1.1 (3bf5ae0, 2021-09-20)"
    sodipodi:docname="subrutina-3.svg"
    inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L09/subrutina-06.png"
    inkscape:export-xdpi="90"
-   inkscape:export-ydpi="90">
+   inkscape:export-ydpi="90"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs2">
     <marker
@@ -269,16 +269,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.20663653"
-     inkscape:cx="1400.1"
-     inkscape:cy="1421.9309"
+     inkscape:zoom="0.10331827"
+     inkscape:cx="2908.4886"
+     inkscape:cy="1969.6421"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer2"
      showgrid="false"
-     inkscape:window-width="1853"
-     inkscape:window-height="1025"
-     inkscape:window-x="67"
-     inkscape:window-y="27"
+     inkscape:window-width="1858"
+     inkscape:window-height="1016"
+     inkscape:window-x="62"
+     inkscape:window-y="1107"
      inkscape:window-maximized="1"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -286,7 +286,8 @@
      fit-margin-bottom="0"
      inkscape:snap-global="false"
      showguides="true"
-     inkscape:guide-bbox="true" />
+     inkscape:guide-bbox="true"
+     inkscape:pagecheckerboard="0" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -295,7 +296,6 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -314,20 +314,6 @@
        inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2019-20-LAB-AO/wiki/L09/subrutina-05.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.40459251px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#008000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="546.74622"
-       y="548.25836"
-       id="text966-3-2-6-93-8-7"
-       inkscape:export-filename="/home/obijuan/develop/myTeachingURJC/2018-19-LAB-AO/wiki/L04/image-04.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
-         sodipodi:role="line"
-         id="tspan964-5-7-1-6-9-1"
-         x="546.74622"
-         y="548.25836"
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';fill:#ffffff;stroke-width:0.26458332">10</tspan></text>
   </g>
   <g
      inkscape:label="Layer 1"
@@ -347,7 +333,7 @@
        inkscape:export-ydpi="90" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.48791313px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.4879px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="61.802048"
        y="202.72279"
        id="text817-5-93-3"
@@ -357,12 +343,12 @@
          sodipodi:role="line"
          x="61.802048"
          y="202.72279"
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';fill:#000000;stroke-width:0.26458332"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';fill:#000000;stroke-width:0.264583"
          id="tspan909-0-7">Programa</tspan><tspan
          sodipodi:role="line"
          x="61.802048"
          y="230.83269"
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';fill:#000000;stroke-width:0.26458332"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';fill:#000000;stroke-width:0.264583"
          id="tspan1265">principal</tspan></text>
     <circle
        style="opacity:1;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.79399997;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -375,15 +361,10 @@
        inkscape:export-ydpi="90" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="-11.491241"
        y="78.921143"
-       id="text8217"><tspan
-         sodipodi:role="line"
-         id="tspan8215"
-         x="-11.491241"
-         y="82.86869"
-         style="stroke-width:0.26458332" /></text>
+       id="text8217" />
     <flowRoot
        xml:space="preserve"
        id="flowRoot9624"
@@ -395,9 +376,10 @@
            height="88.571426"
            x="-122.85714"
            y="408.31927" /></flowRegion><flowPara
-         id="flowPara9630" /></flowRoot>    <text
+         id="flowPara9630" /></flowRoot>
+    <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.48791313px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.98999999;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.4879px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.99;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="62.973454"
        y="254.6525"
        id="text817-5-93-3-36"
@@ -407,7 +389,7 @@
          sodipodi:role="line"
          x="62.973454"
          y="254.6525"
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';fill:#000000;stroke-width:0.26458332"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';fill:#000000;stroke-width:0.264583"
          id="tspan1265-53">(Main)</tspan></text>
     <circle
        style="opacity:1;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.79399997;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -420,7 +402,7 @@
        inkscape:export-ydpi="90" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.68814659px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.98999999;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.6881px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.99;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="-195.10567"
        y="20.718349"
        id="text817-5-93-6-7-6"
@@ -430,11 +412,11 @@
          sodipodi:role="line"
          x="-195.10567"
          y="20.718349"
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';text-align:start;text-anchor:start;fill:#000000;stroke-width:0.26458332"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';text-align:start;text-anchor:start;fill:#000000;stroke-width:0.264583"
          id="tspan1311-9">Punto de ENTRADA</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.68814659px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.98999999;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.6881px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.99;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="-195.77322"
        y="446.19205"
        id="text817-5-93-6-7-6-1"
@@ -444,7 +426,7 @@
          sodipodi:role="line"
          x="-195.77322"
          y="446.19205"
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';text-align:start;text-anchor:start;fill:#000000;stroke-width:0.26458332"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';text-align:start;text-anchor:start;fill:#000000;stroke-width:0.264583"
          id="tspan1311-9-2">Punto de SALIDA</tspan></text>
     <path
        style="display:inline;fill:none;stroke:#000000;stroke-width:1.32291663;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1035)"
@@ -492,7 +474,7 @@
        inkscape:export-ydpi="90" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.68814659px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.98009997;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.6881px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.9801;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="-188.71556"
        y="211.42435"
        id="text817-5-93-6-7-7-8-9"
@@ -502,12 +484,12 @@
          sodipodi:role="line"
          x="-188.71556"
          y="211.42435"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:start;text-anchor:start;fill:#000000;stroke-width:0.26458332"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:start;text-anchor:start;fill:#000000;stroke-width:0.264583"
          id="tspan1311-36-7-2">Otras operaciones </tspan><tspan
          sodipodi:role="line"
          x="-188.71556"
          y="231.03453"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:start;text-anchor:start;fill:#000000;stroke-width:0.26458332"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:start;text-anchor:start;fill:#000000;stroke-width:0.264583"
          id="tspan6005">y cálculos</tspan></text>
     <rect
        style="opacity:1;fill:#aaeeff;fill-opacity:1;stroke:#000000;stroke-width:0.52916664;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -521,7 +503,7 @@
        inkscape:export-ydpi="90" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.48791313px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.98999999;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.4879px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.99;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="52.990112"
        y="617.35205"
        id="text817-5-93-3-9"
@@ -531,7 +513,7 @@
          sodipodi:role="line"
          x="52.990112"
          y="617.35205"
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';fill:#000000;stroke-width:0.26458332"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';fill:#000000;stroke-width:0.264583"
          id="tspan4800">Subrutina</tspan></text>
     <circle
        style="opacity:1;fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:0.79399997;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -544,7 +526,7 @@
        inkscape:export-ydpi="90" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.68814659px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.98999999;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.6881px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.99;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="-163.08446"
        y="522.77924"
        id="text817-5-93-6-7-6-12"
@@ -554,17 +536,17 @@
          sodipodi:role="line"
          x="-163.08446"
          y="522.77924"
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';text-align:start;text-anchor:start;fill:#000000;stroke-width:0.26458332"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';text-align:start;text-anchor:start;fill:#000000;stroke-width:0.264583"
          id="tspan1311-9-9">Punto de </tspan><tspan
          sodipodi:role="line"
          x="-163.08446"
          y="542.3894"
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';text-align:start;text-anchor:start;fill:#000000;stroke-width:0.26458332"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';text-align:start;text-anchor:start;fill:#000000;stroke-width:0.264583"
          id="tspan6169">ENTRADA</tspan><tspan
          sodipodi:role="line"
          x="-163.08446"
          y="561.99957"
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';text-align:start;text-anchor:start;fill:#000000;stroke-width:0.26458332"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';text-align:start;text-anchor:start;fill:#000000;stroke-width:0.264583"
          id="tspan13106">(tarea1)</tspan></text>
     <path
        style="opacity:0.98999999;fill:none;stroke:#000000;stroke-width:1.32291663;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker978-6-4)"
@@ -598,17 +580,17 @@
          id="text817-5-93-6-7-7-0"
          y="166.61716"
          x="-167.89136"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.68814659px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.98999999;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.6881px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.99;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
          xml:space="preserve"><tspan
            id="tspan1311-36-3"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:start;text-anchor:start;fill:#000000;stroke-width:0.26458332"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:start;text-anchor:start;fill:#000000;stroke-width:0.264583"
            y="166.61716"
            x="-167.89136"
            sodipodi:role="line">TAREA 1</tspan></text>
     </g>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.68814659px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.98999999;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.6881px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.99;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="-184.20667"
        y="746.12701"
        id="text817-5-93-6-7-6-1-6"
@@ -618,12 +600,12 @@
          sodipodi:role="line"
          x="-184.20667"
          y="746.12701"
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';text-align:start;text-anchor:start;fill:#000000;stroke-width:0.26458332"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';text-align:start;text-anchor:start;fill:#000000;stroke-width:0.264583"
          id="tspan1311-9-2-3">Punto de </tspan><tspan
          sodipodi:role="line"
          x="-184.20667"
          y="765.73718"
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';text-align:start;text-anchor:start;fill:#000000;stroke-width:0.26458332"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';text-align:start;text-anchor:start;fill:#000000;stroke-width:0.264583"
          id="tspan6171">SALIDA</tspan></text>
     <path
        style="opacity:0.98999999;fill:none;stroke:#000000;stroke-width:1.32291663;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker978-6-9-6)"
@@ -681,7 +663,7 @@
        inkscape:export-ydpi="90" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.68814659px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.98009997;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.6881px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.9801;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="-164.16707"
        y="115.94135"
        id="text817-5-93-6-7-7-8-9-5"
@@ -691,11 +673,11 @@
          sodipodi:role="line"
          x="-164.16707"
          y="115.94135"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:start;text-anchor:start;fill:#000000;stroke-width:0.26458332"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:start;text-anchor:start;fill:#000000;stroke-width:0.264583"
          id="tspan6005-5">jal tarea1</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.68814659px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.98009997;fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:0.26458332;"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.6881px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.9801;fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="-22.022047"
        y="101.73991"
        id="text817-5-93-6-7-7-8-9-5-7"
@@ -705,12 +687,12 @@
          sodipodi:role="line"
          x="-20.214231"
          y="101.73991"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;text-anchor:middle;fill:#ff6600;stroke-width:0.26458332;"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;text-anchor:middle;fill:#ff6600;stroke-width:0.264583"
          id="tspan6005-5-4">Llamada a la </tspan><tspan
          sodipodi:role="line"
          x="-22.022047"
          y="121.35008"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;text-anchor:middle;fill:#ff6600;stroke-width:0.26458332;"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;text-anchor:middle;fill:#ff6600;stroke-width:0.264583"
          id="tspan12228">subrutina tarea1</tspan></text>
     <rect
        style="opacity:0.98999999;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.32291663;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -724,7 +706,7 @@
        inkscape:export-ydpi="90" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.68814659px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.98009997;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.6881px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.9801;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="-168.50444"
        y="334.61813"
        id="text817-5-93-6-7-7-8-9-5-3"
@@ -734,11 +716,11 @@
          sodipodi:role="line"
          x="-168.50444"
          y="334.61813"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:start;text-anchor:start;fill:#000000;stroke-width:0.26458332"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:start;text-anchor:start;fill:#000000;stroke-width:0.264583"
          id="tspan6005-5-0">jal tarea1</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.68814659px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.98009997;fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:0.26458332;"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.6881px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.9801;fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="-0.75084013"
        y="321.69708"
        id="text817-5-93-6-7-7-8-9-5-7-7"
@@ -748,12 +730,12 @@
          sodipodi:role="line"
          x="1.0569602"
          y="321.69708"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;text-anchor:middle;fill:#ff6600;stroke-width:0.26458332;"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;text-anchor:middle;fill:#ff6600;stroke-width:0.264583"
          id="tspan6005-5-4-8">Llamada a la </tspan><tspan
          sodipodi:role="line"
          x="-0.75084013"
          y="341.30728"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;text-anchor:middle;fill:#ff6600;stroke-width:0.26458332;"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;text-anchor:middle;fill:#ff6600;stroke-width:0.264583"
          id="tspan12228-6">subrutina tarea1</tspan></text>
     <g
        id="g13134"
@@ -775,17 +757,17 @@
          id="text817-5-93-6-7-7-8-9-5-3-8"
          y="614.67804"
          x="264.81473"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.68814659px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.98009997;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.6881px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.9801;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
          xml:space="preserve"><tspan
            id="tspan6005-5-0-4"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:start;text-anchor:start;fill:#000000;stroke-width:0.26458332"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:start;text-anchor:start;fill:#000000;stroke-width:0.264583"
            y="614.67804"
            x="264.81473"
            sodipodi:role="line">ret</tspan></text>
     </g>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.68814659px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.98999999;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.6881px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.99;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="-97.016617"
        y="744.76727"
        id="text817-5-93-6-7-6-12-3"
@@ -795,12 +777,12 @@
          sodipodi:role="line"
          x="-97.016617"
          y="744.76727"
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';text-align:start;text-anchor:start;fill:#000000;stroke-width:0.26458332"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';text-align:start;text-anchor:start;fill:#000000;stroke-width:0.264583"
          id="tspan13106-9">(Retorno de</tspan><tspan
          sodipodi:role="line"
          x="-97.016617"
          y="764.37744"
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';text-align:start;text-anchor:start;fill:#000000;stroke-width:0.26458332"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Medium';text-align:start;text-anchor:start;fill:#000000;stroke-width:0.264583"
          id="tspan13164">la subrutina)</tspan></text>
   </g>
 </svg>
