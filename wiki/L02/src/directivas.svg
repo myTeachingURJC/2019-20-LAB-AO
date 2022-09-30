@@ -7,6 +7,9 @@
    id="svg935"
    inkscape:version="1.2.1 (0f2f062aeb, 2022-09-21, custom)"
    sodipodi:docname="directivas.svg"
+   inkscape:export-filename="../7a10eda3/directivas.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -178,12 +181,12 @@
        inkscape:export-ydpi="90"><tspan
          x="116.38867"
          y="181.33672"
-         id="tspan1084">Indica al ensamblador que lo que viene a continuación son </tspan><tspan
+         id="tspan1253">Indica al ensamblador que lo que viene a continuación son </tspan><tspan
          x="116.38867"
          y="191.92007"
-         id="tspan1088">instrucciones que se deben situar en el <tspan
+         id="tspan1257">instrucciones que se deben situar en el <tspan
    style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
-   id="tspan1086">segmento de código</tspan></tspan></text>
+   id="tspan1255">segmento de código</tspan></tspan></text>
     <rect
        style="fill:none;stroke:#000000;stroke-width:0.471413;stroke-linecap:round"
        id="rect1540"
