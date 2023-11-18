@@ -1,10 +1,10 @@
-#-- Programa para imprimir numeros aleatorios
+#-- Programa para imprimir numeros aleatorios en hexadecimal
 
 	#-- Servicios del sistema operativo (ESPECIFICACION)
 	.include "sis.s"
 
 	.data
-num:    .word 0  #-- ESPECIFICACION: Numero introducido por el usuario
+num:    .word 0  #-- (BONUS) ESPECIFICACION: Numero introducido por el usuario
 msg1:	.string "Cantidad de numeros aleatorios: " #-- ESPECIFICACION
 
 	.text
@@ -32,7 +32,7 @@ bucle:
 	
 	#-- Obtener numero aleatorio, llamando al sistema operativo
 	#-- (ESPECIFICACION)
-	li a0,1
+	li a0,1   #---- (ESPECIFICACION: índice del generador de números pseudoaleatorios)
 	li a7, RAND_INT
 	ecall
 	
