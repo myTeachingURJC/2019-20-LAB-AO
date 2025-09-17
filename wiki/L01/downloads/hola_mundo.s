@@ -1,9 +1,9 @@
 #-- Programa hola mundo en RISC-V
 #-- Esto son comentarios
-	.data
-str:	.asciz "Hola mundo en RISC-V!\n"
+	 .data
+str: .string "Hola mundo en RISC-V!\n"
 	
-	.text
+	 .text
 	
 main:	
 	
