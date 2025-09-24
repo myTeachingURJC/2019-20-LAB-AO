@@ -1,7 +1,8 @@
-# Solucion a la actividad no guiada 3
-# El registro x3 toma los valores 0,1,2,3,4,5...
-# El x4: 0,3,6,9,12,15...
-# El x5 0,5,10,15,20,25.... 
+# Sesion L1 
+# Solucion al ejercicio 3
+# El registro x3 toma los valores 0,1,2,3,4,5... (Incremento de 1)
+# El x4: 0,3,6,9,12,15... (Incremento de 3 en 3)
+# El x5 0,5,10,15,20,25.... (Incremento de 5 en 5)
 #-- Se repite indefinidamente
 
 	.text
@@ -22,4 +23,4 @@ bucle:
 	addi x5, x5, 5
 	
 	#-- Repetir indefinidamente
-	b bucle
+	j bucle
