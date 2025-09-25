@@ -1,5 +1,5 @@
 # Sesion L1 
-# Solucion al ejercicio 3
+# Solucion al ejercicio 4
 #  programa que ejecute las siguientes acciones:
 #   * Inicializar el registro 6 a 0
 #   * Restarle 1

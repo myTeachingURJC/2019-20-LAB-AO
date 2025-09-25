@@ -1,4 +1,5 @@
-# Solucio actividad 5
+# Sesion L1 
+# Solucion al ejercicio 5
 # Se trata de una cuenta atras
 # El registro x3 comienza en 10 y se vall decrementando:
 #  x3:  10, 9, 8, 7, 6...3,2,1, 0
