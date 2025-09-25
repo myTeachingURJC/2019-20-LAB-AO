@@ -1,5 +1,8 @@
+# Sesion L1 
+# Solucion al ejercicio 7
 # Ensambla este programa y soluciona los errores que tenga
 # Consigue que se pueda ejecutar paso a paso
+# -- Este codigo tiene todos los errores solucionados
 
 	.text
 	
@@ -10,7 +13,7 @@ a:
 	beq x17,x0,fin
 	add x7, x7, x12
 	addi x17, x17, -1
-	b a
+	j a
 fin:
 	li a7, 10
 	ecall
