@@ -1,3 +1,5 @@
+# Sesion L1 
+# Solucion al ejercicio 6
 # Es un programa que implementa la multiplicacion
 # de dos registros, usando sumas
 # En los registros x5 y x6 se introducen los dos numeros 
@@ -13,7 +15,7 @@ a:
 	beq x5,x0,fin
 	add x7, x7, x6
 	addi x5, x5, -1
-	b a
+	j a
 fin:
 	li a7, 10
 	ecall
