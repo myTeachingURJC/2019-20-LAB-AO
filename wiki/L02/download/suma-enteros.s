@@ -18,5 +18,5 @@ bucle:
 	add x6, x6, x5  #-- x6 = x6 + x5
 	
 	#-- Repetir el bucle
-	b bucle
+	j bucle
 
