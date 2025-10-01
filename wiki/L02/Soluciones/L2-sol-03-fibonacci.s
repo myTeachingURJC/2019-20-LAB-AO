@@ -1,3 +1,5 @@
+# Sesion L2
+#-- Solucion al ejercicio 3
 #-- Calculo de la serie de fibonacci: 0, 1, 1, 2, 3, 5, 8, 21...
 #-- La serie se puede ver en el registro x7
 #-- x5 y x6 se utilizan para los calculos intermedios
@@ -15,5 +17,5 @@ bucle:
 	add x5, x6, x0  #-- x5 = x6
 	add x6, x7, zero  #-- x6 = x7
 	
-	b bucle
+	j bucle
 	
