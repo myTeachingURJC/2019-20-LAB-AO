@@ -1,3 +1,4 @@
+# Sesion L2
 #-- Solucion al ejercicio 2
 #-- Calcular la suma de los numeros pares
 #-- 2 + 4 + 6 + 8 + 10 + ....
@@ -17,5 +18,5 @@ bucle:
 	add x6, x6, x5  #-- x6 = x6 + x5
 	
 	#-- Repetir el bucle
-	b bucle
+	j bucle
 
