@@ -6,7 +6,7 @@
 	
 	#-- Valores constantes a comparar
 	.eqv VALOR1 10
-	.eqv VALOR2 11
+	.eqv VALOR2 10
 	
 	.data
 	
@@ -32,7 +32,7 @@ msg_diferentes:  .string "DIFERENTES\n"
 	#-- Para terminar saltamos al codigo que hemos definido
 	#-- para terminar. RECUERDA: es conveniente que SOLO haya un 
 	#-- PUNTO DE SALIDA
-	b fin
+	j fin
 	
 	#-- Son iguales. Se imprime el mensaje IGUALES
 iguales:
@@ -48,6 +48,3 @@ fin:
 	#-- Terminar
 	li a7, EXIT
 	ecall
-	
-	
-	
