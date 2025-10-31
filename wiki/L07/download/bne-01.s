@@ -30,7 +30,7 @@ msg_diferentes:  .string "DIFERENTES\n"
 	ecall
 	
 	#-- Ir al PUNTO DE SALIDA
-	b fin
+	j fin
 	
 	#-- Son diferentes
 diferentes:
