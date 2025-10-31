@@ -30,7 +30,7 @@ bucle:
 	addi t0, t0, 1
 	
 	#-- Repetir
-	b bucle
+	j bucle
 	
 	
 	#-- Se ha alcanzado el final de la cadena
