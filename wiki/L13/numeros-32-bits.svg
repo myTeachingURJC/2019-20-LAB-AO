@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="134.64287mm"
+   height="88.871613mm"
+   viewBox="0 0 134.64287 88.871613"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (a7c7f12d92, 2025-10-31)"
+   sodipodi:docname="numeros-32-bits.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.98646753"
+     inkscape:cx="396.87064"
+     inkscape:cy="234.67574"
+     inkscape:window-width="1866"
+     inkscape:window-height="1011"
+     inkscape:window-x="54"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer2" />
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="Triangle"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135" />
+    </marker>
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Back"
+     transform="translate(-28.698782,-7.6850309)">
+    <rect
+       style="fill:#ffffff;stroke:none;stroke-width:0.529;stroke-linecap:square"
+       id="rect13"
+       width="134.64287"
+       height="88.871613"
+       x="28.698782"
+       y="7.6850309" />
+  </g>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-28.698782,-7.6850309)">
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:11.7912px;line-height:1;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';writing-mode:lr-tb;direction:ltr;fill:#000000;stroke-width:0.529;stroke-linecap:square"
+       x="67.989563"
+       y="38.910553"
+       id="text1"
+       transform="scale(0.9901095,1.0099893)"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         style="stroke-width:0.529"
+         x="67.989563"
+         y="38.910553"><tspan
+           style="fill:#000080"
+           id="tspan3">FFFF0</tspan><tspan
+           style="fill:#008000"
+           id="tspan4">7A0</tspan></tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.529;stroke-linecap:square"
+       id="rect1"
+       width="56.381844"
+       height="15.357622"
+       x="66.379311"
+       y="27.689651" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:6.61458px;line-height:1;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';writing-mode:lr-tb;direction:ltr;fill:none;stroke:#000000;stroke-width:0.529;stroke-linecap:square"
+       x="82.500008"
+       y="22.758619"
+       id="text2"><tspan
+         sodipodi:role="line"
+         id="tspan2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;fill:#000000;stroke:none;stroke-width:0.529"
+         x="82.500008"
+         y="22.758619">32 Bits</tspan></text>
+    <path
+       style="fill:#008000;stroke:#000080;stroke-width:0.529;stroke-linecap:square;marker-end:url(#Triangle)"
+       d="M 81.268513,40.500149 68.394293,61.957182"
+       id="path4" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:11.7912px;line-height:1;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';writing-mode:lr-tb;direction:ltr;fill:#000000;stroke-width:0.529;stroke-linecap:square"
+       x="49.568893"
+       y="75.557854"
+       id="text7"
+       transform="scale(0.9901095,1.0099893)"><tspan
+         sodipodi:role="line"
+         id="tspan7"
+         style="stroke-width:0.529"
+         x="49.568893"
+         y="75.557854"><tspan
+           style="fill:#000080"
+           id="tspan5">FFFF0</tspan><tspan
+           style="fill:#008000"
+           id="tspan6" /></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:6.61458px;line-height:1;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';writing-mode:lr-tb;direction:ltr;fill:none;stroke:#000000;stroke-width:0.529;stroke-linecap:square"
+       x="55.142288"
+       y="86.05687"
+       id="text8"><tspan
+         sodipodi:role="line"
+         id="tspan8"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;fill:#000000;stroke:none;stroke-width:0.529"
+         x="55.142288"
+         y="86.05687">20 Bits</tspan></text>
+    <path
+       style="fill:#008000;stroke:#008000;stroke-width:0.529;stroke-linecap:square;marker-end:url(#Triangle)"
+       d="m 110.97297,40.500149 12.87422,21.457033"
+       id="path8" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:11.7912px;line-height:1;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';writing-mode:lr-tb;direction:ltr;fill:#000000;stroke-width:0.529;stroke-linecap:square"
+       x="118.33354"
+       y="75.557854"
+       id="text11"
+       transform="scale(0.9901095,1.0099893)"><tspan
+         sodipodi:role="line"
+         id="tspan11"
+         style="stroke-width:0.529"
+         x="118.33354"
+         y="75.557854"><tspan
+           style="fill:#008000"
+           id="tspan10">7A0</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:6.61458px;line-height:1;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';writing-mode:lr-tb;direction:ltr;fill:none;stroke:#000000;stroke-width:0.529;stroke-linecap:square"
+       x="117.69419"
+       y="86.05687"
+       id="text12"><tspan
+         sodipodi:role="line"
+         id="tspan12"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;fill:#000000;stroke:none;stroke-width:0.529"
+         x="117.69419"
+         y="86.05687">12 Bits</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.528999;stroke-linecap:square"
+       id="rect12"
+       width="130.1404"
+       height="83.730057"
+       x="30.868086"
+       y="9.9876013" />
+  </g>
+</svg>
