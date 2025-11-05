@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="202.33687mm"
+   height="72.778839mm"
+   viewBox="0 0 202.33687 72.778839"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (a7c7f12d92, 2025-10-31)"
+   sodipodi:docname="conversion-01.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.98646753"
+     inkscape:cx="445.52911"
+     inkscape:cy="158.64688"
+     inkscape:window-width="1866"
+     inkscape:window-height="1011"
+     inkscape:window-x="54"
+     inkscape:window-y="1112"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showgrid="false" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Back"
+     transform="translate(-28.698784,-7.6850309)"
+     sodipodi:insensitive="true">
+    <rect
+       style="fill:#ffffff;stroke:none;stroke-width:0.529;stroke-linecap:square"
+       id="rect13"
+       width="202.33687"
+       height="72.778839"
+       x="28.698784"
+       y="7.6850309" />
+  </g>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-28.698784,-7.6850309)">
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.529;stroke-linecap:square"
+       id="rect1"
+       width="70.986359"
+       height="15.357622"
+       x="46.829468"
+       y="24.61006" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.528998;stroke-linecap:square"
+       id="rect12"
+       width="197.99826"
+       height="67.905495"
+       x="30.868086"
+       y="9.9876013" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:11.7912px;line-height:1;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';writing-mode:lr-tb;direction:ltr;fill:#000000;stroke-width:0.529;stroke-linecap:square"
+       x="50.277073"
+       y="36.055164"
+       id="text15"
+       transform="scale(0.9901095,1.0099893)"><tspan
+         sodipodi:role="line"
+         id="tspan15"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;fill:#0000ff;stroke-width:0.529"
+         x="50.277073"
+         y="36.055164">0x12345678</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:11.7912px;line-height:1;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';writing-mode:lr-tb;direction:ltr;fill:#000000;stroke-width:0.529;stroke-linecap:square"
+       x="127.81648"
+       y="36.055164"
+       id="text2"
+       transform="scale(0.9901095,1.0099893)"><tspan
+         sodipodi:role="line"
+         id="tspan2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;fill:#000000;stroke-width:0.529"
+         x="127.81648"
+         y="36.055164">Palabra (32-bits)</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.529;stroke-linecap:square"
+       id="rect2"
+       width="31.54969"
+       height="15.357622"
+       x="86.266136"
+       y="46.335308" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:11.7912px;line-height:1;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';writing-mode:lr-tb;direction:ltr;fill:#000000;stroke-width:0.529;stroke-linecap:square"
+       x="90.107681"
+       y="57.565536"
+       id="text5"
+       transform="scale(0.9901095,1.0099893)"><tspan
+         sodipodi:role="line"
+         id="tspan5"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;fill:#0000ff;stroke-width:0.529"
+         x="90.107681"
+         y="57.565536">0x80</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:11.7912px;line-height:1;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';writing-mode:lr-tb;direction:ltr;fill:#000000;stroke-width:0.529;stroke-linecap:square"
+       x="127.81648"
+       y="57.565536"
+       id="text6"
+       transform="scale(0.9901095,1.0099893)"><tspan
+         sodipodi:role="line"
+         id="tspan6"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;fill:#000000;stroke-width:0.529"
+         x="127.81648"
+         y="57.565536">Byte (8-bits)</tspan></text>
+  </g>
+</svg>
