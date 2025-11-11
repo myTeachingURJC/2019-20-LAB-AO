@@ -3,8 +3,8 @@
 
 <svg
    width="349.97397mm"
-   height="251.2543mm"
-   viewBox="0 0 349.97398 251.25431"
+   height="223.86017mm"
+   viewBox="0 0 349.97398 223.86017"
    version="1.1"
    id="svg1"
    inkscape:version="1.4.2 (a7c7f12d92, 2025-10-31)"
@@ -25,13 +25,13 @@
      inkscape:document-units="mm"
      inkscape:zoom="0.47326139"
      inkscape:cx="409.92146"
-     inkscape:cy="643.40765"
+     inkscape:cy="539.87079"
      inkscape:window-width="1866"
      inkscape:window-height="1011"
      inkscape:window-x="54"
      inkscape:window-y="32"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer2"
      showgrid="false"
      showguides="true" />
   <defs
@@ -60,27 +60,27 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Back"
-     transform="translate(94.386368,0.92514157)">
+     transform="translate(94.386368,-26.468987)">
     <rect
        style="fill:#ffffff;stroke:none;stroke-width:0.529001;stroke-linecap:square"
        id="rect13"
        width="349.97397"
-       height="251.2543"
+       height="223.86017"
        x="-94.386368"
-       y="-0.92514157" />
+       y="26.468987" />
   </g>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(94.386368,0.92514157)">
+     transform="translate(94.386368,-26.468987)">
     <rect
        style="fill:none;stroke:#000000;stroke-width:0.528999;stroke-linecap:square"
        id="rect12"
        width="344.60065"
-       height="245.73343"
+       height="217.78024"
        x="-92.217079"
-       y="1.8352914" />
+       y="29.788486" />
     <rect
        style="fill:none;stroke:#000000;stroke-width:0.528999;stroke-linecap:square"
        id="rect3"
