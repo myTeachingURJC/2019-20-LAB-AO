@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="206.06583mm"
+   height="174.04901mm"
+   viewBox="0 0 206.06583 174.04901"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (cdb4348684, 2025-11-24)"
+   sodipodi:docname="and-prog8.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.4627191"
+     inkscape:cx="615.92444"
+     inkscape:cy="407.37459"
+     inkscape:window-width="1866"
+     inkscape:window-height="1011"
+     inkscape:window-x="54"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="true" />
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="Triangle"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135" />
+    </marker>
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Back"
+     transform="translate(94.386368,-26.468987)">
+    <rect
+       style="fill:#ffffff;stroke:none;stroke-width:0.529001;stroke-linecap:square"
+       id="rect13"
+       width="206.06583"
+       height="174.04901"
+       x="-94.386368"
+       y="26.468987" />
+  </g>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(94.386368,-26.468987)">
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.528999;stroke-linecap:square"
+       id="rect12"
+       width="198.20905"
+       height="167.41002"
+       x="-92.217079"
+       y="29.788486" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.528998;stroke-linecap:square"
+       id="rect3"
+       width="30.730429"
+       height="15.357622"
+       x="-0.072287843"
+       y="56.240837" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:11.7912px;line-height:1;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';writing-mode:lr-tb;direction:ltr;fill:#000000;stroke-width:0.529;stroke-linecap:square"
+       x="1.8681386"
+       y="67.3731"
+       id="text3"
+       transform="scale(0.9901095,1.0099893)"><tspan
+         sodipodi:role="line"
+         id="tspan3"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;fill:#0000ff;stroke-width:0.529"
+         x="1.8681386"
+         y="67.3731">000<tspan
+   style="fill:#ff0000"
+   id="tspan27">1</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:11.7912px;line-height:1;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';writing-mode:lr-tb;direction:ltr;fill:#000000;stroke-width:0.529;stroke-linecap:square"
+       x="-69.83947"
+       y="67.408478"
+       id="text34"
+       transform="scale(0.9901095,1.0099893)"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;fill:#000000;stroke-width:0.529"
+         x="-69.83947"
+         y="67.408478"
+         id="tspan34">Valor inicial</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:8.15508px;line-height:1;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';writing-mode:lr-tb;direction:ltr;fill:#000000;stroke-width:0.529;stroke-linecap:square"
+       x="22.441372"
+       y="53.168129"
+       id="text35"
+       transform="scale(0.9901095,1.0099893)"><tspan
+         sodipodi:role="line"
+         id="tspan35"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;fill:#000000;stroke-width:0.529"
+         x="22.441372"
+         y="53.168129">0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:8.15508px;line-height:1;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';writing-mode:lr-tb;direction:ltr;fill:#000000;stroke-width:0.529;stroke-linecap:square"
+       x="2.0228255"
+       y="53.168129"
+       id="text39"
+       transform="scale(0.9901095,1.0099893)"><tspan
+         sodipodi:role="line"
+         id="tspan39"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;fill:#000000;stroke-width:0.529"
+         x="2.0228255"
+         y="53.168129">3</tspan></text>
+    <g
+       id="g21"
+       transform="matrix(0.26458333,0,0,0.26458333,7.1920816,68.873406)"
+       style="fill:#ffcc00">
+      <g
+         data-cell-id="0"
+         id="g20"
+         style="fill:#ffcc00">
+        <g
+           data-cell-id="1"
+           id="g19"
+           style="fill:#ffcc00">
+          <g
+             data-cell-id="GbKRMK2_j4z8OaKPOY_R-1"
+             id="g18"
+             style="fill:#ffcc00">
+            <g
+               transform="translate(0.5,0.5)"
+               id="g17"
+               style="fill:#ffcc00">
+              <path
+                 d="m 39,16.297177 v 31.866512 h 21 l -30,20 -30,-20 H 21 V 16.297177 Z"
+                 fill="#ffffff"
+                 stroke="#000000"
+                 stroke-miterlimit="10"
+                 pointer-events="all"
+                 id="path17"
+                 style="fill:#ffcc00"
+                 sodipodi:nodetypes="cccccccc" />
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.528998;stroke-linecap:square"
+       id="rect1"
+       width="30.730429"
+       height="15.357622"
+       x="-0.072287843"
+       y="90.608421" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:11.7912px;line-height:1;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';writing-mode:lr-tb;direction:ltr;fill:#000000;stroke-width:0.529;stroke-linecap:square"
+       x="1.8681386"
+       y="101.40077"
+       id="text1"
+       transform="scale(0.9901095,1.0099893)"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;fill:#0000ff;stroke-width:0.529"
+         x="1.8681386"
+         y="101.40077">00<tspan
+   style="fill:#ff0000"
+   id="tspan28">1</tspan>0</tspan></text>
+    <g
+       id="g16"
+       transform="matrix(0.26458333,0,0,0.26458333,7.1920816,103.52689)"
+       style="fill:#ffcc00">
+      <g
+         data-cell-id="0"
+         id="g15"
+         style="fill:#ffcc00">
+        <g
+           data-cell-id="1"
+           id="g14"
+           style="fill:#ffcc00">
+          <g
+             data-cell-id="GbKRMK2_j4z8OaKPOY_R-1"
+             id="g13"
+             style="fill:#ffcc00">
+            <g
+               transform="translate(0.5,0.5)"
+               id="g12"
+               style="fill:#ffcc00">
+              <path
+                 d="m 39,16.297177 v 31.866512 h 21 l -30,20 -30,-20 H 21 V 16.297177 Z"
+                 fill="#ffffff"
+                 stroke="#000000"
+                 stroke-miterlimit="10"
+                 pointer-events="all"
+                 id="path12"
+                 style="fill:#ffcc00"
+                 sodipodi:nodetypes="cccccccc" />
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.528998;stroke-linecap:square"
+       id="rect16"
+       width="30.730429"
+       height="15.357622"
+       x="-0.072287843"
+       y="123.72596" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:11.7912px;line-height:1;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';writing-mode:lr-tb;direction:ltr;fill:#000000;stroke-width:0.529;stroke-linecap:square"
+       x="1.8681386"
+       y="134.19077"
+       id="text16"
+       transform="scale(0.9901095,1.0099893)"><tspan
+         sodipodi:role="line"
+         id="tspan16"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;fill:#0000ff;stroke-width:0.529"
+         x="1.8681386"
+         y="134.19077">0<tspan
+   style="fill:#ff0000"
+   id="tspan29">1</tspan>00</tspan></text>
+    <g
+       id="g26"
+       transform="matrix(0.26458333,0,0,0.26458333,7.1920816,136.64443)"
+       style="fill:#ffcc00">
+      <g
+         data-cell-id="0"
+         id="g25"
+         style="fill:#ffcc00">
+        <g
+           data-cell-id="1"
+           id="g24"
+           style="fill:#ffcc00">
+          <g
+             data-cell-id="GbKRMK2_j4z8OaKPOY_R-1"
+             id="g23"
+             style="fill:#ffcc00">
+            <g
+               transform="translate(0.5,0.5)"
+               id="g22"
+               style="fill:#ffcc00">
+              <path
+                 d="m 39,16.297177 v 31.866512 h 21 l -30,20 -30,-20 H 21 V 16.297177 Z"
+                 fill="#ffffff"
+                 stroke="#000000"
+                 stroke-miterlimit="10"
+                 pointer-events="all"
+                 id="path16"
+                 style="fill:#ffcc00"
+                 sodipodi:nodetypes="cccccccc" />
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.528998;stroke-linecap:square"
+       id="rect26"
+       width="30.730429"
+       height="15.357622"
+       x="-0.072287843"
+       y="156.84351" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:11.7912px;line-height:1;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';writing-mode:lr-tb;direction:ltr;fill:#000000;stroke-width:0.529;stroke-linecap:square"
+       x="1.8681386"
+       y="166.98076"
+       id="text26"
+       transform="scale(0.9901095,1.0099893)"><tspan
+         sodipodi:role="line"
+         id="tspan26"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;fill:#0000ff;stroke-width:0.529"
+         x="1.8681386"
+         y="166.98076"><tspan
+   style="fill:#ff0000"
+   id="tspan30">1</tspan>000</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:square;stroke-dasharray:none;marker-end:url(#Triangle)"
+       d="m 5.5595652,172.20113 v 9.94073 H 46.5863 L 46.692274,63.919649 H 33.588621"
+       id="path31"
+       sodipodi:nodetypes="ccccc" />
+  </g>
+</svg>
