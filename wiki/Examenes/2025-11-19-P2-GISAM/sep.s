@@ -1,15 +1,15 @@
 
 
-	#-- Servicios del sistema operativo
-	.include "system.s"
+	#-- Servicios del sistema operativo 
+	.include "system.s"  # ESPECIFICACION
 
 	#-- Tamaño maximo de la palabra
-	.eqv MAX 12
+	.eqv MAX 12   # ESPECIFICACION
 
 	.data
-cad:    .scape MAX
-msg:	.string "Escribe una palabra: "
-msg2:   .string "Caracteres: "
+cad:    .space MAX    # Cadena en la primera posicion (ESPECIFICACION)
+msg:	.string "Escribe una palabra: "   # ESPECIFICACION
+msg2:   .string "Caracteres: "            # ESPECIFICACION
 
 	.text
 	
@@ -43,7 +43,7 @@ bucle:
 	lb t1, 0(t0)
 	
 	#-- 5. Si el caracter es '*', saltar al punto 11
-	beq t1, t2, punto10
+	beq t1, t2, punto11
 	
 	#-- 6. Si el caractere es '\n', saltar al punto 13
 	beq t1, t3, fin
@@ -64,7 +64,7 @@ bucle:
 	j bucle
 	
 	
-punto10:
+punto11:
 	#-- 11. Imprimir un '*'
 	li a0, '*'
 	li a7, PRINT_CHAR
