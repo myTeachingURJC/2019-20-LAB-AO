@@ -361,7 +361,7 @@
      inkscape:cx="502.16264"
      inkscape:cy="247.06187"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer2"
      showgrid="false"
      inkscape:window-width="1866"
      inkscape:window-height="1011"
@@ -383,8 +383,7 @@
      id="layer2"
      inkscape:label="Layer 2"
      transform="translate(72.47683,-92.734726)"
-     style="display:inline"
-     sodipodi:insensitive="true"><rect
+     style="display:inline"><rect
        style="display:inline;fill:#f9f9f9;fill-opacity:1;stroke:none;stroke-width:1.87203;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect8363"
        width="280.94443"
