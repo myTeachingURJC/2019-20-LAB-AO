@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="191.78117mm"
+   height="217.72414mm"
+   viewBox="0 0 191.78117 217.72414"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.3 (fcd0343856, 2026-01-01)"
+   sodipodi:docname="rars-io-03-registros.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.69753788"
+     inkscape:cx="129.74206"
+     inkscape:cy="458.03964"
+     inkscape:window-width="1866"
+     inkscape:window-height="1011"
+     inkscape:window-x="54"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Back">
+    <rect
+       style="fill:#ffffff;stroke:none;stroke-width:0.529167;stroke-linecap:round;stroke-dasharray:none"
+       id="rect25"
+       width="191.78117"
+       height="217.72414"
+       x="-2.1300895e-08"
+       y="6.0853878e-08" />
+  </g>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:9.05079px;line-height:1;font-family:ubuntu;-inkscape-font-specification:'ubuntu Bold';letter-spacing:0px;writing-mode:lr-tb;direction:ltr;fill:#0000ff;stroke:none;stroke-width:1.058;stroke-linecap:round"
+       x="78.562325"
+       y="127.52922"
+       id="text1"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         style="fill:#0000ff;stroke:none;stroke-width:1.058"
+         x="78.562325"
+         y="127.52922">Transmisor</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:6.61932px;line-height:1;font-family:ubuntu;-inkscape-font-specification:'ubuntu Bold';letter-spacing:0px;writing-mode:lr-tb;direction:ltr;fill:#000000;stroke:none;stroke-width:1.058;stroke-linecap:round"
+       x="17.448175"
+       y="160.59625"
+       id="text2"><tspan
+         sodipodi:role="line"
+         id="tspan2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#000000;stroke:none;stroke-width:1.058"
+         x="17.448175"
+         y="160.59625">0xffff0008</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:6.61932px;line-height:1;font-family:ubuntu;-inkscape-font-specification:'ubuntu Bold';letter-spacing:0px;writing-mode:lr-tb;direction:ltr;fill:#000000;stroke:none;stroke-width:1.058;stroke-linecap:round"
+       x="80.792999"
+       y="145.76773"
+       id="text3"><tspan
+         sodipodi:role="line"
+         id="tspan3"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Bold';fill:#000000;stroke:none;stroke-width:1.058"
+         x="80.792999"
+         y="145.76773">Registro de control</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:4.4672px;line-height:1;font-family:ubuntu;-inkscape-font-specification:'ubuntu Bold';letter-spacing:0px;writing-mode:lr-tb;direction:ltr;fill:#000080;stroke:none;stroke-width:1.058;stroke-linecap:round"
+       x="148.22058"
+       y="159.62549"
+       id="text4"><tspan
+         sodipodi:role="line"
+         id="tspan4"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#000080;stroke:none;stroke-width:1.058"
+         x="148.22058"
+         y="159.62549">TXRDY</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:6.61932px;line-height:1;font-family:ubuntu;-inkscape-font-specification:'ubuntu Bold';letter-spacing:0px;writing-mode:lr-tb;direction:ltr;fill:#000000;stroke:none;stroke-width:1.058;stroke-linecap:round"
+       x="17.650061"
+       y="192.43796"
+       id="text5"><tspan
+         sodipodi:role="line"
+         id="tspan5"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#000000;stroke:none;stroke-width:1.058"
+         x="17.650061"
+         y="192.43796">0xffff000c</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:round;stroke-dasharray:none"
+       id="rect6"
+       width="104.68965"
+       height="11.189654"
+       x="59.93103"
+       y="152.40204" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:6.61932px;line-height:1;font-family:ubuntu;-inkscape-font-specification:'ubuntu Bold';letter-spacing:0px;writing-mode:lr-tb;direction:ltr;fill:#000000;stroke:none;stroke-width:1.058;stroke-linecap:round"
+       x="153.14645"
+       y="150.79359"
+       id="text7"><tspan
+         sodipodi:role="line"
+         id="tspan7"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#000000;stroke:none;stroke-width:1.058"
+         x="153.14645"
+         y="150.79359">0</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:round;stroke-dasharray:none"
+       d="m 144.82194,152.5541 v 11.04699"
+       id="path7" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:6.61932px;line-height:1;font-family:ubuntu;-inkscape-font-specification:'ubuntu Bold';letter-spacing:0px;writing-mode:lr-tb;direction:ltr;fill:#000000;stroke:none;stroke-width:1.058;stroke-linecap:round"
+       x="64.103355"
+       y="150.79359"
+       id="text9"><tspan
+         sodipodi:role="line"
+         id="tspan9"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#000000;stroke:none;stroke-width:1.058"
+         x="64.103355"
+         y="150.79359">31</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:round;stroke-dasharray:none"
+       d="m 73.32194,152.5541 v 11.04699"
+       id="path9" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:6.61932px;line-height:1;font-family:ubuntu;-inkscape-font-specification:'ubuntu Bold';letter-spacing:0px;writing-mode:lr-tb;direction:ltr;fill:#000000;stroke:none;stroke-width:1.058;stroke-linecap:round"
+       x="80.792999"
+       y="177.60944"
+       id="text10"><tspan
+         sodipodi:role="line"
+         id="tspan10"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Bold';fill:#000000;stroke:none;stroke-width:1.058"
+         x="80.792999"
+         y="177.60944">Registro de datos</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:round;stroke-dasharray:none"
+       id="rect11"
+       width="104.68965"
+       height="11.189654"
+       x="59.93103"
+       y="184.24374" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:6.61932px;line-height:1;font-family:ubuntu;-inkscape-font-specification:'ubuntu Bold';letter-spacing:0px;writing-mode:lr-tb;direction:ltr;fill:#000000;stroke:none;stroke-width:1.058;stroke-linecap:round"
+       x="153.14645"
+       y="182.6353"
+       id="text12"><tspan
+         sodipodi:role="line"
+         id="tspan12"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#000000;stroke:none;stroke-width:1.058"
+         x="153.14645"
+         y="182.6353">0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:6.61932px;line-height:1;font-family:ubuntu;-inkscape-font-specification:'ubuntu Bold';letter-spacing:0px;writing-mode:lr-tb;direction:ltr;fill:#000000;stroke:none;stroke-width:1.058;stroke-linecap:round"
+       x="64.103355"
+       y="182.6353"
+       id="text13"><tspan
+         sodipodi:role="line"
+         id="tspan13"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#000000;stroke:none;stroke-width:1.058"
+         x="64.103355"
+         y="182.6353">31</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.529165;stroke-linecap:round;stroke-dasharray:none"
+       id="rect13"
+       width="177.13792"
+       height="96.065399"
+       x="7.3216209"
+       y="112.66283" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:6.61932px;line-height:1;font-family:ubuntu;-inkscape-font-specification:'ubuntu Bold';letter-spacing:0px;writing-mode:lr-tb;direction:ltr;fill:#000000;stroke:none;stroke-width:1.058;stroke-linecap:round"
+       x="17.448175"
+       y="145.76773"
+       id="text14"><tspan
+         sodipodi:role="line"
+         id="tspan14"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Bold';fill:#008000;stroke:none;stroke-width:1.058"
+         x="17.448175"
+         y="145.76773">Dirección</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:9.05079px;line-height:1;font-family:ubuntu;-inkscape-font-specification:'ubuntu Bold';letter-spacing:0px;writing-mode:lr-tb;direction:ltr;fill:#0000ff;stroke:none;stroke-width:1.058;stroke-linecap:round"
+       x="78.001175"
+       y="22.200544"
+       id="text15"><tspan
+         sodipodi:role="line"
+         id="tspan15"
+         style="fill:#0000ff;stroke:none;stroke-width:1.058"
+         x="78.001175"
+         y="22.200544">Receptor</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:6.61932px;line-height:1;font-family:ubuntu;-inkscape-font-specification:'ubuntu Bold';letter-spacing:0px;writing-mode:lr-tb;direction:ltr;fill:#000000;stroke:none;stroke-width:1.058;stroke-linecap:round"
+       x="17.448175"
+       y="55.267578"
+       id="text16"><tspan
+         sodipodi:role="line"
+         id="tspan16"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#000000;stroke:none;stroke-width:1.058"
+         x="17.448175"
+         y="55.267578">0xffff0000</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:6.61932px;line-height:1;font-family:ubuntu;-inkscape-font-specification:'ubuntu Bold';letter-spacing:0px;writing-mode:lr-tb;direction:ltr;fill:#000000;stroke:none;stroke-width:1.058;stroke-linecap:round"
+       x="80.792999"
+       y="40.439056"
+       id="text17"><tspan
+         sodipodi:role="line"
+         id="tspan17"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Bold';fill:#000000;stroke:none;stroke-width:1.058"
+         x="80.792999"
+         y="40.439056">Registro de control</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:4.4672px;line-height:1;font-family:ubuntu;-inkscape-font-specification:'ubuntu Bold';letter-spacing:0px;writing-mode:lr-tb;direction:ltr;fill:#000080;stroke:none;stroke-width:1.058;stroke-linecap:round"
+       x="148.22058"
+       y="54.296814"
+       id="text18"><tspan
+         sodipodi:role="line"
+         id="tspan18"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#0000ff;stroke:none;stroke-width:1.058"
+         x="148.22058"
+         y="54.296814">RXRDY</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:6.61932px;line-height:1;font-family:ubuntu;-inkscape-font-specification:'ubuntu Bold';letter-spacing:0px;writing-mode:lr-tb;direction:ltr;fill:#000000;stroke:none;stroke-width:1.058;stroke-linecap:round"
+       x="17.650061"
+       y="87.109283"
+       id="text19"><tspan
+         sodipodi:role="line"
+         id="tspan19"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#000000;stroke:none;stroke-width:1.058"
+         x="17.650061"
+         y="87.109283">0xffff0004</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:round;stroke-dasharray:none"
+       id="rect19"
+       width="104.68965"
+       height="11.189654"
+       x="59.93103"
+       y="47.073364" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:6.61932px;line-height:1;font-family:ubuntu;-inkscape-font-specification:'ubuntu Bold';letter-spacing:0px;writing-mode:lr-tb;direction:ltr;fill:#000000;stroke:none;stroke-width:1.058;stroke-linecap:round"
+       x="153.14645"
+       y="45.46492"
+       id="text20"><tspan
+         sodipodi:role="line"
+         id="tspan20"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#000000;stroke:none;stroke-width:1.058"
+         x="153.14645"
+         y="45.46492">0</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:round;stroke-dasharray:none"
+       d="m 144.82194,47.225424 v 11.04699"
+       id="path20" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:6.61932px;line-height:1;font-family:ubuntu;-inkscape-font-specification:'ubuntu Bold';letter-spacing:0px;writing-mode:lr-tb;direction:ltr;fill:#000000;stroke:none;stroke-width:1.058;stroke-linecap:round"
+       x="64.103355"
+       y="45.46492"
+       id="text21"><tspan
+         sodipodi:role="line"
+         id="tspan21"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#000000;stroke:none;stroke-width:1.058"
+         x="64.103355"
+         y="45.46492">31</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:round;stroke-dasharray:none"
+       d="m 73.32194,47.225424 v 11.04699"
+       id="path21" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:6.61932px;line-height:1;font-family:ubuntu;-inkscape-font-specification:'ubuntu Bold';letter-spacing:0px;writing-mode:lr-tb;direction:ltr;fill:#000000;stroke:none;stroke-width:1.058;stroke-linecap:round"
+       x="80.792999"
+       y="72.280762"
+       id="text22"><tspan
+         sodipodi:role="line"
+         id="tspan22"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Bold';fill:#000000;stroke:none;stroke-width:1.058"
+         x="80.792999"
+         y="72.280762">Registro de datos</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:round;stroke-dasharray:none"
+       id="rect22"
+       width="104.68965"
+       height="11.189654"
+       x="59.93103"
+       y="78.91507" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:6.61932px;line-height:1;font-family:ubuntu;-inkscape-font-specification:'ubuntu Bold';letter-spacing:0px;writing-mode:lr-tb;direction:ltr;fill:#000000;stroke:none;stroke-width:1.058;stroke-linecap:round"
+       x="153.14645"
+       y="77.306625"
+       id="text23"><tspan
+         sodipodi:role="line"
+         id="tspan23"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#000000;stroke:none;stroke-width:1.058"
+         x="153.14645"
+         y="77.306625">0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:6.61932px;line-height:1;font-family:ubuntu;-inkscape-font-specification:'ubuntu Bold';letter-spacing:0px;writing-mode:lr-tb;direction:ltr;fill:#000000;stroke:none;stroke-width:1.058;stroke-linecap:round"
+       x="64.103355"
+       y="77.306625"
+       id="text24"><tspan
+         sodipodi:role="line"
+         id="tspan24"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#000000;stroke:none;stroke-width:1.058"
+         x="64.103355"
+         y="77.306625">31</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.529165;stroke-linecap:round;stroke-dasharray:none"
+       id="rect24"
+       width="177.13792"
+       height="96.065399"
+       x="7.3216209"
+       y="7.3341508" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:6.61932px;line-height:1;font-family:ubuntu;-inkscape-font-specification:'ubuntu Bold';letter-spacing:0px;writing-mode:lr-tb;direction:ltr;fill:#000000;stroke:none;stroke-width:1.058;stroke-linecap:round"
+       x="17.448175"
+       y="40.439056"
+       id="text25"><tspan
+         sodipodi:role="line"
+         id="tspan25"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Bold';fill:#008000;stroke:none;stroke-width:1.058"
+         x="17.448175"
+         y="40.439056">Dirección</tspan></text>
+  </g>
+</svg>
