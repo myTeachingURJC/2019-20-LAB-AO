@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="280.29507mm"
+   height="140.54356mm"
+   viewBox="0 0 280.29507 140.54356"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.3 (fcd0343856, 2026-01-01)"
+   sodipodi:docname="rars-io-os-01-arquitectura.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.69753788"
+     inkscape:cx="453.7388"
+     inkscape:cy="413.59761"
+     inkscape:window-width="1866"
+     inkscape:window-height="1011"
+     inkscape:window-x="54"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showguides="true" />
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="Triangle"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135" />
+    </marker>
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Back"
+     transform="translate(19.592148,-33.2584)">
+    <rect
+       style="fill:#ffffff;stroke:none;stroke-width:0.79375;stroke-linecap:square;stroke-dasharray:0.79375, 3.175;stroke-dashoffset:0"
+       id="rect20"
+       width="280.29507"
+       height="140.54356"
+       x="-19.592148"
+       y="33.2584" />
+  </g>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:inline"
+     transform="translate(19.592148,-33.2584)">
+    <path
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.79375;stroke-linecap:square;stroke-dasharray:0.79375, 3.175;stroke-dashoffset:0"
+       d="M 5.7940446,100.89655 H 243.89655"
+       id="path17" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.529168;stroke-linecap:round"
+       id="rect12"
+       width="161.12672"
+       height="20.157362"
+       x="13.810701"
+       y="52.452267" />
+    <rect
+       style="fill:#b3ff80;stroke:#000000;stroke-width:0.529168;stroke-linecap:round"
+       id="rect11"
+       width="161.12672"
+       height="14.793103"
+       x="13.810701"
+       y="72.609627" />
+    <rect
+       style="fill:#ffe680;stroke:#000000;stroke-width:0.529167;stroke-linecap:round"
+       id="rect10"
+       width="73.586205"
+       height="14.793103"
+       x="101.61584"
+       y="116.00088" />
+    <rect
+       style="fill:#ffe680;stroke:#000000;stroke-width:0.529167;stroke-linecap:round"
+       id="rect9"
+       width="73.586205"
+       height="14.793103"
+       x="13.546118"
+       y="116.00088" />
+    <rect
+       style="fill:#aaccff;stroke:#000000;stroke-width:0.529167;stroke-linecap:round"
+       id="rect8"
+       width="73.586205"
+       height="14.793103"
+       x="13.546118"
+       y="130.79396" />
+    <rect
+       style="fill:#aaccff;stroke:#000000;stroke-width:0.529167;stroke-linecap:round"
+       id="rect7"
+       width="73.586205"
+       height="14.793103"
+       x="101.61583"
+       y="130.79396" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:6.61458px;line-height:1;font-family:ubuntu;-inkscape-font-specification:'ubuntu Bold';letter-spacing:0px;writing-mode:lr-tb;direction:ltr;fill:#000000;stroke-width:0.529167;stroke-linecap:round"
+       x="83.984756"
+       y="82.52964"
+       id="text1"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         style="fill:#000000;stroke-width:0.529167"
+         x="83.984756"
+         y="82.52964">stdio.s</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:6.61458px;line-height:1;font-family:ubuntu;-inkscape-font-specification:'ubuntu Bold';letter-spacing:0px;writing-mode:lr-tb;direction:ltr;fill:#000000;stroke-width:0.529167;stroke-linecap:round"
+       x="62.736584"
+       y="61.178265"
+       id="text2"><tspan
+         sodipodi:role="line"
+         id="tspan2"
+         style="fill:#000000;stroke-width:0.529167"
+         x="62.736584"
+         y="61.178265">Programa principal</tspan><tspan
+         sodipodi:role="line"
+         style="fill:#000000;stroke-width:0.529167"
+         x="62.736584"
+         y="67.792847"
+         id="tspan3">(Ejemplos 15, 16, 17)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:6.61458px;line-height:1;font-family:ubuntu;-inkscape-font-specification:'ubuntu Bold';letter-spacing:0px;writing-mode:lr-tb;direction:ltr;fill:#000000;stroke-width:0.529167;stroke-linecap:round"
+       x="30.663904"
+       y="125.32227"
+       id="text4"><tspan
+         sodipodi:role="line"
+         id="tspan4"
+         style="fill:#000000;stroke-width:0.529167"
+         x="30.663904"
+         y="125.32227">io_rars_uart.s</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:6.61458px;line-height:1;font-family:ubuntu;-inkscape-font-specification:'ubuntu Bold';letter-spacing:0px;writing-mode:lr-tb;direction:ltr;fill:#000000;stroke-width:0.529167;stroke-linecap:round"
+       x="120.16513"
+       y="125.32227"
+       id="text5"><tspan
+         sodipodi:role="line"
+         id="tspan5"
+         style="fill:#000000;stroke-width:0.529167"
+         x="120.16513"
+         y="125.32227">io_rars_os.s</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:6.61458px;line-height:1;font-family:ubuntu;-inkscape-font-specification:'ubuntu Bold';letter-spacing:0px;writing-mode:lr-tb;direction:ltr;fill:#000080;stroke-width:0.529167;stroke-linecap:round"
+       x="43.024052"
+       y="140.11536"
+       id="text6"><tspan
+         sodipodi:role="line"
+         id="tspan6"
+         style="fill:#000080;stroke-width:0.529167"
+         x="43.024052"
+         y="140.11536">UART</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:6.61458px;line-height:1;font-family:ubuntu;-inkscape-font-specification:'ubuntu Bold';letter-spacing:0px;writing-mode:lr-tb;direction:ltr;fill:#000080;stroke-width:0.529167;stroke-linecap:round"
+       x="110.3458"
+       y="140.11536"
+       id="text7"><tspan
+         sodipodi:role="line"
+         id="tspan7"
+         style="fill:#000080;stroke-width:0.529167"
+         x="110.3458"
+         y="140.11536">Sistema operativo</tspan></text>
+    <path
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.79375;stroke-linecap:square;stroke-dasharray:none;marker-end:url(#Triangle)"
+       d="m 94.374063,87.667314 -2e-6,13.229236 H 50.33922 v 12.08693"
+       id="path15"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.79375;stroke-linecap:round;stroke-dasharray:none;marker-end:url(#Triangle)"
+       d="m 94.374099,100.89655 h 44.034841 v 12.08693"
+       id="path16"
+       sodipodi:nodetypes="ccc" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:6.61458px;line-height:1;font-family:ubuntu;-inkscape-font-specification:'ubuntu Bold';letter-spacing:0px;writing-mode:lr-tb;direction:ltr;fill:#000000;stroke-width:0.529167;stroke-linecap:round"
+       x="198.7603"
+       y="78.007133"
+       id="text17"><tspan
+         sodipodi:role="line"
+         id="tspan17"
+         style="fill:#000000;stroke-width:0.529167"
+         x="198.7603"
+         y="78.007133">Alto nivel</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:6.61458px;line-height:1;font-family:ubuntu;-inkscape-font-specification:'ubuntu Bold';letter-spacing:0px;writing-mode:lr-tb;direction:ltr;fill:#000000;stroke-width:0.529167;stroke-linecap:round"
+       x="198.26089"
+       y="122.2035"
+       id="text18"><tspan
+         sodipodi:role="line"
+         id="tspan18"
+         style="fill:#000000;stroke-width:0.529167"
+         x="198.26089"
+         y="122.2035">Bajo nivel</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:6.61458px;line-height:1;font-family:ubuntu;-inkscape-font-specification:'ubuntu Bold';letter-spacing:0px;writing-mode:lr-tb;direction:ltr;fill:#000000;stroke-width:0.529167;stroke-linecap:round"
+       x="34.937199"
+       y="159.64282"
+       id="text19"><tspan
+         sodipodi:role="line"
+         id="tspan19"
+         style="fill:#000000;stroke-width:0.529167"
+         x="34.937199"
+         y="159.64282">Sistema 1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:6.61458px;line-height:1;font-family:ubuntu;-inkscape-font-specification:'ubuntu Bold';letter-spacing:0px;writing-mode:lr-tb;direction:ltr;fill:#000000;stroke-width:0.529167;stroke-linecap:round"
+       x="123.92799"
+       y="159.64282"
+       id="text20"><tspan
+         sodipodi:role="line"
+         id="tspan20"
+         style="fill:#000000;stroke-width:0.529167"
+         x="123.92799"
+         y="159.64282">Sistema 2</tspan></text>
+    <g
+       id="g21"
+       transform="translate(15.738314,-58.413793)">
+      <rect
+         style="fill:#ffffff;stroke:#000000;stroke-width:0.529169;stroke-linecap:round"
+         id="rect21"
+         width="37.327473"
+         height="7.2987752"
+         x="179.26086"
+         y="155.51718" />
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:6.61458px;line-height:1;font-family:ubuntu;-inkscape-font-specification:'ubuntu Bold';letter-spacing:0px;writing-mode:lr-tb;direction:ltr;fill:#000000;stroke-width:0.529167;stroke-linecap:round"
+         x="185.43217"
+         y="161.40555"
+         id="text21"><tspan
+           sodipodi:role="line"
+           id="tspan21"
+           style="fill:#000000;stroke-width:0.529167"
+           x="185.43217"
+           y="161.40555">Interfaz</tspan></text>
+    </g>
+  </g>
+</svg>
