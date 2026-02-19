@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="211.26135mm"
+   height="85.961029mm"
+   viewBox="0 0 211.26135 85.961029"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.3 (fcd0343856, 2026-01-01)"
+   sodipodi:docname="Intro-01-numeros-consola.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.64"
+     inkscape:cx="266.40625"
+     inkscape:cy="296.09375"
+     inkscape:window-width="1866"
+     inkscape:window-height="1011"
+     inkscape:window-x="54"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showguides="true" />
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="Triangle"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135" />
+    </marker>
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Back"
+     transform="translate(-1.7307645,-38.686096)">
+    <rect
+       style="fill:#ffffff;stroke:none;stroke-width:0.264583;stroke-linecap:round;stroke-dasharray:none"
+       id="rect20"
+       width="211.26135"
+       height="85.961029"
+       x="1.7307645"
+       y="38.686096" />
+  </g>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-1.7307645,-38.686096)">
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:3.175px;line-height:1;font-family:ubuntu;-inkscape-font-specification:'ubuntu Bold';letter-spacing:0px;writing-mode:lr-tb;direction:ltr;fill:#f9f9f9;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-dasharray:0.264583, 1.05833"
+       x="-10371.667"
+       y="-2751.6667"
+       id="text1"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         style="stroke-width:0.264583"
+         x="-10371.667"
+         y="-2751.6667">555</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:5.29167px;line-height:1;font-family:ubuntu;-inkscape-font-specification:'ubuntu Bold';letter-spacing:0px;writing-mode:lr-tb;direction:ltr;fill:#0000ff;stroke:none;stroke-width:0.264583;stroke-linecap:round;stroke-dasharray:none"
+       x="14.075098"
+       y="90.621071"
+       id="text2"><tspan
+         sodipodi:role="line"
+         id="tspan2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#0000ff;stroke:none;stroke-width:0.264583;stroke-dasharray:none"
+         x="14.075098"
+         y="90.621071">11001000</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:5.29167px;line-height:1;font-family:ubuntu;-inkscape-font-specification:'ubuntu Bold';letter-spacing:0px;writing-mode:lr-tb;direction:ltr;fill:#000000;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-dasharray:none"
+       x="11.112444"
+       y="81.470825"
+       id="text3"><tspan
+         sodipodi:role="line"
+         id="tspan3"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#000000;stroke-width:0.264583;stroke-dasharray:none"
+         x="11.112444"
+         y="81.470825">Valor interno</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-dasharray:none"
+       id="rect3"
+       width="27.887327"
+       height="8.1910658"
+       x="12.273304"
+       y="84.898682" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:5.29167px;line-height:1;font-family:ubuntu;-inkscape-font-specification:'ubuntu Bold';letter-spacing:0px;writing-mode:lr-tb;direction:ltr;fill:#000000;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-dasharray:none"
+       x="98.796906"
+       y="54.634312"
+       id="text4"><tspan
+         sodipodi:role="line"
+         id="tspan4"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#000000;stroke-width:0.264583;stroke-dasharray:none"
+         x="98.796906"
+         y="54.634312">Representación en consola</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:5.29167px;line-height:1;font-family:ubuntu;-inkscape-font-specification:'ubuntu Bold';letter-spacing:0px;writing-mode:lr-tb;direction:ltr;fill:#0000ff;stroke:none;stroke-width:0.264583;stroke-linecap:round;stroke-dasharray:none"
+       x="68.788124"
+       y="79.203339"
+       id="text5"><tspan
+         sodipodi:role="line"
+         id="tspan5"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#0000ff;stroke:none;stroke-width:0.264583;stroke-dasharray:none"
+         x="68.788124"
+         y="79.203339">&quot;11001000&quot;</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:5.29167px;line-height:1;font-family:ubuntu;-inkscape-font-specification:'ubuntu Bold';letter-spacing:0px;writing-mode:lr-tb;direction:ltr;fill:#000000;stroke:none;stroke-width:0.264583;stroke-linecap:round;stroke-dasharray:none"
+       x="155.77167"
+       y="79.232292"
+       id="text6"><tspan
+         sodipodi:role="line"
+         id="tspan6"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#000000;stroke:none;stroke-width:0.264583;stroke-dasharray:none"
+         x="155.77167"
+         y="79.232292">8 caracteres ASCII</tspan></text>
+    <path
+       style="fill:#0000ff;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-dasharray:none;marker-end:url(#Triangle)"
+       d="M 40.390717,88.678234 H 62.611582"
+       id="path6"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:5.29167px;line-height:1;font-family:ubuntu;-inkscape-font-specification:'ubuntu Bold';letter-spacing:0px;writing-mode:lr-tb;direction:ltr;fill:#000000;stroke:none;stroke-width:0.264583;stroke-linecap:round;stroke-dasharray:none"
+       x="73.950188"
+       y="68.276886"
+       id="text7"><tspan
+         sodipodi:role="line"
+         id="tspan7"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Bold';fill:#000000;stroke:none;stroke-width:0.264583;stroke-dasharray:none"
+         x="73.950188"
+         y="68.276886">Cadena</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:5.29167px;line-height:1;font-family:ubuntu;-inkscape-font-specification:'ubuntu Bold';letter-spacing:0px;writing-mode:lr-tb;direction:ltr;fill:#000000;stroke:none;stroke-width:0.264583;stroke-linecap:round;stroke-dasharray:none"
+       x="113.14787"
+       y="68.276886"
+       id="text8"><tspan
+         sodipodi:role="line"
+         id="tspan8"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Bold';fill:#000000;stroke:none;stroke-width:0.264583;stroke-dasharray:none"
+         x="113.14787"
+         y="68.276886">Base</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:5.29167px;line-height:1;font-family:ubuntu;-inkscape-font-specification:'ubuntu Bold';letter-spacing:0px;writing-mode:lr-tb;direction:ltr;fill:#000000;stroke:none;stroke-width:0.264583;stroke-linecap:round;stroke-dasharray:none"
+       x="160.7326"
+       y="68.276886"
+       id="text9"><tspan
+         sodipodi:role="line"
+         id="tspan9"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:'ubuntu Bold';fill:#000000;stroke:none;stroke-width:0.264583;stroke-dasharray:none"
+         x="160.7326"
+         y="68.276886">Descripción</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:5.29167px;line-height:1;font-family:ubuntu;-inkscape-font-specification:'ubuntu Bold';letter-spacing:0px;writing-mode:lr-tb;direction:ltr;fill:#000000;stroke:none;stroke-width:0.264583;stroke-linecap:round;stroke-dasharray:none"
+       x="106.8164"
+       y="79.232292"
+       id="text10"><tspan
+         sodipodi:role="line"
+         id="tspan10"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#000000;stroke:none;stroke-width:0.264583;stroke-dasharray:none"
+         x="106.8164"
+         y="79.232292">2 (Binario)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:5.29167px;line-height:1;font-family:ubuntu;-inkscape-font-specification:'ubuntu Bold';letter-spacing:0px;writing-mode:lr-tb;direction:ltr;fill:#0000ff;stroke:none;stroke-width:0.264583;stroke-linecap:round;stroke-dasharray:none"
+       x="68.788124"
+       y="88.91851"
+       id="text11"><tspan
+         sodipodi:role="line"
+         id="tspan11"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#0000ff;stroke:none;stroke-width:0.264583;stroke-dasharray:none"
+         x="68.788124"
+         y="88.91851">&quot;310&quot;</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:5.29167px;line-height:1;font-family:ubuntu;-inkscape-font-specification:'ubuntu Bold';letter-spacing:0px;writing-mode:lr-tb;direction:ltr;fill:#000000;stroke:none;stroke-width:0.264583;stroke-linecap:round;stroke-dasharray:none"
+       x="155.77167"
+       y="88.947464"
+       id="text12"><tspan
+         sodipodi:role="line"
+         id="tspan12"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#000000;stroke:none;stroke-width:0.264583;stroke-dasharray:none"
+         x="155.77167"
+         y="88.947464">3 caracteres ASCII</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:5.29167px;line-height:1;font-family:ubuntu;-inkscape-font-specification:'ubuntu Bold';letter-spacing:0px;writing-mode:lr-tb;direction:ltr;fill:#000000;stroke:none;stroke-width:0.264583;stroke-linecap:round;stroke-dasharray:none"
+       x="106.8164"
+       y="88.947464"
+       id="text13"><tspan
+         sodipodi:role="line"
+         id="tspan13"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#000000;stroke:none;stroke-width:0.264583;stroke-dasharray:none"
+         x="106.8164"
+         y="88.947464">8 (octal)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:5.29167px;line-height:1;font-family:ubuntu;-inkscape-font-specification:'ubuntu Bold';letter-spacing:0px;writing-mode:lr-tb;direction:ltr;fill:#0000ff;stroke:none;stroke-width:0.264583;stroke-linecap:round;stroke-dasharray:none"
+       x="68.788124"
+       y="99.149925"
+       id="text14"><tspan
+         sodipodi:role="line"
+         id="tspan14"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#0000ff;stroke:none;stroke-width:0.264583;stroke-dasharray:none"
+         x="68.788124"
+         y="99.149925">&quot;200&quot;</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:5.29167px;line-height:1;font-family:ubuntu;-inkscape-font-specification:'ubuntu Bold';letter-spacing:0px;writing-mode:lr-tb;direction:ltr;fill:#000000;stroke:none;stroke-width:0.264583;stroke-linecap:round;stroke-dasharray:none"
+       x="155.77167"
+       y="99.178871"
+       id="text15"><tspan
+         sodipodi:role="line"
+         id="tspan15"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#000000;stroke:none;stroke-width:0.264583;stroke-dasharray:none"
+         x="155.77167"
+         y="99.178871">3 caracteres ASCII</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:5.29167px;line-height:1;font-family:ubuntu;-inkscape-font-specification:'ubuntu Bold';letter-spacing:0px;writing-mode:lr-tb;direction:ltr;fill:#000000;stroke:none;stroke-width:0.264583;stroke-linecap:round;stroke-dasharray:none"
+       x="106.8164"
+       y="99.178871"
+       id="text16"><tspan
+         sodipodi:role="line"
+         id="tspan16"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#000000;stroke:none;stroke-width:0.264583;stroke-dasharray:none"
+         x="106.8164"
+         y="99.178871">10 (decimal)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:5.29167px;line-height:1;font-family:ubuntu;-inkscape-font-specification:'ubuntu Bold';letter-spacing:0px;writing-mode:lr-tb;direction:ltr;fill:#0000ff;stroke:none;stroke-width:0.264583;stroke-linecap:round;stroke-dasharray:none"
+       x="68.788124"
+       y="108.50436"
+       id="text17"><tspan
+         sodipodi:role="line"
+         id="tspan17"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#0000ff;stroke:none;stroke-width:0.264583;stroke-dasharray:none"
+         x="68.788124"
+         y="108.50436">&quot;C8&quot;</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:5.29167px;line-height:1;font-family:ubuntu;-inkscape-font-specification:'ubuntu Bold';letter-spacing:0px;writing-mode:lr-tb;direction:ltr;fill:#000000;stroke:none;stroke-width:0.264583;stroke-linecap:round;stroke-dasharray:none"
+       x="155.77167"
+       y="108.53331"
+       id="text18"><tspan
+         sodipodi:role="line"
+         id="tspan18"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#000000;stroke:none;stroke-width:0.264583;stroke-dasharray:none"
+         x="155.77167"
+         y="108.53331">2 caracteres ASCII</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:5.29167px;line-height:1;font-family:ubuntu;-inkscape-font-specification:'ubuntu Bold';letter-spacing:0px;writing-mode:lr-tb;direction:ltr;fill:#000000;stroke:none;stroke-width:0.264583;stroke-linecap:round;stroke-dasharray:none"
+       x="106.8164"
+       y="108.53331"
+       id="text19"><tspan
+         sodipodi:role="line"
+         id="tspan19"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu;fill:#000000;stroke:none;stroke-width:0.264583;stroke-dasharray:none"
+         x="106.8164"
+         y="108.53331">16 (hexadecimal)</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-dasharray:none"
+       id="rect19"
+       width="141.58041"
+       height="53.35807"
+       x="63.683426"
+       y="61.184895" />
+  </g>
+</svg>
