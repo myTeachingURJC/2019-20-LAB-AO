@@ -1,5 +1,7 @@
     #-- Macros para funciones y pila
     .include "stack.h"
+    .include "stdio.h"
+    .include "so.h"
 
 #-------------------------------------------------
 #-- assert_str_equal(str1, str2)
@@ -73,11 +75,69 @@ assert_str_equal:
 	#-- Abortar test!
 	la a0, msg_abort
 	jal puts
-	jal exit
+	EXIT
 
 assert_str_equal_end:
 	POP2(s0, s1)
 	UNSTACK16
+
+
+#-------------------------------------------------
+#-- assert_equal(val1, val2)
+#--
+#-- Asegurarse que los dos numeros son iguales
+#-- Si NO lo son, se aborta el test
+#--
+#-- ENTRADAS:
+#--   - a0 (val1): Valor 1: Valor devuelto
+#--   - a1 (val2): Valor 2: Valor esperado
+#-- SALIDA:
+#--   - Ninguna
+#-------------------------------------------------
+.global assert_equal
+assert_equal:
+
+	STACK16
+	PUSH2(s0, s1)
+
+	#-- Guardar los parametros
+	mv s0, a0
+	mv s1, a1
+
+	#-- Comparar los numeros
+	bne a0, a1, assert_equal_ne
+	
+	#-- Los valores son iguales
+	la a0, result_ok
+	jal puts
+	j assert_equal_end
+
+ assert_equal_ne: 
+    #-- Los valores NO son iguales
+	#-- Test NO pasado!
+	la a0, result_fail
+	jal puts
+
+	#------ Imprimir resultados
+	#-- Imprimir valor devuelto
+	PUTSI("Valor devuelto: ")
+	PRINT_INTR(s0)
+	PRINT_CHARI('\n')
+
+	#-- Imprimir valor esperado
+	PUTSI("Valor esperado: ")
+	PRINT_INTR(s1)
+	PRINT_CHARI('\n')
+
+	#-- Abortar test!
+	PUTSL(msg_abort)
+	EXIT
+
+assert_equal_end:
+	POP2(s0, s1)
+	UNSTACK16
+
+ret
 
 
 

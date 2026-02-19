@@ -43,6 +43,69 @@ puts:
 	addi sp, sp, 16
 	ret
 	
+
+#------------------------------------------------------------------------
+#-- BCD_get_digit(value, pos, size)
+#--
+#--  Obtener el digito BCD que se encuentra en la posicion indicada
+#--  del valor dado. 
+#--
+#-- ENTRADAS:
+#--   -value: Valor del que se quieren extraer el digito (32-bits)
+#--   -pos: Posicion del digito (0-31)
+#--   -size: Tamaño/tipo de digito:
+#--      1 : Se trata de un bit
+#--      2 : Se trata de un digito cuaternario (0-3)
+#--      3 : Se trata de un digito octal (0-7)
+#--      4 : Se trata de un digito decimal o hexadecimal
+#-----------------------------------------------------------------------
+BCD_get_digit:
+	ret
+			
+#---------------------------------------------
+#-- BCD_get_mask(size)
+#--
+#--   Obtener una mascara de size bits
+#--
+#-- BCD_get_mask(1) = 0x0000_0001
+#-- BCD_get_mask(2) = 0x0000_0011
+#-- BCD_get_mask(3) = 0x0000_0111
+#-- BCD_get_mask(4) = 0x0000_1111
+#--
+#--- ENTRADAS:
+#--   -a0 (size): Tamaño en bits
+#--     -1: Digito binario
+#--     -2: Digito cuaternario
+#--     -3: Digito octal
+#--     -4: Digito decimal/hexa
+#--
+#--  SALIDA:
+#--   - (a0) Mascara
+#---------------------------------------------	
+	.global BCD_get_mask			
+BCD_get_mask:
+
+	#-- Limitar el tamaño: Si es menor a 5, OK
+	#-- En caso contrario recortar a 4
+	li t0, 5
+	blt a0, t0, BCD_get_mask_ok
+	
+	#-- Es mayor a 4, recortar
+	li a0, 4
+	
+  BCD_get_mask_ok:
+
+	#-- Valor inicial de la mascara
+	li t0, -1  #-- t0 = 0xFFFF_FFFF
+	
+	#-- Desplazar tantos bits a la izquierda como indique size
+	sll t0, t0, a0
+	
+	#-- Negar los bits para obtener la mascara final
+	xori a0, t0, -1
+
+	ret					
+					
 	
 #-----------------------------------------------------------------
 #-- gets(cad): Leer una cadena (cruda) desde el teclado	
