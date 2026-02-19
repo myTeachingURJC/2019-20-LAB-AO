@@ -5,7 +5,7 @@
 	.include "stdio.h"
 	.include "unittest.h"
 	.include "stack.h"
-	.include "test-studio.h"
+	.include "test-stdio.h"
 
 	.text
 	
