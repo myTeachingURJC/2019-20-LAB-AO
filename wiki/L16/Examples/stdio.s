@@ -45,6 +45,29 @@ puts:
 	addi sp, sp, 16
 	ret
 	
+#-------------------------------------------------------------
+#-- sputs_char(buffer, car): Imprimir un caracter en un buffer
+#--
+#-- ENTRADA:
+#--   - a0 (buffer): Puntero al buffer donde escribir el caracter
+#--   - a1 (car): Caracter a escribir
+#-- SALIDA:
+#--   - a0: Puntero al siguiente byte del buffer
+#-------------------------------------------------------------
+.global sputs_char
+sputs_char:
+	#-- Escribir el caracter en el buffer
+	sb a1, 0(a0)
+
+	#-- Apuntar a la siguiente posicion
+	addi a0, a0, 1
+
+	#-- Escribir un \0
+	sb zero, 0(a0)
+
+	#-- Devolver la direccion del final del buffer
+	ret
+
 
 #------------------------------------------------------------------------
 #-- BCD_get_digit(value, ndig, size)

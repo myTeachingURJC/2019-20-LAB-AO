@@ -7,6 +7,13 @@
 	.include "stack.h"
 	.include "test-stdio.h"
 
+	#-- Longitud maxima del buffer de pruebas
+	.eqv MAX 256
+
+	.data
+	#-- Buffer de prueba para imprimir
+buffer: .space MAX
+
 	.text
 	
 	#-----------------------------
@@ -16,18 +23,57 @@
 	jal unittest_BCD_get_digit_pos
 	jal unittest_BCD_get_digit
 
-
+	jal unittest_sputs_char
 
 	#-- Terminar
 	EXIT
 	
 
 #-------------------------------------------
+#-- Pruebas unitarias de sputs_char()
+#-------------------------------------------
+unittest_sputs_char:
+
+	STACK16
+
+	TEST_TITTLE("----- sputs_char()--------\n")
+
+	#------- Impresion de un caracter
+	TEST_NAME("1")
+	la a0, buffer
+	li a1, 'A'
+	jal sputs_char
+	ASSERT_STR_EQUAL(buffer, "A")
+
+	#--------- Impresion de dos caracteres
+	TEST_NAME("2")
+	la a0, buffer
+	li a1, 'X'
+	jal sputs_char
+	li a1, 'Y'
+	jal sputs_char
+	ASSERT_STR_EQUAL(buffer, "XY")
+
+	#---- Impresion de tres caracteres
+	TEST_NAME("3")
+	la a0, buffer
+	li a1, '1'
+	jal sputs_char
+	li a1, '2'
+	jal sputs_char
+	li a1, '3'
+	jal sputs_char
+	ASSERT_STR_EQUAL(buffer, "123")
+
+	UNSTACK16
+	ret
+
+
+
+#-------------------------------------------
 #-- Pruebas unitarias de BCD_get_digit()
 #-------------------------------------------
 unittest_BCD_get_digit:
-
-	.text
 	STACK16
 
 	TEST_TITTLE("----- BCD_get_digit()--------\n")
@@ -190,8 +236,6 @@ unittest_BCD_get_digit:
 #-- Pruebas unitarias de BCD_get_digit_pos()
 #----------------------------------------------
 unittest_BCD_get_digit_pos:
-
-	.text
 	STACK16
 
 	TEST_TITTLE("----- BCD_get_digit_pos()--------\n")
@@ -294,8 +338,6 @@ unittest_BCD_get_digit_pos:
 #-- Pruebas unitarias de BCD_get_mask()
 #---------------------------------------
 unittest_BCD_get_mask:
-
-	.text
 	STACK16
 
 	TEST_TITTLE("----- BCD_get_mask()--------\n")
