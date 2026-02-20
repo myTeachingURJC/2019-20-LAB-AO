@@ -79,53 +79,28 @@ BCD_get_digit_pos:
 	#-- La implementacion rapida es multiplicar ndig por size
 	#-- return ndig * size
 
-	#-- PERO en este funcion se implementa sin multiplicacion, usando
-	#-- sumas
+	#-- Pero lo implementamos con sumas porque no disponemos
+	#-- de la multiplicacion
+	#-- pos = ndig + ndig + ... (size veces)
 
-	#-- Inicializar posicion a 0
+	#-- resultado parcial
 	li t0, 0
 
-	#-- Si el numero de digito es 0, la posicion es 0
-	beq a0, zero, BCD_get_digit_pos_end
-
-	#-- Si size < 1, terminar
+	#-- Repetir size veces
+  BCD_get_digit_pos_loop:
+  
+	#-- ¿Tamaño 0?
 	beq a1, zero, BCD_get_digit_pos_end
 
-	#-- Inicializar posicion a ndig
-	mv t0, a0
-
-	#-- Si size < 2, terminar
-	li t1, 2
-	blt a1, t1, BCD_get_digit_pos_end
-
-	#-- Sumar ndig a la posicion
+	#-- Realizar la suma parcial
 	add t0, t0, a0
 
-	#-- Si size < 3, terminar
-	li t1, 3
-	blt a1, t1, BCD_get_digit_pos_end
+	#-- Decrementar el tamaño
+	addi a1, a1, -1
 
-	#-- Sumar ndig a la posicion
-	add t0, t0, a0
+	#-- Repetir
+	j BCD_get_digit_pos_loop
 
-	#-- Si size < 4, terminar
-	li t1, 4
-	blt a1, t1, BCD_get_digit_pos_end
-
-	add t0, t0, a0
-
-	#-- Si size < 5, terminar
-	li t1, 5
-	blt a1, t1, BCD_get_digit_pos_end
-
-	add t0, t0, a0
-
-	#-- Para el resto de casos se devuelve 
-	#-- la posicion maxima
-	
-
-    #-- Fin
-	#-- a0 contiene el valor calculado
   BCD_get_digit_pos_end:
     #-- Devolver la posicion
 	mv a0, t0
