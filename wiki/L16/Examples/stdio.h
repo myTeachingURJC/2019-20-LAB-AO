@@ -22,7 +22,7 @@
 .end_macro
 
 #-----------------------------------------------
-#-- Se pasa como paramtro una cadena LITERAL  
+#-- Se pasa como parametro una cadena LITERAL  
 #-----------------------------------------------
 .macro PUTSI(%str)
 	 .data

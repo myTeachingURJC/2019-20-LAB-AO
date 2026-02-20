@@ -45,23 +45,92 @@ puts:
 	
 
 #------------------------------------------------------------------------
-#-- BCD_get_digit(value, pos, size)
+#-- BCD_get_digit(value, ndig, size)
 #--
-#--  Obtener el digito BCD que se encuentra en la posicion indicada
-#--  del valor dado. 
+#--  Obtener el digito BCD numero ndig dentro del valor value, cuyo 
+#--  tamaño en bits se indica con size
 #--
 #-- ENTRADAS:
 #--   -value: Valor del que se quieren extraer el digito (32-bits)
-#--   -pos: Posicion del digito (0-31)
+#--   -ndig: Numero del digito a extraer (0-31)
 #--   -size: Tamaño/tipo de digito:
 #--      1 : Se trata de un bit
 #--      2 : Se trata de un digito cuaternario (0-3)
 #--      3 : Se trata de un digito octal (0-7)
-#--      4 : Se trata de un digito decimal o hexadecimal
+#--      4 : Se trata de un digito decimal o hexadecimal (0-9, A-F)
 #-----------------------------------------------------------------------
 BCD_get_digit:
 	ret
-			
+
+#-------------------------------------------------------------
+#-- BCD_get_digit_pos(ndig, size)
+#--
+#--  Obtener la posicion del digito BCD de tamaño size
+#--
+#-- ENTRADAS:
+#--   -a0 (ndig): Numero del digito a extraer (0-31)
+#--   -a1 (size): Tamaño/tipo de digito:
+#-- SALIDA:
+#--   -a0 (pos) Posicion del digito dentro (0-31)
+#--------------------------------------------------------------
+.global BCD_get_digit_pos
+BCD_get_digit_pos:
+
+	#-- La implementacion rapida es multiplicar ndig por size
+	#-- return ndig * size
+
+	#-- PERO en este funcion se implementa sin multiplicacion, usando
+	#-- sumas
+
+	#-- Inicializar posicion a 0
+	li t0, 0
+
+	#-- Si el numero de digito es 0, la posicion es 0
+	beq a0, zero, BCD_get_digit_pos_end
+
+	#-- Si size < 1, terminar
+	beq a1, zero, BCD_get_digit_pos_end
+
+	#-- Inicializar posicion a ndig
+	mv t0, a0
+
+	#-- Si size < 2, terminar
+	li t1, 2
+	blt a1, t1, BCD_get_digit_pos_end
+
+	#-- Sumar ndig a la posicion
+	add t0, t0, a0
+
+	#-- Si size < 3, terminar
+	li t1, 3
+	blt a1, t1, BCD_get_digit_pos_end
+
+	#-- Sumar ndig a la posicion
+	add t0, t0, a0
+
+	#-- Si size < 4, terminar
+	li t1, 4
+	blt a1, t1, BCD_get_digit_pos_end
+
+	add t0, t0, a0
+
+	#-- Si size < 5, terminar
+	li t1, 5
+	blt a1, t1, BCD_get_digit_pos_end
+
+	add t0, t0, a0
+
+	#-- Para el resto de casos se devuelve 
+	#-- la posicion maxima
+	
+
+    #-- Fin
+	#-- a0 contiene el valor calculado
+  BCD_get_digit_pos_end:
+    #-- Devolver la posicion
+	mv a0, t0
+	ret
+
 #---------------------------------------------
 #-- BCD_get_mask(size)
 #--
@@ -82,7 +151,7 @@ BCD_get_digit:
 #--  SALIDA:
 #--   - (a0) Mascara
 #---------------------------------------------	
-	.global BCD_get_mask			
+.global BCD_get_mask			
 BCD_get_mask:
 
 	#-- Limitar el tamaño: Si es menor a 5, OK
@@ -141,7 +210,7 @@ gets:
     #-- (Hay que dejar 1 byte para el \0 final)
     addi s1, a1, -1
 
-gets_next:
+  gets_next:
 	#-- Leer un caracter
 	jal getchar
 	
@@ -165,7 +234,7 @@ gets_next:
 	j gets_next
 	
 	
-gets_end:
+  gets_end:
 
 	#-- Almacenar el '\0' final
 	sb zero, 0(s0)
