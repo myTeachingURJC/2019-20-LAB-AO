@@ -1,3 +1,5 @@
+	.include "stack.h"
+
 #--------------------------------------------------
 #-- puts(cad): Imprimir una cadena en la consola
 #--
@@ -51,15 +53,52 @@ puts:
 #--  tamaño en bits se indica con size
 #--
 #-- ENTRADAS:
-#--   -value: Valor del que se quieren extraer el digito (32-bits)
-#--   -ndig: Numero del digito a extraer (0-31)
-#--   -size: Tamaño/tipo de digito:
+#--   -a0 (value): Valor del que se quieren extraer el digito (32-bits)
+#--   -a1 (ndig): Numero del digito a extraer (0-31)
+#--   -a2 (size): Tamaño/tipo de digito:
 #--      1 : Se trata de un bit
 #--      2 : Se trata de un digito cuaternario (0-3)
 #--      3 : Se trata de un digito octal (0-7)
 #--      4 : Se trata de un digito decimal o hexadecimal (0-9, A-F)
 #-----------------------------------------------------------------------
+.global BCD_get_digit
 BCD_get_digit:
+
+	STACK32
+
+	#-- Guardar los registros estaticos usados
+	STACK32_PUSH4(s0, s1, s2, s3) 
+
+	#-- Guardar los parametros
+	mv s0, a0 #-- value
+	mv s1, a1 #-- ndig
+	mv s2, a2 #-- size
+
+	#-- Paso 1: generar la máscara para extraer el digito
+	#-- s4: Mascara
+	mv a0, a2
+	jal BCD_get_mask
+	mv s3, a0
+
+	#-- Paso 2: Obtener la posicion del digito
+	#-- t0: Posicion del digito
+	mv a0, s1
+	mv a1, s2
+	jal BCD_get_digit_pos
+	mv t0, a0
+
+	#-- Paso 3: Desplazar la mascara a la izquierda
+	sll s3, s3, t0
+
+	#-- Paso 4: Aplicar la mascara al valor original
+	mv a0, s0
+	and a0, a0, s3
+
+	#-- Paso 5: Desplazar el resultado a la derecha para obtener el digito
+	srl a0, a0, t0
+
+	STACK32_POP4(s0, s1, s2, s3) #-- Recuperar los registros estaticos
+	UNSTACK32
 	ret
 
 #-------------------------------------------------------------
@@ -88,7 +127,7 @@ BCD_get_digit_pos:
 
 	#-- Repetir size veces
   BCD_get_digit_pos_loop:
-  
+
 	#-- ¿Tamaño 0?
 	beq a1, zero, BCD_get_digit_pos_end
 
