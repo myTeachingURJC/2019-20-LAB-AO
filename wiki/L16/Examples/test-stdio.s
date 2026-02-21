@@ -82,59 +82,41 @@ unittest_sputs:
 
 	#-- Imprimir una cadena vacia
 	TEST_NAME("1")
-	la a0, buffer
-	la a1, empty_str
-	jal sputs
+	SPUTSI(buffer, "")
 	ASSERT_STR_EQUAL(buffer, "")
 
 	#-- Imprimir una cadena de un caracter
 	TEST_NAME("2")
-	la a0, buffer
-	la a1, char_str
-	jal sputs
+	SPUTSI(buffer, "A")
 	ASSERT_STR_EQUAL(buffer, "A")
 
 	#-- Imprimir una cadena de varios caracteres
 	TEST_NAME("3")
-	la a0, buffer
-	la a1, hello_str
-	jal sputs
+	SPUTSI(buffer, "Hola Mundo!")
 	ASSERT_STR_EQUAL(buffer, "Hola Mundo!")
 
 	#-- Concatenar dos cadenas
 	TEST_NAME("4")
-	la a0, buffer
-	la a1, msg1
-	jal sputs
-	la a1, msg2
-	jal sputs
+	SPUTSI(buffer, "A")
+	SPUTSI("B")
 	ASSERT_STR_EQUAL(buffer, "AB")
 
 	#-- Concatenar dos cadenas
 	TEST_NAME("5")
-	la a0, buffer
-	la a1, msg3
-	jal sputs
-	la a1, msg4
-	jal sputs
+	SPUTSI(buffer, "Test1-")
+	SPUTSI("Test2")
 	ASSERT_STR_EQUAL(buffer, "Test1-Test2")
 
 	#-- Concatenar caracter + cadena
 	TEST_NAME("6")
-	la a0, buffer
-	li a1, '*'
-	jal sputs_char
-	la a1, msg5
-	jal sputs
+	SPUTS_CHARI(buffer, '*')
+	SPUTSI("HOLA")
 	ASSERT_STR_EQUAL(buffer, "*HOLA")
 
 	#-- Concatenar cadena + caracter
 	TEST_NAME("7")
-	la a0, buffer
-	la a1, msg5
-	jal sputs
-	li a1, '*'
-	jal sputs_char
+	SPUTSI(buffer, "HOLA")
+	SPUTS_CHARI('*')
 	ASSERT_STR_EQUAL(buffer, "HOLA*")
 
 	UNSTACK16

@@ -46,3 +46,22 @@ msg: .string %str
   jal sputs_char
 .end_macro
 
+
+#---------------------- SPUTS ----------------------
+.macro SPUTSI(%buffer, %str)
+  .data
+msg: .string %str
+  .text
+  la a0, %buffer
+  la a1, msg
+  jal sputs
+.end_macro
+
+.macro SPUTSI(%str)
+  .data
+msg: .string %str
+  .text
+  la a1, msg
+  jal sputs
+.end_macro
+
