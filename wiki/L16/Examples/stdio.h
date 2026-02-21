@@ -34,3 +34,15 @@ msg: .string %str
 .end_macro
 
 
+#---------------------- SPUTS_CHAR ----------------------
+.macro SPUTS_CHARI(%buffer, %char)
+  la a0, %buffer
+  li a1, %char
+  jal sputs_char
+.end_macro
+
+.macro SPUTS_CHARI(%char)
+  li a1, %char
+  jal sputs_char
+.end_macro
+

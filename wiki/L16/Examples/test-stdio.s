@@ -19,15 +19,16 @@ buffer: .space MAX
 	#-----------------------------
 	#-- TESTS UNITARIOS
 	#-----------------------------
+	jal unittest_sputs_char
+	jal unittest_sputs
+
 	jal unittest_BCD_get_mask
 	jal unittest_BCD_get_digit_pos
 	jal unittest_BCD_get_digit
 
-	jal unittest_sputs_char
 
 	#-- Terminar
 	EXIT
-	
 
 #-------------------------------------------
 #-- Pruebas unitarias de sputs_char()
@@ -40,34 +41,104 @@ unittest_sputs_char:
 
 	#------- Impresion de un caracter
 	TEST_NAME("1")
-	la a0, buffer
-	li a1, 'A'
-	jal sputs_char
+	SPUTS_CHARI(buffer, 'A')
 	ASSERT_STR_EQUAL(buffer, "A")
 
 	#--------- Impresion de dos caracteres
 	TEST_NAME("2")
-	la a0, buffer
-	li a1, 'X'
-	jal sputs_char
-	li a1, 'Y'
-	jal sputs_char
+	SPUTS_CHARI(buffer, 'X')
+	SPUTS_CHARI('Y')
 	ASSERT_STR_EQUAL(buffer, "XY")
 
 	#---- Impresion de tres caracteres
 	TEST_NAME("3")
-	la a0, buffer
-	li a1, '1'
-	jal sputs_char
-	li a1, '2'
-	jal sputs_char
-	li a1, '3'
-	jal sputs_char
+	SPUTS_CHARI(buffer, '1')
+	SPUTS_CHARI('2')
+	SPUTS_CHARI('3')
 	ASSERT_STR_EQUAL(buffer, "123")
 
 	UNSTACK16
 	ret
 
+
+#-------------------------------------------
+#-- Pruebas unitarias de sputs()
+#-------------------------------------------
+	.data
+empty_str: .string ""
+char_str:  .string "A"
+hello_str: .string "Hola Mundo!"
+msg1: .string "A"
+msg2: .string "B"
+msg3: .string "Test1-"
+msg4: .string "Test2"
+msg5: .string "HOLA"
+
+	.text
+unittest_sputs:
+	STACK16
+
+	TEST_TITTLE("----- sputs()--------\n")
+
+	#-- Imprimir una cadena vacia
+	TEST_NAME("1")
+	la a0, buffer
+	la a1, empty_str
+	jal sputs
+	ASSERT_STR_EQUAL(buffer, "")
+
+	#-- Imprimir una cadena de un caracter
+	TEST_NAME("2")
+	la a0, buffer
+	la a1, char_str
+	jal sputs
+	ASSERT_STR_EQUAL(buffer, "A")
+
+	#-- Imprimir una cadena de varios caracteres
+	TEST_NAME("3")
+	la a0, buffer
+	la a1, hello_str
+	jal sputs
+	ASSERT_STR_EQUAL(buffer, "Hola Mundo!")
+
+	#-- Concatenar dos cadenas
+	TEST_NAME("4")
+	la a0, buffer
+	la a1, msg1
+	jal sputs
+	la a1, msg2
+	jal sputs
+	ASSERT_STR_EQUAL(buffer, "AB")
+
+	#-- Concatenar dos cadenas
+	TEST_NAME("5")
+	la a0, buffer
+	la a1, msg3
+	jal sputs
+	la a1, msg4
+	jal sputs
+	ASSERT_STR_EQUAL(buffer, "Test1-Test2")
+
+	#-- Concatenar caracter + cadena
+	TEST_NAME("6")
+	la a0, buffer
+	li a1, '*'
+	jal sputs_char
+	la a1, msg5
+	jal sputs
+	ASSERT_STR_EQUAL(buffer, "*HOLA")
+
+	#-- Concatenar cadena + caracter
+	TEST_NAME("7")
+	la a0, buffer
+	la a1, msg5
+	jal sputs
+	li a1, '*'
+	jal sputs_char
+	ASSERT_STR_EQUAL(buffer, "HOLA*")
+
+	UNSTACK16
+	ret
 
 
 #-------------------------------------------

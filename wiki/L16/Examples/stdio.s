@@ -68,6 +68,50 @@ sputs_char:
 	#-- Devolver la direccion del final del buffer
 	ret
 
+#-----------------------------------------------------------------
+#-- sputs(buffer, cad): Imprimir una cadena en un buffer
+#-----------------------------------------------------------------
+#-- ENTRADA:
+#--   - a0 (buffer): Puntero al buffer donde escribir la cadena
+#--   - a1 (cad): Puntero a la cadena a escribir
+#-- SALIDA:
+#--   - a0: Puntero al siguiente byte del buffer
+#-----------------------------------------------------------------
+.global sputs
+sputs:
+	STACK16
+	PUSH1(s1)
+
+	#-- Guardar a1
+	mv s1, a1
+
+sputs_loop:
+
+	#-- Leer caracter actual
+	lb a1, 0(s1)
+
+	#-- Si es el caracter final, terminar
+	beq a1, zero, sputs_end
+
+	#-- Imprimir el caracter actual en el buffer
+	#-- Tambien se imprime el \0 final
+	jal sputs_char
+
+	#-- Apuntar al siguiente caracter de la cadena
+	addi s1, s1, 1
+
+	#-- Repetir
+	j sputs_loop
+
+  sputs_end:
+
+	#-- Terinar con \0
+	sb zero, 0(a0)
+
+	POP1(s1)
+	UNSTACK16
+	ret
+
 
 #------------------------------------------------------------------------
 #-- BCD_get_digit(value, ndig, size)
