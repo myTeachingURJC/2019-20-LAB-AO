@@ -683,173 +683,97 @@ unittest_sputs_number_base_oct:
 
 	#--  sputs_number_base(buffer, 0x0, 3, 8) --> "0"
 	TEST_NAME("1")
-	la a0, buffer
-	li a1, 0x0
-	li a2, 3
-	li a3, 8
-	jal sputs_number_base
+	SPUTS_NUMBER_BASE(buffer, 0x0, 3, 8)
 	ASSERT_STR_EQUAL(buffer, "0")
 
 	#--  sputs_number_base(buffer, 0x1, 3, 8) --> "1"
 	TEST_NAME("2")
-	la a0, buffer
-	li a1, 0x1
-	li a2, 3
-	li a3, 8
-	jal sputs_number_base
+	SPUTS_NUMBER_BASE(buffer, 0x1, 3, 8)
 	ASSERT_STR_EQUAL(buffer, "1")
 
 	#--  sputs_number_base(buffer, 0x3, 3, 8) --> "3"
 	TEST_NAME("3")
-	la a0, buffer
-	li a1, 0x3
-	li a2, 3
-	li a3, 8
-	jal sputs_number_base
+	SPUTS_NUMBER_BASE(buffer, 0x3, 3, 8)
 	ASSERT_STR_EQUAL(buffer, "3")
 
 	#--  sputs_number_base(buffer, 0x7, 3, 8) --> "7"
 	TEST_NAME("4")
-	la a0, buffer
-	li a1, 0x7
-	li a2, 3
-	li a3, 8
-	jal sputs_number_base
+	SPUTS_NUMBER_BASE(buffer, 0x7, 3, 8)
 	ASSERT_STR_EQUAL(buffer, "7")
 
 	#--  sputs_number_base(buffer, 0x00, 6, 8) --> "00"
 	TEST_NAME("5")
-	la a0, buffer
-	li a1, 0x00
-	li a2, 6
-	li a3, 8
-	jal sputs_number_base
+	SPUTS_NUMBER_BASE(buffer, 0x00, 6, 8)
 	ASSERT_STR_EQUAL(buffer, "00")
 
 	#--  sputs_number_base(buffer, 0x55, 6, 8) --> "25"
 	TEST_NAME("6")
-	la a0, buffer
-	li a1, 0x55
-	li a2, 6
-	li a3, 8
-	jal sputs_number_base
+	SPUTS_NUMBER_BASE(buffer, 0x55, 6, 8)
 	ASSERT_STR_EQUAL(buffer, "25")
 
 	#--  sputs_number_base(buffer, 0xAA, 6, 8) --> "52"
 	TEST_NAME("7")
-	la a0, buffer
-	li a1, 0xAA
-	li a2, 6
-	li a3, 8
-	jal sputs_number_base
+	SPUTS_NUMBER_BASE(buffer, 0xAA, 6, 8)
 	ASSERT_STR_EQUAL(buffer, "52")
 
 	#--  sputs_number_base(buffer, 0xFF, 6, 8) --> "77"
 	TEST_NAME("8")
-	la a0, buffer
-	li a1, 0xFF
-	li a2, 6
-	li a3, 8
-	jal sputs_number_base
+	SPUTS_NUMBER_BASE(buffer, 0xFF, 6, 8)
 	ASSERT_STR_EQUAL(buffer, "77")
 
 	#--  sputs_number_base(buffer, 0x000, 12, 8) --> "000"
 	TEST_NAME("9")
-	la a0, buffer
-	li a1, 0x000
-	li a2, 12
-	li a3, 8
-	jal sputs_number_base
+	SPUTS_NUMBER_BASE(buffer, 0x000, 12, 8)
 	ASSERT_STR_EQUAL(buffer, "0000")
 
-	#--  sputs_number_base(buffer, 0xAAA, 12, 8) --> "1252"
+	#--  sputs_number_base(buffer, 0xAAA, 12, 8) --> "5252"
 	TEST_NAME("10")
-	la a0, buffer
-	li a1, 0xAAA
-	li a2, 12
-	li a3, 8
-	jal sputs_number_base
+	SPUTS_NUMBER_BASE(buffer, 0xAAA, 12, 8)
 	ASSERT_STR_EQUAL(buffer, "5252")
 
 	#--  sputs_number_base(buffer, 0xFFF, 12, 8) --> "1777"
 	TEST_NAME("11")
-	la a0, buffer
-	li a1, 0xFFF
-	li a2, 12
-	li a3, 8
-	jal sputs_number_base
+	SPUTS_NUMBER_BASE(buffer, 0xFFF, 12, 8)
 	ASSERT_STR_EQUAL(buffer, "7777")
 
 	#--  sputs_number_base(buffer, 0x0000, 16, 8) --> "000000"
 	TEST_NAME("12")
-	la a0, buffer
-	li a1, 0x0000
-	li a2, 16
-	li a3, 8
-	jal sputs_number_base
+	SPUTS_NUMBER_BASE(buffer, 0x0000, 16, 8)
 	ASSERT_STR_EQUAL(buffer, "000000")
 
 	#--  sputs_number_base(buffer, 0x5555, 16, 8) --> "125252"
 	TEST_NAME("13")
-	la a0, buffer
-	li a1, 0x5555	
-	li a2, 16
-	li a3, 8
-	jal sputs_number_base
+	SPUTS_NUMBER_BASE(buffer, 0x5555, 16, 8)
 	ASSERT_STR_EQUAL(buffer, "052525")
 
-	#--  sputs_number_base(buffer, 0xAAAA, 16, 8) --> "525252"
+	#--  sputs_number_base(buffer, 0xAAAA, 16, 8) --> "125252"
 	TEST_NAME("14")
-	la a0, buffer
-	li a1, 0xAAAA
-	li a2, 16
-	li a3, 8
-	jal sputs_number_base
+	SPUTS_NUMBER_BASE(buffer, 0xAAAA, 16, 8)
 	ASSERT_STR_EQUAL(buffer, "125252")
 
-	#--  sputs_number_base(buffer, 0xFFFF, 16, 8) --> "775252"
+	#--  sputs_number_base(buffer, 0xFFFF, 16, 8) --> "177777"
 	TEST_NAME("15")
-	la a0, buffer
-	li a1, 0xFFFF
-	li a2, 16
-	li a3, 8
-	jal sputs_number_base
+	SPUTS_NUMBER_BASE(buffer, 0xFFFF, 16, 8)
 	ASSERT_STR_EQUAL(buffer, "177777")
 
 	#--  sputs_number_base(buffer, 0x00000000, 32, 8) --> "00000000000"
 	TEST_NAME("16")
-	la a0, buffer
-	li a1, 0x00000000
-	li a2, 32
-	li a3, 8
-	jal sputs_number_base
+	SPUTS_NUMBER_BASE(buffer, 0x00000000, 32, 8)
 	ASSERT_STR_EQUAL(buffer, "00000000000")
 
 	#--  sputs_number_base(buffer, 0x55555555, 32, 8) --> "12525252525"
 	TEST_NAME("17")
-	la a0, buffer
-	li a1, 0x55555555
-	li a2, 32
-	li a3, 8
-	jal sputs_number_base
+	SPUTS_NUMBER_BASE(buffer, 0x55555555, 32, 8)
 	ASSERT_STR_EQUAL(buffer, "12525252525")
 
 	#--  sputs_number_base(buffer, 0xAAAAAAAA, 32, 8) --> "52525252525"
 	TEST_NAME("18")
-	la a0, buffer
-	li a1, 0xAAAAAAAA
-	li a2, 32
-	li a3, 8
-	jal sputs_number_base
+	SPUTS_NUMBER_BASE(buffer, 0xAAAAAAAA, 32, 8)
 	ASSERT_STR_EQUAL(buffer, "25252525252")
 
 	#--  sputs_number_base(buffer, 0xFFFFFFFF, 32, 8) --> "77777777777"
 	TEST_NAME("19")
-	la a0, buffer
-	li a1, 0xFFFFFFFF
-	li a2, 32
-	li a3, 8
-	jal sputs_number_base
+	SPUTS_NUMBER_BASE(buffer, 0xFFFFFFFF, 32, 8)
 	ASSERT_STR_EQUAL(buffer, "37777777777")
 
 	UNSTACK16
@@ -863,173 +787,97 @@ unittest_sputs_number_base_hex:
 
 	#--  sputs_number_base(buffer, 0x0, 4, 16) --> "0"
 	TEST_NAME("1")
-	la a0, buffer
-	li a1, 0x0
-	li a2, 4
-	li a3, 16
-	jal sputs_number_base
+	SPUTS_NUMBER_BASE(buffer, 0x0, 4, 16)
 	ASSERT_STR_EQUAL(buffer, "0")
 
 	#--  sputs_number_base(buffer, 0x1, 4, 16) --> "1"
 	TEST_NAME("2")
-	la a0, buffer
-	li a1, 0x1
-	li a2, 4
-	li a3, 16
-	jal sputs_number_base
+	SPUTS_NUMBER_BASE(buffer, 0x1, 4, 16)
 	ASSERT_STR_EQUAL(buffer, "1")
 
 	#--  sputs_number_base(buffer, 0xA, 4, 16) --> "A"
 	TEST_NAME("3")
-	la a0, buffer
-	li a1, 0xA
-	li a2, 4
-	li a3, 16
-	jal sputs_number_base
+	SPUTS_NUMBER_BASE(buffer, 0xA, 4, 16)
 	ASSERT_STR_EQUAL(buffer, "A")
 
 	#--  sputs_number_base(buffer, 0xF, 4, 16) --> "F"
 	TEST_NAME("4")
-	la a0, buffer
-	li a1, 0xF
-	li a2, 4
-	li a3, 16
-	jal sputs_number_base
+	SPUTS_NUMBER_BASE(buffer, 0xF, 4, 16)
 	ASSERT_STR_EQUAL(buffer, "F")
 
 	#--  sputs_number_base(buffer, 0x00, 8, 16) --> "00"
 	TEST_NAME("5")
-	la a0, buffer
-	li a1, 0x00
-	li a2, 8
-	li a3, 16
-	jal sputs_number_base
+	SPUTS_NUMBER_BASE(buffer, 0x00, 8, 16)
 	ASSERT_STR_EQUAL(buffer, "00")
 
 	#--  sputs_number_base(buffer, 0x55, 8, 16) --> "55"
 	TEST_NAME("6")
-	la a0, buffer
-	li a1, 0x55
-	li a2, 8
-	li a3, 16
-	jal sputs_number_base
+	SPUTS_NUMBER_BASE(buffer, 0x55, 8, 16)
 	ASSERT_STR_EQUAL(buffer, "55")
 	
 	#--  sputs_number_base(buffer, 0xAA, 8, 16) --> "AA"
 	TEST_NAME("7")
-	la a0, buffer
-	li a1, 0xAA
-	li a2, 8
-	li a3, 16
-	jal sputs_number_base
+	SPUTS_NUMBER_BASE(buffer, 0xAA, 8, 16)
 	ASSERT_STR_EQUAL(buffer, "AA")
 
 	#--  sputs_number_base(buffer, 0xFF, 8, 16) --> "FF"
 	TEST_NAME("8")
-	la a0, buffer
-	li a1, 0xFF
-	li a2, 8
-	li a3, 16
-	jal sputs_number_base
+	SPUTS_NUMBER_BASE(buffer, 0xFF, 8, 16)
 	ASSERT_STR_EQUAL(buffer, "FF")
 
 	#--  sputs_number_base(buffer, 0x000, 12, 16) --> "000"
 	TEST_NAME("9")
-	la a0, buffer
-	li a1, 0x000
-	li a2, 12
-	li a3, 16
-	jal sputs_number_base
+	SPUTS_NUMBER_BASE(buffer, 0x000, 12, 16)
 	ASSERT_STR_EQUAL(buffer, "000")
 
 	#--  sputs_number_base(buffer, 0xAAA, 12, 16) --> "AAA"
 	TEST_NAME("10")
-	la a0, buffer
-	li a1, 0xAAA
-	li a2, 12
-	li a3, 16
-	jal sputs_number_base
+	SPUTS_NUMBER_BASE(buffer, 0xAAA, 12, 16)
 	ASSERT_STR_EQUAL(buffer, "AAA")
 
 	#--  sputs_number_base(buffer, 0xFFF, 12, 16) --> "FFF"
 	TEST_NAME("11")
-	la a0, buffer
-	li a1, 0xFFF
-	li a2, 12
-	li a3, 16
-	jal sputs_number_base
+	SPUTS_NUMBER_BASE(buffer, 0xFFF, 12, 16)
 	ASSERT_STR_EQUAL(buffer, "FFF")
 
 	#--  sputs_number_base(buffer, 0x0000, 16, 16) --> "0000"
 	TEST_NAME("12")
-	la a0, buffer
-	li a1, 0x0000
-	li a2, 16
-	li a3, 16
-	jal sputs_number_base
+	SPUTS_NUMBER_BASE(buffer, 0x0000, 16, 16)
 	ASSERT_STR_EQUAL(buffer, "0000")
 
 	#--  sputs_number_base(buffer, 0x5555, 16, 16) --> "5555"
 	TEST_NAME("13")
-	la a0, buffer
-	li a1, 0x5555
-	li a2, 16
-	li a3, 16
-	jal sputs_number_base
+	SPUTS_NUMBER_BASE(buffer, 0x5555, 16, 16)
 	ASSERT_STR_EQUAL(buffer, "5555")
 
 	#--  sputs_number_base(buffer, 0xAAAA, 16, 16) --> "AAAA"
 	TEST_NAME("14")
-	la a0, buffer
-	li a1, 0xAAAA
-	li a2, 16
-	li a3, 16
-	jal sputs_number_base
+	SPUTS_NUMBER_BASE(buffer, 0xAAAA, 16, 16)
 	ASSERT_STR_EQUAL(buffer, "AAAA")
 
 	#--  sputs_number_base(buffer, 0xFFFF, 16, 16) --> "FFFF"
 	TEST_NAME("15")
-	la a0, buffer
-	li a1, 0xFFFF
-	li a2, 16
-	li a3, 16
-	jal sputs_number_base
+	SPUTS_NUMBER_BASE(buffer, 0xFFFF, 16, 16)
 	ASSERT_STR_EQUAL(buffer, "FFFF")
 
 	#--  sputs_number_base(buffer, 0x00000000, 32, 16) --> "00000000"
 	TEST_NAME("16")
-	la a0, buffer
-	li a1, 0x00000000
-	li a2, 32
-	li a3, 16
-	jal sputs_number_base
+	SPUTS_NUMBER_BASE(buffer,	0x00000000, 32, 16)
 	ASSERT_STR_EQUAL(buffer, "00000000")
 
 	#--  sputs_number_base(buffer, 0x55555555, 32, 16) --> "55555555"
 	TEST_NAME("17")
-	la a0, buffer
-	li a1, 0x55555555
-	li a2, 32
-	li a3, 16
-	jal sputs_number_base
+	SPUTS_NUMBER_BASE(buffer, 0x55555555, 32, 16)
 	ASSERT_STR_EQUAL(buffer, "55555555")
 
 	#--  sputs_number_base(buffer, 0xAAAAAAAA, 32, 16) --> "AAAAAAAA"
 	TEST_NAME("18")
-	la a0, buffer
-	li a1, 0xAAAAAAAA
-	li a2, 32
-	li a3, 16
-	jal sputs_number_base
+	SPUTS_NUMBER_BASE(buffer, 0xAAAAAAAA, 32, 16)
 	ASSERT_STR_EQUAL(buffer, "AAAAAAAA")
 
 	#--  sputs_number_base(buffer, 0xFFFFFFFF, 32, 16) --> "FFFFFFFF"
 	TEST_NAME("19")
-	la a0, buffer
-	li a1, 0xFFFFFFFF
-	li a2, 32
-	li a3, 16
-	jal sputs_number_base
+	SPUTS_NUMBER_BASE(buffer, 0xFFFFFFFF, 32, 16)
 	ASSERT_STR_EQUAL(buffer, "FFFFFFFF")
 
 	UNSTACK16
