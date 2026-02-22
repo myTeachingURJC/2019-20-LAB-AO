@@ -23,6 +23,7 @@ buffer: .space MAX
 	jal unittest_sputs
 	jal unittest_BCD_get_digit_size
 	jal unittest_BCD_get_number_of_digits
+	jal unittest_BCD_to_ascii
 	jal unittest_sputs_number_base
 
 	jal unittest_BCD_get_mask
@@ -278,6 +279,53 @@ unittest_BCD_get_number_of_digits:
 
 	UNSTACK16
 #-----------------------------
+
+#-----------------------------
+unittest_BCD_to_ascii:
+	STACK16
+
+	TEST_TITTLE("----- BCD_to_ASCII()--------\n")
+
+	#-- BCD_to_ASCII(0) = '0'
+	TEST_NAME("1")
+	li a0, 0
+	jal BCD_to_ascii
+	ASSERT_EQUAL(a0, '0')
+
+	#-- BCD_to_ASCII(1) = '1'
+	TEST_NAME("2")
+	li a0, 1
+	jal BCD_to_ascii
+	ASSERT_EQUAL(a0, '1')
+
+	#-- BCD_to_ASCII(9) = '9'
+	TEST_NAME("3")
+	li a0, 9
+	jal BCD_to_ascii
+	ASSERT_EQUAL(a0, '9')
+
+	#-- BCD_to_ASCII(10) = 'A'
+	TEST_NAME("4")
+	li a0, 10
+	jal BCD_to_ascii
+	ASSERT_EQUAL(a0, 'A')
+
+	#-- BCD_to_ASCII(11) = 'B'
+	TEST_NAME("5")
+	li a0, 11
+	jal BCD_to_ascii
+	ASSERT_EQUAL(a0, 'B')	
+
+	#-- BCD_to_ASCII(15) = 'F'
+	TEST_NAME("6")
+	li a0, 15
+	jal BCD_to_ascii
+	ASSERT_EQUAL(a0, 'F')
+
+	UNSTACK16
+#------------------------------
+
+
 
 #-----------------------------
 unittest_sputs_number_base:

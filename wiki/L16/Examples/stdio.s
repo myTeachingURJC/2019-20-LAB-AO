@@ -121,7 +121,7 @@ sputs:
 	ret
 #-------------------------------------------------------------
 
-
+#------------ BCD_get_digit_size(base) -----------------------
 BCD_get_digit_size:
   #-----------------------------------------------------------------------
   #-- BCD_get_digit_size(base): 
@@ -201,8 +201,9 @@ BCD_get_digit_size:
     mv a0, t1
 	ret
 
+#-------------------------------------------------------------
 
-
+#------------ BCD_get_number_of_digits(num_size, dig_size) --------------
 BCD_get_number_of_digits:
   #-----------------------------------------------------------------------
   #-- BCD_get_number_of_digits(num_size, dig_size): 
@@ -266,6 +267,50 @@ BCD_get_number_of_digits:
 
 	ret
 
+#------------------------------------------------------------------------
+
+
+#------------ BCD_to_ascii(dig) --------------------------------------
+BCD_to_ascii:
+	#-----------------------------------------------------------------------
+	#-- BCD_to_ASCII(dig): Convertir un digito BCD a su representacion ASCII
+	#--
+	#-- ENTRADA:
+	#--   - a0 (dig): Digito BCD a convertir
+	#-- SALIDA:
+	#--   - a0: Caracter ASCII correspondiente al digito BCD
+	#-----------------------------------------------------------------------
+	#-- Si el digito es menor o igual a 9, se convierte sumando '0'
+	#-- Si el digito es mayor que 9, se convierte sumando 'A' - 10
+	#-- BCD_to_ASCII(0) = '0'
+	#-- BCD_to_ASCII(1) = '1'
+	#-- ...
+	#-- BCD_to_ASCII(9) = '9'
+	#-- BCD_to_ASCII(10) = 'A'
+	#-- BCD_to_ASCII(11) = 'B'
+	#-- ...
+	#-- BCD_to_ASCII(15) = 'F'
+	.global BCD_to_ascii
+
+	li t0, 10
+	blt a0, t0, _BCD_to_ASCII_digit
+
+	#-- Es mayor que 9, convertir a letra mayuscula
+	addi a0, a0, 0x37  #-- 0x37 = 'A' - 10
+	j BCD_to_ASCII_end
+
+ _BCD_to_ASCII_digit:
+	#-- Es menor o igual a 9, convertir a numero
+	addi a0, a0, '0'
+
+ BCD_to_ASCII_end:
+	ret	
+
+#--------------------------------------------------------------------
+
+
+
+
 #---------------------------------------------------------------------------
 #-- sputs_number_base(buffer, num, num_size, base): 
 #--   Imprimir un numero en un buffer. El numero tiene el tamaño size 
@@ -287,7 +332,7 @@ BCD_get_number_of_digits:
 .global sputs_number_base
 sputs_number_base: 
 	STACK32
-	STACK32_PUSH5(s0, s1, s2, s3, s4)
+	STACK32_PUSH6(s0, s1, s2, s3, s4, s5)
 
 	#-- Guardar los parametros
 	mv s0, a0 #-- buffer
@@ -305,14 +350,27 @@ sputs_number_base:
 	#-- Numero de digitos: ndig = num_size / dig_size
 	#-- Lo calculamos con una funcion especifica, para
 	#-- no usar la division
-	#-- TODO
+	#-- s5: ndig
+	mv a0, s2
+	mv a1, s4
+	jal BCD_get_number_of_digits
+	mv s5, a0 
 
-	#-- ndig --> Digito de mayor peso del numero
+	#-- Hay ndig digititos, desde el 0 al ndig-1
+	#-- El ditito de mayor peso es ndig-1
+	#-- s5 = ndig: Numero de digito actual (empezando por el de mayor peso)
+	addi s5, s5, -1
 
-	#-- Obtener el digito bcd ndig
-	#--   BCD_get_digit(num, ndig, dig_size)
+	#------ Bucle: repetirlo para cada digito, empezando por el de mayor peso
+
+	#-- Obtener el digito BCD actual
+	mv a0, s1 #-- num
+	mv a1, s5 #-- ndig
+	mv a2, s4 #-- dig_size
+	jal BCD_get_digit
 
 	#-- Convertir el digito a su representacion ASCII
+	#-- BCD_to_ASCII(dig)
 
 	#-- Imprimir el digito en el buffer
 
@@ -322,11 +380,8 @@ sputs_number_base:
 
 	#-- Repetir
 
-	STACK32_POP5(s0, s1, s2, s3, s4)
+	STACK32_POP6(s0, s1, s2, s3, s4, s5)
 	UNSTACK32
-	ret
-
-
 
 #------------------------------------------------------------------------
 #-- BCD_get_digit(value, ndig, dig_size)
