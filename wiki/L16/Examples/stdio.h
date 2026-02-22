@@ -99,3 +99,13 @@ msg: .string %str
   li a2, %dig_size
   jal BCD_get_digit
 .end_macro
+
+#------------ SPUTS_NUMBER_BASE(buffer, num, num_size, base) ------------
+.macro SPUTS_NUMBER_BASE(%buffer, %num, %num_size, %base)
+  la a0, %buffer
+  li a1, %num
+  li a2, %num_size
+  li a3, %base
+  jal sputs_number_base
+.end_macro
+
