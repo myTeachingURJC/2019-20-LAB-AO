@@ -367,153 +367,99 @@ unittest_BCD_get_digit:
 
 	#-- BCD_get_digit(0xCAFEBACA, 7, 4) = 0xC
 	TEST_NAME("1")
-	li a0, 0xCAFEBACA
-	li a1, 7
-	li a2, 4
-	jal BCD_get_digit
+	BCD_GET_DIGIT(0xCAFEBACA, 7, 4)
 	ASSERT_EQUAL(a0, 0xC)
 
 	#-- BCD_get_digit(0xCAFEBACA, 6, 4) = 0xA
 	TEST_NAME("2")
-	li a0, 0xCAFEBACA
-	li a1, 6
-	li a2, 4
-	jal BCD_get_digit
+	BCD_GET_DIGIT(0xCAFEBACA, 6, 4)
 	ASSERT_EQUAL(a0, 0xA)
 
 	#-- BCD_get_digit(0xCAFEBACA, 3, 4) = 0xB
 	TEST_NAME("3")
-	li a0, 0xCAFEBACA
-	li a1, 3
-	li a2, 4
-	jal BCD_get_digit
+	BCD_GET_DIGIT(0xCAFEBACA, 3, 4)
 	ASSERT_EQUAL(a0, 0xB)
 
 	#-- BCD_get_digit(0xCAFEBACA, 0, 4) = 0xA
 	TEST_NAME("4")
-	li a0, 0xCAFEBACA
-	li a1, 0
-	li a2, 4
-	jal BCD_get_digit
+	BCD_GET_DIGIT(0xCAFEBACA, 0, 4)
 	ASSERT_EQUAL(a0, 0xA)
 
 	#-- 0xCAFEBACA = 0o31277535312
 	#-- BCD_get_digit(0o31277535312, 10, 3) = 0o3
 	TEST_NAME("5")
-	li a0, 0xCAFEBACA
-	li a1, 10
-	li a2, 3
-	jal BCD_get_digit
+	BCD_GET_DIGIT(0xCAFEBACA, 10, 3)
 	ASSERT_EQUAL(a0, 0x3)
 
 	#-- 0xCAFEBACA = 0o31277535312
 	#-- BCD_get_digit(0xCAFEBACA, 9, 3) = 0o1	
 	TEST_NAME("6")
-	li a0, 0xCAFEBACA
-	li a1, 9
-	li a2, 3
-	jal BCD_get_digit
+	BCD_GET_DIGIT(0xCAFEBACA, 9, 3)
 	ASSERT_EQUAL(a0, 0x1)
 
 	#-- 0xCAFEBACA = 0o31277535312
 	#-- BCD_get_digit(0xCAFEBACA, 7, 3) = 0o7
 	TEST_NAME("7")
-	li a0, 0xCAFEBACA
-	li a1, 7
-	li a2, 3
-	jal BCD_get_digit
+	BCD_GET_DIGIT(0xCAFEBACA, 7, 3)
 	ASSERT_EQUAL(a0, 0x7)
 
 	#-- 0xCAFEBACA = 0o31277535312
 	#-- BCD_get_digit(0xCAFEBACA, 5, 3) = 0o5
 	TEST_NAME("8")
-	li a0, 0xCAFEBACA
-	li a1, 5
-	li a2, 3
-	jal BCD_get_digit
+	BCD_GET_DIGIT(0xCAFEBACA, 5, 3)
 	ASSERT_EQUAL(a0, 0x5)
 
 	#-- 0xCAFEBACA = 0o31277535312
 	#-- BCD_get_digit(0xCAFEBACA, 3, 3) = 0o5
 	TEST_NAME("9")
-	li a0, 0xCAFEBACA
-	li a1, 3
-	li a2, 3
-	jal BCD_get_digit
+	BCD_GET_DIGIT(0xCAFEBACA, 3, 3)
 	ASSERT_EQUAL(a0, 0x5)
 
 	#-- 0xCAFEBACA = 0o31277535312
 	#-- BCD_get_digit(0xCAFEBACA, 1, 3) = 0o1
 	TEST_NAME("10")
-	li a0, 0xCAFEBACA
-	li a1, 1
-	li a2, 3
-	jal BCD_get_digit
+	BCD_GET_DIGIT(0xCAFEBACA, 1, 3)
 	ASSERT_EQUAL(a0, 0x1)
 
 	#-- 0xCAFEBACA = 0o31277535312
 	#-- BCD_get_digit(0xCAFEBACA, 0, 3) = 0o2
 	TEST_NAME("11")
-	li a0, 0xCAFEBACA
-	li a1, 0
-	li a2, 3
-	jal BCD_get_digit
+	BCD_GET_DIGIT(0xCAFEBACA, 0, 3)
 	ASSERT_EQUAL(a0, 0x2)
 
 	#-- BCD_get_digit(0xDEADBEEF, 31, 1) = 1
 	TEST_NAME("12")
-	li a0, 0xDEADBEEF
-	li a1, 31
-	li a2, 1
-	jal BCD_get_digit
+	BCD_GET_DIGIT(0xDEADBEEF, 31, 1)
 	ASSERT_EQUAL(a0, 0x1)
 
 	#-- BCD_get_digit(0xDEADBEEF, 29, 1) = 0
 	TEST_NAME("13")
-	li a0, 0xDEADBEEF
-	li a1, 29
-	li a2, 1
-	jal BCD_get_digit
+	BCD_GET_DIGIT(0xDEADBEEF, 29, 1)
 	ASSERT_EQUAL(a0, 0x0)
 
 	#-- BCD_get_digit(0xDEADBEEF, 16, 1) = 1
 	TEST_NAME("14")
-	li a0, 0xDEADBEEF
-	li a1, 16
-	li a2, 1
-	jal BCD_get_digit
+	BCD_GET_DIGIT(0xDEADBEEF, 16, 1)
 	ASSERT_EQUAL(a0, 0x1)
 
 	#-- BCD_get_digit(0xDEADBEEF, 15, 1) = 1
 	TEST_NAME("15")
-	li a0, 0xDEADBEEF
-	li a1, 15
-	li a2, 1
-	jal BCD_get_digit
+	BCD_GET_DIGIT(0xDEADBEEF, 15, 1)
 	ASSERT_EQUAL(a0, 0x1)
 
 	#-- BCD_get_digit(0xDEADBEEF, 4, 1) = 0
 	TEST_NAME("16")
-	li a0, 0xDEADBEEF
-	li a1, 4
-	li a2, 1
-	jal BCD_get_digit
+	BCD_GET_DIGIT(0xDEADBEEF, 4, 1)
 	ASSERT_EQUAL(a0, 0x0)
 
 	#-- BCD_get_digit(0xDEADBEEF, 1, 1) = 1
 	TEST_NAME("17")
-	li a0, 0xDEADBEEF
-	li a1, 1
-	li a2, 1
-	jal BCD_get_digit
+	BCD_GET_DIGIT(0xDEADBEEF, 1, 1)
 	ASSERT_EQUAL(a0, 0x1)
 
 	#-- BCD_get_digit(0xDEADBEEE, 0, 1) = 0
 	TEST_NAME("18")
-	li a0, 0xDEADBEEE
-	li a1, 0
-	li a2, 1
-	jal BCD_get_digit
+	BCD_GET_DIGIT(0xDEADBEEE, 0, 1)
 	ASSERT_EQUAL(a0, 0x0)
 
 	UNSTACK16

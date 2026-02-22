@@ -91,3 +91,11 @@ msg: .string %str
   li a1, %size
   jal BCD_get_digit_pos
 .end_macro
+
+#------------ BCD_GET_DIGIT(value, ndig, dig_size) ------------
+.macro BCD_GET_DIGIT(%value, %ndig, %dig_size)
+  li a0, %value
+  li a1, %ndig
+  li a2, %dig_size
+  jal BCD_get_digit
+.end_macro
