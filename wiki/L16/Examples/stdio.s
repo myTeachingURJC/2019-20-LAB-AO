@@ -498,7 +498,165 @@ sputs_number_base:
 #--------------------------------------------------------------------
 
 
+#--------------- uint_buffer_init ---------------------------
+	.data
 
+	#-- Buffer para implementar el algoritmo Doubble Dabble
+ uint_buffer: 
+	.word 0 #-- Parte baja del buffer (Contiene el numero inicial)
+	.word 0 #-- Parte media (Contiene los digitos BCD 7-0)
+	.word 0 #-- Parte alta (Contiene los digitos BCD 9-8)
+
+	.text
+uint_buffer_init:
+ #-------------------------------------------------------------
+ #-- uint_buffer_init(): 
+ #--
+ #--  Inicializar el buffer del algoritmo Doubble Dabble
+ #--  
+ #--     Alta    Media    Baja
+ #--  |   0    |    0   |  n  |
+ #--
+ #-- ENTRADA:
+ #--   - a0 (n): Numero a imprimir
+ #-------------------------------------------------------------
+	la t0, uint_buffer
+	sw a0, 0(t0) #-- Parte baja
+	sw zero, 4(t0) #-- Parte media
+	sw zero, 8(t0) #-- Parte alta
+	ret
+#---------------------------------------------------------------
+
+
+#--------------- uint_buffer_shift_left ---------------------------
+uint_buffer_shift3_left:
+ #-------------------------------------------------------------
+ #-- uint_buffer_shift_left(shift)
+ #--   Desplazar el uint_buffer 3 bits a la izquierda
+ #--
+ #-------------------------------------------------------------
+ 	.global uint_buffer_shift3_left
+
+	#-- Obtener el uint_buffer
+	#-- t2, t1, t0: Parte alta, media y baja
+	la t3, uint_buffer
+	lw t0, 0(t3)
+	lw t1, 4(t3)
+	lw t2, 8(t3)
+
+	#-------- t2 <-- t1 <-- t0
+
+	#-- t2 << 3
+    slli t2, t2, 3
+
+	#-- Leer 3 bits de mayor peso de t1
+	lui a0, 0xE0000
+	and a1, t1, a0
+
+	#-- Moverlos a la parte baja
+	srli a1, a1, 29
+
+	#-- Poner esos bits en t2
+	or t2, t2, a1
+
+	#-- t1 << 3
+	slli t1, t1, 3
+
+	#-- Leer 3 bits de mayor peso de t0
+	and a0, t0, a0
+
+	#-- Moverlos a la parte baja
+	srli a0, a0, 29
+
+	#-- Poner esos bits en t1
+	or t1, t1, a0
+
+	#-- t0 << 3
+	slli t0, t0, 3
+
+	#-- Actualizar el uint_buffer
+	sw t0, 0(t3)
+	sw t1, 4(t3)
+	sw t2, 8(t3)
+
+	ret
+#----------------------------------------------
+
+
+
+
+
+
+#------------- sputs_uint(buffer, num, num_size) --------------------
+sputs_uint:
+ #--------------------------------------------------------------
+ #-- sputs_uint(buffer, num, num_size):
+ #--   Imprimir un numero sin signo en un buffer. 
+ #--   El numero tiene el tamaño num_size
+ #--
+ #-- ENTRADA:
+ #--   - a0 (buffer): Puntero al buffer donde escribir el numero
+ #--   - a1 (num): Numero a imprimir
+ #--   - a2 (num_size): Tamaño del numero en bits (8, 16, 32)
+ #-- SALIDA:
+ #--   - a0: Puntero al siguiente byte del buffer
+ #--------------------------------------------------------------
+ #-- Algoritmo Doubble Dabble
+ #-- https://en.wikipedia.org/wiki/Double_dabble
+ #--------------------------------------------------------------
+ #-- Registro de calculo para hacer los desplazamientos:
+ #
+ #  -Parte alta
+ #    31                                              8 | 7    4 | 3       0
+ #  +------------------------------------------------------------------------+
+ #  |                                                   |   Dig9 |   Dig8    |
+ #  |                                                   | 0 0 0 0|  0 0 0 0  |
+ #  +------------------------------------------------------------------------+
+ #
+ #  -Parte media:
+ #   31   28| 27   24|23    20| 19  16 | 15   12 | 11    8| 7      4| 3     0
+ #  +------------------------------------------------------------------------+
+ #  |  Dig7 |  Dig6  |  Dig5  | Dig 4  |  Dig3   | Dig2   |  Dig1   |  Dig0  |
+ #  |0 0 0 0| 0 0 0 0| 0 0 0 0| 0 0 0 0| 0 0 0 0 | 0 0 0 0| 0 0 0 0 | 0 0 0 0|
+ #  +------------------------------------------------------------------------+
+ #
+ #  -Parte baja:
+ #   31                                                                     0
+ #  +------------------------------------------------------------------------+
+ #  |      n                                                                 |
+ #  |  d31 - d0                                                              |
+ #  +------------------------------------------------------------------------+
+	.global sputs_uint
+
+	STACK16
+
+	#-- Inicializar registro uint_buffer
+	jal uint_buffer_init
+
+	#-- Desplazar el uint_buffer 3 bits a la izquierda
+	jal uint_buffer_shift3_left
+
+	#-- Bucle principal del algoritmo
+	#-- Repetir 29 veces
+ sputs_uint_loop:
+	
+	#-- Actualizar registro uint_buffer
+	#-- Hay que sumar 3 a cada digito BCD, si es > 4
+
+	#-- Desplazar 1 bit a la izquierda registro uint_buffer
+	#-- uint_buffer << 1
+
+	#-- Queda un paso menos por hacer del algoritmo
+	#-- Decrementar contador
+
+	#-- Repetir si contador mayor a 0
+
+	#-- La parte alta y media del registro uint_buffer contiene los digitos
+	#-- BCD del numero en decimal
+
+
+	UNSTACK16
+#---------------------------------------------------------------------
 
 
 

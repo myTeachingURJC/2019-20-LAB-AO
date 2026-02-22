@@ -30,10 +30,8 @@ buffer: .space MAX
 	jal unittest_sputs_number_base_cuat
 	jal unittest_sputs_number_base_oct
 	jal unittest_sputs_number_base_hex
-
 	jal unittest_BCD_get_mask
-
-
+	jal unittest_sputs_uint
 
 	#-- Terminar
 	EXIT
@@ -882,6 +880,27 @@ unittest_sputs_number_base_hex:
 
 	UNSTACK16
 #-----------------------------
+
+
+#-----------------------------
+unittest_sputs_uint:
+	STACK16
+
+	TEST_TITTLE("----- sputs_uint()----------------\n")
+
+	#--  sputs_uint(buffer, 0) --> "0"
+	TEST_NAME("1")
+	la a0, buffer
+	li a1, 0
+	li a2, 8
+	jal sputs_uint
+	ASSERT_STR_EQUAL(buffer, "0")
+
+
+
+	UNSTACK16
+#-----------------------------
+
 
 
 #---------------------------------------
