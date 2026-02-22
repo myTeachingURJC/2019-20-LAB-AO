@@ -328,6 +328,7 @@ BCD_to_ascii:
 #--   - a0: Puntero al siguiente byte del buffer
 #---------------------------------------------------------------------------
 #-- Ejemplo de uso:
+#-- BASE 2: Binario
 #--  sputs_number_base(buffer, 0x0, 4, 2) --> "0000"
 #--  sputs_number_base(buffer, 0x1, 4, 2) --> "0001"
 #--  sputs_number_base(buffer, 0xA, 4, 2) --> "1010"
@@ -347,6 +348,27 @@ BCD_to_ascii:
 #--  sputs_number_base(buffer, 0x55555555, 32, 2) --> "01010101010101010101010101010101"
 #--  sputs_number_base(buffer, 0xAAAAAAAA, 32, 2) --> "10101010101010101010101010101010"
 #--  sputs_number_base(buffer, 0xFFFFFFFF, 32, 2) --> "11111111111111111111111111111111"
+#-- BASE 4: Cuaternario
+#--  sputs_number_base(buffer, 0x0, 4, 4) --> "00"
+#--  sputs_number_base(buffer, 0x1, 4, 4) --> "01"
+#--  sputs_number_base(buffer, 0xA, 4, 4) --> "22"
+#--  sputs_number_base(buffer, 0xF, 4, 4) --> "33"
+#--  sputs_number_base(buffer, 0x00, 8, 4) --> "0000"
+#--  sputs_number_base(buffer, 0x55, 8, 4) --> "1111"
+#--  sputs_number_base(buffer, 0xAA, 8, 4) --> "2222"
+#--  sputs_number_base(buffer, 0xFF, 8, 4) --> "3333"
+#--  sputs_number_base(buffer, 0x000, 12, 4) --> "000000"
+#--  sputs_number_base(buffer, 0xAAA, 12, 4) --> "222222"
+#--  sputs_number_base(buffer, 0xFFF, 12, 4) --> "333333"
+#--  sputs_number_base(buffer, 0x0000, 16, 4) --> "00000000"
+#--  sputs_number_base(buffer, 0x5555, 16, 4) --> "11111111"
+#--  sputs_number_base(buffer, 0xAAAA, 16, 4) --> "22222222"
+#--  sputs_number_base(buffer, 0xFFFF, 16, 4) --> "33333333"
+#--  sputs_number_base(buffer, 0x00000000, 32, 4) --> "00000000000000000000000000000000"
+#--  sputs_number_base(buffer, 0x55555555, 32, 4) --> "11111111111111111111111111111111"
+#--  sputs_number_base(buffer, 0xAAAAAAAA, 32, 4) --> "22222222222222222222222222222222"
+#--  sputs_number_base(buffer, 0xFFFFFFFF, 32, 4) --> "33333333333333333333333333333333"
+
 
 .global sputs_number_base
 sputs_number_base: 
