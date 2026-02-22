@@ -373,6 +373,29 @@ BCD_get_digit:
 
 #--------------------------------------------------------------
 
+
+#----------------- BCD_set_digit(value, ndig, bcd)
+BCD_set_digit:
+ #-----------------------------------------------------------------------
+ #-- BCD_set_digit(value, ndig, bcd)  
+ #--
+ #-- Insertar el digito bcd en la posicion ndig de value
+ #--
+ #-- ENTRADAS:
+ #--   -a0 (value): Valor inicial
+ #--   -a1: Numero de digito BCD donde insertar el nuevo valor (7-0)
+ #--   -a2: Valor bcd
+ #--
+ #-- SALIDA:
+ #--   -a0: Nuevo valor actualizado
+ #----------------------------------------------------------------------
+	.global BCD_set_digit
+
+	#-- TODO
+
+	ret
+#-----------------------------------------------------------------------
+
 #------------ BCD_to_ascii(dig) --------------------------------------
 BCD_to_ascii:
 	#-----------------------------------------------------------------------
@@ -582,10 +605,51 @@ uint_buffer_shift3_left:
 	ret
 #----------------------------------------------
 
+#----------------- uint_buffer_update()
+uint_buffer_update:
+ #-----------------------------------------------------------------
+ #-- uint_buffer_update()
+ #--
+ #--   Actualizar todos los digitos BCD del registro uint_buffer
+ #-----------------------------------------------------------------
+	.global uint_buffer_update
 
+	STACK16
 
+	#-- Obtener los digitos BCD del uint_buffer
+	#-- t2, t1: Parte alta y media
+	la t3, uint_buffer
+	lw t1, 4(t3)
+	lw t2, 8(t3)
 
+	#-- t4: ndig = 7
+	li t4, 7
 
+	#-- Obtener digito bcd actual
+	mv a0, t2  #-- value
+	mv a1, t4  #-- ndig
+	li a2, 4   #-- dig_size
+	jal BCD_get_digit
+
+	#-- a0 = digito BCD
+	#-- Si a0 > 4, a0 = a0 + 3
+	li t5, 4
+	ble a0, t5, uint_buffer_update_cont
+
+	#-- Sumar 3
+	addi a0, a0, 3
+
+ uint_buffer_update_cont:
+
+	#-- Actualizar el digito bcd
+	#-- TODO
+
+	#-- Actualizar el uint_buffer
+	sw t1, 4(t3)
+	sw t2, 8(t3)
+
+	UNSTACK16
+#----------------------------------------------
 
 #------------- sputs_uint(buffer, num, num_size) --------------------
 sputs_uint:
@@ -637,11 +701,16 @@ sputs_uint:
 	jal uint_buffer_shift3_left
 
 	#-- Bucle principal del algoritmo
-	#-- Repetir 29 veces
+	#-- Hay que hacer un total de 32 desplazamiento
+	#-- Como ya se han hecho 3, quedan 29
+	
+	#-- TODO: Inicializar contador a 29
+
  sputs_uint_loop:
 	
 	#-- Actualizar registro uint_buffer
 	#-- Hay que sumar 3 a cada digito BCD, si es > 4
+	jal uint_buffer_update
 
 	#-- Desplazar 1 bit a la izquierda registro uint_buffer
 	#-- uint_buffer << 1
