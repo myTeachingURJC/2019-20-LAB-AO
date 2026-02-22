@@ -65,3 +65,29 @@ msg: .string %str
   jal sputs
 .end_macro
 
+
+#------------------------ BCD_GET_DIGIT_SIZE ------------
+.macro BCD_GET_DIGIT_SIZE(%size)
+  li a0, %size
+	jal BCD_get_digit_size
+.end_macro
+
+#------------------------ BCD_GET_NUMBER_OF_DIGITIS ------------
+.macro BCD_GET_NUMBER_OF_DIGITS(%num_size, %dig_size) 
+  li a0, %num_size
+  li a1, %dig_size
+  jal BCD_get_number_of_digits
+.end_macro  
+
+#------------------------ BCD_to_ASCII(dig) ------------
+.macro BCD_TO_ASCII(%dig)
+  li a0, %dig
+  jal BCD_to_ascii
+.end_macro
+
+#------------ BCD_GET_DIGIT_POS(ndig, size) -------------------
+.macro BCD_GET_DIGIT_POS(%ndig, %size)
+  li a0, %ndig
+  li a1, %size
+  jal BCD_get_digit_pos
+.end_macro

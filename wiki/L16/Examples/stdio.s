@@ -203,7 +203,7 @@ BCD_get_digit_size:
 
 #-------------------------------------------------------------
 
-#------------ BCD_get_number_of_digits(num_size, dig_size) --------------
+#------------ BCD_get_number_of_digits(num_size, dig_size) ---
 BCD_get_number_of_digits:
   #-----------------------------------------------------------------------
   #-- BCD_get_number_of_digits(num_size, dig_size): 
@@ -267,7 +267,111 @@ BCD_get_number_of_digits:
 
 	ret
 
-#------------------------------------------------------------------------
+#-------------------------------------------------------------
+
+#------------ BCD_get_digit_pos(ndig, size) -------------------
+BCD_get_digit_pos:
+	#-------------------------------------------------------------
+	#-- BCD_get_digit_pos(ndig, size)
+	#--
+	#--  Obtener la posicion del digito BCD de tamaño size
+	#--
+	#-- ENTRADAS:
+	#--   -a0 (ndig): Numero del digito a extraer (0-31)
+	#--   -a1 (size): Tamaño/tipo de digito:
+	#-- SALIDA:
+	#--   -a0 (pos) Posicion del digito dentro (0-31)
+	#--------------------------------------------------------------
+	.global BCD_get_digit_pos
+
+	#-- La implementacion rapida es multiplicar ndig por size
+	#-- return ndig * size
+
+	#-- Pero lo implementamos con sumas porque no disponemos
+	#-- de la multiplicacion
+	#-- pos = ndig + ndig + ... (size veces)
+
+	#-- resultado parcial
+	li t0, 0
+
+	#-- Repetir size veces
+  BCD_get_digit_pos_loop:
+
+	#-- ¿Tamaño 0?
+	beq a1, zero, BCD_get_digit_pos_end
+
+	#-- Realizar la suma parcial
+	add t0, t0, a0
+
+	#-- Decrementar el tamaño
+	addi a1, a1, -1
+
+	#-- Repetir
+	j BCD_get_digit_pos_loop
+
+  BCD_get_digit_pos_end:
+    #-- Devolver la posicion
+	mv a0, t0
+	ret
+#--------------------------------------------------------------
+
+#------------ BCD_get_digit(value, ndig, dig_size) ------------
+BCD_get_digit:
+	#------------------------------------------------------------------------
+	#-- BCD_get_digit(value, ndig, dig_size)
+	#--
+	#--  Obtener el digito BCD numero ndig dentro del valor value, cuyo 
+	#--  tamaño en bits se indica con size
+	#--
+	#-- ENTRADAS:
+	#--   -a0 (value): Valor del que se quieren extraer el digito (32-bits)
+	#--   -a1 (ndig): Numero del digito a extraer (0-31)
+	#--   -a2 (dig_size): Tamaño/tipo de digito:
+	#--      1 : Se trata de un bit
+	#--      2 : Se trata de un digito cuaternario (0-3)
+	#--      3 : Se trata de un digito octal (0-7)
+	#--      4 : Se trata de un digito decimal o hexadecimal (0-9, A-F)
+	#-----------------------------------------------------------------------
+	.global BCD_get_digit
+
+	STACK32
+
+	#-- Guardar los registros estaticos usados
+	STACK32_PUSH4(s0, s1, s2, s3) 
+
+	#-- Guardar los parametros
+	mv s0, a0 #-- value
+	mv s1, a1 #-- ndig
+	mv s2, a2 #-- size
+
+	#-- Paso 1: generar la máscara para extraer el digito
+	#-- s4: Mascara
+	mv a0, a2
+	jal BCD_get_mask
+	mv s3, a0
+
+	#-- Paso 2: Obtener la posicion del digito
+	#-- t0: Posicion del digito
+	mv a0, s1
+	mv a1, s2
+	jal BCD_get_digit_pos
+	mv t0, a0
+
+	#-- Paso 3: Desplazar la mascara a la izquierda
+	sll s3, s3, t0
+
+	#-- Paso 4: Aplicar la mascara al valor original
+	mv a0, s0
+	and a0, a0, s3
+
+	#-- Paso 5: Desplazar el resultado a la derecha para obtener el digito
+	srl a0, a0, t0
+
+	STACK32_POP4(s0, s1, s2, s3) #-- Recuperar los registros estaticos
+	UNSTACK32
+	ret
+
+#--------------------------------------------------------------
 
 #------------ BCD_to_ascii(dig) --------------------------------------
 BCD_to_ascii:
@@ -307,111 +411,27 @@ BCD_to_ascii:
 
 #--------------------------------------------------------------------
 
+#------------- sputs_number_base--------------------------------------
+sputs_number_base:
+	#---------------------------------------------------------------------------
+	#-- sputs_number_base(buffer, num, num_size, base): 
+	#--   Imprimir un numero en un buffer. El numero tiene el tamaño size 
+	#--   Se impreme en la base indicada, que debe ser potencia de dos:
+	#--     - base = 2: Binario
+	#--     - base = 4: Cuaternario
+	#--     - base = 8: Octal
+	#--     - base = 16: Hexadecimal
+	#--
+	#-- ENTRADA:
+	#--   - a0 (buffer): Puntero al buffer donde escribir el numero
+	#--   - a1 (num): Numero a imprimir
+	#--   - a2 (num_size): Tamaño del numero en bits (8, 16, 32)
+	#--   - a3 (base): Base de impresion (2, 4, 8, 16)
+	#-- SALIDA:
+	#--   - a0: Puntero al siguiente byte del buffer
+	#---------------------------------------------------------------------------
+	.global sputs_number_base
 
-
-
-#---------------------------------------------------------------------------
-#-- sputs_number_base(buffer, num, num_size, base): 
-#--   Imprimir un numero en un buffer. El numero tiene el tamaño size 
-#--   Se impreme en la base indicada, que debe ser potencia de dos:
-#--     - base = 2: Binario
-#--     - base = 4: Cuaternario
-#--     - base = 8: Octal
-#--     - base = 16: Hexadecimal
-#--
-#-- ENTRADA:
-#--   - a0 (buffer): Puntero al buffer donde escribir el numero
-#--   - a1 (num): Numero a imprimir
-#--   - a2 (num_size): Tamaño del numero en bits (8, 16, 32)
-#--   - a3 (base): Base de impresion (2, 4, 8, 16)
-#-- SALIDA:
-#--   - a0: Puntero al siguiente byte del buffer
-#---------------------------------------------------------------------------
-#-- Ejemplo de uso:
-#-- BASE 2: Binario
-#--  sputs_number_base(buffer, 0x0, 4, 2) --> "0000"
-#--  sputs_number_base(buffer, 0x1, 4, 2) --> "0001"
-#--  sputs_number_base(buffer, 0xA, 4, 2) --> "1010"
-#--  sputs_number_base(buffer, 0xF, 4, 2) --> "1111"
-#--  sputs_number_base(buffer, 0x00, 8, 2) --> "00000000"
-#--  sputs_number_base(buffer, 0x55, 8, 2) --> "01010101"
-#--  sputs_number_base(buffer, 0xAA, 8, 2) --> "10101010"
-#--  sputs_number_base(buffer, 0xFF, 8, 2) --> "11111111"
-#--  sputs_number_base(buffer, 0x000, 12, 2) --> "000000000000"
-#--  sputs_number_base(buffer, 0xAAA, 12, 2) --> "101010101010"
-#--  sputs_number_base(buffer, 0xFFF, 12, 2) --> "111111111111"
-#--  sputs_number_base(buffer, 0x0000, 16, 2) --> "0000000000000000"
-#--  sputs_number_base(buffer, 0x5555, 16, 2) --> "0101010101010101"
-#--  sputs_number_base(buffer, 0xAAAA, 16, 2) --> "1010101010101010"
-#--  sputs_number_base(buffer, 0xFFFF, 16, 2) --> "1111111111111111"
-#--  sputs_number_base(buffer, 0x00000000, 32, 2) --> "00000000000000000000000000000000"
-#--  sputs_number_base(buffer, 0x55555555, 32, 2) --> "01010101010101010101010101010101"
-#--  sputs_number_base(buffer, 0xAAAAAAAA, 32, 2) --> "10101010101010101010101010101010"
-#--  sputs_number_base(buffer, 0xFFFFFFFF, 32, 2) --> "11111111111111111111111111111111"
-#-- BASE 4: Cuaternario
-#--  sputs_number_base(buffer, 0x0, 4, 4) --> "00"
-#--  sputs_number_base(buffer, 0x1, 4, 4) --> "01"
-#--  sputs_number_base(buffer, 0xA, 4, 4) --> "22"
-#--  sputs_number_base(buffer, 0xF, 4, 4) --> "33"
-#--  sputs_number_base(buffer, 0x00, 8, 4) --> "0000"
-#--  sputs_number_base(buffer, 0x55, 8, 4) --> "1111"
-#--  sputs_number_base(buffer, 0xAA, 8, 4) --> "2222"
-#--  sputs_number_base(buffer, 0xFF, 8, 4) --> "3333"
-#--  sputs_number_base(buffer, 0x000, 12, 4) --> "000000"
-#--  sputs_number_base(buffer, 0xAAA, 12, 4) --> "222222"
-#--  sputs_number_base(buffer, 0xFFF, 12, 4) --> "333333"
-#--  sputs_number_base(buffer, 0x0000, 16, 4) --> "00000000"
-#--  sputs_number_base(buffer, 0x5555, 16, 4) --> "11111111"
-#--  sputs_number_base(buffer, 0xAAAA, 16, 4) --> "22222222"
-#--  sputs_number_base(buffer, 0xFFFF, 16, 4) --> "33333333"
-#--  sputs_number_base(buffer, 0x00000000, 32, 4) --> "00000000000000000000000000000000"
-#--  sputs_number_base(buffer, 0x55555555, 32, 4) --> "11111111111111111111111111111111"
-#--  sputs_number_base(buffer, 0xAAAAAAAA, 32, 4) --> "22222222222222222222222222222222"
-#--  sputs_number_base(buffer, 0xFFFFFFFF, 32, 4) --> "33333333333333333333333333333333"
-#-- BASE 8: Octal
-#--  sputs_number_base(buffer, 0x0, 3, 8) --> "0"
-#--  sputs_number_base(buffer, 0x1, 3, 8) --> "1"
-#--  sputs_number_base(buffer, 0x3, 3, 8) --> "3"
-#--  sputs_number_base(buffer, 0x7, 3, 8) --> "7"
-#--  sputs_number_base(buffer, 0x00, 6, 8) --> "00"
-#--  sputs_number_base(buffer, 0x55, 6, 8) --> "25"
-#--  sputs_number_base(buffer, 0xAA, 6, 8) --> "52"
-#--  sputs_number_base(buffer, 0xFF, 6, 8) --> "77"
-#--  sputs_number_base(buffer, 0x000, 12, 8) --> "000"
-#--  sputs_number_base(buffer, 0xAAA, 12, 8) --> "1252"
-#--  sputs_number_base(buffer, 0xFFF, 12, 8) --> "1777"
-#--  sputs_number_base(buffer, 0x0000, 16, 8) --> "000000"
-#--  sputs_number_base(buffer, 0x5555, 16, 8) --> "125252"
-#--  sputs_number_base(buffer, 0xAAAA, 16, 8) --> "525252"
-#--  sputs_number_base(buffer, 0xFFFF, 16, 8) --> "775252"
-#--  sputs_number_base(buffer, 0x00000000, 32, 8) --> "00000000000"
-#--  sputs_number_base(buffer, 0x55555555, 32, 8) --> "12525252525"
-#--  sputs_number_base(buffer, 0xAAAAAAAA, 32, 8) --> "52525252525"
-#--  sputs_number_base(buffer, 0xFFFFFFFF, 32, 8) --> "77525252525"
-#-- BASE 16
-#--  sputs_number_base(buffer, 0x0, 4, 16) --> "0"
-#--  sputs_number_base(buffer, 0x1, 4, 16) --> "1"
-#--  sputs_number_base(buffer, 0xA, 4, 16) --> "A"
-#--  sputs_number_base(buffer, 0xF, 4, 16) --> "F"
-#--  sputs_number_base(buffer, 0x00, 8, 16) --> "00"
-#--  sputs_number_base(buffer, 0x55, 8, 16) --> "55"
-#--  sputs_number_base(buffer, 0xAA, 8, 16) --> "AA"
-#--  sputs_number_base(buffer, 0xFF, 8, 16) --> "FF"
-#--  sputs_number_base(buffer, 0x000, 12, 16) --> "000"
-#--  sputs_number_base(buffer, 0xAAA, 12, 16) --> "AAA"
-#--  sputs_number_base(buffer, 0xFFF, 12, 16) --> "FFF"
-#--  sputs_number_base(buffer, 0x0000, 16, 16) --> "0000"
-#--  sputs_number_base(buffer, 0x5555, 16, 16) --> "5555"
-#--  sputs_number_base(buffer, 0xAAAA, 16, 16) --> "AAAA"
-#--  sputs_number_base(buffer, 0xFFFF, 16, 16) --> "FFFF"
-#--  sputs_number_base(buffer, 0x00000000, 32, 16) --> "00000000"
-#--  sputs_number_base(buffer, 0x55555555, 32, 16) --> "55555555"
-#--  sputs_number_base(buffer, 0xAAAAAAAA, 32, 16) --> "AAAAAAAA"
-#--  sputs_number_base(buffer, 0xFFFFFFFF, 32, 16) --> "FFFFFFFF"
-
-
-.global sputs_number_base
-sputs_number_base: 
 	STACK32
 	STACK32_PUSH6(s0, s1, s2, s3, s4, s5)
 
@@ -475,127 +495,38 @@ sputs_number_base:
 	STACK32_POP6(s0, s1, s2, s3, s4, s5)
 	UNSTACK32
 
-#------------------------------------------------------------------------
-#-- BCD_get_digit(value, ndig, dig_size)
-#--
-#--  Obtener el digito BCD numero ndig dentro del valor value, cuyo 
-#--  tamaño en bits se indica con size
-#--
-#-- ENTRADAS:
-#--   -a0 (value): Valor del que se quieren extraer el digito (32-bits)
-#--   -a1 (ndig): Numero del digito a extraer (0-31)
-#--   -a2 (dig_size): Tamaño/tipo de digito:
-#--      1 : Se trata de un bit
-#--      2 : Se trata de un digito cuaternario (0-3)
-#--      3 : Se trata de un digito octal (0-7)
-#--      4 : Se trata de un digito decimal o hexadecimal (0-9, A-F)
-#-----------------------------------------------------------------------
-.global BCD_get_digit
-BCD_get_digit:
+#--------------------------------------------------------------------
 
-	STACK32
 
-	#-- Guardar los registros estaticos usados
-	STACK32_PUSH4(s0, s1, s2, s3) 
 
-	#-- Guardar los parametros
-	mv s0, a0 #-- value
-	mv s1, a1 #-- ndig
-	mv s2, a2 #-- size
 
-	#-- Paso 1: generar la máscara para extraer el digito
-	#-- s4: Mascara
-	mv a0, a2
-	jal BCD_get_mask
-	mv s3, a0
 
-	#-- Paso 2: Obtener la posicion del digito
-	#-- t0: Posicion del digito
-	mv a0, s1
-	mv a1, s2
-	jal BCD_get_digit_pos
-	mv t0, a0
 
-	#-- Paso 3: Desplazar la mascara a la izquierda
-	sll s3, s3, t0
 
-	#-- Paso 4: Aplicar la mascara al valor original
-	mv a0, s0
-	and a0, a0, s3
-
-	#-- Paso 5: Desplazar el resultado a la derecha para obtener el digito
-	srl a0, a0, t0
-
-	STACK32_POP4(s0, s1, s2, s3) #-- Recuperar los registros estaticos
-	UNSTACK32
-	ret
-
-#-------------------------------------------------------------
-#-- BCD_get_digit_pos(ndig, size)
-#--
-#--  Obtener la posicion del digito BCD de tamaño size
-#--
-#-- ENTRADAS:
-#--   -a0 (ndig): Numero del digito a extraer (0-31)
-#--   -a1 (size): Tamaño/tipo de digito:
-#-- SALIDA:
-#--   -a0 (pos) Posicion del digito dentro (0-31)
-#--------------------------------------------------------------
-.global BCD_get_digit_pos
-BCD_get_digit_pos:
-
-	#-- La implementacion rapida es multiplicar ndig por size
-	#-- return ndig * size
-
-	#-- Pero lo implementamos con sumas porque no disponemos
-	#-- de la multiplicacion
-	#-- pos = ndig + ndig + ... (size veces)
-
-	#-- resultado parcial
-	li t0, 0
-
-	#-- Repetir size veces
-  BCD_get_digit_pos_loop:
-
-	#-- ¿Tamaño 0?
-	beq a1, zero, BCD_get_digit_pos_end
-
-	#-- Realizar la suma parcial
-	add t0, t0, a0
-
-	#-- Decrementar el tamaño
-	addi a1, a1, -1
-
-	#-- Repetir
-	j BCD_get_digit_pos_loop
-
-  BCD_get_digit_pos_end:
-    #-- Devolver la posicion
-	mv a0, t0
-	ret
-
-#---------------------------------------------
-#-- BCD_get_mask(size)
-#--
-#--   Obtener una mascara de size bits
-#--
-#-- BCD_get_mask(1) = 0x0000_0001
-#-- BCD_get_mask(2) = 0x0000_0011
-#-- BCD_get_mask(3) = 0x0000_0111
-#-- BCD_get_mask(4) = 0x0000_1111
-#--
-#--- ENTRADAS:
-#--   -a0 (size): Tamaño en bits
-#--     -1: Digito binario
-#--     -2: Digito cuaternario
-#--     -3: Digito octal
-#--     -4: Digito decimal/hexa
-#--
-#--  SALIDA:
-#--   - (a0) Mascara
-#---------------------------------------------	
-.global BCD_get_mask			
+#------------ BCD_get_mask(size) ------------------------------------
 BCD_get_mask:
+	#---------------------------------------------
+	#-- BCD_get_mask(size)
+	#--
+	#--   Obtener una mascara de size bits
+	#--
+	#-- BCD_get_mask(1) = 0x0000_0001
+	#-- BCD_get_mask(2) = 0x0000_0011
+	#-- BCD_get_mask(3) = 0x0000_0111
+	#-- BCD_get_mask(4) = 0x0000_1111
+	#--
+	#--- ENTRADAS:
+	#--   -a0 (size): Tamaño en bits
+	#--     -1: Digito binario
+	#--     -2: Digito cuaternario
+	#--     -3: Digito octal
+	#--     -4: Digito decimal/hexa
+	#--
+	#--  SALIDA:
+	#--   - (a0) Mascara
+	#---------------------------------------------
+	.global BCD_get_mask			
+	
 
 	#-- Limitar el tamaño: Si es menor a 5, OK
 	#-- En caso contrario recortar a 4

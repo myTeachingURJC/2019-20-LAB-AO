@@ -131,36 +131,30 @@ unittest_BCD_get_digit_size:
 
   	#-- BCD_get_digit_size(2) = 1
 	TEST_NAME("1")
-	li a0, 2
-	jal BCD_get_digit_size
+	BCD_GET_DIGIT_SIZE(2)
 	ASSERT_EQUAL(a0, 1)
 
   	#-- BCD_get_digit_size(4) = 2
 	TEST_NAME("2")
-	li a0, 4
-	jal BCD_get_digit_size
+	BCD_GET_DIGIT_SIZE(4)
 	ASSERT_EQUAL(a0, 2)
 
   	#-- BCD_get_digit_size(8) = 3
 	TEST_NAME("3")
-	li a0, 8
-	jal BCD_get_digit_size
+	BCD_GET_DIGIT_SIZE(8)
 	ASSERT_EQUAL(a0, 3)
 
   	#-- BCD_get_digit_size(16) = 4
 	TEST_NAME("4")
-	li a0, 16
-	jal BCD_get_digit_size
+	BCD_GET_DIGIT_SIZE(16)
 	ASSERT_EQUAL(a0, 4)
 
   	#-- BCD_get_digit_size(20) = 0
 	TEST_NAME("5")
-	li a0, 20
-	jal BCD_get_digit_size
+	BCD_GET_DIGIT_SIZE(20)
 	ASSERT_EQUAL(a0, 0)
 
 	UNSTACK16
-	ret
 #-----------------------------
 
 #-----------------------------
@@ -171,114 +165,82 @@ unittest_BCD_get_number_of_digits:
 
   	#-- BCD_get_number_of_digits(4, 1) = 4
 	TEST_NAME("1")
-	li a0, 4
-	li a1, 1
-	jal BCD_get_number_of_digits
+	BCD_GET_NUMBER_OF_DIGITS(4, 1)
 	ASSERT_EQUAL(a0, 4)
 
   	#-- BCD_get_number_of_digits(4, 2) = 2
 	TEST_NAME("2")
-	li a0, 4
-	li a1, 2
-	jal BCD_get_number_of_digits
+	BCD_GET_NUMBER_OF_DIGITS(4, 2)
 	ASSERT_EQUAL(a0, 2)
 
   	#-- BCD_get_number_of_digits(4, 3) = 2
 	TEST_NAME("3")
-	li a0, 4
-	li a1, 3
-	jal BCD_get_number_of_digits
+	BCD_GET_NUMBER_OF_DIGITS(4, 3)
 	ASSERT_EQUAL(a0, 2)
 
   	#-- BCD_get_number_of_digits(4, 4) = 1
 	TEST_NAME("4")
-	li a0, 4
-	li a1, 4
-	jal BCD_get_number_of_digits
+	BCD_GET_NUMBER_OF_DIGITS(4, 4)
 	ASSERT_EQUAL(a0, 1)
 
   	#-- BCD_get_number_of_digits(8, 1) = 8
 	TEST_NAME("5")
-	li a0, 8
-	li a1, 1
-	jal BCD_get_number_of_digits
+	BCD_GET_NUMBER_OF_DIGITS(8, 1)
 	ASSERT_EQUAL(a0, 8)
 
   	#-- BCD_get_number_of_digits(8, 2) = 4
 	TEST_NAME("6")
-	li a0, 8
-	li a1, 2
-	jal BCD_get_number_of_digits
+	BCD_GET_NUMBER_OF_DIGITS(8, 2)
 	ASSERT_EQUAL(a0, 4)
 
   	#-- BCD_get_number_of_digits(8, 3) = 3
 	TEST_NAME("7")
-	li a0, 8
-	li a1, 3
-	jal BCD_get_number_of_digits
+	BCD_GET_NUMBER_OF_DIGITS(8, 3)
 	ASSERT_EQUAL(a0, 3)
 
   	#-- BCD_get_number_of_digits(8, 4) = 2
 	TEST_NAME("8")
-	li a0, 8
-	li a1, 4
-	jal BCD_get_number_of_digits
+	BCD_GET_NUMBER_OF_DIGITS(8, 4)
 	ASSERT_EQUAL(a0, 2)
 
   	#-- BCD_get_number_of_digits(16, 1) = 16
 	TEST_NAME("9")
-	li a0, 16
-	li a1, 1
-	jal BCD_get_number_of_digits
+	BCD_GET_NUMBER_OF_DIGITS(16, 1)
 	ASSERT_EQUAL(a0, 16)
 
   	#-- BCD_get_number_of_digits(16, 2) = 8
 	TEST_NAME("10")
-	li a0, 16
-	li a1, 2
-	jal BCD_get_number_of_digits
+	BCD_GET_NUMBER_OF_DIGITS(16, 2)
 	ASSERT_EQUAL(a0, 8)
 
   	#-- BCD_get_number_of_digits(16, 3) = 6
 	TEST_NAME("11")
-	li a0, 16
-	li a1, 3
-	jal BCD_get_number_of_digits
+	BCD_GET_NUMBER_OF_DIGITS(16, 3)
 	ASSERT_EQUAL(a0, 6)
 
   	#-- BCD_get_number_of_digits(16, 4) = 4
 	TEST_NAME("12")
-	li a0, 16
-	li a1, 4
-	jal BCD_get_number_of_digits
+	BCD_GET_NUMBER_OF_DIGITS(16, 4)
 	ASSERT_EQUAL(a0, 4)
 
   	#-- BCD_get_number_of_digits(32, 1) = 32
 	TEST_NAME("13")
-	li a0, 32
-	li a1, 1
-	jal BCD_get_number_of_digits
+	BCD_GET_NUMBER_OF_DIGITS(32, 1)
 	ASSERT_EQUAL(a0, 32)
 
   	#-- BCD_get_number_of_digits(32, 2) = 16
 	TEST_NAME("14")
-	li a0, 32
-	li a1, 2
-	jal BCD_get_number_of_digits
+	BCD_GET_NUMBER_OF_DIGITS(32, 2)
 	ASSERT_EQUAL(a0, 16)
 
   	#-- BCD_get_number_of_digits(32, 3) = 11
 	TEST_NAME("15")
-	li a0, 32
-	li a1, 3
-	jal BCD_get_number_of_digits
+	BCD_GET_NUMBER_OF_DIGITS(32, 3)
 	ASSERT_EQUAL(a0, 11)
 
   	#-- BCD_get_number_of_digits(32, 4) = 8
 	TEST_NAME("16")
-	li a0, 32
-	li a1, 4
-	jal BCD_get_number_of_digits
+	BCD_GET_NUMBER_OF_DIGITS(32, 4)
 	ASSERT_EQUAL(a0, 8)
 
 	UNSTACK16
@@ -292,38 +254,32 @@ unittest_BCD_to_ascii:
 
 	#-- BCD_to_ASCII(0) = '0'
 	TEST_NAME("1")
-	li a0, 0
-	jal BCD_to_ascii
+	BCD_TO_ASCII(0)
 	ASSERT_EQUAL(a0, '0')
 
 	#-- BCD_to_ASCII(1) = '1'
 	TEST_NAME("2")
-	li a0, 1
-	jal BCD_to_ascii
+	BCD_TO_ASCII(1)
 	ASSERT_EQUAL(a0, '1')
 
 	#-- BCD_to_ASCII(9) = '9'
 	TEST_NAME("3")
-	li a0, 9
-	jal BCD_to_ascii
+	BCD_TO_ASCII(9)
 	ASSERT_EQUAL(a0, '9')
 
 	#-- BCD_to_ASCII(10) = 'A'
 	TEST_NAME("4")
-	li a0, 10
-	jal BCD_to_ascii
+	BCD_TO_ASCII(10)
 	ASSERT_EQUAL(a0, 'A')
 
 	#-- BCD_to_ASCII(11) = 'B'
 	TEST_NAME("5")
-	li a0, 11
-	jal BCD_to_ascii
+	BCD_TO_ASCII(11)
 	ASSERT_EQUAL(a0, 'B')	
 
 	#-- BCD_to_ASCII(15) = 'F'
 	TEST_NAME("6")
-	li a0, 15
-	jal BCD_to_ascii
+	BCD_TO_ASCII(15)
 	ASSERT_EQUAL(a0, 'F')
 
 	UNSTACK16
@@ -337,97 +293,70 @@ unittest_BCD_get_digit_pos:
 
 	# -- BCD_get_digit_pos(0, 1) = 0
 	TEST_NAME("1")
-	li a0, 0
-	li a1, 1
-	jal BCD_get_digit_pos
+	BCD_GET_DIGIT_POS(0, 1)
 	ASSERT_EQUAL(a0, 0)
 
 	# -- BCD_get_digit_pos(0, 3) = 0
 	TEST_NAME("2")
-	li a0, 0
-	li a1, 3
-	jal BCD_get_digit_pos
+	BCD_GET_DIGIT_POS(0, 3)
 	ASSERT_EQUAL(a0, 0)
 
 	# -- BCD_get_digit_pos(0, 4) = 0
 	TEST_NAME("3")
-	li a0, 0
-	li a1, 4
-	jal BCD_get_digit_pos
+	BCD_GET_DIGIT_POS(0, 4)
 	ASSERT_EQUAL(a0, 0)
 
 	# -- BCD_get_digit_pos(1, 1) = 1
 	TEST_NAME("4")
-	li a0, 1
-	li a1, 1
-	jal BCD_get_digit_pos
+	BCD_GET_DIGIT_POS(1, 1)
 	ASSERT_EQUAL(a0, 1)
 
 	# -- BCD_get_digit_pos(1, 3) = 3
 	TEST_NAME("5")
-	li a0, 1
-	li a1, 3
-	jal BCD_get_digit_pos
+	BCD_GET_DIGIT_POS(1, 3)
 	ASSERT_EQUAL(a0, 3)
 
 	# -- BCD_get_digit_pos(1, 4) = 4
 	TEST_NAME("6")
-	li a0, 1
-	li a1, 4
-	jal BCD_get_digit_pos
+	BCD_GET_DIGIT_POS(1, 4)
 	ASSERT_EQUAL(a0, 4)
 
 	# -- BCD_get_digit_pos(2, 1) = 2
 	TEST_NAME("7")
-	li a0, 2
-	li a1, 1
-	jal BCD_get_digit_pos
+	BCD_GET_DIGIT_POS(2, 1)
 	ASSERT_EQUAL(a0, 2)
 
 	# -- BCD_get_digit_pos(2, 3) = 6
 	TEST_NAME("8")
-	li a0, 2
-	li a1, 3
-	jal BCD_get_digit_pos
+	BCD_GET_DIGIT_POS(2, 3)
 	ASSERT_EQUAL(a0, 6)
 	
 	# -- BCD_get_digit_pos(2, 4) = 8
 	TEST_NAME("9")
-	li a0, 2
-	li a1, 4
-	jal BCD_get_digit_pos
+	BCD_GET_DIGIT_POS(2, 4)
 	ASSERT_EQUAL(a0, 8)
 
 	# -- BCD_get_digit_pos(31, 1) = 31
 	TEST_NAME("10")
-	li a0, 31
-	li a1, 1
-	jal BCD_get_digit_pos
+	BCD_GET_DIGIT_POS(31, 1)
 	ASSERT_EQUAL(a0, 31)
 
 	# -- BCD_get_digit_pos(10, 3) = 30
 	TEST_NAME("11")
-	li a0, 10
-	li a1, 3
-	jal BCD_get_digit_pos
+	BCD_GET_DIGIT_POS(10, 3)
 	ASSERT_EQUAL(a0, 30)
 
 	# -- BCD_get_digit_pos(7, 4) = 28
 	TEST_NAME("12")
-	li a0, 7
-	li a1, 4
-	jal BCD_get_digit_pos
+	BCD_GET_DIGIT_POS(7, 4)
 	ASSERT_EQUAL(a0, 28)
 
 	# -- BCD_get_digit_pos(3, 3) = 9
 	TEST_NAME("13")
-	li a0, 3
-	li a1, 3
-	jal BCD_get_digit_pos
+	BCD_GET_DIGIT_POS(3, 3)
 	ASSERT_EQUAL(a0, 9)
 
 	UNSTACK16
-	ret
 #-----------------------------
 
 #-----------------------------
@@ -1134,7 +1063,6 @@ unittest_sputs_number_base_oct:
 
 #-----------------------------
 unittest_sputs_number_base_hex:
-#-----------------------------
 	STACK16
 
 	TEST_TITTLE("----- sputs_number_base()--[HEX]----\n")
@@ -1311,6 +1239,8 @@ unittest_sputs_number_base_hex:
 	ASSERT_STR_EQUAL(buffer, "FFFFFFFF")
 
 	UNSTACK16
+#-----------------------------
+
 
 #---------------------------------------
 #-- Pruebas unitarias de BCD_get_mask()
