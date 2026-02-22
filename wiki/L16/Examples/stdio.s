@@ -1,14 +1,16 @@
 	.include "stack.h"
 
-#--------------------------------------------------
-#-- puts(cad): Imprimir una cadena en la consola
-#--
-#-- ENTRADA:
-#--   - a0 (cad): Puntero a la cadena a imprimir
-#-------------------------------------------------
-.global puts
+
+#------------ puts(cad) --------------------------------------
 puts:
-    
+	#--------------------------------------------------
+	#-- puts(cad): Imprimir una cadena en la consola
+	#--
+	#-- ENTRADA:
+	#--   - a0 (cad): Puntero a la cadena a imprimir
+	#-------------------------------------------------
+    .global puts
+
     #-- Crear la pila y guardar la direccion de retorno
     addi sp, sp, -16
     sw ra, 12(sp)
@@ -44,18 +46,21 @@ puts:
 	lw ra, 12(sp)
 	addi sp, sp, 16
 	ret
-	
 #-------------------------------------------------------------
-#-- sputs_char(buffer, car): Imprimir un caracter en un buffer
-#--
-#-- ENTRADA:
-#--   - a0 (buffer): Puntero al buffer donde escribir el caracter
-#--   - a1 (car): Caracter a escribir
-#-- SALIDA:
-#--   - a0: Puntero al siguiente byte del buffer
-#-------------------------------------------------------------
-.global sputs_char
+
+#------------ sputs_char(buffer, car) ------------------------
 sputs_char:
+	#-------------------------------------------------------------
+	#-- sputs_char(buffer, car): Imprimir un caracter en un buffer
+	#--
+	#-- ENTRADA:
+	#--   - a0 (buffer): Puntero al buffer donde escribir el caracter
+	#--   - a1 (car): Caracter a escribir
+	#-- SALIDA:
+	#--   - a0: Puntero al siguiente byte del buffer
+	#-------------------------------------------------------------
+	.global sputs_char
+
 	#-- Escribir el caracter en el buffer
 	sb a1, 0(a0)
 
@@ -67,25 +72,28 @@ sputs_char:
 
 	#-- Devolver la direccion del final del buffer
 	ret
+#-------------------------------------------------------------
 
-#-----------------------------------------------------------------
-#-- sputs(buffer, cad): Imprimir una cadena en un buffer
-#-----------------------------------------------------------------
-#-- ENTRADA:
-#--   - a0 (buffer): Puntero al buffer donde escribir la cadena
-#--   - a1 (cad): Puntero a la cadena a escribir
-#-- SALIDA:
-#--   - a0: Puntero al siguiente byte del buffer
-#-----------------------------------------------------------------
-.global sputs
+#------------ sputs(buffer, cad) -----------------------------
 sputs:
+	#-----------------------------------------------------------------
+	#-- sputs(buffer, cad): Imprimir una cadena en un buffer
+	#-----------------------------------------------------------------
+	#-- ENTRADA:
+	#--   - a0 (buffer): Puntero al buffer donde escribir la cadena
+	#--   - a1 (cad): Puntero a la cadena a escribir
+	#-- SALIDA:
+	#--   - a0: Puntero al siguiente byte del buffer
+	#-----------------------------------------------------------------
+	.global sputs
+
 	STACK16
 	PUSH1(s1)
 
 	#-- Guardar a1
 	mv s1, a1
 
-sputs_loop:
+  sputs_loop:
 
 	#-- Leer caracter actual
 	lb a1, 0(s1)
@@ -111,10 +119,217 @@ sputs_loop:
 	POP1(s1)
 	UNSTACK16
 	ret
+#-------------------------------------------------------------
+
+
+BCD_get_digit_size:
+  #-----------------------------------------------------------------------
+  #-- BCD_get_digit_size(base): 
+  #--    Obtener el tamaño en bits de un digito BCD
+  #-- 
+  #-- ENTRADA:
+  #--   - a0 (base): Base de impresion (2, 4, 8, 16)
+  #-- SALIDA:
+  #--   - a0: Tamaño en bits del digito BCD
+  #-----------------------------------------------------------------------
+  #-- BCD_get_digit_size(2) = 1
+  #-- BCD_get_digit_size(4) = 2
+  #-- BCD_get_digit_size(8) = 3
+  #-- BCD_get_digit_size(16) = 4
+  #-- BCD_get_digit_size(resto) = 0
+  .global BCD_get_digit_size
+
+     #-- Tabla de conversion
+	 #-- | Base   | Tamaño |
+	 #-- |--------|--------|
+	 #-- | 2      | 1      |
+	 #-- | 4      | 2      |
+	 #-- | 8      | 3      |
+	 #-- | 16     | 4      |	
+
+	 #-- Si dividimos la base entre 2, la tabla queda asi:
+	 #-- | Base/2 | Tamaño |
+	 #-- |--------|--------|
+	 #-- | 1      | 1      |
+	 #-- | 2      | 2      |
+	 #-- | 4      | 3      |
+	 #-- | 8      | 4      |
+
+	 #-- Tabla de 9 posiciones:
+	 #-- | Pos | Base/2 | Tamaño |
+	 #-- |-----|--------|--------|
+	 #-- | 0   | x      | 0      |
+	 #-- | 1   | 1      | 1      |
+	 #-- | 2   | 2      | 2      |
+	 #-- | 3   | x      | 0      |
+	 #-- | 4   | 4      | 3      |
+	 #-- | 5   | x      | 0      |
+	 #-- | 6   | x      | 0      |
+	 #-- | 7   | x      | 0      |
+	 #-- | 8   | 8      | 4      |
+
+	.data
+  _digit_size_table:
+    #-- Pos: 0, 1, 2, 3, 4, 5, 6, 7, 8
+	   .byte 0, 1, 2, 0, 3, 0, 0, 0, 4
+	.text
+
+	#-- Dividir la base entre 2
+	srli a0, a0, 1
+
+	#-- Si base < 9, Leer valor de la tabla
+	li t0, 9
+	blt a0, t0, _get_from_table
+
+	#-- Es mayor a 8, devolver 0
+	li t1, 0
+	j BCD_get_digit_size_end
+
+	#-- Leer el valor de la tabla
+  _get_from_table:
+
+	#-- Obtener la direccion base
+	la t0, _digit_size_table
+
+	#-- Dir = base + offset (a0)
+	add t0, t0, a0
+
+	#-- Leer el valor de la tabla
+	lbu t1, 0(t0)
+
+  BCD_get_digit_size_end:
+    mv a0, t1
+	ret
+
+
+
+BCD_get_number_of_digits:
+  #-----------------------------------------------------------------------
+  #-- BCD_get_number_of_digits(num_size, dig_size): 
+  #--    Obtener el numero de digitos BCD que se necesitan para representar
+  #--    un numero de tamaño num_size con digitos de tamaño dig_size
+  #-- 
+  #-- ENTRADA:
+  #--   - a0 (num_size): Tamaño del numero en bits (8, 16, 32)
+  #--   - a1 (dig_size): Tamaño en bits del digito BCD
+  #-- SALIDA:
+  #--   - a0 (ndig): Numero de digitos BCD necesarios
+  #-----------------------------------------------------------------------
+  #-- Se calcula haciendo la operacion: ndig = num_size / dig_size
+  #-- Pero lo implementamos con restas sucesivas para no usar la division
+  #-- BCD_get_number_of_digits(4, 1) = 4
+  #-- BCD_get_number_of_digits(4, 2) = 2
+  #-- BCD_get_number_of_digits(4, 3) = 2
+  #-- BCD_get_number_of_digits(4, 4) = 1
+  #-- BCD_get_number_of_digits(8, 1) = 8
+  #-- BCD_get_number_of_digits(8, 2) = 4
+  #-- BCD_get_number_of_digits(8, 3) = 3
+  #-- BCD_get_number_of_digits(8, 4) = 2
+  #-- BCD_get_number_of_digits(16, 1) = 16
+  #-- BCD_get_number_of_digits(16, 2) = 8
+  #-- BCD_get_number_of_digits(16, 3) = 6
+  #-- BCD_get_number_of_digits(16, 4) = 4
+  #-- BCD_get_number_of_digits(32, 1) = 32
+  #-- BCD_get_number_of_digits(32, 2) = 16
+  #-- BCD_get_number_of_digits(32, 3) = 11
+  #-- BCD_get_number_of_digits(32, 4) = 8
+  .global BCD_get_number_of_digits
+	
+	#-- t0: ndig. Inicialmente 0
+	li t0, 0
+
+	#-- Bucle del algoritmo de restas sucesivas
+ _BCD_get_number_of_digits_loop:
+
+	#-- Si num_size < dig_size, terminar
+	blt a0, a1, _BCD_get_number_of_digits_end
+
+	#-- num_size = num_size - dig_size
+	sub a0, a0, a1
+
+	#-- Incrementar ndig
+	addi t0, t0, 1
+
+	#-- Repetir
+	j _BCD_get_number_of_digits_loop
+
+  _BCD_get_number_of_digits_end:
+
+	#-- Si el resto es 0, terminamos
+	beq a0, zero, _BCD_get_number_of_digits_end2
+
+	#-- Si el resto no es 0, necesitamos un digito mas
+	addi t0, t0, 1
+
+  _BCD_get_number_of_digits_end2:
+	mv a0, t0 #-- Devolver ndig
+
+	ret
+
+#---------------------------------------------------------------------------
+#-- sputs_number_base(buffer, num, num_size, base): 
+#--   Imprimir un numero en un buffer. El numero tiene el tamaño size 
+#--   Se impreme en la base indicada, que debe ser potencia de dos:
+#--     - base = 2: Binario
+#--     - base = 4: Cuaternario
+#--     - base = 8: Octal
+#--     - base = 16: Hexadecimal
+#--
+#-- ENTRADA:
+#--   - a0 (buffer): Puntero al buffer donde escribir el numero
+#--   - a1 (num): Numero a imprimir
+#--   - a2 (num_size): Tamaño del numero en bits (8, 16, 32)
+#--   - a3 (base): Base de impresion (2, 4, 8, 16)
+#-- SALIDA:
+#--   - a0: Puntero al siguiente byte del buffer
+#---------------------------------------------------------------------------
+#-- sputs_number_base(buffer, 0x1, 8, 2) --> "1"
+.global sputs_number_base
+sputs_number_base: 
+	STACK32
+	STACK32_PUSH5(s0, s1, s2, s3, s4)
+
+	#-- Guardar los parametros
+	mv s0, a0 #-- buffer
+	mv s1, a1 #-- num
+	mv s2, a2 #-- num_size
+	mv s3, a3 #-- base
+
+	#-- Obtener el tamaño de los digitos
+	#-- a partir de la base
+	#-- s4: dig_size
+	mv a0, s3
+	jal BCD_get_digit_size
+	mv s4, a0 
+
+	#-- Numero de digitos: ndig = num_size / dig_size
+	#-- Lo calculamos con una funcion especifica, para
+	#-- no usar la division
+	#-- TODO
+
+	#-- ndig --> Digito de mayor peso del numero
+
+	#-- Obtener el digito bcd ndig
+	#--   BCD_get_digit(num, ndig, dig_size)
+
+	#-- Convertir el digito a su representacion ASCII
+
+	#-- Imprimir el digito en el buffer
+
+	#-- Si ndig es 0, hemos terminado
+
+	#-- ndig = ndig - 1
+
+	#-- Repetir
+
+	STACK32_POP5(s0, s1, s2, s3, s4)
+	UNSTACK32
+	ret
+
 
 
 #------------------------------------------------------------------------
-#-- BCD_get_digit(value, ndig, size)
+#-- BCD_get_digit(value, ndig, dig_size)
 #--
 #--  Obtener el digito BCD numero ndig dentro del valor value, cuyo 
 #--  tamaño en bits se indica con size
@@ -122,7 +337,7 @@ sputs_loop:
 #-- ENTRADAS:
 #--   -a0 (value): Valor del que se quieren extraer el digito (32-bits)
 #--   -a1 (ndig): Numero del digito a extraer (0-31)
-#--   -a2 (size): Tamaño/tipo de digito:
+#--   -a2 (dig_size): Tamaño/tipo de digito:
 #--      1 : Se trata de un bit
 #--      2 : Se trata de un digito cuaternario (0-3)
 #--      3 : Se trata de un digito octal (0-7)
@@ -254,22 +469,26 @@ BCD_get_mask:
 	#-- Negar los bits para obtener la mascara final
 	xori a0, t0, -1
 
-	ret					
-					
-	
-#-----------------------------------------------------------------
-#-- gets(cad): Leer una cadena (cruda) desde el teclado	
-#--
-#-- ENTRADA:
-#--   - a0 (cad): Buffer donde guardar la cadena
-#--   - a1 (max): Numero maximo de caracteres para la cadena
-#--               (incluyendo el '\n' y '\0' finales)
-#--
-#-- SALIDA:
-#--   - Ninguna
-#----------------------------------------------------------------
-.global gets
+	ret									
+#----------------------------------------- 
+
+
+
+#-------- gets(cad) ------------------ 
 gets:
+	#-----------------------------------------------------------------
+	#-- gets(cad): Leer una cadena (cruda) desde el teclado	
+	#--
+	#-- ENTRADA:
+	#--   - a0 (cad): Buffer donde guardar la cadena
+	#--   - a1 (max): Numero maximo de caracteres para la cadena
+	#--               (incluyendo el '\n' y '\0' finales)
+	#--
+	#-- SALIDA:
+	#--   - Ninguna
+	#----------------------------------------------------------------
+  	.global gets
+
     #-- Crear la pila y guardar la direccion de retorno
     addi sp, sp, -16
     sw ra, 12(sp)
