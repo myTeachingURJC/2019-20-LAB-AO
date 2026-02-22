@@ -23,12 +23,13 @@ buffer: .space MAX
 	jal unittest_sputs
 	jal unittest_BCD_get_digit_size
 	jal unittest_BCD_get_number_of_digits
+	jal unittest_BCD_get_digit_pos
+	jal unittest_BCD_get_digit
 	jal unittest_BCD_to_ascii
 	jal unittest_sputs_number_base
 
 	jal unittest_BCD_get_mask
-	jal unittest_BCD_get_digit_pos
-	jal unittest_BCD_get_digit
+
 
 
 	#-- Terminar
@@ -323,34 +324,110 @@ unittest_BCD_to_ascii:
 	ASSERT_EQUAL(a0, 'F')
 
 	UNSTACK16
-#------------------------------
-
-
+#-----------------------------
 
 #-----------------------------
-unittest_sputs_number_base:
+unittest_BCD_get_digit_pos:
 	STACK16
 
-	TEST_TITTLE("----- sputs_number_base()--------\n")
+	TEST_TITTLE("----- BCD_get_digit_pos()--------\n")
 
-	#-- sputs_number_base(buffer, 0x1, 8, 2) --> "1"
+	# -- BCD_get_digit_pos(0, 1) = 0
 	TEST_NAME("1")
-	la a0, buffer
-	li a1, 0x1
-	li a2, 8
-	li a3, 2
-	jal sputs_number_base
-	ASSERT_STR_EQUAL(buffer, "1")
+	li a0, 0
+	li a1, 1
+	jal BCD_get_digit_pos
+	ASSERT_EQUAL(a0, 0)
 
-	# 🚧 TODO 🚧
+	# -- BCD_get_digit_pos(0, 3) = 0
+	TEST_NAME("2")
+	li a0, 0
+	li a1, 3
+	jal BCD_get_digit_pos
+	ASSERT_EQUAL(a0, 0)
+
+	# -- BCD_get_digit_pos(0, 4) = 0
+	TEST_NAME("3")
+	li a0, 0
+	li a1, 4
+	jal BCD_get_digit_pos
+	ASSERT_EQUAL(a0, 0)
+
+	# -- BCD_get_digit_pos(1, 1) = 1
+	TEST_NAME("4")
+	li a0, 1
+	li a1, 1
+	jal BCD_get_digit_pos
+	ASSERT_EQUAL(a0, 1)
+
+	# -- BCD_get_digit_pos(1, 3) = 3
+	TEST_NAME("5")
+	li a0, 1
+	li a1, 3
+	jal BCD_get_digit_pos
+	ASSERT_EQUAL(a0, 3)
+
+	# -- BCD_get_digit_pos(1, 4) = 4
+	TEST_NAME("6")
+	li a0, 1
+	li a1, 4
+	jal BCD_get_digit_pos
+	ASSERT_EQUAL(a0, 4)
+
+	# -- BCD_get_digit_pos(2, 1) = 2
+	TEST_NAME("7")
+	li a0, 2
+	li a1, 1
+	jal BCD_get_digit_pos
+	ASSERT_EQUAL(a0, 2)
+
+	# -- BCD_get_digit_pos(2, 3) = 6
+	TEST_NAME("8")
+	li a0, 2
+	li a1, 3
+	jal BCD_get_digit_pos
+	ASSERT_EQUAL(a0, 6)
+	
+	# -- BCD_get_digit_pos(2, 4) = 8
+	TEST_NAME("9")
+	li a0, 2
+	li a1, 4
+	jal BCD_get_digit_pos
+	ASSERT_EQUAL(a0, 8)
+
+	# -- BCD_get_digit_pos(31, 1) = 31
+	TEST_NAME("10")
+	li a0, 31
+	li a1, 1
+	jal BCD_get_digit_pos
+	ASSERT_EQUAL(a0, 31)
+
+	# -- BCD_get_digit_pos(10, 3) = 30
+	TEST_NAME("11")
+	li a0, 10
+	li a1, 3
+	jal BCD_get_digit_pos
+	ASSERT_EQUAL(a0, 30)
+
+	# -- BCD_get_digit_pos(7, 4) = 28
+	TEST_NAME("12")
+	li a0, 7
+	li a1, 4
+	jal BCD_get_digit_pos
+	ASSERT_EQUAL(a0, 28)
+
+	# -- BCD_get_digit_pos(3, 3) = 9
+	TEST_NAME("13")
+	li a0, 3
+	li a1, 3
+	jal BCD_get_digit_pos
+	ASSERT_EQUAL(a0, 9)
 
 	UNSTACK16
+	ret
 #-----------------------------
 
-
-#-------------------------------------------
-#-- Pruebas unitarias de BCD_get_digit()
-#-------------------------------------------
+#-----------------------------
 unittest_BCD_get_digit:
 	STACK16
 
@@ -509,107 +586,191 @@ unittest_BCD_get_digit:
 
 	UNSTACK16
 
-#----------------------------------------------
-#-- Pruebas unitarias de BCD_get_digit_pos()
-#----------------------------------------------
-unittest_BCD_get_digit_pos:
+#-----------------------------
+
+
+#-----------------------------
+unittest_sputs_number_base:
 	STACK16
 
-	TEST_TITTLE("----- BCD_get_digit_pos()--------\n")
+	TEST_TITTLE("----- sputs_number_base()--------\n")
 
-	# -- BCD_get_digit_pos(0, 1) = 0
+	#--  sputs_number_base(buffer, 0x0, 4, 2) --> "0000"
 	TEST_NAME("1")
-	li a0, 0
-	li a1, 1
-	jal BCD_get_digit_pos
-	ASSERT_EQUAL(a0, 0)
+	la a0, buffer
+	li a1, 0x0
+	li a2, 4
+	li a3, 2
+	jal sputs_number_base
+	ASSERT_STR_EQUAL(buffer, "0000")
 
-	# -- BCD_get_digit_pos(0, 3) = 0
+	#--  sputs_number_base(buffer, 0x1, 4, 2) --> "0001"
 	TEST_NAME("2")
-	li a0, 0
-	li a1, 3
-	jal BCD_get_digit_pos
-	ASSERT_EQUAL(a0, 0)
+	la a0, buffer
+	li a1, 0x1
+	li a2, 4
+	li a3, 2
+	jal sputs_number_base
+	ASSERT_STR_EQUAL(buffer, "0001")
 
-	# -- BCD_get_digit_pos(0, 4) = 0
+	#--  sputs_number_base(buffer, 0xA, 4, 2) --> "1010"
 	TEST_NAME("3")
-	li a0, 0
-	li a1, 4
-	jal BCD_get_digit_pos
-	ASSERT_EQUAL(a0, 0)
+	la a0, buffer
+	li a1, 0xA
+	li a2, 4
+	li a3, 2
+	jal sputs_number_base
+	ASSERT_STR_EQUAL(buffer, "1010")
 
-	# -- BCD_get_digit_pos(1, 1) = 1
+	#--  sputs_number_base(buffer, 0xF, 4, 2) --> "1111"
 	TEST_NAME("4")
-	li a0, 1
-	li a1, 1
-	jal BCD_get_digit_pos
-	ASSERT_EQUAL(a0, 1)
+	la a0, buffer
+	li a1, 0xF
+	li a2, 4
+	li a3, 2
+	jal sputs_number_base
+	ASSERT_STR_EQUAL(buffer, "1111")
 
-	# -- BCD_get_digit_pos(1, 3) = 3
+	#--  sputs_number_base(buffer, 0x00, 8, 2) --> "00000000"
 	TEST_NAME("5")
-	li a0, 1
-	li a1, 3
-	jal BCD_get_digit_pos
-	ASSERT_EQUAL(a0, 3)
+	la a0, buffer
+	li a1, 0x00
+	li a2, 8
+	li a3, 2
+	jal sputs_number_base
+	ASSERT_STR_EQUAL(buffer, "00000000")
 
-	# -- BCD_get_digit_pos(1, 4) = 4
+	#--  sputs_number_base(buffer, 0x55, 8, 2) --> "01010101"
 	TEST_NAME("6")
-	li a0, 1
-	li a1, 4
-	jal BCD_get_digit_pos
-	ASSERT_EQUAL(a0, 4)
+	la a0, buffer
+	li a1, 0x55
+	li a2, 8
+	li a3, 2
+	jal sputs_number_base
+	ASSERT_STR_EQUAL(buffer, "01010101")
 
-	# -- BCD_get_digit_pos(2, 1) = 2
+	#--  sputs_number_base(buffer, 0xAA, 8, 2) --> "10101010"
 	TEST_NAME("7")
-	li a0, 2
-	li a1, 1
-	jal BCD_get_digit_pos
-	ASSERT_EQUAL(a0, 2)
+	la a0, buffer
+	li a1, 0xAA
+	li a2, 8
+	li a3, 2
+	jal sputs_number_base
+	ASSERT_STR_EQUAL(buffer, "10101010")
 
-	# -- BCD_get_digit_pos(2, 3) = 6
+	#--  sputs_number_base(buffer, 0xFF, 8, 2) --> "11111111"
 	TEST_NAME("8")
-	li a0, 2
-	li a1, 3
-	jal BCD_get_digit_pos
-	ASSERT_EQUAL(a0, 6)
-	
-	# -- BCD_get_digit_pos(2, 4) = 8
+	la a0, buffer
+	li a1, 0xFF
+	li a2, 8
+	li a3, 2
+	jal sputs_number_base
+	ASSERT_STR_EQUAL(buffer, "11111111")
+
+	#--  sputs_number_base(buffer, 0x000, 12, 2) --> "000000000000"
 	TEST_NAME("9")
-	li a0, 2
-	li a1, 4
-	jal BCD_get_digit_pos
-	ASSERT_EQUAL(a0, 8)
+	la a0, buffer
+	li a1, 0x000
+	li a2, 12
+	li a3, 2
+	jal sputs_number_base
+	ASSERT_STR_EQUAL(buffer, "000000000000")
 
-	# -- BCD_get_digit_pos(31, 1) = 31
+	#--  sputs_number_base(buffer, 0xAAA, 12, 2) --> "101010101010"
 	TEST_NAME("10")
-	li a0, 31
-	li a1, 1
-	jal BCD_get_digit_pos
-	ASSERT_EQUAL(a0, 31)
+	la a0, buffer
+	li a1, 0xAAA
+	li a2, 12
+	li a3, 2
+	jal sputs_number_base
+	ASSERT_STR_EQUAL(buffer, "101010101010")
 
-	# -- BCD_get_digit_pos(10, 3) = 30
+	#--  sputs_number_base(buffer, 0xFFF, 12, 2) --> "111111111111"
 	TEST_NAME("11")
-	li a0, 10
-	li a1, 3
-	jal BCD_get_digit_pos
-	ASSERT_EQUAL(a0, 30)
+	la a0, buffer
+	li a1, 0xFFF
+	li a2, 12
+	li a3, 2
+	jal sputs_number_base
+	ASSERT_STR_EQUAL(buffer, "111111111111")
 
-	# -- BCD_get_digit_pos(7, 4) = 28
+	#--  sputs_number_base(buffer, 0x0000, 16, 2) --> "0000000000000000"
 	TEST_NAME("12")
-	li a0, 7
-	li a1, 4
-	jal BCD_get_digit_pos
-	ASSERT_EQUAL(a0, 28)
+	la a0, buffer
+	li a1, 0x0000
+	li a2, 16
+	li a3, 2
+	jal sputs_number_base
+	ASSERT_STR_EQUAL(buffer, "0000000000000000")
 
-	# -- BCD_get_digit_pos(3, 3) = 9
+	#--  sputs_number_base(buffer, 0x5555, 16, 2) --> "0101010101010101"
 	TEST_NAME("13")
-	li a0, 3
-	li a1, 3
-	jal BCD_get_digit_pos
-	ASSERT_EQUAL(a0, 9)
+	la a0, buffer
+	li a1, 0x5555
+	li a2, 16
+	li a3, 2
+	jal sputs_number_base
+	ASSERT_STR_EQUAL(buffer, "0101010101010101")
+
+	#--  sputs_number_base(buffer, 0xAAAA, 16, 2) --> "1010101010101010"
+	TEST_NAME("14")
+	la a0, buffer
+	li a1, 0xAAAA
+	li a2, 16
+	li a3, 2
+	jal sputs_number_base
+	ASSERT_STR_EQUAL(buffer, "1010101010101010")
+
+	#--  sputs_number_base(buffer, 0xFFFF, 16, 2) --> "1111111111111111"
+	TEST_NAME("15")
+	la a0, buffer
+	li a1, 0xFFFF
+	li a2, 16
+	li a3, 2
+	jal sputs_number_base
+	ASSERT_STR_EQUAL(buffer, "1111111111111111")
+
+	#--  sputs_number_base(buffer, 0x00000000, 32, 2) --> "00000000000000000000000000000000"
+	TEST_NAME("16")
+	la a0, buffer
+	li a1, 0x00000000
+	li a2, 32
+	li a3, 2
+	jal sputs_number_base
+	ASSERT_STR_EQUAL(buffer, "00000000000000000000000000000000")
+
+	#--  sputs_number_base(buffer, 0x55555555, 32, 2) --> "01010101010101010101010101010101"
+	TEST_NAME("17")
+	la a0, buffer
+	li a1, 0x55555555
+	li a2, 32
+	li a3, 2
+	jal sputs_number_base
+	ASSERT_STR_EQUAL(buffer, "01010101010101010101010101010101")
+
+	#--  sputs_number_base(buffer, 0xAAAAAAAA, 32, 2) --> "10101010101010101010101010101010"
+	TEST_NAME("18")
+	la a0, buffer
+	li a1, 0xAAAAAAAA
+	li a2, 32
+	li a3, 2
+	jal sputs_number_base
+	ASSERT_STR_EQUAL(buffer, "10101010101010101010101010101010")
+
+	#--  sputs_number_base(buffer, 0xFFFFFFFF, 32, 2) --> "1111111111111111111111111111111"
+	TEST_NAME("19")
+	la a0, buffer
+	li a1, 0xFFFFFFFF
+	li a2, 32
+	li a3, 2
+	jal sputs_number_base
+	ASSERT_STR_EQUAL(buffer, "11111111111111111111111111111111")
+
+	# 🚧 TODO 🚧
 
 	UNSTACK16
-	ret
+#-----------------------------
+
 
 #---------------------------------------
 #-- Pruebas unitarias de BCD_get_mask()

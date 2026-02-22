@@ -269,7 +269,6 @@ BCD_get_number_of_digits:
 
 #------------------------------------------------------------------------
 
-
 #------------ BCD_to_ascii(dig) --------------------------------------
 BCD_to_ascii:
 	#-----------------------------------------------------------------------
@@ -328,7 +327,27 @@ BCD_to_ascii:
 #-- SALIDA:
 #--   - a0: Puntero al siguiente byte del buffer
 #---------------------------------------------------------------------------
-#-- sputs_number_base(buffer, 0x1, 8, 2) --> "1"
+#-- Ejemplo de uso:
+#--  sputs_number_base(buffer, 0x0, 4, 2) --> "0000"
+#--  sputs_number_base(buffer, 0x1, 4, 2) --> "0001"
+#--  sputs_number_base(buffer, 0xA, 4, 2) --> "1010"
+#--  sputs_number_base(buffer, 0xF, 4, 2) --> "1111"
+#--  sputs_number_base(buffer, 0x00, 8, 2) --> "00000000"
+#--  sputs_number_base(buffer, 0x55, 8, 2) --> "01010101"
+#--  sputs_number_base(buffer, 0xAA, 8, 2) --> "10101010"
+#--  sputs_number_base(buffer, 0xFF, 8, 2) --> "11111111"
+#--  sputs_number_base(buffer, 0x000, 12, 2) --> "000000000000"
+#--  sputs_number_base(buffer, 0xAAA, 12, 2) --> "101010101010"
+#--  sputs_number_base(buffer, 0xFFF, 12, 2) --> "111111111111"
+#--  sputs_number_base(buffer, 0x0000, 16, 2) --> "0000000000000000"
+#--  sputs_number_base(buffer, 0x5555, 16, 2) --> "0101010101010101"
+#--  sputs_number_base(buffer, 0xAAAA, 16, 2) --> "1010101010101010"
+#--  sputs_number_base(buffer, 0xFFFF, 16, 2) --> "1111111111111111"
+#--  sputs_number_base(buffer, 0x00000000, 32, 2) --> "00000000000000000000000000000000"
+#--  sputs_number_base(buffer, 0x55555555, 32, 2) --> "01010101010101010101010101010101"
+#--  sputs_number_base(buffer, 0xAAAAAAAA, 32, 2) --> "10101010101010101010101010101010"
+#--  sputs_number_base(buffer, 0xFFFFFFFF, 32, 2) --> "11111111111111111111111111111111"
+
 .global sputs_number_base
 sputs_number_base: 
 	STACK32
@@ -362,7 +381,7 @@ sputs_number_base:
 	addi s5, s5, -1
 
 	#------ Bucle: repetirlo para cada digito, empezando por el de mayor peso
-
+ sputs_number_base_loop:
 	#-- Obtener el digito BCD actual
 	mv a0, s1 #-- num
 	mv a1, s5 #-- ndig
@@ -370,15 +389,26 @@ sputs_number_base:
 	jal BCD_get_digit
 
 	#-- Convertir el digito a su representacion ASCII
-	#-- BCD_to_ASCII(dig)
+	jal BCD_to_ascii
+	mv t0, a0 #-- t0: Caracter ASCII del digito actual
 
 	#-- Imprimir el digito en el buffer
+	mv a0, s0 #-- buffer
+	mv a1, t0 #-- caracter ASCII del digito
+	jal sputs_char
+	mv s0, a0 #-- Actualizar el puntero del buffer
 
 	#-- Si ndig es 0, hemos terminado
+	beq s5, zero, sputs_number_base_end
 
 	#-- ndig = ndig - 1
+	addi s5, s5, -1
 
 	#-- Repetir
+	j sputs_number_base_loop
+
+
+ sputs_number_base_end:
 
 	STACK32_POP6(s0, s1, s2, s3, s4, s5)
 	UNSTACK32
