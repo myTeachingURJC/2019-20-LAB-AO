@@ -895,7 +895,6 @@ sputs_uint:
  #-- ENTRADA:
  #--   - a0 (buffer): Puntero al buffer donde escribir el numero
  #--   - a1 (num): Numero a imprimir
- #--   - a2 (num_size): Tamaño del numero en bits (8, 16, 32)
  #-- SALIDA:
  #--   - a0: Puntero al siguiente byte del buffer
  #--------------------------------------------------------------
@@ -925,6 +924,12 @@ sputs_uint:
  #  |  d31 - d0                                                              |
  #  +------------------------------------------------------------------------+
 	.global sputs_uint
+
+	.data
+	#-- Buffer temporal
+ buffer_tmp: .space 20
+
+	.text
 
 	STACK16
 	PUSH2(s0, s1)
@@ -965,9 +970,41 @@ sputs_uint:
 	#-- La parte alta y media del registro uint_buffer contienen los digitos
 	#-- BCD del numero en decimal
 
-	#-- "imprimir" todos los digitos BCD en el buffer
-	mv a0, s0
+	#-- "imprimir" todos los digitos BCD en un buffer temporal
+	la a0, buffer_tmp
 	jal uint_buffer_print_all
+
+	#-- Incrementar el puntero para eliminar los '0's
+	la a0, buffer_tmp
+
+ _loop:
+	#-- Leer digito actual
+	lb t0, 0(a0)
+
+	#-- Si es \0 hemos llegado al final
+	#-- El numero son todo ceros...
+	beq t0, zero, sputs_uint_zeros
+
+	#-- Si es diferente a '0', terminar
+	li t1, '0'
+	bne t0, t1, sputs_uint_end
+
+	#-- Eliminar ese 0
+	addi a0, a0, 1
+
+	#-- Repetir
+	j _loop
+
+ sputs_uint_zeros:
+	#-- El numero es todo ceros
+	#-- Retroceder un byte
+	addi a0, a0, -1
+
+ sputs_uint_end:
+	#-- Imprimir en el buffer final
+	mv a1, a0
+	mv a0, s0
+	jal sputs
 
 	POP2(s0, s1)
 	UNSTACK16
