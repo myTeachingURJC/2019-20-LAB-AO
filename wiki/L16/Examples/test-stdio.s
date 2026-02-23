@@ -30,6 +30,7 @@ buffer: .space MAX
 	jal unittest_sputs_number_base_cuat
 	jal unittest_sputs_number_base_oct
 	jal unittest_sputs_number_base_hex
+	jal unittest_BCD_set_digit
 	jal unittest_BCD_get_mask
 	jal unittest_sputs_uint
 
@@ -877,6 +878,57 @@ unittest_sputs_number_base_hex:
 	TEST_NAME("19")
 	SPUTS_NUMBER_BASE(buffer, 0xFFFFFFFF, 32, 16)
 	ASSERT_STR_EQUAL(buffer, "FFFFFFFF")
+
+	UNSTACK16
+#-----------------------------
+
+
+#-----------------------------
+unittest_BCD_set_digit:
+	STACK16
+
+	TEST_TITTLE("----- BCD_set_digit(value, ndig, bcd)-------\n")
+
+ 	#--   BCD_set_digit(0x0, 0, 0xA) --> 0x0000_000A
+	TEST_NAME("1")
+	BCD_SET_DIGIT(0x0, 0, 0xA)
+	ASSERT_EQUAL(a0, 0x0000000A)
+
+ 	#--   BCD_set_digit(0xFFFFFFFF, 0, 0xA) --> 0xFFFFFFFA
+	TEST_NAME("2")
+	BCD_SET_DIGIT(0xFFFFFFFF, 0, 0xA)
+	ASSERT_EQUAL(a0, 0xFFFFFFFA)
+
+ 	#--   BCD_set_digit(0x00000000, 1, 0x5) --> 0x00000050
+	TEST_NAME("3")
+	BCD_SET_DIGIT(0x00000000, 1, 0x5)
+	ASSERT_EQUAL(a0, 0x00000050)
+
+ 	#--   BCD_set_digit(0xCAFEBACA, 1, 0x5) --> 0xCAFEBA5A
+	TEST_NAME("4")
+	BCD_SET_DIGIT(0xCAFEBACA, 1, 0x5)
+	ASSERT_EQUAL(a0, 0xCAFEBA5A)
+
+ 	#--   BCD_set_digit(0x00000000, 2, 0xF) --> 0x00000F00
+	TEST_NAME("5")
+	BCD_SET_DIGIT(0x00000000, 2, 0xF)
+	ASSERT_EQUAL(a0, 0x00000F00)
+
+ 	#--   BCD_set_digit(0xDEADBEEF, 2, 0x0) --> 0xDEADB0EF
+	TEST_NAME("6")
+	BCD_SET_DIGIT(0xDEADBEEF, 2, 0x0)
+	ASSERT_EQUAL(a0, 0xDEADB0EF)
+
+ 	#--   BCD_set_digit(0x00000000, 7, 0xC) --> 0xC0000000
+	TEST_NAME("7")
+	BCD_SET_DIGIT(0x00000000, 7, 0xC)
+	ASSERT_EQUAL(a0, 0xC0000000)
+
+ 	#--   BCD_set_digit(0xCAFEBACA, 7, 0xB) --> 0xBAFEBACA 
+	TEST_NAME("8")
+	BCD_SET_DIGIT(0xCAFEBACA, 7, 0xB)
+	ASSERT_EQUAL(a0, 0xBAFEBACA)
+
 
 	UNSTACK16
 #-----------------------------

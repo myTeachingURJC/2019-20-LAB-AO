@@ -379,20 +379,52 @@ BCD_set_digit:
  #-----------------------------------------------------------------------
  #-- BCD_set_digit(value, ndig, bcd)  
  #--
- #-- Insertar el digito bcd en la posicion ndig de value
+ #-- Insertar el digito bcd (de 4 bits) en la posicion ndig de value
  #--
  #-- ENTRADAS:
  #--   -a0 (value): Valor inicial
- #--   -a1: Numero de digito BCD donde insertar el nuevo valor (7-0)
- #--   -a2: Valor bcd
+ #--   -a1: (ndig) Numero de digito BCD donde insertar el nuevo valor (7-0)
+ #--   -a2: (bcd) Valor bcd (4 bits)
  #--
  #-- SALIDA:
  #--   -a0: Nuevo valor actualizado
  #----------------------------------------------------------------------
+ #-- Pruebas:
+ #--   BCD_set_digit(0x0, 0, 0xA) --> 0x0000_000A
+ #--   BCD_set_digit(0xFFFFFFFF, 0, 0xA) --> 0xFFFFFFFA
+ #--   BCD_set_digit(0x00000000, 1, 0x5) --> 0x00000050
+ #--   BCD_set_digit(0xCAFEBACA, 1, 0x5) --> 0xCAFEBA5A
+ #--   BCD_set_digit(0x00000000, 2, 0xF) --> 0x00000F00
+ #--   BCD_set_digit(0xDEADBEEF, 2, 0x0) --> 0xDEADB0EF
+ #--   BCD_set_digit(0x00000000, 7, 0xC) --> 0xC0000000
+ #--   BCD_set_digit(0xCAFEBACA, 7, 0xB) --> 0xBAFEBACA 
 	.global BCD_set_digit
 
-	#-- TODO
+	#-- 1. t0: Mascara de 4 bits para acceder a campo BCD
+	li t0, 0xF
 
+	#-- 2. t1: Posicion del campo a actualizar
+	#--    pos = ndig * 4  (pos = ndig << 2)
+	slli t1, a1, 2
+
+	#-- 3. t0: Mascara posicionada sobre el campo BCD a modificar
+	#--   mask << pos
+	sll t0, t0, t1
+
+	#-- 4. t0: Máscara negada (para borrar campo BCD actual)
+	xori t0, t0, -1  #-- t0 = not t0
+
+	#-- 5. Borrar campo bcd: value = value and t0
+	and a0, a0, t0
+
+	#-- 6. Llevar el nuevo valor (bdd) a su posicion
+	#--  bcd = bcd << pos
+	sll a2, a2, t1
+
+	#-- 7. Añadir el valor bcd: value = value | bcd
+	or a0, a0, a2
+
+	#-- Devolver el valor actualizado 
 	ret
 #-----------------------------------------------------------------------
 

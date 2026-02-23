@@ -109,3 +109,10 @@ msg: .string %str
   jal sputs_number_base
 .end_macro
 
+#------------ BCD_SET_DIGIT(value, ndig, bcd) ---------
+.macro BCD_SET_DIGIT(%value, %ndig, %bcd)
+  li a0, %value
+  li a1, %ndig
+  li a2, %bcd
+  jal BCD_set_digit
+.end_macro
