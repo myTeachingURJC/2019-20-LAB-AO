@@ -554,18 +554,9 @@ sputs_number_base:
 
 
 #--------------- uint_buffer_init ---------------------------
-	.data
-
-	#-- Buffer para implementar el algoritmo Doubble Dabble
- uint_buffer: 
-	.word 0 #-- Parte baja del buffer (Contiene el numero inicial)
-	.word 0 #-- Parte media (Contiene los digitos BCD 7-0)
-	.word 0 #-- Parte alta (Contiene los digitos BCD 9-8)
-
-	.text
 uint_buffer_init:
  #-------------------------------------------------------------
- #-- uint_buffer_init(): 
+ #-- uint_buffer_init(n): 
  #--
  #--  Inicializar el buffer del algoritmo Doubble Dabble
  #--  
@@ -575,6 +566,16 @@ uint_buffer_init:
  #-- ENTRADA:
  #--   - a0 (n): Numero a imprimir
  #-------------------------------------------------------------
+	.data
+
+	#-- Buffer para implementar el algoritmo Doubble Dabble
+ uint_buffer: 
+	.word 0 #-- Parte baja del buffer (Contiene el numero inicial)
+	.word 0 #-- Parte media (Contiene los digitos BCD 7-0)
+	.word 0 #-- Parte alta (Contiene los digitos BCD 9-8)
+
+	.text
+
 	la t0, uint_buffer
 	sw a0, 0(t0) #-- Parte baja
 	sw zero, 4(t0) #-- Parte media
@@ -582,11 +583,65 @@ uint_buffer_init:
 	ret
 #---------------------------------------------------------------
 
+#--------------- uint_buffer_shift1_left ---------------------------
+uint_buffer_shift1_left:
+ #-------------------------------------------------------------
+ #-- uint_buffer_shift1_left(shift)
+ #--   Desplazar el uint_buffer 1 bit a la izquierda
+ #--
+ #-------------------------------------------------------------
+ 	.global uint_buffer_shift1_left
 
-#--------------- uint_buffer_shift_left ---------------------------
+	#-- Obtener el uint_buffer
+	#-- t2, t1, t0: Parte alta, media y baja
+	la t3, uint_buffer
+	lw t0, 0(t3)
+	lw t1, 4(t3)
+	lw t2, 8(t3)
+
+	#-------- t2 <-- t1 <-- t0
+
+	#-- t2 << 1
+    slli t2, t2, 1
+
+	#-- Leer el bits de mayor peso de t1
+	lui a0, 0x80000
+	and a1, t1, a0
+
+	#-- Moverlos a la parte baja
+	srli a1, a1, 31
+
+	#-- Poner esos bits en t2
+	or t2, t2, a1
+
+	#-- t1 << 1
+	slli t1, t1, 1
+
+	#-- Leer 3 bits de mayor peso de t0
+	and a0, t0, a0
+
+	#-- Moverlos a la parte baja
+	srli a0, a0, 31
+
+	#-- Poner esos bits en t1
+	or t1, t1, a0
+
+	#-- t0 << 1
+	slli t0, t0, 1
+
+	#-- Actualizar el uint_buffer
+	sw t0, 0(t3)
+	sw t1, 4(t3)
+	sw t2, 8(t3)
+
+	ret
+#----------------------------------------------
+
+
+#--------------- uint_buffer_shift3_left ---------------------------
 uint_buffer_shift3_left:
  #-------------------------------------------------------------
- #-- uint_buffer_shift_left(shift)
+ #-- uint_buffer_shift3_left(shift)
  #--   Desplazar el uint_buffer 3 bits a la izquierda
  #--
  #-------------------------------------------------------------
@@ -637,36 +692,52 @@ uint_buffer_shift3_left:
 	ret
 #----------------------------------------------
 
-#----------------- uint_buffer_update()
+#----------------- uint_buffer_update(offset)
 uint_buffer_update:
- #-----------------------------------------------------------------
- #-- uint_buffer_update()
- #--
- #--   Actualizar todos los digitos BCD del registro uint_buffer
- #-----------------------------------------------------------------
+ #--------------------------------------------------------------------------
+ #-- uint_buffe_update(offset)
+ #-- 
+ #--   Actualizar la parte alta o baja del registro uint_buffer
+ #--   Los digitos BCD de la parte indicada se actualizan
+ #--   segun indica el algoritmo Doubble Dabble
+ #-- 
+ #--  ENTRADA:
+ #--    - a0 (offset): Offset para acceder a la parte alta (8) ó media (4)
+ #--------------------------------------------------------------------------
 	.global uint_buffer_update
 
 	STACK16
+	PUSH3(s0,s1,s2)
 
-	#-- Obtener los digitos BCD del uint_buffer
-	#-- t2, t1: Parte alta y media
-	la t3, uint_buffer
-	lw t1, 4(t3)
-	lw t2, 8(t3)
+	#-- Obtener la direccion base del registro uint_buffer
+	la s0, uint_buffer
 
-	#-- t4: ndig = 7
-	li t4, 7
+	#-- Aplicar el offset
+	add s0, s0, a0
+
+	#-- s0: Apunta a la parte del registro uint_buffer a actualizar
+	#-- s1: valor actual de la parte del registro uint_buffer
+	lw s1, 0(s0)
+
+	#-- s2: Contiene el numero de digito actual
+	li s2, 8  #-- s7 = ndig
+
+	#-- Aplicar a los 8 digitos bcd
+ uint_buffer_update_loop:
+
+	#-- Decrementar el numero de digito
+	addi s2, s2, -1
 
 	#-- Obtener digito bcd actual
-	mv a0, t2  #-- value
-	mv a1, t4  #-- ndig
+	mv a0, s1  #-- value
+	mv a1, s2  #-- ndig
 	li a2, 4   #-- dig_size
 	jal BCD_get_digit
 
 	#-- a0 = digito BCD
 	#-- Si a0 > 4, a0 = a0 + 3
-	li t5, 4
-	ble a0, t5, uint_buffer_update_cont
+	li t0, 4
+	ble a0, t0, uint_buffer_update_cont
 
 	#-- Sumar 3
 	addi a0, a0, 3
@@ -674,14 +745,145 @@ uint_buffer_update:
  uint_buffer_update_cont:
 
 	#-- Actualizar el digito bcd
-	#-- TODO
+	mv a2, a0  #-- bcd
+	mv a0, s1  #-- value
+	mv a1, s2  #-- ndig
+	jal BCD_set_digit
 
-	#-- Actualizar el uint_buffer
-	sw t1, 4(t3)
-	sw t2, 8(t3)
+	#-- a0: Valor actualizado del registro uint_buffer
+	mv s1, a0
 
+	#-- Es ndig==0? si ndig > 0, repetir bucle
+	bgt s2, zero, uint_buffer_update_loop
+
+	#---- FIN DEL BUCLE
+	#---- Todos los digitos BCD actualizados
+
+	#-- Actualizar el registro uint_buffer en memoria
+	sw s1, 0(s0)
+
+	POP3(s0,s1,s2)
+	UNSTACK16
+#------------------------------------------------------------------
+
+#----------------- uint_buffer_update_all() ------------
+uint_buffer_update_all:
+ #-----------------------------------------------------------------
+ #-- uint_buffer_update()
+ #--
+ #--   Actualizar todos los digitos BCD del registro uint_buffer
+ #-----------------------------------------------------------------
+	.global uint_buffer_update_all
+
+	STACK16
+
+	#-- Actualizar los digitos BCD de la parte media 
+	li a0, 4
+	jal uint_buffer_update
+
+	#-- Actualizar los digitos BCD de la parte alta
+	li a0, 8
+	jal uint_buffer_update
+	
 	UNSTACK16
 #----------------------------------------------
+
+#----------------- uint_buffer_print() ------------------------------------
+uint_buffer_print:
+ #--------------------------------------------------------------------------
+ #-- uint_buffer_print(buffer, offset)
+ #--
+ #--    Imprimir todos los digitos bcd del registro uint_buffer indicado
+ #--  por su offset (parte alta o parte media)
+ #--
+ #-- ENTRADAS:
+ #--   -a0 (buffer): Buffer donde imprimir
+ #--   -a1 (offset): Offset de la parte del uint_buffer a imprimir
+ #--
+ #-- SALIDAS:
+ #--   -a0 (buffer): Buffer actualizado (apunta a la ultima posicion)
+ #-------------------------------------------------------------------------
+	.global uint_buffer_print
+
+	STACK32
+	STACK32_PUSH4(s0,s1,s2,s3)
+
+	#-- Obtener la direccion base del registro uint_buffer
+	la s0, uint_buffer
+
+	#-- Aplicar el offset
+	add s0, s0, a1
+
+	#-- s0: Apunta a la parte del registro uint_buffer a actualizar
+	#-- s1: valor actual de la parte del registro uint_buffer
+	lw s1, 0(s0)
+
+	#-- s2: Contiene el numero de digito actual
+	li s2, 8  #-- s7 = ndig
+
+	#-- s3: Puntero al buffer
+	mv s3, a0
+
+	#-- Recorrer los 8 digitos bcd
+ uint_buffer_print_loop:
+
+	#-- Decrementar el numero de digito
+	addi s2, s2, -1
+
+	#-- Obtener digito bcd actual
+	mv a0, s1  #-- value
+	mv a1, s2  #-- ndig
+	li a2, 4   #-- dig_size
+	jal BCD_get_digit
+
+	#-- a0: digito BCD
+	#-- Convertilo a ASCII
+	jal BCD_to_ascii
+
+	#-- Imprimirlo!
+	mv a1, a0  #-- Caracter ascii
+	mv a0, s3  #-- Buffer
+	jal sputs_char
+
+	#-- Actualizar buffer
+	mv s3, a0
+
+	#-- Es ndig==0? si ndig > 0, repetir bucle
+	bgt s2, zero, uint_buffer_print_loop
+
+	#---- FIN DEL BUCLE
+	#---- Todos los digitos BCD impresos!
+
+	#-- Devolver direccion buffer
+	mv a0, s3
+
+	STACK32_POP4(s0,s1,s2,s3)
+	UNSTACK32
+#--------------------------------------------------------------------------
+
+#----------------- uint_buffer_print_all() -------------
+uint_buffer_print_all:
+ #------------------------------------------------------------
+ #-- uint_buffer_print_all(buffer)
+ #--
+ #--    Imprimir todos los digitos del registro uint_buffer
+ #--  en el buffer
+ #--
+ #-- ENTRADA:
+ #--   -a0 (buffer): Buffer donde imprimir
+ #------------------------------------------------------------
+	STACK16
+
+	#-- Imprimir los digitos BCD de la parte alta
+	li a1, 8
+	jal uint_buffer_print
+
+	#-- Imprimir los digitos BCD de la parte media
+	li a1, 4
+	jal uint_buffer_print
+
+	UNSTACK16
+#-------------------------------------------------------
 
 #------------- sputs_uint(buffer, num, num_size) --------------------
 sputs_uint:
@@ -725,8 +927,13 @@ sputs_uint:
 	.global sputs_uint
 
 	STACK16
+	PUSH2(s0, s1)
+
+	#-- Guardar los parametros
+	mv s0, a0
 
 	#-- Inicializar registro uint_buffer
+	mv a0, a1  #-- num
 	jal uint_buffer_init
 
 	#-- Desplazar el uint_buffer 3 bits a la izquierda
@@ -735,27 +942,34 @@ sputs_uint:
 	#-- Bucle principal del algoritmo
 	#-- Hay que hacer un total de 32 desplazamiento
 	#-- Como ya se han hecho 3, quedan 29
-	
-	#-- TODO: Inicializar contador a 29
+	#-- s1: Contador de repeticiones
+	li s1, 29
 
  sputs_uint_loop:
 	
 	#-- Actualizar registro uint_buffer
 	#-- Hay que sumar 3 a cada digito BCD, si es > 4
-	jal uint_buffer_update
+	jal uint_buffer_update_all
 
 	#-- Desplazar 1 bit a la izquierda registro uint_buffer
 	#-- uint_buffer << 1
+	jal uint_buffer_shift1_left
 
 	#-- Queda un paso menos por hacer del algoritmo
 	#-- Decrementar contador
+	addi s1, s1, -1
 
 	#-- Repetir si contador mayor a 0
+	bgt s1, zero, sputs_uint_loop
 
-	#-- La parte alta y media del registro uint_buffer contiene los digitos
+	#-- La parte alta y media del registro uint_buffer contienen los digitos
 	#-- BCD del numero en decimal
 
+	#-- "imprimir" todos los digitos BCD en el buffer
+	mv a0, s0
+	jal uint_buffer_print_all
 
+	POP2(s0, s1)
 	UNSTACK16
 #---------------------------------------------------------------------
 

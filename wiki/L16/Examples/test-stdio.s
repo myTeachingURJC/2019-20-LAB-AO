@@ -929,7 +929,6 @@ unittest_BCD_set_digit:
 	BCD_SET_DIGIT(0xCAFEBACA, 7, 0xB)
 	ASSERT_EQUAL(a0, 0xBAFEBACA)
 
-
 	UNSTACK16
 #-----------------------------
 
@@ -944,11 +943,64 @@ unittest_sputs_uint:
 	TEST_NAME("1")
 	la a0, buffer
 	li a1, 0
-	li a2, 8
 	jal sputs_uint
-	ASSERT_STR_EQUAL(buffer, "0")
+	ASSERT_STR_EQUAL(buffer, "0000000000000000")
 
+	#--  sputs_uint(buffer, 1) --> "1"
+	TEST_NAME("2")
+	la a0, buffer
+	li a1, 1
+	jal sputs_uint
+	ASSERT_STR_EQUAL(buffer, "0000000000000001")
 
+	#--  sputs_uint(buffer, 9) --> "9"
+	TEST_NAME("3")
+	la a0, buffer
+	li a1, 9
+	jal sputs_uint
+	ASSERT_STR_EQUAL(buffer, "0000000000000009")
+
+	#--  sputs_uint(buffer, 10) --> "10"
+	TEST_NAME("4")
+	la a0, buffer
+	li a1, 10
+	jal sputs_uint
+	ASSERT_STR_EQUAL(buffer, "0000000000000010")
+
+	#--  sputs_uint(buffer, 0x80) --> "128"
+	TEST_NAME("5")
+	la a0, buffer
+	li a1, 0x80
+	jal sputs_uint
+	ASSERT_STR_EQUAL(buffer, "0000000000000128")
+
+	#--  sputs_uint(buffer, 0x8000) --> "32768"
+	TEST_NAME("6")
+	la a0, buffer
+	li a1, 0x8000
+	jal sputs_uint
+	ASSERT_STR_EQUAL(buffer, "0000000000032768")
+
+	#--  sputs_uint(buffer, 0x80000000) --> "2147483648"
+	TEST_NAME("7")
+	la a0, buffer
+	li a1, 0x80000000
+	jal sputs_uint
+	ASSERT_STR_EQUAL(buffer, "0000002147483648")
+
+	#--  sputs_uint(buffer, 0xFFFFFFFF) --> "4294967295"
+	TEST_NAME("8")
+	la a0, buffer
+	li a1, 0xFFFFFFFF
+	jal sputs_uint
+	ASSERT_STR_EQUAL(buffer, "0000004294967295")
+
+	#--  sputs_uint(buffer, 0xCAFEBACA) --> "3405691594"
+	TEST_NAME("9")
+	la a0, buffer
+	li a1, 0xCAFEBACA
+	jal sputs_uint
+	ASSERT_STR_EQUAL(buffer, "0000003405691594")
 
 	UNSTACK16
 #-----------------------------
