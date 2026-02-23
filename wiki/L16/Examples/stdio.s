@@ -637,61 +637,6 @@ uint_buffer_shift1_left:
 	ret
 #----------------------------------------------
 
-
-#--------------- uint_buffer_shift3_left ---------------------------
-uint_buffer_shift3_left:
- #-------------------------------------------------------------
- #-- uint_buffer_shift3_left(shift)
- #--   Desplazar el uint_buffer 3 bits a la izquierda
- #--
- #-------------------------------------------------------------
- 	.global uint_buffer_shift3_left
-
-	#-- Obtener el uint_buffer
-	#-- t2, t1, t0: Parte alta, media y baja
-	la t3, uint_buffer
-	lw t0, 0(t3)
-	lw t1, 4(t3)
-	lw t2, 8(t3)
-
-	#-------- t2 <-- t1 <-- t0
-
-	#-- t2 << 3
-    slli t2, t2, 3
-
-	#-- Leer 3 bits de mayor peso de t1
-	lui a0, 0xE0000
-	and a1, t1, a0
-
-	#-- Moverlos a la parte baja
-	srli a1, a1, 29
-
-	#-- Poner esos bits en t2
-	or t2, t2, a1
-
-	#-- t1 << 3
-	slli t1, t1, 3
-
-	#-- Leer 3 bits de mayor peso de t0
-	and a0, t0, a0
-
-	#-- Moverlos a la parte baja
-	srli a0, a0, 29
-
-	#-- Poner esos bits en t1
-	or t1, t1, a0
-
-	#-- t0 << 3
-	slli t0, t0, 3
-
-	#-- Actualizar el uint_buffer
-	sw t0, 0(t3)
-	sw t1, 4(t3)
-	sw t2, 8(t3)
-
-	ret
-#----------------------------------------------
-
 #----------------- uint_buffer_update(offset)
 uint_buffer_update:
  #--------------------------------------------------------------------------
@@ -885,6 +830,61 @@ uint_buffer_print_all:
 	UNSTACK16
 #-------------------------------------------------------
 
+#----------------- remove_leading_0s() ------------------
+remove_leading_0s:
+ #-------------------------------------------
+ #-- remove_leading_0s(cad)
+ #--
+ #--   Eliminar los caracteres '0's situados al comienzo de la cadena
+ #--   Se devuelve el puntero actualizado, que apunta al primer carácter
+ #--   que NO es 0. SALVO el caso en el que la cadena solo tiene '0'
+ #--   En ese caso se devuelve un puntero al último '0'
+ #--
+ #--   ENTRADA:
+ #--    -a0: Buffer de la cadena
+ #--
+ #--   SALIDA:
+ #--    -a0: Puntero a la cadena sin 0s
+ #---------------------------------------------
+	.global remove_leading_0s
+
+	#-- Si la cadena es nula, lo consideramos un caso especial, y se devuelve el mismo puntero
+	#-- Leer caracter
+	lw t0, 0(a0)
+
+	#-- Si es '\0', terminamos sin hacer nada
+	beq t0, zero, _remove_leading_0s_end
+
+	#--- Recorrer toda la cadena, incrementando el puntero
+	#--- si el caracter leido es '0'
+ _remove_leading_0s_loop:
+
+	#-- Leer digito actual
+	lb t0, 0(a0)
+
+	#-- Si es \0 hemos llegado al final
+	#-- El numero son todo ceros...
+	beq t0, zero, _remove_leading_0s_zeros
+
+	#-- Si es diferente a '0', terminar
+	li t1, '0'
+	bne t0, t1, _remove_leading_0s_end
+
+	#-- Eliminar ese 0
+	addi a0, a0, 1
+
+	#-- Repetir
+	j _remove_leading_0s_loop
+
+ _remove_leading_0s_zeros:
+	#-- El numero es todo ceros
+	#-- Retroceder un byte
+	addi a0, a0, -1
+
+ _remove_leading_0s_end:
+	ret
+#--------------------------------------------------------
+
 #------------- sputs_uint(buffer, num, num_size) --------------------
 sputs_uint:
  #--------------------------------------------------------------
@@ -942,7 +942,9 @@ sputs_uint:
 	jal uint_buffer_init
 
 	#-- Desplazar el uint_buffer 3 bits a la izquierda
-	jal uint_buffer_shift3_left
+	jal uint_buffer_shift1_left
+	jal uint_buffer_shift1_left
+	jal uint_buffer_shift1_left
 
 	#-- Bucle principal del algoritmo
 	#-- Hay que hacer un total de 32 desplazamiento
@@ -974,34 +976,11 @@ sputs_uint:
 	la a0, buffer_tmp
 	jal uint_buffer_print_all
 
-	#-- Incrementar el puntero para eliminar los '0's
+	#-- Eliminar los 0s iniciales, si los tuviese
 	la a0, buffer_tmp
+	jal remove_leading_0s
 
- _loop:
-	#-- Leer digito actual
-	lb t0, 0(a0)
-
-	#-- Si es \0 hemos llegado al final
-	#-- El numero son todo ceros...
-	beq t0, zero, sputs_uint_zeros
-
-	#-- Si es diferente a '0', terminar
-	li t1, '0'
-	bne t0, t1, sputs_uint_end
-
-	#-- Eliminar ese 0
-	addi a0, a0, 1
-
-	#-- Repetir
-	j _loop
-
- sputs_uint_zeros:
-	#-- El numero es todo ceros
-	#-- Retroceder un byte
-	addi a0, a0, -1
-
- sputs_uint_end:
-	#-- Imprimir en el buffer final
+	#-- Imprimir en el buffer final la cadena sin 0s iniciales
 	mv a1, a0
 	mv a0, s0
 	jal sputs
