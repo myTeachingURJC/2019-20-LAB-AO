@@ -21,6 +21,7 @@ buffer: .space MAX
 	#-----------------------------
 	jal unittest_sputs_char
 	jal unittest_sputs
+	jal unittest_BCD_get_mask
 	jal unittest_BCD_get_digit_size
 	jal unittest_BCD_get_number_of_digits
 	jal unittest_BCD_get_digit_pos
@@ -31,7 +32,6 @@ buffer: .space MAX
 	jal unittest_sputs_number_base_oct
 	jal unittest_sputs_number_base_hex
 	jal unittest_BCD_set_digit
-	jal unittest_BCD_get_mask
 	jal unittest_sputs_uint
 
 	#-- Terminar
@@ -121,6 +121,61 @@ unittest_sputs:
 	UNSTACK16
 	ret
 #----------------------
+
+#-----------------------
+unittest_BCD_get_mask:
+ #---------------------------------------
+ #-- Pruebas unitarias de BCD_get_mask()
+ #---------------------------------------
+	STACK16
+
+	TEST_TITTLE("----- BCD_get_mask()--------\n")
+
+	#----------  TEST BCD_get_mask(0) = 0
+	TEST_NAME("1")
+	li a0, 0
+	jal BCD_get_mask
+	ASSERT_EQUAL(a0, 0)
+	
+	#---------- TEST BCD_get_mask(1) = 1
+	TEST_NAME("2")
+	li a0, 1
+	jal BCD_get_mask
+	ASSERT_EQUAL(a0, 1)
+	
+	#---------- TEST BCD_get_mask(2) = 0x3
+	TEST_NAME("3")	
+	li a0, 2
+	jal BCD_get_mask
+	ASSERT_EQUAL(a0, 0x3)
+	
+	#---------- TEST BCD_get_mask(3) = 0x7
+	TEST_NAME("4")
+	li a0, 3
+	jal BCD_get_mask
+	ASSERT_EQUAL(a0, 0x7)
+	
+	#---------- TEST BCD_get_mask(4) = 0xF
+	TEST_NAME("5")
+	li a0, 4
+	jal BCD_get_mask
+	ASSERT_EQUAL(a0, 0xF)
+	
+	#---------- TEST BCD_get_mask(5) = 0xF
+	TEST_NAME("6")
+	li a0, 5
+	jal BCD_get_mask
+	ASSERT_EQUAL(a0, 0xF)
+	
+	#---------- TEST BCD_get_mask(255) = 0xF
+	TEST_NAME("7")
+	li a0, 255
+	jal BCD_get_mask
+	ASSERT_EQUAL(a0, 0xF)
+
+	UNSTACK16
+	ret
+#------------------------------------------------
 
 #-----------------------------
 unittest_BCD_get_digit_size:
@@ -1006,58 +1061,3 @@ unittest_sputs_uint:
 #-----------------------------
 
 
-
-#---------------------------------------
-#-- Pruebas unitarias de BCD_get_mask()
-#---------------------------------------
-unittest_BCD_get_mask:
-	STACK16
-
-	TEST_TITTLE("----- BCD_get_mask()--------\n")
-
-	#----------  TEST BCD_get_mask(0) = 0
-	TEST_NAME("1")
-	li a0, 0
-	jal BCD_get_mask
-	ASSERT_EQUAL(a0, 0)
-	
-	#---------- TEST BCD_get_mask(1) = 1
-	TEST_NAME("2")
-	li a0, 1
-	jal BCD_get_mask
-	ASSERT_EQUAL(a0, 1)
-	
-	#---------- TEST BCD_get_mask(2) = 0x3
-	TEST_NAME("3")	
-	li a0, 2
-	jal BCD_get_mask
-	ASSERT_EQUAL(a0, 0x3)
-	
-	#---------- TEST BCD_get_mask(3) = 0x7
-	TEST_NAME("4")
-	li a0, 3
-	jal BCD_get_mask
-	ASSERT_EQUAL(a0, 0x7)
-	
-	#---------- TEST BCD_get_mask(4) = 0xF
-	TEST_NAME("5")
-	li a0, 4
-	jal BCD_get_mask
-	ASSERT_EQUAL(a0, 0xF)
-	
-	#---------- TEST BCD_get_mask(5) = 0xF
-	TEST_NAME("6")
-	li a0, 5
-	jal BCD_get_mask
-	ASSERT_EQUAL(a0, 0xF)
-	
-	#---------- TEST BCD_get_mask(255) = 0xF
-	TEST_NAME("7")
-	li a0, 255
-	jal BCD_get_mask
-	ASSERT_EQUAL(a0, 0xF)
-
-	UNSTACK16
-	ret
-
-	
