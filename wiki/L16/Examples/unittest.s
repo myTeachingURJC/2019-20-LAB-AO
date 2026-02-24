@@ -3,29 +3,34 @@
     .include "stdio.h"
     .include "so.h"
 
-#-------------------------------------------------
-#-- assert_str_equal(str1, str2)
-#--
-#-- Asegurarse que las dos cadenas str1 y str2
-#-- son iguales. Si NO lo son, se aborta el test
-#--
-#-- ENTRADAS:
-#--   - a0 (str1): Puntero a cadena 1
-#--   - a1 (str2): Puntero a cadena 2
-#-- SALIDA:
-#--   - Ninguna
-#-------------------------------------------------
 	.data
 result_ok:   .string "OK!\n"
 result_fail: .string "FAIL!\n"
 msg_abort:   .string "ABORT!\n"
-real_cad:    .string "  * Cadena generada: "
-expect_cad:  .string "  * Cadena esperada: "
-
 
 	.text
-.global assert_str_equal
+
+#--------- assert_str_equal(str1, str2) ----------
 assert_str_equal:
+ #-------------------------------------------------
+ #-- assert_str_equal(str1, str2)
+ #--
+ #-- Asegurarse que las dos cadenas str1 y str2
+ #-- son iguales. Si NO lo son, se aborta el test
+ #--
+ #-- ENTRADAS:
+ #--   - a0 (str1): Puntero a cadena 1
+ #--   - a1 (str2): Puntero a cadena 2
+ #-- SALIDA:
+ #--   - Ninguna
+ #-------------------------------------------------
+	.global assert_str_equal
+
+	.data
+ real_cad:    .string "  * Cadena generada: "
+ expect_cad:  .string "  * Cadena esperada: "
+
+	.text
 
 	STACK16
 	PUSH2(s0, s1)
@@ -77,25 +82,26 @@ assert_str_equal:
 	jal puts
 	EXIT
 
-assert_str_equal_end:
+ assert_str_equal_end:
 	POP2(s0, s1)
 	UNSTACK16
-
-
 #-------------------------------------------------
-#-- assert_equal(val1, val2)
-#--
-#-- Asegurarse que los dos numeros son iguales
-#-- Si NO lo son, se aborta el test
-#--
-#-- ENTRADAS:
-#--   - a0 (val1): Valor 1: Valor devuelto
-#--   - a1 (val2): Valor 2: Valor esperado
-#-- SALIDA:
-#--   - Ninguna
-#-------------------------------------------------
-.global assert_equal
+
+#--------- assert_equal(val1, val2) --------------
 assert_equal:
+ #-------------------------------------------------
+ #-- assert_equal(val1, val2)
+ #--
+ #-- Asegurarse que los dos numeros son iguales
+ #-- Si NO lo son, se aborta el test
+ #--
+ #-- ENTRADAS:
+ #--   - a0 (val1): Valor 1: Valor devuelto
+ #--   - a1 (val2): Valor 2: Valor esperado
+ #-- SALIDA:
+ #--   - Ninguna
+ #-------------------------------------------------
+	.global assert_equal
 
 	STACK16
 	PUSH2(s0, s1)
@@ -133,30 +139,68 @@ assert_equal:
 	PUTSL(msg_abort)
 	EXIT
 
-assert_equal_end:
+ assert_equal_end:
 	POP2(s0, s1)
 	UNSTACK16
+#-------------------------------------------------
 
-ret
+assert_equal_64:
+ #-----------------------------------------------------
+ #-- assert_equal_64(v0, v1, w0, w1)
+ #--
+ #--   Asegurarse que los dos numeros v y w de 64 bits
+ #--  son iguales
+ #--
+ #--  ENTRADAS:
+ #--   -a0 (v0): Parte baja de v
+ #--   -a1 (v1): Parte alta de v
+ #--   -a2 (w0): Parte baja de w
+ #--   -a3 (w1): Parte alta de w
+ #--  SALIDA:
+ #--   -Ninguna
+ #------------------------------------------------------
+	.global assert_equal_64
+
+	STACK16
+
+	#-- Guardar parametros en la pila
+	PUSH2(a1, a3)
+
+	#-- Comprobar que los valores de menor peso son iguales
+	mv a0, a0
+	mv a1, a2
+	jal assert_equal
+
+	#-- Recuperar argumentos de la pila
+	POP2(a1, a3)
+
+	#-- Comprobar que los valores de mayor peso son iguales
+	mv a0, a1
+	mv a1, a3
+	jal assert_equal 
+
+	UNSTACK16
+#-------------------------------------------------
 
 
 
-#--------------------------------------------
-#-- cmpstr(str1, str2)
-#--
-#-- Comparar dos cadenas
-#--
-#-- ENTRADA:
-#--   - a0 (str1): Puntero a cadena 1
-#--   - a1 (str2): Puntero a cadena 2
-#--
-#-- SALIDA:
-#--   - a0: Resultado de la comparacion
-#--     - 0: NO son iguales
-#--     - 1: Son iguales
-#---------------------------------------------
+
+#--------- cmpstr(str1, str2) --------------------
 cmpstr:
-
+ #--------------------------------------------
+ #-- cmpstr(str1, str2)
+ #--
+ #-- Comparar dos cadenas
+ #--
+ #-- ENTRADA:
+ #--   - a0 (str1): Puntero a cadena 1
+ #--   - a1 (str2): Puntero a cadena 2
+ #--
+ #-- SALIDA:
+ #--   - a0: Resultado de la comparacion
+ #--     - 0: NO son iguales
+ #--     - 1: Son iguales
+ #---------------------------------------------
  cmpstr_next:
 	#-- Leer caracteres fuente y destino
 	lb t0, 0(a0)
@@ -189,4 +233,5 @@ cmpstr:
 
  cmpstr_end:
 	ret
+#-------------------------------------------------
 

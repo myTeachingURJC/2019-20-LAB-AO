@@ -57,3 +57,16 @@
 	jal assert_equal
 .end_macro
 
+#-----------------------------------------------------
+#-- Comparar que dos valores de 64 bits son iguales
+#--  Valores izquierdos: son los generados por la funcion
+#--  Valores derechos: Son los resultados esperados
+#------------------------------------------------------
+.macro ASSERT_EQUAL_64(%reg1, %reg0, %w1, %w0)
+	mv a0, %reg0
+	mv a1, %reg1
+	li a2, %w0
+	li a3, %w1
+	jal assert_equal_64
+.end_macro
+

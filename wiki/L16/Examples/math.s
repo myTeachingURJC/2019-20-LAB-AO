@@ -189,3 +189,118 @@ div_basic:
     ret
 #------------------------------------
 
+#----------- _div(a,b) --------------
+_div:
+ #-----------------------------------------------------
+ #-- _div(a,b)
+ #--
+ #--   Dividir dos numeros enteros sin signo a / b
+ #--
+ #--  ENTRADAS:
+ #--   -a0 (a): Dividendo
+ #--   -a1 (b): Divisor
+ #--
+ #--  SALIDA:
+ #--   -a0 (a): Resultado
+ #--   -a1 (b): Resto
+ #----------------------------------------------------
+    .global _div
+
+    #-- Paso 1: Inicialización: Resto = 0
+    #-- t1 = resto = 0
+    li t1, 0
+
+    #-- t0 = cociente = dividendo
+    mv t0, a0
+
+    #-- t2: Contador = 32
+    li t2, 32
+
+    #-- Bucle principal
+ _div_loop:
+    
+    #---------- Desplazar (t1, t0) (Resto, Cociente) un bit a la izquierda
+    #-- t4 = bit de mayor peso de t0
+    lui t3, 0x80000
+    and t4, t0, t3
+    srli t4, t4, 31
+
+    #-- t1 << 1
+    slli t1, t1, 1
+
+    #-- Añador bit saliente de t0
+    or t1, t1, t4
+
+    #-- t0 << 0
+    slli t0, t0, 1
+
+    #---- Resto >= Divisor?
+    bge t1, a1, _div_caso1
+
+    #-- Caso 2: Resto < Divisor
+    #-- Poner bit menos significativo de t0 a 0
+    andi t0, t0, -2
+
+    #-- siguiente
+    j _div_next
+
+ _div_caso1:
+    #-- Resto >= Divisor
+    #-- Resto = resto - Divisor
+    sub t1, t1, a1
+
+    #-- Poner bit menos significativo de t0 a 1
+    ori t0, t0, 1
+
+ _div_next:
+
+    #-- Decrementar contador
+    addi t2, t2, -1
+
+    #-- Si contador > 0 repetir
+    bgt t2, zero, _div_loop
+
+    #-- Devolver el resultado:
+    mv a0, t0  #-- Cociente
+    mv a1, t1  #-- Resto
+    ret
+#------------------------------------
+
+#----------- shift_left1_64(r0, r1, bit) ----------
+shift_left1_64:
+ #----------------------------------------------------
+ #-- shift_left1_64(r0,r1, bit):
+ #--
+ #--    Desplazar un bit a la izquierda un registro de 64-bits
+ #--
+ #--      r1 <-- r0 <-- bit 
+ #--
+ #--  ENTRADA:
+ #--   -a0 (r0): Registro 0 (menor peso)
+ #--   -a1 (r1): Registro 1 (mayor peso)
+ #--   -a2 (bit): Bit que se introduce por la derecha
+ #--
+ #--  SALIDA:
+ #--   -a0: (r0) Parte baja desplazada
+ #--   -a1: (r1) Parte alta desplazada
+ #----------------------------------------------------
+    .global shift_left1_64
+
+    #-- t0: bit de mayor peso de r0
+    lui t1, 0x80000
+    and t0, a0, t1
+    srli t0, t0, 31  #-- Llevarlo a la posicion de menor peso
+
+    #-- r1 << 1
+    slli a1, a1, 1
+
+    #-- Añadir el bit t0
+    or a1, a1, t0
+
+    #-- r0 << 1
+    slli a0, a0, 1
+
+    #-- Añadir el bit
+    or a0, a0, a2
+    ret
+#--------------------------------------------------

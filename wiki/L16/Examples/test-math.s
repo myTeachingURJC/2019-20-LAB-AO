@@ -12,6 +12,8 @@
     jal unittest_mul_basic
     jal unittest_mul
     jal unittest_div_basic
+    jal unittest_div
+    jal unittest_shift_left1_64
 
     EXIT
 
@@ -149,7 +151,7 @@ unittest_mul:
 unittest_div_basic:
     STACK16
 
-    TEST_TITTLE("----- _DIV() --------\n")
+    TEST_TITTLE("----- DIV_BASIC() --------\n")
 
     #------- DIV(2, 1) = 2
 	TEST_NAME("1")
@@ -180,6 +182,84 @@ unittest_div_basic:
 	TEST_NAME("6")
     DIV_BASIC(12000, 600)
 	ASSERT_EQUAL(a0, 20)
+
+    UNSTACK16
+#----------------------------------------
+
+#----------------------------------------
+unittest_div:
+    STACK16
+
+    TEST_TITTLE("----- _DIV() --------\n")
+
+    #------- DIV(2, 1) = 2
+	TEST_NAME("1")
+    _DIV(2, 1)
+	ASSERT_EQUAL(a0, 2)
+
+    #------ DIV(3, 2) = 1
+	TEST_NAME("2")
+    _DIV(3, 2)
+	ASSERT_EQUAL(a0, 1)
+
+    #------ DIV(10, 3) = 3
+	TEST_NAME("3")
+    _DIV(10, 3)
+	ASSERT_EQUAL(a0, 3)
+
+    #------ DIV(100, 40) = 2
+	TEST_NAME("4")
+    _DIV(100, 40)
+	ASSERT_EQUAL(a0, 2)
+
+    #------ DIV(0x4000, 0x10) = 0x400
+	TEST_NAME("5")
+    _DIV(0x4000, 0x10)
+	ASSERT_EQUAL(a0, 0x400)
+
+    #------ DIV(12000, 600) = 20
+	TEST_NAME("6")
+    _DIV(12000, 600)
+	ASSERT_EQUAL(a0, 20)
+
+    UNSTACK16
+#----------------------------------------
+
+#----------------------------------------
+unittest_shift_left1_64:
+    STACK16
+
+    TEST_TITTLE("----- SHIFT_LEFT1_64() --------\n")
+
+    #------- SHIFT_LEFT1_64(0x00, 0x00, 1)
+	TEST_NAME("1")
+    SHIFT_LEFT1_64(0x00, 0x00, 1)
+	ASSERT_EQUAL_64(a1, a0, 0x00, 0x01)
+
+    #------- SHIFT_LEFT1_64(0x00, 0x01, 0)
+	TEST_NAME("2")
+    SHIFT_LEFT1_64(0x00, 0x01, 0)
+	ASSERT_EQUAL_64(a1, a0, 0x00, 0x02)
+
+    #------- SHIFT_LEFT1_64(0x00, 0xFFFFFFFF, 0)
+	TEST_NAME("3")
+    SHIFT_LEFT1_64(0x00, 0xFFFFFFFF, 0)
+	ASSERT_EQUAL_64(a1, a0, 0x01, 0xFFFFFFFE)
+
+    #------- SHIFT_LEFT1_64(0x00, 0xFFFFFFFF, 1)
+	TEST_NAME("4")
+    SHIFT_LEFT1_64(0x00, 0xFFFFFFFF, 1)
+	ASSERT_EQUAL_64(a1, a0, 0x01, 0xFFFFFFFF)
+
+    #------- SHIFT_LEFT1_64(0x80000000, 0x80000000, 1)
+	TEST_NAME("5")
+    SHIFT_LEFT1_64(0x80000000, 0x80000000, 1)
+	ASSERT_EQUAL_64(a1, a0, 0x01, 0x01)
+
+    #------- SHIFT_LEFT1_64(0x80000000, 0x80000000, 0)
+	TEST_NAME("5")
+    SHIFT_LEFT1_64(0x80000000, 0x80000000, 0)
+	ASSERT_EQUAL_64(a1, a0, 0x01, 0x00)
 
     UNSTACK16
 #----------------------------------------
