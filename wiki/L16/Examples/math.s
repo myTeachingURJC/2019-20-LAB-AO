@@ -133,3 +133,59 @@ _mul:
     mv a0, t0
     ret
 #------------------------------------
+
+#----------- div_basic(a,b) ---------
+div_basic:
+  #------------------------------------------------
+  #-- div_basic(a,b):
+  #--
+  #--   Calcular la division entre enteros a / b
+  #--
+  #--  ENTRADAS:
+  #--   -a0 (a): Dividendo
+  #--   -a1 (b): Divisor
+  #--
+  #--  SALIDAS:
+  #--   -a0: Resultado (cociente)
+  #--   -a1: Resto
+  #-------------------------------------------------
+    .global div_basic
+
+    #-- Algoritmo basico: Restas sucesivas
+    #-- Caso 1: Si Dividendo < divisor, entonces
+    #--    el resultado es 0 y el resto = dividendo
+    blt a0, a1, div_basic_caso1
+
+    #-- Caso 2: Dividendo >= Divisor (caso normal)
+    #-- t0: Resultado parcial
+    li t0, 0
+
+ div_basic_loop:
+    #-- Actualizar resultado parcial
+    addi t0, t0, 1
+
+    #-- Actualizar dividendo
+    sub a0, a0, a1
+    
+    #-- Si dividendo >= divisor, repetir
+    bge a0, a1, div_basic_loop
+
+    #-- Resto = dividendo
+    mv a1, a0
+
+    #-- Devolver resultado
+    mv a0, t0
+
+    j div_basic_end
+
+
+ div_basic_caso1:
+    #-- Resto = divisor
+    mv a1, a0
+    #-- Resultado = 0
+    li a0, 0
+
+ div_basic_end:
+    ret
+#------------------------------------
+

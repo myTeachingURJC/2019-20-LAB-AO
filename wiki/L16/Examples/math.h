@@ -14,3 +14,9 @@
     jal _mul
 .end_macro
 
+.macro DIV_BASIC(%a, %b)
+    li a0, %a
+    li a1, %b
+    jal div_basic
+.end_macro
+

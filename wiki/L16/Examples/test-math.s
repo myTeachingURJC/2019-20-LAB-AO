@@ -11,6 +11,7 @@
 
     jal unittest_mul_basic
     jal unittest_mul
+    jal unittest_div_basic
 
     EXIT
 
@@ -140,6 +141,45 @@ unittest_mul:
     TEST_NAME("14")
     _MUL(0x40000000, 0x2)
 	ASSERT_EQUAL(a0, 0x80000000)
+
+    UNSTACK16
+#----------------------------------------
+
+#----------------------------------------
+unittest_div_basic:
+    STACK16
+
+    TEST_TITTLE("----- _DIV() --------\n")
+
+    #------- DIV(2, 1) = 2
+	TEST_NAME("1")
+    DIV_BASIC(2, 1)
+	ASSERT_EQUAL(a0, 2)
+
+    #------ DIV(3, 2) = 1
+	TEST_NAME("2")
+    DIV_BASIC(3, 2)
+	ASSERT_EQUAL(a0, 1)
+
+    #------ DIV(10, 3) = 3
+	TEST_NAME("3")
+    DIV_BASIC(10, 3)
+	ASSERT_EQUAL(a0, 3)
+
+    #------ DIV(100, 40) = 2
+	TEST_NAME("4")
+    DIV_BASIC(100, 40)
+	ASSERT_EQUAL(a0, 2)
+
+    #------ DIV(0x4000, 0x10) = 0x400
+	TEST_NAME("5")
+    DIV_BASIC(0x4000, 0x10)
+	ASSERT_EQUAL(a0, 0x400)
+
+    #------ DIV(12000, 600) = 20
+	TEST_NAME("6")
+    DIV_BASIC(12000, 600)
+	ASSERT_EQUAL(a0, 20)
 
     UNSTACK16
 #----------------------------------------
