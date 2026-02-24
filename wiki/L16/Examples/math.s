@@ -287,9 +287,7 @@ shift_left1_64:
     .global shift_left1_64
 
     #-- t0: bit de mayor peso de r0
-    lui t1, 0x80000
-    and t0, a0, t1
-    srli t0, t0, 31  #-- Llevarlo a la posicion de menor peso
+    slt t0, a0, zero
 
     #-- r1 << 1
     slli a1, a1, 1
