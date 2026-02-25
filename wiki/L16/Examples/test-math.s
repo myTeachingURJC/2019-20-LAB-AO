@@ -9,8 +9,9 @@
 
     .text
 
-    jal unittest_mul_basic
-    #jal unittest_mul
+    #jal unittest_mul_basic
+    jal unittest_mul
+    #jal unittest_mul_II
     #jal unittest_div_basic
     #jal unittest_div
     #jal unittest_shift_left1_64
@@ -68,11 +69,54 @@ unittest_mul_basic:
     UNSTACK16
 #-----------------------------------------
 
-#----------------------------------------
+#-----------------------------------------
 unittest_mul:
+
     STACK16
 
-    TEST_TITTLE("----- MUL() --------\n")
+    TEST_TITTLE("----- MUL() I --------\n")
+
+	TEST_NAME("1")
+    _MUL(0, 1)
+	ASSERT_EQUAL(a0, 0)
+
+	TEST_NAME("2")
+    _MUL(1, 0)
+	ASSERT_EQUAL(a0, 0)
+
+	TEST_NAME("3")
+    _MUL(1, 1)
+	ASSERT_EQUAL(a0, 1)
+
+	TEST_NAME("4")
+    _MUL(3, 100)
+	ASSERT_EQUAL(a0, 300)
+
+	TEST_NAME("5")
+    _MUL(200, 100)
+	ASSERT_EQUAL(a0, 20000)
+
+	TEST_NAME("5")
+    _MUL(256, 256)
+	ASSERT_EQUAL(a0, 65536)
+
+	TEST_NAME("6")
+    _MUL(1024, 2048)
+	ASSERT_EQUAL(a0, 2097152)
+
+	TEST_NAME("7")
+    _MUL(0x40000000, 2)
+	ASSERT_EQUAL(a0, 0x80000000)
+
+    UNSTACK16
+#-----------------------------------------
+
+
+#----------------------------------------
+unittest_mul_II:
+    STACK16
+
+    TEST_TITTLE("----- MUL() II--------\n")
 
     #------- MUL(1, 0) = 0
 	TEST_NAME("1")
