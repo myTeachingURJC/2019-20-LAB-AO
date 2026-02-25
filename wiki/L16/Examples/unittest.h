@@ -51,9 +51,9 @@
 #-- El valor derecho es el valor esperado. Es una
 #--   constante
 #----------------------------------------------------
-.macro ASSERT_EQUAL(%val1, %val2)
-	mv a0, %val1
-	li a1, %val2
+.macro ASSERT_EQUAL(%reg, %val)
+	mv a0, %reg
+	li a1, %val
 	jal assert_equal
 .end_macro
 
