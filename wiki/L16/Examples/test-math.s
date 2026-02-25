@@ -9,12 +9,12 @@
 
     .text
 
-    #jal unittest_mul_basic
+    jal unittest_mul_basic
     jal unittest_mul
-    #jal unittest_mul_II
-    #jal unittest_div_basic
-    #jal unittest_div
-    #jal unittest_shift_left1_64
+    jal unittest_mul_II
+    jal unittest_div_basic
+    jal unittest_div
+    jal unittest_shift_left1_64
 
     EXIT
 
